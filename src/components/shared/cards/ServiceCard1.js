@@ -9,7 +9,7 @@ const ServiceCard1 = ({ service, idx, lastItem }) => {
 		<div className="service-item style-1">
 			<div className="service-img">
 				<Image
-					src={img ? img : "/images/service/service-1.webp"}
+					src={img}
 					alt="Images"
 					width={870}
 					height={450}
@@ -25,6 +25,7 @@ const ServiceCard1 = ({ service, idx, lastItem }) => {
 				<p className="desc">
 					Through a combination of data-driven insights and innovative
 					approaches, we work closely with you to develop customized.
+					{img}
 				</p>
 				<ButtonPrimary
 					text={"Learn More"}

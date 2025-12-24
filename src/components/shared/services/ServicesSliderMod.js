@@ -5,7 +5,7 @@ import ServiceCard4 from "../cards/ServiceCard4";
 import makeWowDelay from "@/libs/makeWowDelay";
 
 const ServicesSliderMod = () => {
-    // const showable	Sevices = getALlServices()?.slice(0, 4);
+    // const showableSevices = getALlServices()?.slice(0, 4);
     // const services = [...showableSevices, ...showableSevices];
     const services = getALlServices()?.slice(0, 6);
     return (
