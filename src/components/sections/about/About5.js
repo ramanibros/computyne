@@ -44,7 +44,7 @@ const About5 = () => {
 								</div>
 								<div className="h6-about-funfact-shape">
 									<img
-										src="/images/shape/about-counter-shape-blur.svg"
+										src="/images/shape/about-counter-shape-blur-mod.svg"
 										alt=""
 									/>
 								</div>
@@ -108,7 +108,7 @@ const About5 = () => {
 				<img src="/images/shape/pattern-3.svg" alt="" />
 			</div>
 			<div className="bg-shape-3">
-				<img src="/images/shape/shape-blur.svg" alt="" />
+				<img src="/images/shape/shape-blur-mod.svg" alt="" />
 			</div>
 		</section>
 	);

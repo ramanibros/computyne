@@ -24,14 +24,16 @@ const Footer = () => {
 										<img src="https://www.computyne.com/images/footer/google.svg" alt="" />
 									</div>
 									<div className="award-logo">
-										<img src="https://www.computyne.com/images/footer/clutch.svg" alt="" />
-									</div>
-									<div className="award-logo">
 										<img src="https://www.computyne.com/images/footer/goodfirm.svg" alt="" />
 									</div>
 									<div className="award-logo">
 										<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRn_mZl44kQu3wSiXwF7epkOJmpw6tcvoyeYQ&s" alt="" />
 									</div>
+									<div className="award-logo">
+										<img src="https://www.computyne.com/images/footer/clutch.svg" alt="" />
+									</div>
+
+
 								</div>
 							</div>
 						</div>
@@ -198,7 +200,7 @@ const Footer = () => {
 								</div>
 								<div className="copyright-text">
 									<p>
-										&copy; 2025 
+										&copy; 2025
 										<Link
 											href="https://themeforest.net/user/theme-junction/portfolio"
 											target="_blank"

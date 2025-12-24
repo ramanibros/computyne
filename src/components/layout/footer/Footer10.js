@@ -230,7 +230,7 @@ const Footer10 = () => {
 				<img src="/images/shape/pattern-3.svg" alt="" />
 			</div>
 			<div className="bg-shape-4 wow fadeInUpBig" data-wow-delay=".8s">
-				<img src="/images/shape/h10-footer-shape-blur-2.svg" alt="" />
+				<img src="/images/shape/h10-footer-shape-blur-2-mod.svg" alt="" />
 			</div>
 		</footer>
 	);

@@ -1,10 +1,12 @@
 import TeamMarqueeSlider from "@/components/shared/marquee/TeamMarqueeSlider";
+import TeamMarqueeSliderMod from "@/components/shared/marquee/TeamMarqueeSliderMod";
 
-const Team3 = () => {
+const Team3Mod = () => {
 	return (
-		<section className="h7-team section-gap section-gap-x">
+        // h7-team 
+		<section className="h7-team-mod section-gap-1 section-gap-x">
 			<div className="container-fluid">
-				<div className="row">
+				{/* <div className="row">
 					<div className="col-12">
 						<div className="sec-heading style-2 style-7 sec-heading-centered">
 							<span className="sub-title wow fadeInUp" data-wow-delay=".3s">
@@ -15,21 +17,22 @@ const Team3 = () => {
 							</h2>
 						</div>
 					</div>
-				</div>
+				</div> */}
 				<div className="row">
 					<div className="col-12">
-						<div className="h7-team-wrapper">
-							<TeamMarqueeSlider />
-							<TeamMarqueeSlider isRtl={true} />
+						<div className="h7-team-mod-wrapper">
+                            <TeamMarqueeSliderMod/>
+							{/* <TeamMarqueeSlider /> */}
+							{/* <TeamMarqueeSlider isRtl={true} /> */}
 						</div>
 					</div>
 				</div>
 			</div>
-			<div className="bg-shape-3">
+			{/* <div className="bg-shape-3">
 				<img src="/images/shape/h7-testimonial-shape-blur-mod.svg" alt="" />
-			</div>
+			</div> */}
 		</section>
 	);
 };
 
-export default Team3;
+export default Team3Mod;
