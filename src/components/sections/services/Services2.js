@@ -44,7 +44,7 @@ const Services2 = () => {
 				<img src="/images/shape/pattern-3.svg" alt="" />
 			</div>
 			<div className="bg-shape-3">
-				<img src="/images/shape/shape-blur.svg" alt="" />
+				<img src="/images/shape/shape-blur-mod.svg" alt="" />
 			</div>
 		</section>
 	);

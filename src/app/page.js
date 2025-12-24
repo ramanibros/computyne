@@ -74,6 +74,9 @@ import Testimonials2 from "@/components/sections/testimonials/Testimonials2";
 import Testimonials4 from "@/components/sections/testimonials/Testimonials4";
 import BackToTop from "@/components/shared/others/BackToTop";
 import ClientWrapper from "@/components/shared/wrappers/ClientWrapper";
+import Team from "./team/page";
+import Team3 from "@/components/sections/teams/Team3";
+import Team3Mod from "@/components/sections/teams/Team3Mod";
 
 export default function Home2() {
 	return (
@@ -86,7 +89,8 @@ export default function Home2() {
 					<main>
 						<div className="top-space-15"></div>
 						<Hero2 />
-						<Brands2 />
+						<Team3Mod/>
+						{/* <Brands2 /> */}
 						<Services1/>
 						<About5/>
 						<Portfolios5/>	
