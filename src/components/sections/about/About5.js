@@ -16,29 +16,39 @@ const About5 = () => {
 									OUR COMPANY
 								</span>
 								<h2 className="sec-title title-anim">
-									Innovating Today for Build Smarter, Stronger, and More
-									Successful.
+									A Leading Data Services & BPO Partner Delivering Accuracy, Speed & Growth
 								</h2>
 								<p className="desc  wow fadeInUp" data-wow-delay=".8s">
-									Our approach to customer experience is comprehensive and
-									data-driven. We begin by assessing your current customer
-									touchpoints, our identifying areas for improvement, and using
-									insights to develop.
+									Behind every solution we deliver, there are real people, real expertise, and a commitment to your success.
 								</p>
 							</div>
 							<div className="h6-about-funfact-wrapper">
 								<div className="h6-about-funfact">
 									<div className="countup-item">
-										<FunfactSingle currentValue={20} symbol={"M"} />
+										<FunfactSingle currentValue={120} symbol={"+"} />
 										<span className="count-text">
-											Reach Worldwide empower dreams everywhere.
+											Projects Completed
 										</span>
 									</div>
 									<div className="countup-item">
-										<FunfactSingle currentValue={8.5} symbol={"X"} />
+										<FunfactSingle currentValue={240} symbol={"+"} />
 
 										<span className="count-text">
-											Faster Growth starts smart solutions today.
+											Expert Professionals
+										</span>
+									</div>
+								</div>
+								<div className="h6-about-funfact">
+									<div className="countup-item">
+										<FunfactSingle currentValue={550} symbol={"+"} />
+										<span className="count-text">
+											Global Clients
+										</span>
+									</div>
+									<div className="countup-item">
+										<FunfactSingle currentValue={24} symbol={"/7"} />
+										<span className="count-text">
+											Support Available
 										</span>
 									</div>
 								</div>
