@@ -30,7 +30,7 @@ const Services1 = () => {
 								Our Solutions
 							</span>
 							<h2 className="sec-title text-anim">
-								Solutions to Transform Your <span>Business.</span>
+								Intelligent Data Solutions for High-Performance <span>Business.</span>
 							</h2>
 						</div>
 					</div>

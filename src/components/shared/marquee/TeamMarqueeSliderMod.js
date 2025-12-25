@@ -40,9 +40,9 @@ const TeamMarqueeSliderMod = ({ isRtl }) => {
 							<SwiperSlide key={idx}>
 								<div className="team-item">
 									<div className="team-content">
-										<h5 className="title">
+										<h3 className="title">
 											<Link href={`/team/${id}`}>{name}</Link>
-										</h5>
+										</h3>
 										<span className="designation">{desig}</span>
 									</div>
 									<div className="team-img">
