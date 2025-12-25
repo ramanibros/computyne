@@ -45,22 +45,22 @@ const Footer = () => {
 								<h5 className="title">Services</h5>
 								<ul>
 									<li>
-										<Link href="/services/1">Customer Experience</Link>
+										<Link href="/services/1">Data Solutions</Link>
 									</li>
 									<li>
-										<Link href="/services/2">Training Programs</Link>
+										<Link href="/services/2">Data Management</Link>
 									</li>
 									<li>
-										<Link href="/services/3">Business Strategy</Link>
+										<Link href="/services/3">Document Processing</Link>
 									</li>
 									<li>
-										<Link href="/services/4">Training Program</Link>
+										<Link href="/services/4">Data Collection</Link>
 									</li>
 									<li>
-										<Link href="/services/5">ESG Consulting</Link>
+										<Link href="/services/5">Data Annotation</Link>
 									</li>
 									<li>
-										<Link href="/services/6">Development Hub</Link>
+										<Link href="/services/6">Data Entry</Link>
 									</li>
 								</ul>
 							</div>
