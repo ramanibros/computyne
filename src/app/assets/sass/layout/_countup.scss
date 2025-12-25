@@ -87,6 +87,43 @@ START: Countup CSS
 	}
 }
 
+.inline-content-mod {
+	font-size: 56px;
+	line-height: 1;
+	font-weight: var(--tj-fw-medium);
+	color: var(--tj-color-common-white);
+	font-family: var(--tj-ff-heading);
+	display: inline-flex;
+	align-items: center;
+	margin-bottom: 5px;
+	letter-spacing: -1.48px;
+	.odometer {
+		font-weight: var(--tj-fw-medium);
+		color: var(--tj-color-common-white);
+		font-family: var(--tj-ff-heading);
+		display: inline-flex;
+		.odometer-digit,
+		span {
+			font-weight: var(--tj-fw-medium);
+			color: var(--tj-color-common-white);
+			font-family: var(--tj-ff-heading);
+			display: inline-flex;
+			vertical-align: bottom;
+		}
+	}
+
+	@media #{$lg} {
+		font-size: 54px;
+	}
+	@media #{$md, $sm} {
+		font-size: 52px;
+	}
+	@media #{$xs} {
+		font-size: 50px;
+		justify-content: center;
+	}
+}
+
 .count-text {
 	color: var(--tj-color-common-white);
 	display: block;

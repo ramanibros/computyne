@@ -5,7 +5,7 @@ const ProcessCard = ({ processSingle, idx }) => {
 	const { title, img, desc, id } = processSingle ? processSingle : {};
 	return (
 		<div
-			className="process-item wow fadeInLeft"
+			className="process-item-mod wow fadeInLeft"
 			data-wow-delay={makeWowDelay(idx, 0.3)}
 		>
 			<div className="process-step">
