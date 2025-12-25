@@ -3,9 +3,9 @@
     "id": 1,
     "name": "Top Data Service",
     "desig": "Trusted by GoodFirms",
-    "img": "/images/team/goodfirm-logo1.webp",
-    "img2": "/images/team/goodfirm-logo1.webp",
-    "imgLarge": "/images/team/goodfirm-logo1.webp"
+    "img": "/images/team/goodFirms.png",
+    "img2": "/images/team/goodFirms.png",
+    "imgLarge": "/images/team/goodFirms.png"
   },
   {
     "id": 2,
@@ -35,9 +35,9 @@
     "id": 5,
     "name": "Top Data Service",
     "desig": "Trusted by GoodFirms",
-    "img": "/images/team/goodfirm-logo1.webp",
-    "img2": "/images/team/goodfirm-logo1.webp",
-    "imgLarge": "/images/team/goodfirm-logo1.webp"
+    "img": "/images/team/goodFirms.png",
+    "img2": "/images/team/goodFirms.png",
+    "imgLarge": "/images/team/goodFirms.png"
   },
   {
     "id": 6,
