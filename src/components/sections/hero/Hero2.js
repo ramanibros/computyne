@@ -103,7 +103,7 @@ const Hero2 = () => {
 					</div>
 				</div>
 			</Swiper>
-			{/* <Swiper
+			<Swiper
 				onSwiper={setControlledMainSwiper} // capture thumbs swiper
 				slidesPerView={3}
 				spaceBetween={15}
@@ -127,7 +127,7 @@ const Hero2 = () => {
 						</SwiperSlide>
 					)
 				)}
-			</Swiper> */}
+			</Swiper>
 
 			<div className="circle-text-wrap wow fadeInUp" data-wow-delay="1s">
 				<span
