@@ -17,7 +17,7 @@ const Hero2 = () => {
 				</>
 			),
 			desc: "Committed to delivering innovative solutions that drive success. With a focus on quality.",
-			img: "/images/hero/slider-1.webp",
+			img: "/images/hero/banner.gif",
 			thumbImg: "/images/hero/slider-thumb-1.webp",
 		}/*,
 		{
@@ -73,7 +73,7 @@ const Hero2 = () => {
 							}}
 						></div>
 						<div className="container">
-							<div className="slider-wrapper">
+							<div className="slider-wrapper text-center">
 								<div className="slider-content">
 									<h1 className="slider-title">{title}</h1>
 									<div className="slider-desc">{desc}</div>
