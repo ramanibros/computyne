@@ -84,6 +84,7 @@ import ProcessMod from "@/components/sections/process/ProcessMod";
 import Funfact1 from "@/components/sections/funfacts/Funfact1";
 import FooterMod from "@/components/layout/footer/FooterMod";
 import CallSchedule from "@/components/sections/funfacts/CallSchedule";
+import Hero5 from "@/components/sections/hero/Hero5";
 
 export default function Home2() {
 	return (
@@ -96,7 +97,7 @@ export default function Home2() {
 					<main>
 						<div className="top-space-15"></div>
 						<Hero2 />
-						<Team3Mod/>
+						{/*<Team3Mod/>*/}
 						<ServicesMod2/>
 						{/* <Services1/> */}
 						<About5/>

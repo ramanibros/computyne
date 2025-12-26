@@ -135,6 +135,12 @@ START: Heading CSS
 		margin-bottom: 35px;
 	}
 }
+span.sub-title.wow.fadeInUp {
+	color: var(--tj-color-theme-primary);
+	background-color: var(--tj-color-common-white);
+	border: 0;
+	padding: 7px 10px;
+}
 .sec-heading-wrap {
 	.sub-title {
 		display: inline-flex;
@@ -168,6 +174,7 @@ START: Heading CSS
 		}
 	}
 }
+
 .content-wrap {
 	.sec-heading {
 		max-width: 550px;

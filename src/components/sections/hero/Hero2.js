@@ -5,6 +5,7 @@ import Link from "next/link";
 import { useState } from "react";
 import { Autoplay, EffectFade, Navigation, Thumbs } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
+import Team3Mod from "@/components/sections/teams/Team3Mod";
 const Hero2 = () => {
 	const [controlledMainSwiper, setControlledMainSwiper] = useState(null);
 	const heroSlides = [
@@ -18,7 +19,7 @@ const Hero2 = () => {
 			desc: "Committed to delivering innovative solutions that drive success. With a focus on quality.",
 			img: "/images/hero/slider-1.webp",
 			thumbImg: "/images/hero/slider-thumb-1.webp",
-		},
+		}/*,
 		{
 			subtitle: "number #1 solver agency",
 			title: (
@@ -40,7 +41,7 @@ const Hero2 = () => {
 			desc: "Committed to delivering innovative solutions that drive success. With a focus on quality.",
 			img: "/images/hero/slider-3.webp",
 			thumbImg: "/images/hero/slider-thumb-3.webp",
-		},
+		},*/
 	];
 	return (
 		<section className="tj-slider-section">
@@ -81,11 +82,12 @@ const Hero2 = () => {
 									</div>
 								</div>
 							</div>
+							<Team3Mod/>
 						</div>
 					</SwiperSlide>
 				))}
 
-				<div
+				{/*<div
 					className="hero-navigation d-inline-flex wow fadeIn"
 					data-wow-delay="1.5s"
 				>
@@ -101,7 +103,7 @@ const Hero2 = () => {
 							<i className="tji-arrow-right"></i>
 						</span>
 					</div>
-				</div>
+				</div>*/}
 			</Swiper>
 			{/* <Swiper
 				onSwiper={setControlledMainSwiper} // capture thumbs swiper

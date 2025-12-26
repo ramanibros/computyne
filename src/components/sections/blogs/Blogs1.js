@@ -8,13 +8,22 @@ const Blogs1 = () => {
 			<div className="container">
 				<div className="row">
 					<div className="col-12">
-						<div className="sec-heading text-center">
+						<div className="sec-heading-wrap">
 							<span className="sub-title wow fadeInUp" data-wow-delay=".3s">
 								<i className="tji-box"></i>Insights & Ideas
 							</span>
-							<h2 className="sec-title title-anim">
-								The Ultimate <span>Resource.</span>
-							</h2>
+							<div className="heading-wrap-content">
+								<div className="sec-heading style-2">
+									<h2 className="sec-title text-anim">
+										The Ultimate <span>Resource.</span>
+									</h2>
+								</div>
+								{/*<div className="wow fadeInUp" data-wow-delay=".5s">
+									<p className="desc">
+										Our specialists deliver scalable data outsourcing to manage, optimize, and leverage your data for real business results.
+									</p>
+								</div>*/}
+							</div>
 						</div>
 					</div>
 				</div>
