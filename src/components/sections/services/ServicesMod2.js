@@ -1,9 +1,8 @@
-import BlogCard6 from "@/components/shared/cards/BlogCard6";
-import getBlogs from "@/libs/getBlogs";
+import getServices from "@/libs/getServices";
 import ServiceModCard2 from "./ServiceModCard2";
 
 const ServicesMod2 = () => {
-	const blogs = getBlogs().slice(0, 6);
+	const services = getServices().slice(0, 6);
 	return (
 		<section className="tj-blog-section h6-blog section-gap">
 			<div className="container">
@@ -30,8 +29,8 @@ const ServicesMod2 = () => {
 				</div>
 
 				<div className="row row-gap-4 h6-blog-wrapper">
-					{blogs?.length
-						? blogs?.map((blog, idx) => (
+					{services?.length
+						? services?.map((blog, idx) => (
 								<div key={idx} className="col-xl-4 col-md-6">
 									<ServiceModCard2 blog={blog} idx={idx} />
 								</div>
