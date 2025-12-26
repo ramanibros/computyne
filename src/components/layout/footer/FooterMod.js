@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const FooterMod = () => {
 	return (
-		<footer className="tj-footer-section footer-1 section-gap-x">
+		<footer className="tj-footer-section footer-2 section-gap-x">
 			<div className="footer-main-area">
 				<div className="container">
 					<div className="row justify-content-between">
@@ -10,30 +10,28 @@ const FooterMod = () => {
 							<div className="footer-widget wow fadeInUp" data-wow-delay=".1s">
 								<div className="footer-logo">
 									<Link href="/">
-										<img src="/images/logos/logo-2.svg" alt="Logos" />
+										<img src="/images/logos/logo.svg" alt="Logos" />
 									</Link>
 								</div>
-								<div className="footer-text">
+								<div className="footer-text-mod">
 									<p>
 										Developing personalze our customer journeys to increase
 										satisfaction & loyalty of our expansion.
 									</p>
 								</div>
-								<div className="award-logo-area">
-									<div className="award-logo">
+								<div className="award-logo-area-mod">
+									<div className="award-logo-mod">
 										<img src="https://www.computyne.com/images/footer/google.svg" alt="" />
 									</div>
-									<div className="award-logo">
+									<div className="award-logo-mod">
 										<img src="https://www.computyne.com/images/footer/goodfirm.svg" alt="" />
 									</div>
-									<div className="award-logo">
+									<div className="award-logo-mod">
 										<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRn_mZl44kQu3wSiXwF7epkOJmpw6tcvoyeYQ&s" alt="" />
 									</div>
-									<div className="award-logo">
+									<div className="award-logo-mod">
 										<img src="https://www.computyne.com/images/footer/clutch.svg" alt="" />
 									</div>
-
-
 								</div>
 							</div>
 						</div>
@@ -97,7 +95,7 @@ const FooterMod = () => {
 						</div>
 						<div className="col-xl-3 col-md-6">
 							<div
-								className="footer-widget widget-contact style-2 wow fadeInUp"
+								className="footer-widget widget-contact wow fadeInUp"
 								data-wow-delay=".7s"
 							>
 								<h5 className="title">Our Office</h5>
@@ -154,7 +152,7 @@ const FooterMod = () => {
 					<div className="row">
 						<div className="col-12">
 							<div className="copyright-content-area">
-								<div className="footer-contact">
+								<div className="footer-contact-mod">
 									<ul>
 										<li>
 											<Link href="tel:10095447818">
@@ -174,7 +172,7 @@ const FooterMod = () => {
 										</li>
 									</ul>
 								</div>
-								<div className="social-links">
+								<div className="social-links-mod">
 									<ul>
 										<li>
 											<Link href="https://www.facebook.com/" target="_blank">
@@ -198,14 +196,14 @@ const FooterMod = () => {
 										</li>
 									</ul>
 								</div>
-								<div className="copyright-text">
+								<div className="copyright-text-mod">
 									<p>
 										&copy; 2025
-										<Link
+										{" "}<Link
 											href="https://themeforest.net/user/theme-junction/portfolio"
 											target="_blank"
 										>
-											Bexon
+											Computyne
 										</Link>{" "}
 										All right reserved
 									</p>
@@ -215,6 +213,7 @@ const FooterMod = () => {
 					</div>
 				</div>
 			</div>
+			
 			<div className="bg-shape-1">
 				<img src="/images/shape/pattern-2.svg" alt="" />
 			</div>

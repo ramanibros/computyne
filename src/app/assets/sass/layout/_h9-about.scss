@@ -134,6 +134,81 @@ START: Home 9 About CSS
 			width: 100%;
 		}
 	}
+	&-content-port-card-mod {
+		width: 80%;
+		.desc {
+			margin-bottom: 18;
+			margin-top: 18;
+		}
+		.about-btn-area-2 {
+			display: flex;
+			flex-wrap: wrap;
+			align-items: center;
+			gap: 30px;
+			.video-btn {
+				width: auto;
+				height: auto;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				gap: 15px;
+				border: none;
+				background: none;
+				backdrop-filter: none;
+				position: unset;
+				transform: unset;
+				.play-btn {
+					background-color: var(--tj-color-theme-bg);
+					color: var(--tj-color-theme-primary);
+					width: 54px;
+					height: 54px;
+					border-radius: 50%;
+					display: flex;
+					align-items: center;
+					justify-content: center;
+					font-size: 14px;
+					position: relative;
+					animation: pulse3 2s infinite;
+					z-index: 5;
+					margin: 0;
+					i {
+						line-height: 1;
+						display: inline-flex;
+					}
+				}
+				.video-text {
+					color: var(--tj-color-heading-primary);
+					font-weight: var(--tj-fw-sbold);
+					font-size: 16px;
+					line-height: 1.2;
+					position: relative;
+					&::after {
+						content: "";
+						position: absolute;
+						bottom: 1px;
+						inset-inline-end: 0;
+						width: 100%;
+						height: 1px;
+						background-color: var(--tj-color-heading-primary);
+					}
+				}
+				&:hover {
+					transform: scale(1);
+					.video-text {
+						&::after {
+							animation: linehover 0.8s linear;
+						}
+					}
+				}
+			}
+			@media #{$sm,$xs} {
+				gap: 20px;
+			}
+		}
+		@media #{$md,$sm,$xs} {
+			width: 100%;
+		}
+	}
 	&-funfact {
 		display: flex;
 		flex-wrap: wrap;
@@ -145,6 +220,85 @@ START: Home 9 About CSS
 		border-bottom: 1px dashed rgba(12, 30, 33, 0.2);
 		.countup-item {
 			width: 50%;
+			padding: 0;
+			align-items: flex-start;
+			&:not(:last-child) {
+				padding-inline-end: 55px;
+				@media #{$lg} {
+					padding-inline-end: 30px;
+				}
+			}
+			&:not(:first-child) {
+				padding-inline-start: 30px;
+				position: relative;
+				z-index: 0;
+				&::after {
+					content: "";
+					position: absolute;
+					inset-inline-start: -15px;
+					top: 52%;
+					transform: translateY(-50%);
+					width: 0;
+					height: 88%;
+					border-inline-end: 1px dashed rgba(12, 30, 33, 0.2);
+					@media #{$lg} {
+						inset-inline-start: 0;
+					}
+				}
+			}
+
+			.count-text {
+				max-width: 205px;
+				color: var(--tj-color-text-body);
+			}
+			.inline-content {
+				color: var(--tj-color-heading-primary);
+				margin-bottom: 15px;
+				.odometer {
+					color: var(--tj-color-heading-primary);
+					.odometer-digit,
+					span {
+						color: var(--tj-color-heading-primary);
+					}
+				}
+				@media #{$xs} {
+					margin-bottom: 5px;
+				}
+			}
+			@media #{$xs} {
+				width: 100%;
+				text-align: start;
+				&:not(:last-child) {
+					padding-inline-end: 0;
+					padding-bottom: 20px;
+				}
+				&:not(:first-child) {
+					padding-inline-start: 0;
+					padding-top: 15px;
+					&::after {
+						inset-inline-start: 50%;
+						top: 0;
+						transform: translateX(-50%);
+						width: 100%;
+						height: 0;
+						border-inline-end: 0;
+						border-top: 1px dashed rgba(12, 30, 33, 0.2);
+					}
+				}
+			}
+		}
+	}
+	&-funfact-port-card-mod {
+		display: flex;
+		flex-wrap: wrap;
+		max-width: 100%;
+		width: 100%;
+		padding: 20px 0 24px;	
+		margin: 30px 0 0;
+		border-top: 1px dashed rgba(12, 30, 33, 0.2);
+		border-bottom: 1px dashed rgba(12, 30, 33, 0.2);
+		.countup-item {
+			width: 33.33%;
 			padding: 0;
 			align-items: flex-start;
 			&:not(:last-child) {
