@@ -32,10 +32,9 @@ const ServiceModCard2 = ({blog, idx}) => {
 					</span>
 				</div>*/}
                 <h4 className="title">
-                    <Link href={`/blogs/${id}`}>{title}.</Link>
+                    <Link href={`/blogs/${id}`}>{title}</Link>
                 </h4>
-                <p className="desc">We stay ahead of the curve, leveraging cutting-edge technologies and strategies to keep you competitive in a
-                    marketplace.</p>
+                <p className="desc">{desc}</p>
                 <Link className="text-btn" href={`/blogs/${id}`}>
 					<span className="btn-text">
 						<span>Read More</span>
