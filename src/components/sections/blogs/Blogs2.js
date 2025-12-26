@@ -12,18 +12,17 @@ const Blogs2 = () => {
 					<div className="col-12">
 						<div className="sec-heading-wrap">
 							<span className="sub-title wow fadeInUp" data-wow-delay=".3s">
-								Read Blogs
+								Industries
 							</span>
 							<div className="heading-wrap-content">
 								<div className="sec-heading style-2">
 									<h2 className="sec-title text-anim">
-										Strategies and <span>Insights.</span>
+										Smart Data Solutions for Smarter <span>Industries.</span>
 									</h2>
 								</div>
 								<div className="wow fadeInUp" data-wow-delay=".5s">
 									<p className="desc">
-										Developing personalized customer journeys to increase
-										satisfaction and loyalty.
+										Computyne empowers multiple industries with customized Data Services designed for accuracy, security, and growth.
 									</p>
 								</div>
 								<div

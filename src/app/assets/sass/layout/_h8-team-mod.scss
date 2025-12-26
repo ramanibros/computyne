@@ -3,7 +3,7 @@
 /**----------------------------------------
 START: Team CSS
 ----------------------------------------*/
-.h8-team {
+.h8-team-mod {
 	background-color: var(--tj-color-theme-bg);
 	position: relative;
 	z-index: 1;
@@ -152,7 +152,8 @@ START: Team CSS
 				font-size: 85px;
 			}
 			i {
-				color: var(--tj-color-theme-primary);
+				// color: var(--tj-color-theme-primary);
+				color: var(--tj-color-common-white);
 				transform: rotate(-45deg);
 			}
 		}
@@ -162,7 +163,7 @@ START: Team CSS
 			background-color: transparent;
 			backdrop-filter: blur(0);
 			.circle-icon {
-				font-size: 65px;
+				font-size: 85px;
 			}
 			i {
 				color: var(--tj-color-common-white);

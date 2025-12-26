@@ -68,6 +68,10 @@ START: Theme Header CSS
 		&.header-sticky {
 			.header-wrapper {
 				padding: 0 8px;
+				backdrop-filter: none;
+				border-radius: 8px;
+				max-width: 1600px;
+				margin-inline: auto;
 			}
 		}
 	}

@@ -80,12 +80,12 @@ const Process4 = () => {
 			<div className="bg-shape-3">
 				<img src="/images/shape/h7-testimonial-shape-blur-mod.svg" alt="" />
 			</div>
-			<div className="bg-shape-3">
-				<img src="/images/shape/h7-testimonial-shape-blur-mod.svg" alt="" />
-			</div>
-			<div className="bg-shape-3">
-				<img src="/images/shape/h7-testimonial-shape-blur-mod.svg" alt="" />
-			</div>
+				{/* <div className="bg-shape-3">
+					<img src="/images/shape/h7-testimonial-shape-blur-mod.svg" alt="" />
+				</div>
+				<div className="bg-shape-3">
+					<img src="/images/shape/h7-testimonial-shape-blur-mod.svg" alt="" />
+				</div> */}
 		</section>
 	);
 };

@@ -103,7 +103,7 @@ const Hero2 = () => {
 					</div>
 				</div>
 			</Swiper>
-			<Swiper
+			{/* <Swiper
 				onSwiper={setControlledMainSwiper} // capture thumbs swiper
 				slidesPerView={3}
 				spaceBetween={15}
@@ -127,9 +127,9 @@ const Hero2 = () => {
 						</SwiperSlide>
 					)
 				)}
-			</Swiper>
+			</Swiper> */}
 
-			<div className="circle-text-wrap wow fadeInUp" data-wow-delay="1s">
+			{/* <div className="circle-text-wrap wow fadeInUp" data-wow-delay="1s">
 				<span
 					className="circle-text"
 					style={{ backgroundImage: "url('/images/hero/circle-text.webp')" }}
@@ -137,7 +137,7 @@ const Hero2 = () => {
 				<Link className="circle-icon" href="/services">
 					<i className="tji-arrow-down-big"></i>
 				</Link>
-			</div>
+			</div> */}
 		</section>
 	);
 };

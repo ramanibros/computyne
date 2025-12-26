@@ -33,7 +33,7 @@ const FunfactSingle = ({ currentValue, symbol, sup, type }) => {
 					? "h5-about-counter"
 					: type === 2
 					? "hero-counter"
-					: "inline-content"
+					: "inline-content-mod"
 			}
 		>
 			{Odometer ? (

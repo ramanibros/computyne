@@ -77,30 +77,41 @@ import ClientWrapper from "@/components/shared/wrappers/ClientWrapper";
 import Team from "./team/page";
 import Team3 from "@/components/sections/teams/Team3";
 import Team3Mod from "@/components/sections/teams/Team3Mod";
+import ServicesMod from "@/components/sections/services/ServicesMod";
+import Blogs6 from "@/components/sections/blogs/Blogs6";
+import ServicesMod2 from "@/components/sections/services/ServicesMod2";
+import ProcessMod from "@/components/sections/process/ProcessMod";
+import Funfact1 from "@/components/sections/funfacts/Funfact1";
+import FooterMod from "@/components/layout/footer/FooterMod";
+import CallSchedule from "@/components/sections/funfacts/CallSchedule";
 
 export default function Home2() {
 	return (
 		<div>
 			<BackToTop />
-			<Header headerType={2} />
-			<Header headerType={2} isStickyHeader={true} />
+			<Header headerType={5} />
+			<Header headerType={5} isStickyHeader={true} />
 			<div id="smooth-wrapper">
 				<div id="smooth-content">
 					<main>
 						<div className="top-space-15"></div>
 						<Hero2 />
 						<Team3Mod/>
-						{/* <Brands2 /> */}
-						<Services1/>
+						<ServicesMod2/>
+						{/* <Services1/> */}
 						<About5/>
 						<Portfolios5/>	
-						<Process4/>	
-						<Team4/>
+						{/* <Process4/>	 */}
+						<ProcessMod/>
+						{/*<Team4/>*/}
+						<Blogs2/>
 						<Testimonials4/>
 						<Blogs1/>
-						<Cta/>
+						<CallSchedule/>
+
+						{/* <Cta/> */}
 					</main>
-					<Footer/>
+					<FooterMod/>
 				</div>
 			</div>
 
