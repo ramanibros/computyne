@@ -32,7 +32,7 @@ const BlogCard2 = ({ blog, idx }) => {
 					<p className="desc  wow fadeInUp" data-wow-delay=".8s">
 						Behind every solution we deliver, there are real people, real expertise, and a commitment to your success.
 					</p>
-					<div className="desc blog-text">
+					<div className="desc blog-text wow fadeInUp" data-wow-delay=".8s">
 						<ul className="wow fadeInUp">
 							<li><span><i className="tji-check"></i></span>Personalization at Scale</li>
 							<li><span><i className="tji-check"></i></span>Improved Customer Retention</li>
