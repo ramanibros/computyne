@@ -11,10 +11,10 @@ const BlogCard2 = ({ blog, idx }) => {
 				<Link href={`/blogs/${id}`}>
 					<img src={img1 ? img1 : "/images/blog/blog-4.webp"} alt="" />
 				</Link>
-				<div className="blog-date">
+				{/*<div className="blog-date">
 					<span className="date">{modifyNumber(day)}</span>
 					<span className="month">{month}</span>
-				</div>
+				</div>*/}
 			</div>
 			<div className="blog-content">
 				<div className="title-area">

@@ -31,7 +31,7 @@ const About5 = () => {
 							<div className="h6-about-funfact-wrapper">
 								<div className="h6-about-funfact">
 									<div className="countup-item">
-										<FunfactSingle currentValue={120} symbol={"+"} />
+										<FunfactSingle currentValue={1200} symbol={"+"} />
 										<span className="count-text">
 											Projects Completed
 										</span>

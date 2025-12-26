@@ -1,4 +1,3 @@
-import TeamMarqueeSlider from "@/components/shared/marquee/TeamMarqueeSlider";
 import TeamMarqueeSliderMod from "@/components/shared/marquee/TeamMarqueeSliderMod";
 
 const Team3Mod = () => {

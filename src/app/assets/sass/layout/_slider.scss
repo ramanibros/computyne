@@ -75,7 +75,8 @@ z-index: 1;
 	);
 }
 	.slider-wrapper {
-		padding: 195px 0 347px;
+		//padding: 195px 0 347px;
+		padding: 195px 0 147px;
 		position: relative;
 		z-index: 3;
 		@media #{$xxl} {
