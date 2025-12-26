@@ -109,7 +109,6 @@ export default function Home2() {
 						<Testimonials4/>
 						<Blogs1/>
 						<CallSchedule/>
-
 						{/* <Cta/> */}
 					</main>
 					<FooterMod/>

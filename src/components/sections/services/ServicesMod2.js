@@ -15,9 +15,9 @@ const ServicesMod2 = () => {
 							</span>
 							<div className="heading-wrap-content">
 								<div className="sec-heading style-2">
-									<h2 className="sec-title text-anim">
+									<h1 className="sec-title text-anim">
 										Intelligent Data Solutions for High-Performance <span>Businesses.</span>
-									</h2>
+									</h1>
 								</div>
 								<div className="wow fadeInUp" data-wow-delay=".5s">
 									<p className="desc">

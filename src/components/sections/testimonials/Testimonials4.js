@@ -21,7 +21,7 @@ const Testimonials4 = () => {
 								<span className="sub-title">
 									<i className="tji-box"></i>Get in Touch
 								</span>
-								<h2 className="sec-title title-anim">Drop us a Line Here.</h2>
+								<h1 className="sec-title title-anim">Drop us a Line Here.</h1>
 							</div>
 							<form id="contact-form-3">
 								<div className="row wow fadeInUp" data-wow-delay=".5s">
