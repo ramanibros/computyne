@@ -15,9 +15,9 @@ const About5 = () => {
 									{/* <i className="tji-box"></i> */}
 									OUR COMPANY
 								</span>
-								<h2 className="sec-title title-anim">
+								<h1 className="sec-title title-anim">
 									A Leading Data Services & BPO Partner Delivering Accuracy, Speed & Growth
-								</h2>
+								</h1>
 								<p className="desc  wow fadeInUp" data-wow-delay=".8s">
 									Behind every solution we deliver, there are real people, real expertise, and a commitment to your success.
 								</p><br></br>
@@ -43,18 +43,16 @@ const About5 = () => {
 											Expert Professionals
 										</span>
 									</div>
-								</div>
-								<div className="h6-about-funfact">
 									<div className="countup-item">
 										<FunfactSingle currentValue={550} symbol={"+"} />
 										<span className="count-text">
-											Global Clients
+											Clients Worldwide
 										</span>
 									</div>
 									<div className="countup-item">
 										<FunfactSingle currentValue={24} symbol={"/7"} />
 										<span className="count-text">
-											Support Available
+											Support Availability
 										</span>
 									</div>
 								</div>

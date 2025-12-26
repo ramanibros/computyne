@@ -1,5 +1,8 @@
 import Link from "next/link";
 import ButtonPrimary from "../buttons/ButtonPrimary";
+import FunfactSingle from "@/components/shared/funfact/FunfactSingle";
+import Portfolios5 from "@/components/sections/portfolios/Portfolios5";
+import Funfact1 from "@/components/sections/funfacts/Funfact1";
 
 const PortfolioCard5 = ({ portfolio }) => {
 	const {
