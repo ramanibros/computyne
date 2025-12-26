@@ -89,8 +89,8 @@ export default function Home2() {
 	return (
 		<div>
 			<BackToTop />
-			<Header headerType={2} />
-			<Header headerType={2} isStickyHeader={true} />
+			<Header headerType={5} />
+			<Header headerType={5} isStickyHeader={true} />
 			<div id="smooth-wrapper">
 				<div id="smooth-content">
 					<main>
@@ -103,7 +103,8 @@ export default function Home2() {
 						<Portfolios5/>	
 						{/* <Process4/>	 */}
 						<ProcessMod/>
-						<Team4/>
+						{/*<Team4/>*/}
+						<Blogs2/>
 						<Testimonials4/>
 						<Blogs1/>
 						<CallSchedule/>

@@ -146,7 +146,7 @@ const Header = ({
 											</button>
 										</div>
 									)}
-									{headerType !== 5 ? (
+									{headerType !== 10 ? (
 										<div className="header-button">
 											<ButtonPrimary text={"Let’s Talk"} url={"/contact"} />
 										</div>

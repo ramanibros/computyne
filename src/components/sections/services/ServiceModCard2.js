@@ -1,29 +1,27 @@
-import makePath from "@/libs/makePath";
-import modifyNumber from "@/libs/modifyNumber";
 import Image from "next/image";
 import Link from "next/link";
 
-const ServiceModCard2 = ({ blog, idx }) => {
-	const {
-		title,
-		desc,
-		id,
-		img = "/images/blog/blog-1.webp",
-		category,
-		date,
-		day,
-		month,
-	} = blog || {};
-	return (
-		<div className="blog-item wow fadeInUp" data-wow-delay=".3s">
-			<div className="blog-thumb">
-				<Link href={`/blogs/${id}`}>
-					{" "}
-					<Image src={img} alt="Images" width={870} height={450} />
-				</Link>
-			</div>
-			<div className="blog-content">
-				<div className="blog-meta">
+const ServiceModCard2 = ({blog, idx}) => {
+    const {
+        title,
+        desc,
+        id,
+        img = "/images/blog/blog-1.webp",
+        category,
+        date,
+        day,
+        month,
+    } = blog || {};
+    return (
+        <div className="blog-item wow fadeInUp" data-wow-delay=".3s">
+            <div className="blog-thumb">
+                <Link href={`/blogs/${id}`}>
+                    {" "}
+                    <Image src={img} alt="Images" width={870} height={450}/>
+                </Link>
+            </div>
+            <div className="blog-content">
+                {/*<div className="blog-meta">
 					<span className="categories">
 						<Link href={`/blogs?category=${makePath(category)}`}>
 							{category}
@@ -32,21 +30,23 @@ const ServiceModCard2 = ({ blog, idx }) => {
 					<span>
 						By <Link href={`/blogs/${id}`}>Ellinien Loma</Link>
 					</span>
-				</div>
-				<h4 className="title">
-					<Link href={`/blogs/${id}`}>{title}.</Link>
-				</h4>
-				<Link className="text-btn" href={`/blogs/${id}`}>
+				</div>*/}
+                <h4 className="title">
+                    <Link href={`/blogs/${id}`}>{title}.</Link>
+                </h4>
+                <p className="desc">We stay ahead of the curve, leveraging cutting-edge technologies and strategies to keep you competitive in a
+                    marketplace.</p>
+                <Link className="text-btn" href={`/blogs/${id}`}>
 					<span className="btn-text">
 						<span>Read More</span>
 					</span>
-					<span className="btn-icon">
+                    <span className="btn-icon">
 						<i className="tji-arrow-right-long"></i>
 					</span>
-				</Link>
-			</div>
-		</div>
-	);
+                </Link>
+            </div>
+        </div>
+    );
 };
 
 export default ServiceModCard2;

@@ -9,16 +9,26 @@ const ServicesMod2 = () => {
 			<div className="container">
 				<div className="row">
 					<div className="col-12">
-						<div className="sec-heading style-2 text-center">
+						<div className="sec-heading-wrap">
 							<span className="sub-title wow fadeInUp" data-wow-delay=".3s">
-								Our Solutions
+								Our Services
 							</span>
-							<h2 className="sec-title text-anim">
-								Intelligent Data Solutions for High-Performance <span>Business.</span>
-							</h2>
+							<div className="heading-wrap-content">
+								<div className="sec-heading style-2">
+									<h2 className="sec-title text-anim">
+										Intelligent Data Solutions for High-Performance <span>Businesses.</span>
+									</h2>
+								</div>
+								<div className="wow fadeInUp" data-wow-delay=".5s">
+									<p className="desc">
+										Our specialists deliver scalable data outsourcing to manage, optimize, and leverage your data for real business results.
+									</p>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
+
 				<div className="row row-gap-4 h6-blog-wrapper">
 					{blogs?.length
 						? blogs?.map((blog, idx) => (

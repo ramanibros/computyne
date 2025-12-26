@@ -20,6 +20,12 @@ const About5 = () => {
 								</h2>
 								<p className="desc  wow fadeInUp" data-wow-delay=".8s">
 									Behind every solution we deliver, there are real people, real expertise, and a commitment to your success.
+								</p><br></br>
+								<p className="desc  wow fadeInUp" data-wow-delay=".8s">
+									Established in 2009, Computyne has grown from a small team into a leading global data services and data management outsourcing partner. With over 15 years of industry experience, we deliver tailored, scalable solutions that support businesses worldwide with accuracy, security, and efficiency. Our journey is driven by innovation, commitment to quality, and a passion for solving real challenges for real businesses.
+								</p><br></br>
+								<p className="desc  wow fadeInUp" data-wow-delay=".8s">
+									At Computyne, customer success comes first. We ensure every project is executed with precision and care, enabling smoother operations, reduced workload, and measurable business growth through secure and reliable data services.
 								</p>
 							</div>
 							<div className="h6-about-funfact-wrapper">

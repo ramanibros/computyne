@@ -12,7 +12,7 @@ START: Home 5 About CSS
 	&-content {
 		&.about-content-area {
 			background-color: transparent;
-			max-width: 561px;
+			max-width: 761px;
 			padding: 0;
 			@media #{$md,$sm,$xs} {
 				max-width: 100%;
