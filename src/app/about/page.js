@@ -5,7 +5,9 @@ import Brands1 from "@/components/sections/brands/Brands1";
 import Cta from "@/components/sections/cta/Cta";
 import Faq2 from "@/components/sections/faq/Faq2";
 import Features from "@/components/sections/features/Features";
+import FeaturesMod from "@/components/sections/features/FeaturesMod";
 import HeroInner from "@/components/sections/hero/HeroInner";
+import HeroInnerMod from "@/components/sections/hero/HeroInnerMod";
 import Team1 from "@/components/sections/teams/Team1";
 import Testimonials2 from "@/components/sections/testimonials/Testimonials2";
 import BackToTop from "@/components/shared/others/BackToTop";
@@ -22,9 +24,9 @@ export default function About() {
 				<div id="smooth-content">
 					<main>
 						<HeaderSpace />
-						<HeroInner title={"About Us"} text={"About Us"} />
-						<Features type={2} />
-						<About3 type={2} />
+						<HeroInnerMod title={"About Us"} text={"About Us"} />
+						<FeaturesMod type={2} />
+							<About3 type={2} />
 						<Brands1 type={2} />
 						<Testimonials2 type={2} />
 						<Team1 type={3} />
