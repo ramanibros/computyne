@@ -122,4 +122,23 @@ START: CTA CSS
 	}
 }
 
+.cta-area:hover {
+	background-color: white;
+
+	.cta-content-mod {
+		width: 74%;
+		margin: 0;
+		padding: 60px 60px 60px 60px;
+
+		.title {
+			color: black;
+		}
+	}
+}
+
+/* Hover on CTA */
+.cta-area:hover .circle-text {
+	background-image: url("/images/icons/more-rounded-text-black.svg") !important;
+}
+
 /* !END: CTA CSS */
