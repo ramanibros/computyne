@@ -1,5 +1,6 @@
 import ButtonPrimary from "@/components/shared/buttons/ButtonPrimary";
 import FunfactSingle from "@/components/shared/funfact/FunfactSingle";
+import FunfactSingleMod from "@/components/shared/funfact/FunfactSingleMod";
 const About5 = () => {
 	return (
 		<section className="tj-about-section h6-about section-gap section-gap-x">	
@@ -31,26 +32,26 @@ const About5 = () => {
 							<div className="h6-about-funfact-wrapper">
 								<div className="h6-about-funfact">
 									<div className="countup-item">
-										<FunfactSingle currentValue={1200} symbol={"+"} />
+										<FunfactSingleMod currentValue={1200} symbol={"+"} />
 										<span className="count-text">
 											Projects Completed
 										</span>
 									</div>
 									<div className="countup-item">
-										<FunfactSingle currentValue={240} symbol={"+"} />
+										<FunfactSingleMod currentValue={240} symbol={"+"} />
 
 										<span className="count-text">
 											Expert Professionals
 										</span>
 									</div>
 									<div className="countup-item">
-										<FunfactSingle currentValue={550} symbol={"+"} />
+										<FunfactSingleMod currentValue={550} symbol={"+"} />
 										<span className="count-text">
 											Clients Worldwide
 										</span>
 									</div>
 									<div className="countup-item">
-										<FunfactSingle currentValue={24} symbol={"/7"} />
+										<FunfactSingleMod currentValue={24} symbol={"/7"} />
 										<span className="count-text">
 											Support Availability
 										</span>

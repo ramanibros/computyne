@@ -45,10 +45,39 @@ START: Theme Footer CSS
 	}
 }
 
+.award-logo-area-mod {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	column-gap: 1px;
+	row-gap: 18px;
+}
+
+.award-logo-mod {
+	max-width: 96px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
 .footer-widget {
 	.footer-text {
 		max-width: 280px;
 		width: 100%;
+		p {
+			margin-top: 28px;
+			margin-bottom: 34px;
+			@media #{$md, $sm, $xs} {
+				margin-bottom: 20px;
+			}
+		}
+		@media #{$sm, $xs} {
+			max-width: 100%;
+		}
+	}
+	.footer-text-mod {
+		max-width: 280px;
+		width: 100%;
+		color: var(--tj-color-text-body-2);
 		p {
 			margin-top: 28px;
 			margin-bottom: 34px;
@@ -94,6 +123,78 @@ START: Theme Footer CSS
 				height: 28px;
 				border-radius: 50%;
 				background-color: rgba(12, 30, 33, 0.3);
+				font-size: 16px;
+				line-height: 1;
+				i {
+					color: var(--tj-color-theme-bg);
+				}
+				&:hover {
+					background-color: var(--tj-color-theme-primary);
+					transform: translateY(-3px);
+					i {
+						color: var(--tj-color-common-white);
+					}
+				}
+			}
+			&::after {
+				display: none;
+			}
+		}
+	}
+
+	&.style-2 {
+		ul {
+			li {
+				a {
+					background-color: var(--tj-color-common-white);
+					opacity: 0.4;
+					i {
+						color: var(--tj-color-theme-primary);
+					}
+					&:hover {
+						opacity: 1;
+					}
+				}
+			}
+		}
+	}
+
+	&.style-3 {
+		ul {
+			li {
+				a {
+					background-color: var(--tj-color-common-white);
+					opacity: 0.3;
+					i {
+						color: var(--tj-color-theme-dark);
+					}
+					&:hover {
+						background-color: var(--tj-color-theme-primary);
+						opacity: 1;
+						i {
+							color: var(--tj-color-common-white);
+						}
+					}
+				}
+			}
+		}
+	}
+}
+.social-links-mod {
+	ul {
+		list-style: none;
+		display: flex;
+		flex-wrap: wrap;
+		gap: 8px;
+		li {
+			a {
+				display: inline-flex;
+				align-items: center;
+				justify-content: center;
+				width: 28px;
+				height: 28px;
+				border-radius: 50%;
+				background-color: rgba(255, 255, 255, 0.3);
 				font-size: 16px;
 				line-height: 1;
 				i {
@@ -399,6 +500,65 @@ START: Theme Footer CSS
 			width: 100%;
 		}
 	}
+	.footer-contact-mod {
+		ul {
+			list-style: none;
+			line-height: 1;
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+			gap: 22px;
+			li {
+				a {
+					display: inline-flex;
+					align-items: center;
+					gap: 7px;
+					color: var(--tj-color-text-body-2);
+					.icon {
+						display: inline-flex;
+						align-items: center;
+						justify-content: center;
+						width: 28px;
+						height: 28px;
+						border-radius: 50%;
+						background-color: var(--tj-color-theme-primary);
+						font-size: 28px;
+						line-height: 1;
+						i {
+							color: var(--tj-color-common-white);
+						}
+					}
+					.text {
+						position: relative;
+						&::before {
+							content: "";
+							position: absolute;
+							bottom: -2px;
+							inset-inline-start: auto;
+							inset-inline-end: 0;
+							width: 0;
+							height: 1px;
+							background-color: var(--tj-color-text-body);
+							-webkit-transition: all 0.3s ease-in-out 0s;
+							transition: all 0.3s ease-in-out 0s;
+						}
+					}
+					&:hover {
+						.text {
+							&::before {
+								width: 100%;
+								inset-inline-start: 0;
+								inset-inline-end: auto;
+							}
+						}
+					}
+				}
+			}
+		}
+		@media #{$sm, $xs} {
+			width: 100%;
+		}
+	}
 	.social-links {
 		ul {
 			@media #{$sm, $xs} {
@@ -415,6 +575,22 @@ START: Theme Footer CSS
 		}
 		a {
 			color: var(--tj-color-common-black);
+			&:hover {
+				color: var(--tj-color-theme-primary);
+			}
+		}
+		@media #{$sm, $xs} {
+			width: 100%;
+			text-align: center;
+		}
+	}
+	.copyright-text-mod {
+		p {
+			margin: 0;
+			color: var(--tj-color-text-body-2);
+		}
+		a {
+			color: var(--tj-color-common-white);
 			&:hover {
 				color: var(--tj-color-theme-primary);
 			}
@@ -475,8 +651,8 @@ START: Theme Footer CSS
 .tj-copyright-area {
 	padding-bottom: 30px;
 	.copyright-content-area {
-		border-top: 1px solid var(--tj-color-border-1);
-		border-bottom: 1px solid var(--tj-color-border-1);
+		border-top: 1px solid var(--tj-color-text-body);
+		border-bottom: 1px solid var(--tj-color-text-body);
 		padding: 20px 0;
 	}
 }

@@ -66,6 +66,22 @@ START: Home 5 Project CSS
 					margin-bottom: 24px;
 				}
 			}
+			.project-content-mod {
+				// max-width: 360px;
+				padding-bottom: 0;
+				@media #{$sm,$xs} {
+					padding: 0 0 10px 0;
+				}
+				.title {
+					margin-bottom: 20px;
+					max-width: 308px;
+					font-weight: var(--tj-fw-medium);
+				}
+				.desc {
+					margin-bottom: 24px;
+				}
+			}
+
 
 			.project-img {
 				max-width: 615px;

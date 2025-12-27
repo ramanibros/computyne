@@ -85,6 +85,7 @@ import Funfact1 from "@/components/sections/funfacts/Funfact1";
 import FooterMod from "@/components/layout/footer/FooterMod";
 import CallSchedule from "@/components/sections/funfacts/CallSchedule";
 import Hero5 from "@/components/sections/hero/Hero5";
+import PortfoliosMod from "@/components/sections/portfolios/PortfoliosMod";
 
 export default function Home2() {
 	return (
@@ -101,7 +102,7 @@ export default function Home2() {
 						<ServicesMod2/>
 						{/* <Services1/> */}
 						<About5/>
-						<Portfolios5/>	
+						<PortfoliosMod/>	
 						{/* <Process4/>	 */}
 						<ProcessMod/>
 						{/*<Team4/>*/}

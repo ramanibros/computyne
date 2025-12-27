@@ -2,7 +2,7 @@
 import { useEffect, useState } from "react";
 import { useInView } from "react-intersection-observer";
 
-const FunfactSingle = ({ currentValue, symbol, sup, type }) => {
+const FunfactSingleMod = ({ currentValue, symbol, sup, type }) => {
 	const [value, setValue] = useState(0);
 
 	const [Odometer, setOdometer] = useState(null);
@@ -33,7 +33,7 @@ const FunfactSingle = ({ currentValue, symbol, sup, type }) => {
 					? "h5-about-counter"
 					: type === 2
 					? "hero-counter"
-					: "inline-content"
+					: "inline-content-mod"
 			}
 		>
 			{Odometer ? (
@@ -77,4 +77,4 @@ const FunfactSingle = ({ currentValue, symbol, sup, type }) => {
 	);
 };
 
-export default FunfactSingle;
+export default FunfactSingleMod;
