@@ -4,7 +4,7 @@ import ReactNiceSelect from "@/components/shared/Inputs/ReactNiceSelect";
 
 const Contact3 = () => {
 	return (
-		<section className="tj-contact-section-2 section-bottom-gap">
+		<section className="tj-contact-section-2 section-bottom-gap mt-minus-250">
 			<div className="container">
 				<div className="row">
 					<div className="col-lg-6">
