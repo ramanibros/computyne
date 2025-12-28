@@ -24,6 +24,8 @@ START: Theme Header CSS
 		.header-wrapper {
 			padding: 0 18px;
 			background-color: var(--tj-color-common-white);
+			max-width: 1600px;
+			margin-inline: auto;
 		}
 	}
 	&.header-2 {
