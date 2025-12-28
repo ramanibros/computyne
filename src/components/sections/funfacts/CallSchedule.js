@@ -61,9 +61,9 @@ const CallSchedule = () => {
                                                     "url('/images/logos/logo_badge.png')",
                                             }}
                                         ></span>
-                                        <Link className="circle-icon" href="/team">
-                                            {/* <i className="tji-arrow-right-long"></i> */}
-                                        </Link>
+                                        {/*<Link className="circle-icon" href="/team">
+                                             <i className="tji-arrow-right-long"></i>
+                                        </Link>*/}
                                     </div>
                                 </div>
                             </div>

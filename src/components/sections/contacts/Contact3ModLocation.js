@@ -34,7 +34,7 @@ const Contact3 = () => {
 							<div className="col-12">
 								<div className="sec-heading text-center">
 									<h2 className="sec-title title-anim">
-										<span>United</span> States
+										<span>UNITED</span> STATES
 									</h2>
 								</div>
 							</div>
@@ -49,7 +49,7 @@ const Contact3 = () => {
 							<div className="col-12">
 								<div className="sec-heading text-center">
 									<h2 className="sec-title title-anim">
-										<span>India</span>
+										<span>INDIA</span>
 									</h2>
 								</div>
 							</div>

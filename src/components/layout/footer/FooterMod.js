@@ -35,7 +35,7 @@ const FooterMod = () => {
 								</div>
 							</div>
 						</div>
-						<div className="col-xl-3 col-lg-4 col-md-6">
+						<div className="col-xl-2 col-lg-4 col-md-6">
 							<div
 								className="footer-widget widget-nav-menu wow fadeInUp"
 								data-wow-delay=".3s"
@@ -74,21 +74,47 @@ const FooterMod = () => {
 										<Link href="/contact">Contact us</Link>
 									</li>
 									<li>
-										<Link href="/team">Team Member</Link>
+										<Link href="/team">About Us</Link>
 									</li>
 									<li>
-										<Link href="#">Recognitions</Link>
+										<Link href="/blogs">Blogs</Link>
 									</li>
 									<li>
-										<Link href="/careers">
-											Careers <span className="badge">New</span>
-										</Link>
+										<Link href="#">Case Studies</Link>
 									</li>
 									<li>
-										<Link href="/blogs">News</Link>
+										<Link href="#">Careers</Link>
 									</li>
 									<li>
-										<Link href="#">Feedback</Link>
+										<Link href="#">Team Members</Link>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div className="col-xl-2 col-lg-4 col-md-6">
+							<div
+								className="footer-widget widget-nav-menu wow fadeInUp"
+								data-wow-delay=".5s"
+							>
+								<h5 className="title">Industries</h5>
+								<ul>
+									<li>
+										<Link href="#">Real Estate</Link>
+									</li>
+									<li>
+										<Link href="#">Logistics & Transportation</Link>
+									</li>
+									<li>
+										<Link href="#">Ecommerce</Link>
+									</li>
+									<li>
+										<Link href="#">ITES</Link>
+									</li>
+									<li>
+										<Link href="#">Finance & Accounting</Link>
+									</li>
+									<li>
+										<Link href="#">Energy & Utilities</Link>
 									</li>
 								</ul>
 							</div>
@@ -101,12 +127,22 @@ const FooterMod = () => {
 								<h5 className="title">Our Office</h5>
 								<div className="footer-contact-info">
 									<div className="contact-item">
-										<span>993 Renner Burg, West Rond, MT 94251-030, USA.</span>
+										<span>
+											993 Renner Burg, West Rond, MT 94251-030, USA.
+										</span>
 									</div>
 									<div className="contact-item">
-										<Link href="tel:10095447818">P: +1 (009) 544-7818</Link>
+										<Link href="tel:10095447818">
+											<span>
+													<i className="tji-phone"></i> +1 (009) 544-7818
+											</span>
+											</Link>
+									</div>
+									<div className="contact-item">
 										<Link href="mailto:support@bexon.com">
-											M: support@bexon.com
+											<span>
+													<i className="tji-envelop"></i> support@bexon.com
+											</span>
 										</Link>
 									</div>
 									<div className="contact-item">
@@ -190,7 +226,7 @@ const FooterMod = () => {
 											</Link>
 										</li>
 										<li>
-											<Link href="https://www.linkedin.com/" target="_blank">
+											<Link href="https://www.linkedin.com/company/computyne/" target="_blank">
 												<i className="fa-brands fa-linkedin-in"></i>
 											</Link>
 										</li>
