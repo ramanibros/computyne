@@ -6,6 +6,7 @@ const TeamCard = ({ teamMember }) => {
 		name,
 		desig,
 		email,
+		linkedin,
 		img = "/images/team/team-1.webp",
 	} = teamMember || {};
 	return (
@@ -32,7 +33,7 @@ const TeamCard = ({ teamMember }) => {
 							</Link>
 						</li>
 						<li>
-							<Link href="https://www.linkedin.com/" target="_blank">
+							<Link href={`${linkedin}`} target="_blank">
 								<i className="fa-brands fa-linkedin-in"></i>
 							</Link>
 						</li>
