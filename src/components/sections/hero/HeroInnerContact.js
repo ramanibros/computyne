@@ -1,4 +1,6 @@
 import React from "react";
+import Contact3 from "@/components/sections/contacts/Contact3";
+import Contact3Mod from "@/components/sections/contacts/Contact3Mod";
 
 const HeroInnerMod = ({ title, text, breadcrums = [] }) => {
 	return (
@@ -8,11 +10,11 @@ const HeroInnerMod = ({ title, text, breadcrums = [] }) => {
 		>
 			<div className="container">
 				<div className="row">
-					<div className="col-lg-12">
-						<div className="tj-page-header-content text-center">
+					<div className="col-lg-6">
+						<div className="tj-page-header-content">
 							<h1 className={`tj-page-title`}>{title}</h1>
-                            <div className="tagline mt tj-page-header-tagline">
-								{text}
+                            <div className="tagline mt">
+                                {text}
                             </div>
 						</div>
 					</div>

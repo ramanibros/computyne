@@ -246,6 +246,8 @@ START: Contact CSS
 	}
 	@media #{$md, $sm, $xs} {
 		margin-inline-end: 0;
+		margin-top: 285px !important;
+
 	}
 }
 

@@ -7,30 +7,31 @@ import Link from "next/link";
 const Faq2 = ({ type = 1 }) => {
 	const items = [
 		{
-			title: "What services does Bexon offer to clients?",
-			desc: "	Getting started is easy! Simply reach out to us through our contact form or give us a call, and we’ll schedule a consultation to discuss your project and how we can best assist you. Our team keeps you informed throughout the process, ensuring quality control and timely delivery.",
+			title: "Our Core Competence",
+			desc: " Our capabilities define our clients' success, and their success defines our process, knowledge, and domain excellence of 22" +
+				" years. ",
 			initActive: true,
 		},
 		{
-			title: "How do I get started with Corporate Business?",
-			desc: "	Getting started is easy! Simply reach out to us through our contact form or give us a call, and we’ll schedule a consultation to discuss your project and how we can best assist you. Our team keeps you informed throughout the process, ensuring quality control and timely delivery.",
+			title: "Agile Approach",
+			desc: "	A business consulting approach driven by a relentless pursuit of success. Our flexible, proven models and methodologies ensure measurable outcomes and long-term success.",
 			initActive: false,
 		},
 		{
-			title: "How do you ensure the success of a project?",
-			desc: "	Getting started is easy! Simply reach out to us through our contact form or give us a call, and we’ll schedule a consultation to discuss your project and how we can best assist you. Our team keeps you informed throughout the process, ensuring quality control and timely delivery.",
+			title: "Best Place To Work",
+			desc: "	A culture for the employees, by the employees, and of the employees. We thrive and develop under shared values loved by all.",
 			initActive: false,
 		},
 		{
-			title: "How long will it take to complete my project?",
-			desc: "	Getting started is easy! Simply reach out to us through our contact form or give us a call, and we’ll schedule a consultation to discuss your project and how we can best assist you. Our team keeps you informed throughout the process, ensuring quality control and timely delivery.",
+			title: "Our Promise",
+			desc: "	Hidden Brains' commitment sets us apart from the rest. We deliver excellence through experience and quality above everything.",
 			initActive: false,
 		},
 		{
-			title: "Can I track the progress of my project?",
-			desc: "	Getting started is easy! Simply reach out to us through our contact form or give us a call, and we’ll schedule a consultation to discuss your project and how we can best assist you. Our team keeps you informed throughout the process, ensuring quality control and timely delivery.",
+			title: "Our Process",
+			desc: "	We are in the forefront of digital transformation in ‘Web, Mobile, and Cloud’. Our domain expertise surpasses boundaries, delivering brilliance.",
 			initActive: false,
-		},
+		}
 	];
 	return (
 		<section
@@ -69,13 +70,13 @@ const Faq2 = ({ type = 1 }) => {
 							>
 								<div className="faq-img overflow-hidden">
 									<Image
-										src="/images/faq/faq.webp"
+										src="/images/faq/faqMod.webp"
 										alt=""
 										width={585}
 										height={629}
 									/>
 									<h2 className={`title ${type === 4 ? "title-anim" : ""}`}>
-										Need Help? Start Here...
+										Our Business Philosophy
 									</h2>
 								</div>
 								<div className="box-area ">
