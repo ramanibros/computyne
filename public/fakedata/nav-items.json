@@ -364,6 +364,11 @@
 	},
 	{
 		"id": 7,
+		"name": "About Us",
+		"path": "/about"
+	},
+	{
+		"id": 8,
 		"name": "Contact",
 		"path": "/contact"
 	}
