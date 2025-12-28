@@ -1,12 +1,12 @@
 "use client";
 
-import getTeamMembers from "@/libs/getTeamMembers";
+import getHeroBannerBlockData from "@/libs/getHeroBannerBlockData";
 import Link from "next/link";
 import { Autoplay } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 const TeamMarqueeSliderMod = ({ isRtl }) => {
-	const showableItems = getTeamMembers()?.slice(isRtl ? 4 : 0, isRtl ? 8 : 4);
+	const showableItems = getHeroBannerBlockData()?.slice(isRtl ? 4 : 0, isRtl ? 8 : 4);
 	const items = [...showableItems, ...showableItems];
 
 	return (

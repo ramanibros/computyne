@@ -16,9 +16,9 @@ const PortfoliosMod = () => {
 								</span>
 								<div className="heading-wrap-content">
 									<div className="sec-heading style-3">
-										<h1 className="sec-title text-anim">
+										<h2 className="sec-title text-anim">
 											Breaking Boundaries, Building Dreams.
-										</h1>
+										</h2>
 									</div>
 									<div className="btn-area wow fadeInUp" data-wow-delay=".8s">
 										<ButtonPrimary text={"Explore More"} url={"/contact"} />

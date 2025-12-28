@@ -5,6 +5,7 @@ const TeamCard = ({ teamMember }) => {
 		id,
 		name,
 		desig,
+		email,
 		img = "/images/team/team-1.webp",
 	} = teamMember || {};
 	return (
@@ -43,7 +44,7 @@ const TeamCard = ({ teamMember }) => {
 					<Link href={`/team/${id}`}>{name}</Link>
 				</h4>
 				<span className="designation">{desig}</span>
-				<Link className="mail-at" href="mailto:info@bexon.com">
+				<Link className="mail-at" href={`mailto:${email}`}>
 					<i className="tji-at"></i>
 				</Link>
 			</div>

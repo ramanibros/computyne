@@ -57,8 +57,7 @@ const About3 = ({ type }) => {
 								<h2 className="sec-title title-anim">
 									{type === 2 ? (
 										<>
-											Driving Innovation and Excellence for Sustainable
-											Corporate Success <span>Worldwide.</span>
+											<span>Computyne</span> : Stronger Operations, Smarter Growth
 										</>
 									) : (
 										"Driving Innovation and Excellence for Sustainable Corporate Success Worldwide."
@@ -67,7 +66,16 @@ const About3 = ({ type }) => {
 							</div>
 						</div>
 						<div className="about-bottom-area">
-							<div
+							<p>
+								Computyne partners with medium to large enterprises and MNCs across the USA, Canada, Australia, UK, and Europe, delivering smarter outsourcing solutions that power growth. We take care of the routine, complex, and high-volume back-office and data processing tasks, freeing your teams to focus on innovation and business impact.
+							</p>
+							<p>
+								Our expertise spans data support & capture, data entry, data conversion, document processing, web research & data collection, and data cleansing & validation-delivered with speed, accuracy, and scalability.
+							</p>
+							<p>
+								With Computyne as your backbone, you gain a reliable partner that drives efficiency, reduces costs, and helps your business stay ahead in a competitive market.
+							</p>
+							{/*<div
 								className="mission-vision-box wow fadeInLeft"
 								data-wow-delay=".5s"
 							>
@@ -108,10 +116,10 @@ const About3 = ({ type }) => {
 										<i className="tji-list"></i>Sustainable Success
 									</li>
 								</ul>
-							</div>
+							</div>*/}
 						</div>
 						<div className="about-btn-area wow fadeInUp" data-wow-delay=".5s">
-							<ButtonPrimary text={"Learn More About Us"} url={"/about"} />
+							<ButtonPrimary text={"Connect With Us Today"} url={"/contact"} />
 						</div>
 					</div>
 				</div>
