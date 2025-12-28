@@ -21,13 +21,14 @@ export default function About() {
                 <div id="smooth-content">
                     <main>
                         <HeaderSpace/>
-                        <HeroInnerMod title={"About Us"} text={"About Us"}/>
-                        <About3 type={2} />
+                        <HeroInnerMod title={"About Us"} text={"Our business process services - driven by data, technology, and people - help" +
+                            " clients save time, reduce costs, and improve operational efficiency worldwide."}/>
+                        <About3 type={1}/>
                         <FeaturesMod type={2}/>
                         {/*<Brands1 type={2} />*/}
                         {/*<Testimonials2 type={2} />*/}
                         <Funfact2/>
-                        <Faq2 type={1}/>
+                        <Faq2 type={2}/>
                         <Team1 type={3}/>
                         <CallSchedule/>
                         {/*<Cta />*/}

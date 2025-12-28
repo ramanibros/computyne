@@ -16,7 +16,7 @@ const TeamCard = ({ teamMember }) => {
 				</div>
 				<div className="social-links">
 					<ul>
-						<li>
+						{/*<li>
 							<Link href="https://www.facebook.com/" target="_blank">
 								<i className="fa-brands fa-facebook-f"></i>
 							</Link>
@@ -25,10 +25,10 @@ const TeamCard = ({ teamMember }) => {
 							<Link href="https://www.instagram.com/" target="_blank">
 								<i className="fa-brands fa-instagram"></i>
 							</Link>
-						</li>
+						</li>*/}
 						<li>
-							<Link href="https://x.com/" target="_blank">
-								<i className="fa-brands fa-x-twitter"></i>
+							<Link href={`mailto:${email}`} target="_blank">
+								<i className="fa fa-envelope"></i>
 							</Link>
 						</li>
 						<li>
@@ -43,10 +43,10 @@ const TeamCard = ({ teamMember }) => {
 				<h4 className="title">
 					<Link href={`/team/${id}`}>{name}</Link>
 				</h4>
-				<span className="designation">{desig}</span>
-				<Link className="mail-at" href={`mailto:${email}`}>
+				<span className="designation">{desig}</span><br></br>
+				{/*<Link className="mail-at" href={`mailto:${email}`}>
 					<i className="tji-at"></i>
-				</Link>
+				</Link>*/}
 			</div>
 		</div>
 	);

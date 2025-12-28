@@ -19,7 +19,17 @@ START: CUSTOM CSS
         color: var(--tj-color-common-black);
     }
 }
+.tj-page-header-tagline {
+    max-width: 800px;
+    margin-inline: auto;
+}
 
 .mt-8 {
     margin-top: 8px;
+}
+
+.mt-minus-250 {
+    margin-top: -250px;
+    position: relative;
+    z-index: 3;
 }

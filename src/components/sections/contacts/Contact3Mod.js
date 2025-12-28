@@ -4,13 +4,10 @@ import ReactNiceSelect from "@/components/shared/Inputs/ReactNiceSelect";
 
 const Contact3 = () => {
 	return (
-		<section className="tj-contact-section-2 section-bottom-gap">
+		<section className="tj-contact-section-2 section-bottom-gap mt-minus-250">
 			<div className="container">
 				<div className="row">
 					<div className="col-lg-6">
-						<div className="map-area wow fadeInUp" data-wow-delay=".3s">
-							<iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d316440.5712687838!2d-74.01091796224334!3d40.67186885683901!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1745918398047!5m2!1sen!2sbd"></iframe>
-						</div>
 					</div>
 					<div className="col-lg-6">
 						<div className="contact-form wow fadeInUp" data-wow-delay=".1s">
