@@ -15,12 +15,12 @@ export default function About() {
     return (
         <div>
             <BackToTop/>
-            <Header/>
-            <Header isStickyHeader={true}/>
+            <Header headerType={5} />
+            <Header headerType={5} isStickyHeader={true} />
             <div id="smooth-wrapper">
                 <div id="smooth-content">
                     <main>
-                        <HeaderSpace/>
+                        {/*<HeaderSpace/>*/}
                         <HeroInnerMod title={"About Us"} text={"Our business process services - driven by data, technology, and people - help" +
                             " clients save time, reduce costs, and improve operational efficiency worldwide."}/>
                         <About3 type={1}/>
