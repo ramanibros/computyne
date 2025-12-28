@@ -20,7 +20,7 @@ const HeroInnerMod = ({ title, text, breadcrums = [] }) => {
 			</div>
 			<div
 				className="page-header-overlay"
-				style={{ backgroundImage: `url('/images/shape/pheader-overlay.webp')` }}
+				style={{ backgroundImage: `linear-gradient(90deg, #0c1d36 20%, #0c1d3666 60%, #0c1d361a 100%)` }}
 			></div>
 		</section>
 	);
