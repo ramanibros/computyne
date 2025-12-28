@@ -1,58 +1,29 @@
 [
   {
     "id": 1,
-    "name": "Top Data Service",
-    "desig": "Trusted by GoodFirms",
-    "img": "/images/team/goodFirms.png",
-    "img2": "/images/team/goodFirms.png",
-    "imgLarge": "/images/team/goodFirms.png"
+    "name": "Ravinder Singh",
+    "desig": "Head of Business Development & Marketing",
+    "email": "ravinder.singh@computyne.com",
+    "img": "/images/team/ravindar.webp",
+    "img2": "/images/team/ravindar.webp",
+    "imgLarge": "/images/team/ravindar.webp"
   },
   {
     "id": 2,
-    "name": "1200+",
-    "desig": "Project Delivered",
-    "img": "/images/team/project.jpg",
-    "img2": "/images/team/project.jpg",
-    "imgLarge": "/images/team/project.jpg"
+    "name": "Bhavesh Panchal",
+    "desig": "Head of Operations & Growth Strategist",
+    "email": "bhavesh.panchal@computyne.com",
+    "img": "/images/team/bhavesh.webp",
+    "img2": "/images/team/bhavesh.webp",
+    "imgLarge": "/images/team/bhavesh.webp"
   },
   {
     "id": 3,
-    "name": "100+",
-    "desig": "Inc5000 Clients",
-    "img": "/images/team/client.jpg",
-    "img2": "/images/team/client.jpg",
-    "imgLarge": "/images/team/client.jpg"
-  },
-  {
-    "id": 4,
-    "name": "ISO 27001:2022",
-    "desig": "Global Certified",
-    "img": "/images/team/iso.jpg",
-    "img2": "/images/team/iso.jpg",
-    "imgLarge": "/images/team/iso.jpg"
-  },
-  {
-    "id": 5,
-    "name": "Top Data Service",
-    "desig": "Trusted by GoodFirms",
-    "img": "/images/team/goodFirms.png",
-    "img2": "/images/team/goodFirms.png",
-    "imgLarge": "/images/team/goodFirms.png"
-  },
-  {
-    "id": 6,
-    "name": "1200+",
-    "desig": "Project Delivered",
-    "img": "/images/team/project.jpg",
-    "img2": "/images/team/project.jpg",
-    "imgLarge": "/images/team/project.jpg"
-  },
-  {
-    "id": 7,
-    "name": "100+",
-    "desig": "Inc5000 Clients",
-    "img": "/images/team/client.jpg",
-    "img2": "/images/team/client.jpg",
-    "imgLarge": "/images/team/client.jpg"
+    "name": "Champak Pol",
+    "desig": "Business Head",
+    "email": "champak.pol@computyne.com",
+    "img": "/images/team/champak.webp",
+    "img2": "/images/team/champak.webp",
+    "imgLarge": "/images/team/champak.webp"
   }
 ]

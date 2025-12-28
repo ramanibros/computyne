@@ -39,7 +39,7 @@ const Team1 = ({ type }) => {
 					<div className="row">
 						<div className="col-12">
 							<div
-								className={`sec-heading text-center  ${
+								className={`sec-heading  ${
 									type === 3 ? "" : "style-2"
 								}`}
 							>
@@ -49,7 +49,7 @@ const Team1 = ({ type }) => {
 								</span>
 								{type === 3 ? (
 									<h2 className="sec-title title-anim">
-										Success <span>Stories</span> Fuel our Innovation.
+										Our <span>Leadership</span>
 									</h2>
 								) : (
 									<h2
@@ -68,7 +68,7 @@ const Team1 = ({ type }) => {
 				<div className="row leftSwipeWrap">
 					{currentItems?.length
 						? currentItems.map((item, idx) => (
-								<div key={idx} className="col-lg-3 col-sm-6">
+								<div key={idx} className="col-lg-4 col-sm-6">
 									<TeamCard teamMember={item} />
 								</div>
 						  ))

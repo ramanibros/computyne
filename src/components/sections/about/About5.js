@@ -16,10 +16,10 @@ const About5 = () => {
 									{/* <i className="tji-box"></i> */}
 									OUR COMPANY
 								</span>
-								<h1 className="sec-title title-anim">
+								<h2 className="sec-title title-anim">
 									A Leading Data Services & BPO Partner Delivering Accuracy, Speed & Growth
-								</h1>
-								<p className="desc  wow fadeInUp" data-wow-delay=".8s">
+								</h2>
+								<p className="desc tagline wow fadeInUp" data-wow-delay=".8s">
 									Behind every solution we deliver, there are real people, real expertise, and a commitment to your success.
 								</p><br></br>
 								<p className="desc  wow fadeInUp" data-wow-delay=".8s">

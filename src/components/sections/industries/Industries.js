@@ -3,7 +3,7 @@ import BlogCard2 from "@/components/shared/cards/BlogCard2";
 import getBlogs from "@/libs/getBlogs";
 import { Autoplay, Navigation, Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
-const Blogs2 = () => {
+const Industries = () => {
 	const blogs = getBlogs().slice(0, 4);
 	return (
 		<section className="tj-blog-section-2 section-gap">
@@ -21,7 +21,7 @@ const Blogs2 = () => {
 									</h2>
 								</div>
 								<div className="wow fadeInUp" data-wow-delay=".5s">
-									<p className="desc">
+									<p className="desc tagline">
 										Computyne empowers multiple industries with customized Data Services designed for accuracy, security, and growth.
 									</p>
 								</div>
@@ -97,4 +97,4 @@ const Blogs2 = () => {
 	);
 };
 
-export default Blogs2;
+export default Industries;

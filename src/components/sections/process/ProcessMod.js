@@ -54,9 +54,9 @@ const ProcessMod = () => {
                         <span className="sub-title  wow fadeInUp" data-wow-delay=".3s">
                             Our Process
                         </span>
-                        <h1 className="sec-title title-anim">
+                        <h2 className="sec-title title-anim">
                             Seamless Process, Great <span>Results.</span>
-                        </h1>
+                        </h2>
 
                     </div>
                 </div>

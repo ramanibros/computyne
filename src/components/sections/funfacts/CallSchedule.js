@@ -43,9 +43,9 @@ const CallSchedule = () => {
 					<div className="col-12">
 						<div className="cta-area">
 							<div className="cta-content-mod">
-								<h1 className="title title-anim">
+								<h2 className="title title-anim">
 									Your Story Could Be Our Next Milestone !
-								</h1>
+								</h2>
 							</div>
 							<div className="col-lg-3 col-sm-6 ">
                                  <div

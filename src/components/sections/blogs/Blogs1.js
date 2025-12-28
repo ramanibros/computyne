@@ -14,9 +14,9 @@ const Blogs1 = () => {
 							</span>
 							<div className="heading-wrap-content">
 								<div className="sec-heading style-2">
-									<h1 className="sec-title text-anim">
+									<h2 className="sec-title text-anim">
 										The Ultimate <span>Resource.</span>
-									</h1>
+									</h2>
 								</div>
 								{/*<div className="wow fadeInUp" data-wow-delay=".5s">
 									<p className="desc">

@@ -49,42 +49,18 @@
 // }
 
 
-import Footer from "@/components/layout/footer/Footer";
-import Footer2 from "@/components/layout/footer/Footer2";
 import Header from "@/components/layout/header/Header";
-import About1 from "@/components/sections/about/About1";
-import About2 from "@/components/sections/about/About2";
 import About5 from "@/components/sections/about/About5";
 import Blogs1 from "@/components/sections/blogs/Blogs1";
-import Blogs2 from "@/components/sections/blogs/Blogs2";
-import Blogs3 from "@/components/sections/blogs/Blogs3";
-import Brands2 from "@/components/sections/brands/Brands2";
-import Cta from "@/components/sections/cta/Cta";
+import Industries from "@/components/sections/industries/Industries";
 import Hero2 from "@/components/sections/hero/Hero2";
-import Portfolios2 from "@/components/sections/portfolios/Portfolios2";
-import Portfolios5 from "@/components/sections/portfolios/Portfolios5";
-import PricingPlan from "@/components/sections/pricing-plan/PricingPlan";
-import Process from "@/components/sections/process/Process";
-import Process4 from "@/components/sections/process/Process4";
-import Services1 from "@/components/sections/services/Services1";
-import Services2 from "@/components/sections/services/Services2";
-import Team1 from "@/components/sections/teams/Team1";
-import Team4 from "@/components/sections/teams/Team4";
-import Testimonials2 from "@/components/sections/testimonials/Testimonials2";
 import Testimonials4 from "@/components/sections/testimonials/Testimonials4";
 import BackToTop from "@/components/shared/others/BackToTop";
 import ClientWrapper from "@/components/shared/wrappers/ClientWrapper";
-import Team from "./team/page";
-import Team3 from "@/components/sections/teams/Team3";
-import Team3Mod from "@/components/sections/teams/Team3Mod";
-import ServicesMod from "@/components/sections/services/ServicesMod";
-import Blogs6 from "@/components/sections/blogs/Blogs6";
 import ServicesMod2 from "@/components/sections/services/ServicesMod2";
 import ProcessMod from "@/components/sections/process/ProcessMod";
-import Funfact1 from "@/components/sections/funfacts/Funfact1";
 import FooterMod from "@/components/layout/footer/FooterMod";
 import CallSchedule from "@/components/sections/funfacts/CallSchedule";
-import Hero5 from "@/components/sections/hero/Hero5";
 import PortfoliosMod from "@/components/sections/portfolios/PortfoliosMod";
 
 export default function Home2() {
@@ -102,11 +78,11 @@ export default function Home2() {
 						<ServicesMod2/>
 						{/* <Services1/> */}
 						<About5/>
-						<PortfoliosMod/>	
+						<PortfoliosMod/>
 						{/* <Process4/>	 */}
 						<ProcessMod/>
 						{/*<Team4/>*/}
-						<Blogs2/>
+						<Industries/>
 						<Testimonials4/>
 						<Blogs1/>
 						<CallSchedule/>

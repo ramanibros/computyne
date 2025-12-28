@@ -4,18 +4,18 @@ import FeatureCard from "@/components/shared/cards/FeatureCard";
 const FeaturesMod = ({ type }) => {
 	const features = [
 		{
-			title: "Innovative Solutions",
-			desc: "We stay ahead of the curve, leveraging cutting-edge technologies and strategies to keep  you competitive in a marketplace.",
+			title: "Our Vision",
+			desc: "Our vision is to be a global leader in IT solutions and services with impetus on innovation, excellence, and implementation of ethical Business Strategies - with the ultimate aim of giving back to the society.",
 			icon: "tji-innovative",
 		},
 		{
-			title: "Award-Winning Expertise",
-			desc: "Recognized by industry leaders, our award-winning team has a proven record of delivering  excellence across projects.",
+			title: "Our Mission",
+			desc: "Our mission is to create innovative products and deliver excellence in services. We strongly believe tech should be more in helping people and building a better environment. That's why we put quality and value ahead.",
 			icon: "tji-award",
 		},
 		{
-			title: "Dedicated Support",
-			desc: "Our team is always available to address your concerns, providing quick and effective solution to keep your business.",
+			title: "Quality Policy",
+			desc: "We deliver effective quality solutions and services to our clients - meeting project requirements and achieving continuous excellence in all our products and services – guided by our defined global standards.",
 			icon: "tji-support",
 		},
 	];
