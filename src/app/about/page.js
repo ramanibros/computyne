@@ -8,7 +8,7 @@ import FooterMod from "@/components/layout/footer/FooterMod";
 import CallSchedule from "@/components/sections/funfacts/CallSchedule";
 import Funfact2 from "@/components/sections/funfacts/Funfact2";
 import About3 from "@/components/sections/about/About3";
-import Team2 from "@/components/sections/teams/Team2";
+import Team1 from "@/components/sections/teams/Team1";
 
 export default function About() {
     return (
@@ -28,7 +28,7 @@ export default function About() {
                         {/*<Testimonials2 type={2} />*/}
                         <Funfact2/>
                         <Faq2 type={2}/>
-                        <Team2 type={3}/>
+                        <Team1 type={3}/>
                         <CallSchedule/>
                         {/*<Cta />*/}
                     </main>

@@ -6,6 +6,7 @@ import FooterMod from "@/components/layout/footer/FooterMod";
 import HeroInnerContact from "@/components/sections/hero/HeroInnerContact";
 import Contact3Mod from "@/components/sections/contacts/Contact3Mod";
 import Contact3ModLocation from "@/components/sections/contacts/Contact3ModLocation";
+import ContactTop from "@/components/sections/contacts/ContactTop";
 
 export default function Contact() {
 	return (
