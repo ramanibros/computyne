@@ -41,6 +41,7 @@ const CallSchedule = () => {
 			<div className="container">
 				<div className="row">
 					<div className="col-12">
+						<Link className="circle-icon" href="/team">
 						<div className="cta-area">
 							<div className="cta-content-mod">
 								<h2 className="title title-anim">
@@ -67,6 +68,7 @@ const CallSchedule = () => {
                                 </div>
                             </div>
 						</div>
+						</Link>
 					</div>
 				</div>
 			</div>
