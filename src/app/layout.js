@@ -1,4 +1,4 @@
-import { Mona_Sans } from "next/font/google";
+import {Mona_Sans} from "next/font/google";
 import "react-range-slider-input/dist/style.css";
 import "swiper/css";
 import "swiper/css/effect-coverflow";
@@ -17,31 +17,31 @@ import "./assets/css/odometer-theme-default.css";
 import "./globals.scss";
 
 const bodyFont = Mona_Sans({
-	variable: "--tj-ff-body",
-	subsets: ["latin"],
-	weight: ["200", "300", "400", "500", "600", "700", "800", "900"],
-	style: ["normal", "italic"],
-	display: "swap",
+    variable: "--tj-ff-body",
+    subsets: ["latin"],
+    weight: ["200", "300", "400", "500", "600", "700", "800", "900"],
+    style: ["normal", "italic"],
+    display: "swap",
 });
 const headingFont = Mona_Sans({
-	variable: "--tj-ff-heading",
-	subsets: ["latin"],
-	weight: ["200", "300", "400", "500", "600", "700", "800", "900"],
-	style: ["normal", "italic"],
-	display: "swap",
+    variable: "--tj-ff-heading",
+    subsets: ["latin"],
+    weight: ["200", "300", "400", "500", "600", "700", "800", "900"],
+    style: ["normal", "italic"],
+    display: "swap",
 });
 
 export const metadata = {
-	title: "Computyne -Global outsourcing & Data Services Company",
-	description: "Computyne -Global outsourcing & Data Services Company",
+    title: "Computyne -Global outsourcing & Data Services Company",
+    description: "Computyne -Global outsourcing & Data Services Company",
 };
 
-export default function RootLayout({ children }) {
-	return (
-		<html lang="en" data-scroll-behavior="smooth" dir="ltr">
-			<body className={`${bodyFont.variable} ${headingFont.variable}`}>
-				{children}
-			</body>
-		</html>
-	);
+export default function RootLayout({children}) {
+    return (
+        <html lang="en" data-scroll-behavior="smooth" dir="ltr">
+        <body className={`${bodyFont.variable} ${headingFont.variable}`}>
+        {children}
+        </body>
+        </html>
+    );
 }
