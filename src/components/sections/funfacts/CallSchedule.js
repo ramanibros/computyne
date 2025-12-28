@@ -44,7 +44,7 @@ const CallSchedule = () => {
 						<div className="cta-area">
 							<div className="cta-content-mod">
 								<h1 className="title title-anim">
-									Your Story Could Be Our Next Milestone!
+									Your Story Could Be Our Next Milestone !
 								</h1>
 							</div>
 							<div className="col-lg-3 col-sm-6 ">
@@ -57,11 +57,11 @@ const CallSchedule = () => {
                                             className="circle-text"
                                             style={{
                                                 backgroundImage:
-                                                    "url('/images/icons/more-rounded-text-white.svg')",
+                                                    "url('/images/logos/logo_badge.png')",
                                             }}
                                         ></span>
                                         <Link className="circle-icon" href="/team">
-                                            <i className="tji-arrow-right-long"></i>
+                                            {/* <i className="tji-arrow-right-long"></i> */}
                                         </Link>
                                     </div>
                                 </div>
