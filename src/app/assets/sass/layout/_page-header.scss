@@ -41,6 +41,44 @@ START: Breadcrumb CSS
 		}
 	}
 
+	&-header-mod {
+		padding-top: 133px;
+		padding-bottom: 150px;
+		background-position: center;
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-color: var(--tj-color-theme-dark);
+		background-blend-mode: luminosity;
+		border-top-left-radius: 12px;
+		border-top-right-radius: 12px;
+		position: relative;
+		overflow: hidden;
+		z-index: 2;
+
+		@media #{$lg} {
+			padding-top: 90px;
+			padding-bottom: 100px;
+		}
+
+		@media #{$md, $sm, $xs} {
+			padding-top: 60px;
+			padding-bottom: 70px;
+		}
+
+		.tagline {
+			font-size: 18px;
+			color: var(--tj-color-common-white);
+			letter-spacing: 0;
+			line-height: 1.44;
+			font-weight: 500;
+			font-style: italic;
+		}
+
+		.mt {
+			margin-top: 8px;
+		}
+	}
+
 	&-title {
 		color: var(--tj-color-common-white);
 		line-height: 1;

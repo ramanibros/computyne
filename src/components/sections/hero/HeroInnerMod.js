@@ -1,9 +1,10 @@
+import ButtonPrimary from "@/components/shared/buttons/ButtonPrimary";
 import React from "react";
 
-const HeroInnerMod = ({ title, text, breadcrums = [] }) => {
+const HeroInnerMod = ({ title, text, isShowButton = false, buttonLabel, buttonLink }) => {
 	return (
 		<section
-			className="tj-page-header section-gap-x"
+			className="tj-page-header-mod section-gap-x"
 			style={{ backgroundImage: `url('/images/bg/pheader-bg.webp')` }}
 		>
 			<div className="container">
@@ -14,6 +15,9 @@ const HeroInnerMod = ({ title, text, breadcrums = [] }) => {
                             <div className="tagline mt tj-page-header-tagline">
 								{text}
                             </div>
+							<div className="btn-area wow fadeInUp mt-12" data-wow-delay=".8s">
+								<ButtonPrimary text={buttonLabel} url={"/contact"} />
+							</div>
 						</div>
 					</div>
 				</div>
