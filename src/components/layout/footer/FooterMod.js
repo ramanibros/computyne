@@ -46,7 +46,7 @@ const FooterMod = () => {
 										<Link href="/contact">Contact us</Link>
 									</li>
 									<li>
-										<Link href="/team">About Us</Link>
+										<Link href="/about">About Us</Link>
 									</li>
 									<li>
 										<Link href="/blogs">Blogs</Link>
