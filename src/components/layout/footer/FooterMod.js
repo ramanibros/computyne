@@ -38,34 +38,6 @@ const FooterMod = () => {
 						<div className="col-xl-2 col-lg-4 col-md-6">
 							<div
 								className="footer-widget widget-nav-menu wow fadeInUp"
-								data-wow-delay=".3s"
-							>
-								<h5 className="title">Services</h5>
-								<ul>
-									<li>
-										<Link href="/services/1">Data Solutions</Link>
-									</li>
-									<li>
-										<Link href="/services/2">Data Management</Link>
-									</li>
-									<li>
-										<Link href="/services/3">Document Processing</Link>
-									</li>
-									<li>
-										<Link href="/services/4">Data Collection</Link>
-									</li>
-									<li>
-										<Link href="/services/5">Data Annotation</Link>
-									</li>
-									<li>
-										<Link href="/services/6">Data Entry</Link>
-									</li>
-								</ul>
-							</div>
-						</div>
-						<div className="col-xl-2 col-lg-4 col-md-6">
-							<div
-								className="footer-widget widget-nav-menu wow fadeInUp"
 								data-wow-delay=".5s"
 							>
 								<h5 className="title">Resources</h5>
@@ -87,6 +59,34 @@ const FooterMod = () => {
 									</li>
 									<li>
 										<Link href="#">Team Members</Link>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div className="col-xl-2 col-lg-4 col-md-6">
+							<div
+								className="footer-widget widget-nav-menu wow fadeInUp"
+								data-wow-delay=".3s"
+							>
+								<h5 className="title">Services</h5>
+								<ul>
+									<li>
+										<Link href="/services/1">Data Solutions</Link>
+									</li>
+									<li>
+										<Link href="/services/2">Data Management</Link>
+									</li>
+									<li>
+										<Link href="/services/3">Document Processing</Link>
+									</li>
+									<li>
+										<Link href="/services/4">Data Collection</Link>
+									</li>
+									<li>
+										<Link href="/services/5">Data Annotation</Link>
+									</li>
+									<li>
+										<Link href="/services/6">Data Entry</Link>
 									</li>
 								</ul>
 							</div>
