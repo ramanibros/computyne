@@ -38,10 +38,14 @@ const AboutMod = ({type}) => {
                                 With Computyne as your backbone, you gain a reliable partner that drives efficiency, reduces costs, and helps your
                                 business stay ahead in a competitive market.
                             </p>
+                            <p>
+                                With Computyne as your backbone, you gain a reliable partner that drives efficiency, reduces costs, and helps your
+                                business stay ahead in a competitive market.
+                            </p>
                         </div>
-                        <div className="about-btn-area wow fadeInUp" data-wow-delay=".5s">
+                       {/* <div className="about-btn-area wow fadeInUp" data-wow-delay=".5s">
                             <ButtonPrimary text={"Connect With Us Today"} url={"/contact"}/>
-                        </div>
+                        </div>*/}
                     </div>
 
                      <div className="col-xl-6 col-lg-6 order-lg-2 order-1">
