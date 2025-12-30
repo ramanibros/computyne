@@ -31,9 +31,9 @@ START: Client CSS
 		background-color: var(--tj-color-theme-primary);
 		border-bottom-left-radius: 12px;
 		border-bottom-right-radius: 12px;
-		padding: 30px 5px;
+		padding: 5px 5px;
 		@media #{$sm, $xs} {
-			padding: 18px 5px;
+			padding: 5px 5px;
 		}
 	}
 }

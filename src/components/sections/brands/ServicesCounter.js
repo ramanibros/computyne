@@ -51,41 +51,7 @@ const ServicesCounter = ({ type, className }) => {
 							</div>
 						</div>
                         
-                        {/* <div className="h6-about-funfact-wrapper-mod">
-								<div className="h6-about-funfact">
-									<div className="countup-item">
-										<FunfactSingleMod currentValue={1200} symbol={"+"} />
-										<span className="count-text">
-											Projects Completed
-										</span>
-									</div>
-									<div className="countup-item">
-										<FunfactSingleMod currentValue={240} symbol={"+"} />
-
-										<span className="count-text">
-											Expert Professionals
-										</span>
-									</div>
-									<div className="countup-item">
-										<FunfactSingleMod currentValue={550} symbol={"+"} />
-										<span className="count-text">
-											Clients Worldwide
-										</span>
-									</div>
-									<div className="countup-item">
-										<FunfactSingleMod currentValue={24} symbol={"/7"} />
-										<span className="count-text">
-											Support Availability
-										</span>
-									</div>
-								</div>
-								<div className="h6-about-funfact-shape">
-									<img
-										src="/images/shape/about-counter-shape-blur-mod.svg"
-										alt=""
-									/>
-								</div>
-						</div> */}
+                        
 					</div>
 				</div>
 			</div>

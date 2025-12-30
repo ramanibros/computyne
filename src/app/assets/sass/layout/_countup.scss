@@ -8,6 +8,14 @@ START: Countup CSS
 	z-index: 2;
 	margin-bottom: -122px;
 }
+.tj-countup-section-mod {
+	position: relative;
+	z-index: 2;
+	.container{
+		max-width: 100% !important;
+	}
+	// margin-bottom: -122px;
+}
 .countup-wrap {
 	display: flex;
 	flex-wrap: wrap;
@@ -20,6 +28,42 @@ START: Countup CSS
 	align-items: center;
 	width: 25%;
 	padding: 68px 50px 74px 50px;
+	position: relative;
+	@media #{$xl, $lg} {
+		padding: 55px 30px 60px 30px;
+	}
+	@media #{$md, $sm} {
+		width: 50%;
+		padding: 45px 30px 50px 30px;
+	}
+	@media #{$xs} {
+		width: 100%;
+		padding: 38px 0 45px 0;
+		text-align: center;
+		&:last-child {
+			padding-bottom: 40px;
+		}
+	}
+	&:nth-child(2) {
+		@media #{$md, $sm} {
+			.count-separator {
+				display: none;
+			}
+		}
+	}
+	&:nth-child(4),
+	&:nth-child(3) {
+		@media #{$md, $sm} {
+			padding-top: 0;
+		}
+	}
+}
+.countup-item-mod {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 16.66%;
+	padding: 28px 50px 34px 50px;
 	position: relative;
 	@media #{$xl, $lg} {
 		padding: 55px 30px 60px 30px;
@@ -206,10 +250,61 @@ START: Countup CSS
 	}
 }
 
+.inline-content-mod-3 {
+	font-size: 60px;
+	line-height: 1;
+	font-weight: var(--tj-fw-medium);
+	color: var(--tj-color-common-white);
+	font-family: var(--tj-ff-heading);
+	display: inline-flex;
+	align-items: center;
+	letter-spacing: -1.48px;
+	margin-bottom: 6px;
+
+	.odometer {
+		display: inline-flex;
+		align-items: center;
+	}
+
+	.odometer-digit,
+	span {
+		font-weight: inherit;
+		color: inherit;
+		font-family: inherit;
+		display: inline-flex;
+		align-items: center;
+	}
+
+	/* laptop */
+	@media #{$lg} {
+		font-size: 58px;
+	}
+		
+	/* tablet */
+	@media #{$md} {
+		font-size: 56px;
+	}
+
+	/* 🔥 MOBILE FIX */
+	@media #{$sm, $xs} {
+		font-size: 54px;
+		width: 100%;
+		justify-content: center;
+		text-align: center;
+		gap: 4px;
+	}
+}
+
 
 .count-text {
 	color: var(--tj-color-common-white);
 	display: block;
+}
+
+.count-text-mod-2 {
+	color: var(--tj-color-common-white);
+	display: block;
+	text-align: center;
 }
 
 .count-text-mod {

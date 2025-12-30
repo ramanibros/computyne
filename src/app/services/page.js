@@ -9,6 +9,8 @@ import ServicesCounter from "@/components/sections/brands/ServicesCounter";
 import Contact2 from "@/components/sections/contacts/Contact2";
 import Cta from "@/components/sections/cta/Cta";
 import CallSchedule from "@/components/sections/funfacts/CallSchedule";
+import Funfact1 from "@/components/sections/funfacts/Funfact1";
+import ServiceCounter from "@/components/sections/funfacts/ServiceCounter";
 import HeroInner from "@/components/sections/hero/HeroInner";
 import HeroInnerMod from "@/components/sections/hero/HeroInnerMod";
 import PricingPlan from "@/components/sections/pricing-plan/PricingPlan";
@@ -56,7 +58,8 @@ export default function Services() {
 						{/* <HeroInner title={"Services"} text={"Services"} /> */}
 						 <HeroInnerMod title={"Services"} text={"Our business process services - driven by data, technology, and people - help" +
                             " clients save time, reduce costs, and improve operational efficiency worldwide."} isShowButton={true} buttonLabel={"Talk To Our Expert"}/>
-						<ServicesCounter className="mb-0" />
+						{/* <ServicesCounter className="mb-0" /> */}
+						<ServiceCounter />
 						<AboutMod type={1}/>
 						<ServicesPrimary />
 						<Testimonials4/>
