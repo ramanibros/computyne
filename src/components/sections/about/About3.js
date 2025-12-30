@@ -123,9 +123,9 @@ const About3 = ({type}) => {
 								</ul>
 							</div>*/}
                         </div>
-                        <div className="about-btn-area wow fadeInUp" data-wow-delay=".5s">
+                        {/*<div className="about-btn-area wow fadeInUp" data-wow-delay=".5s">
                             <ButtonPrimary text={"Connect With Us Today"} url={"/contact"}/>
-                        </div>
+                        </div>*/}
                     </div>
                 </div>
             </div>
