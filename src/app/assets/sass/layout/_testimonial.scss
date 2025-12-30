@@ -81,7 +81,29 @@ START: Testimonial CSS
 				font-size: 16px;
 			}
 		}
+			.desc-mod {
+			font-size: 18px;
+			line-height: 1.444;
+			padding-top: 23px;
+			// padding-bottom: 22px;
+			p {
+				margin-bottom: 0;
+			}
+			@media #{$xl, $lg} {
+				font-size: 17px;
+			}
+			@media #{$md, $sm, $xs} {
+				font-size: 16px;
+			}
+		}
 		.testimonial-author {
+			.title {
+				line-height: 1;
+				font-weight: var(--tj-fw-sbold);
+				margin-bottom: 2px;
+			}
+		}
+		.testimonial-author-mod {
 			.title {
 				line-height: 1;
 				font-weight: var(--tj-fw-sbold);
@@ -114,6 +136,56 @@ START: Testimonial CSS
 		display: flex;
 		flex-wrap: wrap;
 		align-items: center;
+		gap: 12px;
+	}
+	.author-img {
+		width: 59px;
+		height: 59px;
+		border-radius: 50%;
+		overflow: hidden;
+		@media #{$sm, $xs} {
+			width: 50px;
+			height: 50px;
+		}
+	}
+	.title {
+		margin-bottom: 0;
+		line-height: 1;
+	}
+	.designation {
+		font-size: 14px;
+		line-height: 1;
+		display: inline-flex;
+	}
+	.quote-icon {
+		display: inline-flex;
+		line-height: 1;
+		color: var(--tj-color-theme-primary);
+		font-size: 43px;
+		i {
+			display: inline-flex;
+			line-height: 1;
+		}
+		@media #{$sm, $xs} {
+			font-size: 30px;
+		}
+	}
+	@media #{$sm, $xs} {
+		padding-top: 20px;
+	}
+}
+
+.testimonial-author-mod {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	// align-items: center;
+	padding-top: 30px;
+	border-top: 1px dashed var(--tj-color-border-1);
+	.author-inner {
+		display: flex;
+		flex-wrap: wrap;
+		// align-items: center;
 		gap: 12px;
 	}
 	.author-img {

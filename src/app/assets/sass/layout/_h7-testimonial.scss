@@ -96,10 +96,33 @@ START: Testimonial CSS
 					color: var(--tj-color-text-body-2);
 				}
 			}
+			.testimonial-author-mod {
+				padding-top: 0;
+				border-top: 0;
+				flex-direction: column;
+				.author-inner {
+					flex-direction: column;
+					// text-align: center;
+				}
+				.author-img {
+					width: 100px;
+					height: 100px;
+				}
+				.title {
+					color: var(--tj-color-common-white);
+				}
+				.designation {
+					color: var(--tj-color-text-body-2);
+				}
+			}
 
 			.desc {
 				color: var(--tj-color-grey-1);
 				text-align: center;
+			}
+			.desc-mod {
+				color: var(--tj-color-grey-1);
+				// text-align: center;
 			}
 			.star-ratings {
 				margin: 0 auto;
