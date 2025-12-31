@@ -1,37 +1,18 @@
-import Footer from "@/components/layout/footer/Footer";
 import FooterMod from "@/components/layout/footer/FooterMod";
 import Header from "@/components/layout/header/Header";
 import AboutMod from "@/components/sections/about/AboutMod";
-import Blogs1 from "@/components/sections/blogs/Blogs1";
-import Brands1 from "@/components/sections/brands/Brands1";
-import Brands3 from "@/components/sections/brands/Brands3";
-import ServicesCounter from "@/components/sections/brands/ServicesCounter";
-import Contact2 from "@/components/sections/contacts/Contact2";
-import Cta from "@/components/sections/cta/Cta";
 import CallSchedule from "@/components/sections/funfacts/CallSchedule";
-import Funfact1 from "@/components/sections/funfacts/Funfact1";
 import ServiceCounter from "@/components/sections/funfacts/ServiceCounter";
-import HeroInner from "@/components/sections/hero/HeroInner";
-import HeroInnerMod from "@/components/sections/hero/HeroInnerMod";
-import PricingPlan from "@/components/sections/pricing-plan/PricingPlan";
-import ServicesPrimary from "@/components/sections/services/ServicesPrimary";
 import Testimonials4 from "@/components/sections/testimonials/Testimonials4";
 import BackToTop from "@/components/shared/others/BackToTop";
-import HeaderSpace from "@/components/shared/others/HeaderSpace";
 import ClientWrapper from "@/components/shared/wrappers/ClientWrapper";
 import HeroInnerService from "@/components/sections/hero/HeroInnerService";
-import Services1 from "@/components/sections/services/Services1";
-import Industries from "@/components/sections/industries/Industries";
-import Industries2 from "@/components/sections/industries/industries2";
 import PortfoliosMod from "@/components/sections/portfolios/PortfoliosMod";
-import Testimonials1 from "@/components/sections/testimonials/Testimonials1";
-import Testimonials7 from "@/components/sections/testimonials/Testimonials7";
 import TestimonialsMod from "@/components/sections/testimonials/TestimonialsMod";
-import Faq2 from "@/components/sections/faq/Faq2";
-import Faq3 from "@/components/sections/faq/Faq3";
 import Faq4 from "@/components/sections/faq/Faq4";
 import TestimonialsMod2 from "@/components/sections/testimonials/TestimonialsMod2";
 import SubserviceSection from "@/components/sections/services/SubserviceSection";
+import Services5Mod from "@/components/sections/services/Services5Mod";
 
 export default function Services() {
     // return (
@@ -83,7 +64,7 @@ export default function Services() {
                         <TestimonialsMod2/>
                         {/* <Industries/> */}
 						<Testimonials4/>
-                        <Blogs1/>
+                        <Services5Mod/>
                         <CallSchedule/>
                     </main>
                     <FooterMod/>

@@ -129,8 +129,8 @@ START: Team CSS
 .h7-team-mod {
 	// background-color: var(--tj-color-theme-dark);
 	position: relative;
-	z-index: 1;
-	border-radius: 12px;
+	z-index: 999;
+	/*border-radius: 12px;*/
 	overflow: hidden;
 
 	.sec-heading.style-2 {
@@ -169,16 +169,24 @@ START: Team CSS
 		}
 		.team {
 			&-item {
-				width: 407px;
+				width: 307px;
 				display: flex;
 				align-items: center;
 				gap: 10px;
 				justify-content: space-between;
 				padding: 14px 14px 14px 34px;
-				border-radius: 200px;
-				background-color: rgba(255, 255, 255, 1);
-				backdrop-filter: blur(10px);
+				border-radius: 15px;
+				/*background-color: rgba(255, 255, 255, 1);*/
+				background: rgba(0, 0, 0, 0.35); /* black transparent */
+				backdrop-filter: blur(150px);
+				-webkit-backdrop-filter: blur(150px);
+				border: 1px solid rgba(255, 255, 255, 0.12);
+				box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
 				margin-bottom: 0;
+				margin-inline: auto;
+				text-align: center;
+				font-weight: bold;
+				border-right: 3px solid #f36523; /* orange right border */
 				@media #{$md,$sm,$xs} {
 					width: 300px;
 					padding: 10px 10px 10px 24px;
@@ -188,7 +196,7 @@ START: Team CSS
 						margin-top: 0;
 						flex-grow: 1;
 						.title {
-							color: var(--tj-color-common-black);
+							color: var(--tj-color-common-white);
 							width: 100%;
 						}
 						.designation {
