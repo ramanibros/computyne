@@ -7,11 +7,11 @@ import MobileMenuItem from "./MobileMenuItem";
 const MobileNavbar = () => {
 	const navItems = getNavItems();
 	const homeNav = navItems[0];
-	const pagesNav = navItems[1];
-	const serviceNav = navItems[2];
-	const portfolioNav = navItems[3];
-	const blogNav = navItems[4];
-	const contactNav = navItems[5];
+	const pagesNav = navItems[2];
+	const serviceNav = navItems[3];
+	const portfolioNav = navItems[4];
+	const blogNav = navItems[5];
+	const contactNav = navItems[6];
 	return (
 		<div className="hamburger_menu">
 			<div className="mobile_menu mean-container">

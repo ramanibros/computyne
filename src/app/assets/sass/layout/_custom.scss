@@ -52,3 +52,165 @@ START: CUSTOM CSS
     height: 80px;
     width: 80px;
 }
+
+
+
+
+// /* ===============================
+//    MEGA MENU BASE
+// ================================ */
+// .header__mega-menu {
+// 	padding: 0;
+// 	background: transparent;
+// }
+
+// .mega-menu-pages {
+// 	border-radius: 18px;
+// 	overflow: hidden;
+// 	box-shadow: 0 20px 60px rgba(0, 0, 0, 0.18);
+// }
+
+// /* ===============================
+//    LAYOUT
+// ================================ */
+// .tabs-layout {
+// 	display: grid !important;
+// 	grid-template-columns: 260px 1fr 360px;
+// 	background: #ffffff;
+// 	border-radius: 18px;
+// 	overflow: hidden;
+// }
+
+// /* ===============================
+//    LEFT TABS
+// ================================ */
+// .mega-menu-tabs {
+// 	padding: 22px 18px;
+// 	background: #f8f9fb;
+// 	display: flex;
+// 	flex-direction: column;
+// 	gap: 6px;
+// }
+
+// .mega-tab {
+// 	background: transparent;
+// 	border: none;
+// 	border-radius: 12px;
+// 	padding: 12px 16px;
+// 	text-align: left;
+// 	font-size: 15px;
+// 	font-weight: 500;
+// 	color: #1d2939;
+// 	cursor: pointer;
+// 	transition: all 0.25s ease;
+// }
+
+// .mega-tab:hover {
+// 	background: rgba(15, 23, 42, 0.06);
+// }
+
+// .mega-tab.active {
+// 	background: #ffffff;
+// 	box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+// 	font-weight: 600;
+// }
+
+// /* ===============================
+//    CENTER CONTENT
+// ================================ */
+// .mega-menu-content {
+// 	padding: 28px 36px;
+// 	display: grid;
+// 	grid-template-columns: repeat(2, minmax(180px, 1fr));
+// 	gap: 14px 42px;
+// 	animation: megaFade 0.25s ease;
+// }
+
+// .mega-menu-content a {
+// 	display: inline-flex;
+// 	align-items: center;
+// 	font-size: 15px;
+// 	font-weight: 500;
+// 	color: #344054;
+// 	text-decoration: none;
+// 	transition: all 0.2s ease;
+// }
+
+// .mega-menu-content a:hover {
+// 	color: #f36523;
+// 	transform: translateX(2px);
+// }
+
+// /* ===============================
+//    BADGES
+// ================================ */
+// .mega-menu-badge {
+// 	font-size: 11px;
+// 	font-weight: 600;
+// 	padding: 3px 8px;
+// 	border-radius: 999px;
+// 	margin-left: 6px;
+// }
+
+// .mega-menu-badge-hot {
+// 	background: #f36523;
+// 	color: #ffffff;
+// }
+
+// /* ===============================
+//    FEATURE BOX (RIGHT)
+// ================================ */
+// .mega-menu-feature {
+// 	background: #0c1d36;
+// 	padding: 30px;
+// 	display: flex;
+// 	align-items: center;
+// 	justify-content: center;
+// }
+
+// .feature-box {
+// 	color: #ffffff;
+// }
+
+// .feature-box .title {
+// 	font-size: 52px;
+// 	line-height: 1;
+// 	margin-bottom: 8px;
+// }
+
+// .feature-box span {
+// 	display: block;
+// 	font-size: 16px;
+// 	opacity: 0.85;
+// }
+
+// .feature-contact {
+// 	margin-top: 14px;
+// 	display: inline-flex;
+// 	align-items: center;
+// 	gap: 8px;
+// 	color: #f36523;
+// 	font-weight: 600;
+// 	text-decoration: none;
+// }
+
+// .feature-images img {
+// 	margin-top: 18px;
+// 	border-radius: 14px;
+// 	max-width: 100%;
+// }
+
+// /* ===============================
+//    ANIMATION
+// ================================ */
+// @keyframes megaFade {
+// 	from {
+// 		opacity: 0;
+// 		transform: translateY(6px);
+// 	}
+// 	to {
+// 		opacity: 1;
+// 		transform: translateY(0);
+// 	}
+// }
+

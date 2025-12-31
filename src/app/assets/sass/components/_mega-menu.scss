@@ -684,3 +684,234 @@
 	}
 }
 /* !END: Mega Menu CSS */
+
+
+
+
+/* ================================
+   TAB MEGA MENU (PAGES ONLY)
+================================ */
+.mega-menu-pages {
+	.tabs-layout {
+		display: grid !important;
+		grid-template-columns: 260px 1fr 380px;
+		background: var(--tj-color-common-white);
+		border-radius: 16px;
+		overflow: hidden;
+
+		@media #{$md,$sm,$xs} {
+			grid-template-columns: 1fr;
+		}
+	}
+
+	/* LEFT TABS */
+	.mega-menu-tabs {
+		background: #f8f9fb;
+		padding: 24px 20px;
+		display: flex;
+		flex-direction: column;
+		gap: 6px;
+	}
+
+	.mega-tab {
+		background: transparent;
+		border: 0;
+		border-radius: 10px;
+		padding: 12px 16px;
+		font-size: 15px;
+		font-weight: var(--tj-fw-medium);
+		font-family: var(--tj-ff-body);
+		color: var(--tj-color-heading-primary);
+		text-align: left;
+		cursor: pointer;
+		transition: all 0.25s ease;
+
+		&:hover {
+			background: rgba(15, 23, 42, 0.06);
+		}
+
+		&.active {
+			background: var(--tj-color-common-white);
+			// box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+			font-weight: var(--tj-fw-sbold);
+		}
+	}
+
+	/* CENTER CONTENT */
+	.mega-menu-content {
+		padding: 30px 34px;
+		display: grid;
+		grid-template-columns: repeat(2, minmax(180px, 1fr));
+		gap: 14px 40px;
+		animation: tabFade 0.25s ease;
+	}
+
+	.mega-menu-content a {
+		font-weight: var(--tj-fw-medium);
+		color: var(--tj-color-common-black-2);
+		line-height: 1;
+		padding: 10px 0;
+		transition: all 0.2s ease;
+
+		&:has(.mega-menu-badge) {
+							display: flex;
+							gap: 5px;
+							align-items:start;
+						}
+
+
+		&:hover,
+		&.active {
+			color: var(--tj-color-theme-primary);
+			padding-inline-start: 5px;
+		}
+	}
+
+	/* RIGHT FEATURE (REUSE YOUR FEATURE BOX) */
+	.mega-menu-feature {
+		padding: 20px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+
+		@media #{$md,$sm,$xs} {
+			padding: 0;
+		}
+	}
+}
+/* ================================
+   TAB CONTENT – SMART LAYOUT FIX
+   (For 4–7 items)
+================================ */
+
+.mega-menu-pages {
+
+	.mega-menu-content {
+		display: grid;
+		gap: 0px 40px;
+	}
+
+	/* <= 7 items */
+	.mega-menu-content.one-column {
+		grid-template-columns: 1fr;
+		// align-content: center;
+		padding-top: 40px;
+		padding-bottom: 40px;
+	}
+
+	/* 8+ items */
+	.mega-menu-content.two-column {
+		grid-template-columns: repeat(2, minmax(180px, 1fr));
+	}
+
+	/* Visual balance for small lists */
+	.mega-menu-content.one-column a {
+		max-width: 260px;
+	}
+}
+
+
+
+/* ================================
+   MEGA MENU ITEM (TITLE + DESC)
+================================ */
+
+.mega-menu-pages {
+
+	.mega-menu-item {
+		display: block;
+		padding: 12px 0;
+		text-decoration: none;
+		transition: all 0.25s ease;
+	}
+
+	.mega-menu-item:hover {
+		padding-inline-start: 5px;
+	}
+
+	.item-head {
+		display: inline-flex;
+		align-items: center;
+		gap: 8px;
+	}
+
+	.item-title {
+		font-size: 15px;
+		font-weight: var(--tj-fw-medium);
+		color: var(--tj-color-common-black-2);
+		line-height: 1.2;
+	}
+
+	.item-desc {
+		margin-top: 6px;
+		font-size: 13px;
+		line-height: 1.5;
+		color: var(--tj-color-common-black-3);
+		max-width: 320px;
+	}
+
+	.mega-menu-item:hover .item-title,
+	.mega-menu-item.active .item-title {
+		color: var(--tj-color-theme-primary);
+	}
+
+	/* ===== SMART COLUMN CONTROL ===== */
+
+	.mega-menu-content.one-column {
+		// grid-template-columns: 1fr;
+				grid-template-columns: repeat(2, minmax(220px, 1fr));
+
+		// align-content: center;
+		padding-top: 32px;
+		padding-bottom: 32px;
+	}
+
+	.mega-menu-content.two-column {
+		grid-template-columns: repeat(2, minmax(220px, 1fr));
+	}
+
+	.mega-menu-content.one-column .mega-menu-item {
+		max-width: 420px;
+	}
+}
+
+
+/* ================================
+   FEATURE BOX HEIGHT FIX
+================================ */
+
+/* prevent feature column from stretching */
+// .mega-menu-pages-single:last-child {
+// 	align-self: flex-start;
+// }
+
+// /* center feature box visually */
+// .mega-menu-pages-single:last-child .feature-box {
+// 	max-height: 50%;
+// }
+
+/* optional: keep feature box vertically centered */
+// .mega-menu-wrapper {
+// 	align-items: flex-start;
+// }
+
+/* limit feature box height */
+.mega-menu-pages-single:last-child .feature-box {
+	max-height: 220px;
+}
+
+
+
+// /* ================================
+//    TAB CONTENT ANIMATION
+// ================================ */
+// @keyframes tabFade {
+// 	from {
+// 		opacity: 0;
+// 		transform: translateY(6px);
+// 	}
+// 	to {
+// 		opacity: 1;
+// 		transform: translateY(0);
+// 	}
+// }
