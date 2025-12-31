@@ -66,6 +66,43 @@ START: About CSS
 			max-width: 100%;
 		}
 	}
+	&.style-3 {
+		max-width: 591px;
+		margin-inline-start: auto;
+		.box-area {
+			max-width: 343px;
+			background-color: var(--tj-color-theme-bg);
+			&::after,
+			&::before {
+				background: url('data:image/svg+xml,<svg viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-11 h-11"><path d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z" fill="%23d8e5e5"></path></svg>');
+			}
+			@media #{$xs} {
+				max-width: 270px;
+			}
+			&.style-3 {
+				background: transparent;
+				padding: 0 0 15px 15px;
+				border-start-end-radius: 0;
+				border-end-start-radius: 12px;
+				&::after,
+				&::before {
+					display: none;
+				}
+				.progress-box {
+					background-color: rgba(255, 255, 255, 0.1);
+					backdrop-filter: blur(6px);
+					.tj-progress-percent,
+					.tj-progress-title,
+					.title {
+						color: var(--tj-color-common-white);
+					}
+				}
+			}
+		}
+		@media #{$md, $sm, $xs} {
+			max-width: 100%;
+		}
+	}
 	@media #{$xl, $lg} {
 		height: 100%;
 	}

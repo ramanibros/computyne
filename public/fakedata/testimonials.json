@@ -1,6 +1,7 @@
 [
 	{
 		"id": 1,
+		"title": "Designing a Modern Brand Identity for Competitive Edge",
 		"authorName": "Guy Hawkins",
 		"authorDesig": "Sr. Executive",
 		"img": "/images/testimonial/client-1.webp",
@@ -16,6 +17,7 @@
 	},
 	{
 		"id": 2,
+		"title": "Designing a Modern Brand Identity for Competitive Edge",
 		"authorName": "Ralph Edwards",
 		"authorDesig": "Co. Founder",
 		"img": "/images/testimonial/client-2.webp",
@@ -31,6 +33,7 @@
 	},
 	{
 		"id": 3,
+		"title": "Designing a Modern Brand Identity for Competitive Edge",
 		"authorName": "Devon Lane",
 		"authorDesig": "Sr. Manager",
 		"img": "/images/testimonial/client-3.webp",
@@ -46,6 +49,7 @@
 	},
 	{
 		"id": 4,
+		"title": "Designing a Modern Brand Identity for Competitive Edge",
 		"authorName": "Carol Duet",
 		"authorDesig": "Sr. Executiver",
 		"img": "/images/testimonial/client-4.webp",
@@ -61,6 +65,7 @@
 	},
 	{
 		"id": 5,
+		"title": "Designing a Modern Brand Identity for Competitive Edge",
 		"authorName": "Luren Sand",
 		"authorDesig": "Business owner",
 		"img": "/images/testimonial/client-1.webp",
@@ -76,6 +81,7 @@
 	},
 	{
 		"id": 6,
+		"title": "Designing a Modern Brand Identity for Competitive Edge",
 		"authorName": "Brand Cooper",
 		"authorDesig": "Sr. Manager",
 		"img": "/images/testimonial/client-2.webp",

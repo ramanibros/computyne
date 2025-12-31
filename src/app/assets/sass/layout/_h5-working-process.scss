@@ -10,6 +10,13 @@ START: Working process CSS
 	width: 100%;
 	text-align: center;
 }
+.sec-heading-centered-mod {
+	// max-width: 550px;
+	margin-inline-start: auto;
+	margin-inline-end: auto;
+	width: 100%;
+	// text-align: center;
+}
 
 .h5-working-process {
 	background-color: var(--tj-color-theme-dark);

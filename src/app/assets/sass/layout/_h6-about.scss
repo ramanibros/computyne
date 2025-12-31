@@ -40,6 +40,15 @@ START: Home 5 About CSS
 			position: relative;
 			z-index: 0;
 		}
+		&-wrapper-mod {
+			background-color: rgba(255, 255, 255, 0.1);
+			backdrop-filter: blur(10px);
+			width: 100%;
+			border-radius: 8px;
+			margin-bottom: 10px;
+			position: relative;
+			z-index: 0;
+		}
 		display: flex;
 		padding: 20px 30px 26px;
 		width: 100%;

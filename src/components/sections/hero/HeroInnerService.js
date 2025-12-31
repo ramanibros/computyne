@@ -15,6 +15,9 @@ const HeroInnerMod = ({ title, text, isShowButton = false, buttonLabel, buttonLi
                             <div className="tagline mt tj-page-header-tagline">
 								{text}
                             </div>
+							<div className="btn-area wow fadeInUp mt-50" data-wow-delay=".8s">
+								<ButtonPrimary text={buttonLabel} url={"/contact"} />
+							</div>
 						</div>
 					</div>
 				</div>

@@ -20,6 +20,7 @@ export default function About() {
                 <div id="smooth-content">
                     <main>
                         {/*<HeaderSpace/>*/}
+                        <div className="top-space-15"></div>    
                         <HeroInnerMod title={"About Us"} text={"Our business process services - driven by data, technology, and people - help" +
                             " clients save time, reduce costs, and improve operational efficiency worldwide."}/>
                         <About3 type={1}/>

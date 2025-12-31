@@ -27,9 +27,28 @@ START: CUSTOM CSS
 .mt-8 {
     margin-top: 8px;
 }
+.mt-10 {
+    margin-top: 10px;
+}
+
+.mt-12 {
+    margin-top: 12px;
+}
+
+// .self-end {}
+.service-card-learn-more-btn{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
 
 .mt-minus-350 {
     margin-top: -350px;
     position: relative;
     z-index: 3;
+}
+
+.service-funfact-image{
+    height: 80px;
+    width: 80px;
 }

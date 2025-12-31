@@ -2,7 +2,7 @@
 import { useEffect, useState } from "react";
 import { useInView } from "react-intersection-observer";
 
-const FunfactContact = ({ currentValue, symbol, sup, type }) => {
+const FunfactSingleMod3 = ({ currentValue, symbol, sup, type }) => {
 	const [value, setValue] = useState(0);
 
 	const [Odometer, setOdometer] = useState(null);
@@ -71,4 +71,4 @@ const FunfactContact = ({ currentValue, symbol, sup, type }) => {
 	);
 };
 
-export default FunfactContact;
+export default FunfactSingleMod3;

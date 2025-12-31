@@ -371,6 +371,18 @@ img {
 		padding-bottom: 60px;
 	}
 }
+
+.gap-bottom {
+	padding-top: 0px !important;
+
+	@media #{$lg} {
+		padding-top: 0px !important;
+	}
+
+	@media #{$md, $sm, $xs} {
+		padding-top: 0px !important;
+	}
+}
 .gap-top,
 .section-top-gap {
 	padding-top: 120px;

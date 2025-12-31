@@ -12,7 +12,7 @@ const Contact3 = () => {
 					<div className="col-lg-6">
 						<div className="contact-form wow fadeInUp" data-wow-delay=".1s">
 							<h3 className="title">
-								Feel Free to Get in Touch or Visit our Location.
+								Let’s Talk With Our Data Specialist
 							</h3>
 							<form id="contact-form">
 								<div className="row">
