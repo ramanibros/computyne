@@ -70,8 +70,8 @@ export default function Services() {
                         <div className="top-space-15"></div>
                         {/* <HeaderSpace /> */}
                         {/* <HeroInner title={"Services"} text={"Services"} /> */}
-                        <HeroInnerService title={"Services"} text={"Our business process services - driven by data, technology, and people - help" +
-                            " clients save time, reduce costs, and improve operational efficiency worldwide."} isShowButton={true}
+                        <HeroInnerService title={"Sub Services"} text={"Our business process services - driven by data, technology, and people -" +
+                            " help clients save time, reduce costs, and improve operational efficiency worldwide."} isShowButton={true}
                                           buttonLabel={"Talk To Our Expert"}/>
                         {/* <ServicesCounter className="mb-0" /> */}
                         <ServiceCounter/>
