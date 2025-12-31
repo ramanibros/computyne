@@ -16,10 +16,10 @@ const TestimonialsMod = () => {
 					<div className="col-12">
 						<div className="sec-heading style-2 style-7 sec-heading-centered-mod">
 							<span className="sub-title wow fadeInUp" data-wow-delay=".3s">
-								<i className="tji-box"></i> CLIENT FEEDBACK
+								<i className="tji-box"></i> Simplifying Success
 							</span>
 							<h2 className="sec-title text-anim">
-								Our Clients Share Their Success Stories.
+								Why Choose Computyne
 							</h2>
 						</div>
 					</div>

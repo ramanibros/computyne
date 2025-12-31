@@ -80,9 +80,9 @@ const ServiceCounter = () => {
 					<div className="col-12">
 					<div className="countup-wrap">
 							<div className="countup-item-mod">
-								<FunfactSingleMod3 currentValue={93} symbol={"%"} />
+								<FunfactSingleMod3 currentValue={15} symbol={"+"} />
 
-								<span className="count-text-mod-2">Projects Completed.</span>
+								<span className="count-text-mod-2">Years Completed</span>
 								<span
 									className="count-separator"
 									style={{
@@ -91,8 +91,8 @@ const ServiceCounter = () => {
 								></span>
 							</div>
 							<div className="countup-item-mod">
-								<FunfactSingleMod3 currentValue={20} symbol={"M"} />
-								<span className="count-text-mod-2">Reach Worldwide</span>
+								<FunfactSingleMod3 currentValue={250} symbol={"+"} />
+								<span className="count-text-mod-2">Empowered Employees</span>
 								<span
 									className="count-separator"
 									style={{
@@ -101,8 +101,8 @@ const ServiceCounter = () => {
 								></span>
 							</div>
 							<div className="countup-item-mod">
-								<FunfactSingleMod3 currentValue={8.5} symbol={"X"} />
-								<span className="count-text-mod-2">Faster Growth</span>
+								<FunfactSingleMod3 currentValue={1200} symbol={"+"} />
+								<span className="count-text-mod-2">Projects Delivered</span>
 								<span
 									className="count-separator"
 									style={{
@@ -111,8 +111,8 @@ const ServiceCounter = () => {
 								></span>
 							</div>
                             <div className="countup-item-mod">
-								<FunfactSingleMod3 currentValue={8.5} symbol={"X"} />
-								<span className="count-text-mod-2">Faster Growth</span>
+								<FunfactSingleMod3 currentValue={550} symbol={"+"} />
+								<span className="count-text-mod-2">Clients Worldwide</span>
 								<span
 									className="count-separator"
 									style={{
@@ -121,8 +121,8 @@ const ServiceCounter = () => {
 								></span>
 							</div>
                             <div className="countup-item-mod">
-								<FunfactSingleMod3 currentValue={8.5} symbol={"X"} />
-								<span className="count-text-mod-2">Faster Growth</span>
+								<FunfactSingleMod3 currentValue={15} symbol={"+"} />
+								<span className="count-text-mod-2">Industries Served</span>
 								<span
 									className="count-separator"
 									style={{
@@ -130,13 +130,12 @@ const ServiceCounter = () => {
 									}}
 								></span>
 							</div>
-							<div className="countup-item-mod">
-								<FunfactSingleMod3   currentValue={100} symbol={"+"} />
-								<span className="count-text-mod-2">Awards Archived</span>
-							</div>
-                           
-                            
+						<div className="countup-item-mod">
+							<img className="service-funfact-image" alt="Global Leader" src="/images/icons/certified.svg"/>
+							<span className="count-text-mod-2">Global Leader</span>
 						</div>
+
+					</div>
 					</div>
 				</div>
 			</div>

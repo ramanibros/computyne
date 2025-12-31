@@ -32,7 +32,6 @@ import Faq3 from "@/components/sections/faq/Faq3";
 import Faq4 from "@/components/sections/faq/Faq4";
 import TestimonialsMod2 from "@/components/sections/testimonials/TestimonialsMod2";
 import SubserviceSection from "@/components/sections/services/SubserviceSection";
-import SubserviceData from "@/components/sections/services/SubserviceData";
 
 export default function Services() {
     // return (
@@ -77,7 +76,7 @@ export default function Services() {
                         {/* <ServicesCounter className="mb-0" /> */}
                         <ServiceCounter/>
                         <AboutMod type={1}/>
-                        <SubserviceData/>
+                        <SubserviceSection/>
                         <PortfoliosMod/>
                         <TestimonialsMod/>
                         <Faq4 type={1}/>

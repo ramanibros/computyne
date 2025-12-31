@@ -1,11 +1,10 @@
 "use client";
-import BlogCard2 from "@/components/shared/cards/BlogCard2";
-import IndustriesCard from "@/components/shared/cards/IndustriesCard";
-import getBlogs from "@/libs/getBlogs";
-import { Autoplay, Navigation, Pagination } from "swiper/modules";
-import { Swiper, SwiperSlide } from "swiper/react";
-const Industries2 = () => {
-	const blogs = getBlogs().slice(0, 6);
+import getSubservice from "@/libs/getSubservice";
+import SubserviceCard from "@/components/shared/cards/SubserviceCard";
+import SubserviceDataCard from "@/components/shared/cards/SubserviceDataCard";
+
+const SubserviceData = () => {
+	const subservices = getSubservice().slice(0, 6);
 	return (
 		<section className="tj-blog-section-2 section-gap">
 			<div className="container">
@@ -49,10 +48,10 @@ const Industries2 = () => {
 				</div>
 
 				<div className="row row-gap-4 h6-blog-wrapper">
-					{blogs?.length
-						? blogs?.map((blog, idx) => (
+					{subservices?.length
+						? subservices?.map((blog, idx) => (
 							<div key={idx} className="col-xl-4 col-md-6">
-								<IndustriesCard blog={blog} idx={idx} />
+								<SubserviceCard blog={blog} idx={idx} />
 							</div>
 						))
 						: ""}
@@ -76,4 +75,4 @@ const Industries2 = () => {
 	);
 };
 
-export default Industries2;
+export default SubserviceData;
