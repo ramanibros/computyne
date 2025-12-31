@@ -1,9 +1,8 @@
 "use client";
-import TestimonialsCard6 from "@/components/shared/cards/TestimonialsCard6";
 import TestimonialsCardMod from "@/components/shared/cards/TestimonialsCardMod";
 import getTestimonials from "@/libs/getTestimonials";
-import { Autoplay, Navigation, Pagination } from "swiper/modules";
-import { Swiper, SwiperSlide } from "swiper/react";
+import {Autoplay, Navigation, Pagination} from "swiper/modules";
+import {Swiper, SwiperSlide} from "swiper/react";
 
 const TestimonialsMod = () => {
 	const showbleTestimonials = getTestimonials()?.slice(0, 3);
@@ -28,7 +27,7 @@ const TestimonialsMod = () => {
 				<div className="row">
 					<div className="col-12">
 						<div
-							className="testimonial-wrapper  h7-testimonial-wrapper  wow fadeInRightBig"
+							className="testimonial-wrapper  h7-testimonial-wrapper  wow fadeInRightBig" style={{marginInline:'auto'}}
 							data-wow-delay=".3s"
 						>
 							<Swiper
