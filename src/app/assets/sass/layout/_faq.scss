@@ -165,7 +165,7 @@ START: Faq CSS
 			margin-bottom: 0;
 		}
 		.faq-title {
-			font-size: 30px;
+			font-size: 20px;
 			text-align: start;
 			color: var(--tj-color-heading-primary);
 			font-family: var(--tj-ff-heading);
@@ -227,18 +227,18 @@ START: Faq CSS
 	&.style-2 {
 		.accordion-item {
 			&:has(button:not(.collapsed)) {
-				background-color: var(--tj-color-theme-primary);
+				background-color: var(--tj-color-theme-bg-2);
 				.faq-title {
-					color: var(--tj-color-common-white);
+					color: var(--tj-color-common-black);
 					border-color: rgba(255, 255, 255, 0.15);
 					&::after {
-						color: var(--tj-color-common-white);
+						color: var(--tj-color-common-black);
 						border-color: rgba(255, 255, 255, 0.1);
 					}
 				}
 				.accordion-body {
 					p {
-						color: var(--tj-color-common-white);
+						color: var(--tj-color-common-black);
 					}
 				}
 			}

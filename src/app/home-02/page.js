@@ -7,7 +7,7 @@ import Hero2 from "@/components/sections/hero/Hero2";
 import Portfolios2 from "@/components/sections/portfolios/Portfolios2";
 import PricingPlan from "@/components/sections/pricing-plan/PricingPlan";
 import Process from "@/components/sections/process/Process";
-import Services2 from "@/components/sections/services/Services2";
+import Services2 from "@/components/sections/services-old/Services2";
 import Team1 from "@/components/sections/teams/Team1";
 import Testimonials2 from "@/components/sections/testimonials/Testimonials2";
 import BackToTop from "@/components/shared/others/BackToTop";

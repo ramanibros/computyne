@@ -38,34 +38,6 @@ const FooterMod = () => {
 						<div className="col-xl-2 col-lg-4 col-md-6">
 							<div
 								className="footer-widget widget-nav-menu wow fadeInUp"
-								data-wow-delay=".5s"
-							>
-								<h5 className="title">Resources</h5>
-								<ul>
-									<li>
-										<Link href="/contact">Contact us</Link>
-									</li>
-									<li>
-										<Link href="/about">About Us</Link>
-									</li>
-									<li>
-										<Link href="/blogs">Blogs</Link>
-									</li>
-									<li>
-										<Link href="#">Case Studies</Link>
-									</li>
-									<li>
-										<Link href="#">Careers</Link>
-									</li>
-									<li>
-										<Link href="#">Team Members</Link>
-									</li>
-								</ul>
-							</div>
-						</div>
-						<div className="col-xl-2 col-lg-4 col-md-6">
-							<div
-								className="footer-widget widget-nav-menu wow fadeInUp"
 								data-wow-delay=".3s"
 							>
 								<h5 className="title">Services</h5>
@@ -119,6 +91,29 @@ const FooterMod = () => {
 								</ul>
 							</div>
 						</div>
+						<div className="col-xl-2 col-lg-4 col-md-6">
+							<div
+								className="footer-widget widget-nav-menu wow fadeInUp"
+								data-wow-delay=".5s"
+							>
+								<h5 className="title">Resources</h5>
+								<ul>
+									<li>
+										<Link href="/about">About Us</Link>
+									</li>
+									<li>
+										<Link href="/contact">Contact us</Link>
+									</li>
+									<li>
+										<Link href="/blogs">Blogs</Link>
+									</li>
+									<li>
+										<Link href="#">Case Studies</Link>
+									</li>
+								</ul>
+							</div>
+						</div>
+
 						<div className="col-xl-3 col-md-6">
 							<div
 								className="footer-widget widget-contact wow fadeInUp"
