@@ -64,12 +64,6 @@ const Counter = () => {
                             <div className="countup-item-mod">
                                 <FunfactSingleMod3 currentValue={99.99} symbol={"%"}/>
                                 <span className="count-text-mod-2">Accuracy</span>
-                                <span
-                                    className="count-separator"
-                                    style={{
-                                        backgroundImage: "url('/images/shape/separator.svg')",
-                                    }}
-                                ></span>
                             </div>
                         </div>
                     </div>
