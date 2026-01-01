@@ -1,7 +1,5 @@
-import FunfactSingle from "@/components/shared/funfact/FunfactSingle";
-import FunfactSingleMod from "@/components/shared/funfact/FunfactSingleMod";
-import FunfactSingleMod2 from "@/components/shared/funfact/FunfactSingleMod2";
 import FunfactSingleMod3 from "@/components/shared/funfact/FunfactSingleMod3";
+
 const ServiceCounter = () => {
 	return (
 		// <div className="tj-countup-section-mod">

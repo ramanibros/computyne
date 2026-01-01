@@ -1,18 +1,20 @@
 import useActiveLink from "@/hooks/useActiveLink";
 import getNavItems from "@/libs/getNavItems";
 import Link from "next/link";
+import { useState } from "react";
 
 const Navbar = ({ headerType, isStickyHeader }) => {
 	const makeActiveLink = useActiveLink();
 	const navItems = getNavItems();
 	const homeNav = makeActiveLink(navItems[0]);
-	const dataSolutionsNav = makeActiveLink(navItems[1]);
+	// const dataSolutionsNav = makeActiveLink(navItems[1]);
+	const pagesCustomNav = makeActiveLink(navItems[1]);
 	const pagesNav = makeActiveLink(navItems[2]);
 	const serviceNav = makeActiveLink(navItems[3]);
 	const portfolioNav = makeActiveLink(navItems[4]);
 	const blogNav = makeActiveLink(navItems[5]);
 	const contactNav = makeActiveLink(navItems[6]);
-
+	const [activeTab, setActiveTab] = useState(0);
 	return (
 		<div className="menu-area d-none d-lg-inline-flex align-items-center">
 			<nav id="mobile-menu" className="mainmenu">
@@ -88,7 +90,7 @@ const Navbar = ({ headerType, isStickyHeader }) => {
 						</ul> */}
 					</li>
 
-					<li
+					{/* <li
 						className={`has-dropdown ${
 							dataSolutionsNav?.isActive ? "current-menu-ancestor" : ""
 						}`}
@@ -125,6 +127,91 @@ const Navbar = ({ headerType, isStickyHeader }) => {
 										</li>
 								  ))
 								: ""}
+						</ul>
+					</li> */}
+
+
+					<li
+						className={`has-dropdown ${pagesCustomNav?.isActive ? "current-menu-ancestor" : ""
+							}`}
+					>
+						<Link href={pagesCustomNav?.path}>{pagesCustomNav?.name}</Link>
+
+						<ul className="sub-menu header__mega-menu mega-menu mega-menu-pages">
+							<li>
+								<div className="mega-menu-wrapper tabs-layout">
+
+									{/* LEFT SIDE : TAB MENU */}
+									<div className="mega-menu-tabs">
+										{pagesCustomNav?.submenu?.map((pageItem, idx) => (
+											<button
+												key={idx}
+												className={`mega-tab ${activeTab === idx ? "active" : ""
+													}`}
+												onMouseEnter={() => setActiveTab(idx)}
+											>
+												{pageItem?.name}
+											</button>
+										))}
+									</div>
+
+									{/* CENTER : TAB CONTENT */}
+									<div className={`mega-menu-content ${pagesCustomNav?.submenu?.[activeTab]?.items?.length <= 7
+											? "one-column"
+											: "two-column"
+										}`}>
+										{pagesCustomNav?.submenu?.[activeTab]?.items?.map((item, idx) => (
+											<Link
+												key={idx}
+												href={item?.path || "/"}
+												className={`mega-menu-item ${item?.isActive ? "active" : ""
+													}`}
+											>
+												<div className="item-head">
+													<span className="item-title">{item?.name}</span>
+
+													{/* {item?.badge && (
+														<span
+															className={`mega-menu-badge ${item.badge === "HOT" ? "mega-menu-badge-hot" : ""
+																}`}
+														>
+															{item?.badge}
+														</span>
+													)} */}
+												</div>
+
+												{item?.desc && (
+													<p className="item-desc">{item?.desc}</p>
+												)}
+											</Link>
+										))}
+									</div>
+
+									{/* RIGHT SIDE : FEATURE BOX */}
+									
+									<div className="col-12 col-lg-3 mega-menu-pages-single">
+										<div className="mega-menu-pages-single-inner">
+											<div className="feature-box">
+												<div className="feature-content">
+													<h2 className="title">Modern</h2>
+													<span>Home Makeover</span>
+													<Link
+														className="read-more feature-contact"
+														href="tel:8321890640"
+													>
+														<i className="tji-phone-3"></i>
+														<span>+8 (321) 890-640</span>
+													</Link>
+												</div>
+												<div className="feature-images">
+													<img src="/images/service/service-ad.webp" alt="" />
+												</div>
+											</div>
+										</div>
+									</div>
+
+								</div>
+							</li>
 						</ul>
 					</li>
 

@@ -11,8 +11,8 @@ import PortfoliosMod from "@/components/sections/portfolios/PortfoliosMod";
 import TestimonialsMod from "@/components/sections/testimonials/TestimonialsMod";
 import Faq4 from "@/components/sections/faq/Faq4";
 import TestimonialsMod2 from "@/components/sections/testimonials/TestimonialsMod2";
-import SubserviceData from "@/components/sections/services/SubserviceData";
-import Services5Mod from "@/components/sections/services/Services5Mod";
+import SubserviceData from "@/components/sections/services-old/SubserviceData";
+import Services5Mod from "@/components/sections/services-old/Services5Mod";
 
 export default function Services() {
     // return (

@@ -8,7 +8,7 @@ import Features2 from "@/components/sections/features/Features2";
 import Hero3 from "@/components/sections/hero/Hero3";
 import TextMarquee from "@/components/sections/marquee/TextMarquee";
 import Portfolios3 from "@/components/sections/portfolios/Portfolios3";
-import Services3 from "@/components/sections/services/Services3";
+import Services3 from "@/components/sections/services-old/Services3";
 import Team2 from "@/components/sections/teams/Team2";
 import Testimonials3 from "@/components/sections/testimonials/Testimonials3";
 import BackToTop from "@/components/shared/others/BackToTop";

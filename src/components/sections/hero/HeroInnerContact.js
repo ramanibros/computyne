@@ -22,7 +22,7 @@ const HeroInnerMod = ({title, text, breadcrums = []}) => {
                         >
                             <div className="countup-item">
                                 <FunfactContact type={3} currentValue={100} symbol={"+"}/>
-								<span className="count-text-mod-2">Inc500 Client</span>
+								<span className="count-text-mod-2">Inc5000 Client</span>
 								<span
 									className="count-separator"
 									style={{

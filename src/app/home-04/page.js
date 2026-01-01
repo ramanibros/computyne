@@ -7,7 +7,7 @@ import Funfact2 from "@/components/sections/funfacts/Funfact2";
 import Hero4 from "@/components/sections/hero/Hero4";
 import Portfolios4 from "@/components/sections/portfolios/Portfolios4";
 import PricingPlan2 from "@/components/sections/pricing-plan/PricingPlan2";
-import Services4 from "@/components/sections/services/Services4";
+import Services4 from "@/components/sections/services-old/Services4";
 import Testimonials4 from "@/components/sections/testimonials/Testimonials4";
 import BackToTop from "@/components/shared/others/BackToTop";
 import ClientWrapper from "@/components/shared/wrappers/ClientWrapper";

@@ -8,7 +8,7 @@ import Cta3 from "@/components/sections/cta/Cta3";
 import Hero9 from "@/components/sections/hero/Hero9";
 import FeatureMarquee from "@/components/sections/marquee/FeatureMarquee";
 import Portfolios9 from "@/components/sections/portfolios/Portfolios9";
-import Services9 from "@/components/sections/services/Services9";
+import Services9 from "@/components/sections/services-old/Services9";
 import Team5 from "@/components/sections/teams/Team5";
 import Testimonials9 from "@/components/sections/testimonials/Testimonials9";
 import BackToTop from "@/components/shared/others/BackToTop";

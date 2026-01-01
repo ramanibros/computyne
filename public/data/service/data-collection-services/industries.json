@@ -1,0 +1,44 @@
+[
+	{
+		"id": 1,
+		"title": "AI & ML",
+		"desc": "AI training data collection services for clean, labeled, high-accuracy datasets used to train models, generate synthetic data, and enhance ML performance.",
+		"img": "/images/blog/blog-1.webp"
+	},
+	{
+		"id": 2,
+		"title": "eCommerce & Retail",
+		"desc": "Competitor price tracking scraping, catalog data extraction services, SKU-level data capture, stock and seller monitoring for global marketplaces.",
+		"img": "/images/blog/blog-2.webp"
+	},
+	{
+		"id": 3,
+		"title": "Property & Real Estate",
+		"desc": "MLS property scraping, real estate listing data collection, neighborhood insights, rental trends, and property document data capture.",
+		"img": "/images/blog/blog-3.webp"
+	},
+	{
+		"id": 4,
+		"title": "Enterprise & B2B",
+		"desc": "Automated enterprise dataset sourcing, B2B contact list building services, large-scale business data extraction, and lead insights.",
+		"img": "/images/blog/blog-4.webp"
+	},
+	{
+		"id": 5,
+		"title": "Finance & Data Providers",
+		"desc": "Financial market data scraping, stock and price collection APIs, and banking KYC data capture outsourcing.",
+		"img": "/images/blog/blog-5.webp"
+	},
+	{
+		"id": 6,
+		"title": "Healthcare",
+		"desc": "HIPAA-aligned medical research data sourcing and healthcare dataset collection with compliance-focused processes.",
+		"img": "/images/blog/blog-6.webp"
+	},
+	{
+		"id": 7,
+		"title": "Travel & Hospitality",
+		"desc": "Hotel rate monitoring scraping, OTA review and rating data collection, and travel platform analytics.",
+		"img": "/images/blog/blog-7.webp"
+	}
+]

@@ -7,7 +7,7 @@ import Funfact3 from "@/components/sections/funfacts/Funfact3";
 import Hero8 from "@/components/sections/hero/Hero8";
 import FeatureMarquee2 from "@/components/sections/marquee/FeatureMarquee2";
 import Portfolios8 from "@/components/sections/portfolios/Portfolios8";
-import Services8 from "@/components/sections/services/Services8";
+import Services8 from "@/components/sections/services-old/Services8";
 import Team4 from "@/components/sections/teams/Team4";
 import Testimonials8 from "@/components/sections/testimonials/Testimonials8";
 import BackToTop from "@/components/shared/others/BackToTop";

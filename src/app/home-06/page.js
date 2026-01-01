@@ -9,7 +9,7 @@ import Hero6 from "@/components/sections/hero/Hero6";
 import TextMarquee from "@/components/sections/marquee/TextMarquee";
 import Portfolios6 from "@/components/sections/portfolios/Portfolios6";
 import Process3 from "@/components/sections/process/Process3";
-import Services6 from "@/components/sections/services/Services6";
+import Services6 from "@/components/sections/services-old/Services6";
 import Testimonials6 from "@/components/sections/testimonials/Testimonials6";
 import BackToTop from "@/components/shared/others/BackToTop";
 import ClientWrapper from "@/components/shared/wrappers/ClientWrapper";

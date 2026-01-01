@@ -8,7 +8,7 @@ import TextMarquee from "@/components/sections/marquee/TextMarquee";
 import Portfolios10 from "@/components/sections/portfolios/Portfolios10";
 import PricingPlan4 from "@/components/sections/pricing-plan/PricingPlan4";
 import Process4 from "@/components/sections/process/Process4";
-import Services10 from "@/components/sections/services/Services10";
+import Services10 from "@/components/sections/services-old/Services10";
 import Testimonials10 from "@/components/sections/testimonials/Testimonials10";
 import BackToTop from "@/components/shared/others/BackToTop";
 import TjMagicCursor from "@/components/shared/others/TjMagicCursor";

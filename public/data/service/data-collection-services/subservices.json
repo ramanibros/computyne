@@ -1,0 +1,94 @@
+[
+	{
+		"id": 1,
+		"title": "Data Extraction Services",
+		"desc": "Structured information collected from any digital source and delivered in ready-to-use formats.",
+		"data": [
+			{
+				"value": "Fast, automated extraction"
+			},
+			{
+				"value": "Multi-format delivery (CSV, JSON, Excel, API feeds)"
+			},
+			{
+				"value": "99%+ accuracy and validation"
+			},
+			{
+				"value": "Ideal for large-volume datasets"
+			}
+		]
+	},
+	{
+		"id": 2,
+		"title": "Web Research Services",
+		"desc": "Authentic, manually verified research from credible sources across industries.",
+		"data": [
+			{
+				"value": "Market research reports"
+			},
+			{
+				"value": "Industry benchmarking"
+			},
+			{
+				"value": "Verified statistical data"
+			},
+			{
+				"value": "Competitive and sector-based insights"
+			}
+		]
+	},
+	{
+		"id": 3,
+		"title": "List Building & B2B Contact Data Collection",
+		"desc": "Targeted, accurate business lists for outbound sales, email marketing, ABM campaigns, and prospecting with region, industry, and role-based segmentation.",
+		"data": [
+			{
+				"value": "Verified business contacts"
+			},
+			{
+				"value": "Ideal for B2B growth and outreach"
+			},
+			{
+				"value": "Higher conversion and engagement rates"
+			}
+		]
+	},
+	{
+		"id": 4,
+		"title": "Web Scraping Services",
+		"desc": "Automated web crawling solutions designed for high-speed, accurate data harvesting.",
+		"data": [
+			{
+				"value": "Automated enterprise web scraping"
+			},
+			{
+				"value": "Competitor and market monitoring"
+			},
+			{
+				"value": "Real-time product catalog extraction"
+			},
+			{
+				"value": "Cloud-based data harvesting tools"
+			}
+		]
+	},
+	{
+		"id": 5,
+		"title": "Property Data Collection Solutions",
+		"desc": "End-to-end real estate data sourcing with accuracy, security, and compliance.",
+		"data": [
+			{
+				"value": "MLS scraping and listings capture"
+			},
+			{
+				"value": "Real-time data feeds and scheduled updates"
+			},
+			{
+				"value": "Zoning classification and permitted-use insights"
+			},
+			{
+				"value": "Property, agent, and locality data"
+			}
+		]
+	}
+]
