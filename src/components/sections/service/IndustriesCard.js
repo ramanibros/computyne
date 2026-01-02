@@ -9,9 +9,9 @@ const IndustriesCard = ({ industry, idx }) => {
 			</div>
 			<div className="blog-content">
 				<div className="title-area">
-					<h3 className="title">
+					<h4 className="title">
 						{title}
-					</h3>
+					</h4>
 					<p className="desc  wow fadeInUp" data-wow-delay=".8s">
 						{desc}
 					</p>
