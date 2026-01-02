@@ -6,12 +6,24 @@ import MobileMenuItem from "./MobileMenuItem";
 
 const MobileNavbar = () => {
 	const navItems = getNavItems();
+	// const homeNav = navItems[0];
+	// const pagesNav = navItems[2];
+	// const serviceNav = navItems[3];
+	// const portfolioNav = navItems[4];
+	// const blogNav = navItems[5];
+	// const contactNav = navItems[6];
+
+
 	const homeNav = navItems[0];
+	const servicesNav = navItems[1];
+	const hireResourcesNav = navItems[8];
 	const pagesNav = navItems[2];
-	const serviceNav = navItems[3];
-	const portfolioNav = navItems[4];
+	const industriesNav = navItems[3];
+	const aboutNav = navItems[4]
 	const blogNav = navItems[5];
-	const contactNav = navItems[6];
+	const portfolioNav = navItems[6];
+	const contactNav = navItems[7]
+
 	return (
 		<div className="hamburger_menu">
 			<div className="mobile_menu mean-container">
@@ -29,7 +41,13 @@ const MobileNavbar = () => {
 					</Link>
 					<nav className="mean-nav">
 						<ul>
-							<MobileMenuItem
+							{/* <li className="mean-last">
+								<Link href={homeNav?.path ? homeNav?.path : "#"}>
+									{" "}
+									{homeNav?.name ? homeNav?.name : "Home"}
+								</Link>
+							</li> */}
+							{/* <MobileMenuItem
 								text={homeNav?.name}
 								url={homeNav?.path ? homeNav?.path : "#"}
 								submenuClass={"header__mega-menu mega-menu"}
@@ -86,8 +104,84 @@ const MobileNavbar = () => {
 										</div>
 									</div>
 								</li>
-							</MobileMenuItem>
+							</MobileMenuItem> */}
+
 							<MobileMenuItem
+								text={servicesNav?.name}
+								url={servicesNav?.path}
+								submenuClass={"header__mega-menu mega-menu mega-menu-pages"}
+							>
+								<li>
+									<div className="mega-menu-wrapper">
+										{servicesNav?.submenu?.length
+											? servicesNav?.submenu?.map((pageItem, idx) => (
+													<div key={idx} className="mega-menu-pages-single">
+														<div className="mega-menu-pages-single-inner">
+															<h6 className="mega-menu-title">
+																{pageItem?.name}
+															</h6>
+															<div className="mega-menu-list">
+																{pageItem?.items?.length
+																	? pageItem?.items?.map((item, idx2) => (
+																			<Link
+																				key={100 + idx2}
+																				href={item?.path ? item?.path : "/"}
+																				className={
+																					item?.isActive ? "active" : ""
+																				}
+																			>
+																				{item?.name}
+																				{item?.badge ? (
+																					<span
+																						className={`mega-menu-badge tj-zoom-in-out-anim ${
+																							item?.badge === "HOT"
+																								? "mega-menu-badge-hot"
+																								: ""
+																						}`}
+																					>
+																						{item?.badge}
+																					</span>
+																				) : (
+																					""
+																				)}
+																			</Link>
+																	  ))
+																	: ""}
+															</div>
+														</div>
+													</div>
+											  ))
+											: ""}
+										<div className="col-12 col-lg-3 mega-menu-pages-single">
+											<div className="mega-menu-pages-single-inner">
+												<div className="feature-box">
+													<div className="feature-content">
+														<h2 className="title">Modern</h2>
+														<span>Home Makeover</span>
+														<Link
+															className="read-more feature-contact"
+															href="tel:8321890640"
+														>
+															<i className="tji-phone-3"></i>
+															<span>+8 (321) 890-640</span>
+														</Link>
+													</div>
+													<div className="feature-images">
+														<Image
+															src="/images/service/service-ad.webp"
+															alt=""
+															width={370}
+															height={370}
+														/>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</li>
+							</MobileMenuItem>
+
+							{/* <MobileMenuItem
 								text={pagesNav?.name}
 								url={pagesNav?.path}
 								submenuClass={"header__mega-menu mega-menu mega-menu-pages"}
@@ -160,14 +254,15 @@ const MobileNavbar = () => {
 										</div>
 									</div>
 								</li>
-							</MobileMenuItem>
+							</MobileMenuItem> */}
+
 							<MobileMenuItem
-								text={serviceNav?.name}
-								url={serviceNav?.path ? serviceNav?.path : "#"}
+								text={industriesNav?.name}
+								url={industriesNav?.path ? industriesNav?.path : "#"}
 								submenuClass={"mega-menu-service"}
 							>
-								{serviceNav?.submenu?.length
-									? serviceNav?.submenu?.map((item, idx) => (
+								{industriesNav?.submenu?.length
+									? industriesNav?.submenu?.map((item, idx) => (
 											<li key={idx}>
 												<Link
 													className="mega-menu-service-single"
@@ -195,23 +290,9 @@ const MobileNavbar = () => {
 									  ))
 									: ""}
 							</MobileMenuItem>
-							<MobileMenuItem
-								text={portfolioNav?.name}
-								url={portfolioNav?.path ? portfolioNav?.path : "#"}
-							>
-								{portfolioNav?.submenu?.length
-									? portfolioNav?.submenu?.map((item, idx) => (
-											<li
-												key={idx}
-												className={item?.isActive ? "current-menu-item" : ""}
-											>
-												<Link href={item?.path ? item?.path : "/portfolios"}>
-													{item?.name ? item?.name : "Portfolio"}
-												</Link>
-											</li>
-									  ))
-									: ""}
-							</MobileMenuItem>
+
+							
+
 							<MobileMenuItem
 								text={blogNav?.name}
 								url={blogNav?.path ? blogNav?.path : "#"}
@@ -229,6 +310,39 @@ const MobileNavbar = () => {
 									  ))
 									: ""}
 							</MobileMenuItem>
+
+							<MobileMenuItem
+								text={portfolioNav?.name}
+								url={portfolioNav?.path ? portfolioNav?.path : "#"}
+							>
+								{portfolioNav?.submenu?.length
+									? portfolioNav?.submenu?.map((item, idx) => (
+											<li
+												key={idx}
+												className={item?.isActive ? "current-menu-item" : ""}
+											>
+												<Link href={item?.path ? item?.path : "/portfolios"}>
+													{item?.name ? item?.name : "Portfolio"}
+												</Link>
+											</li>
+									  ))
+									: ""}
+							</MobileMenuItem>
+
+							<li className="mean-last">
+								<Link href={hireResourcesNav?.path ? hireResourcesNav?.path : "#"}>
+									{" "}
+									{hireResourcesNav?.name ? hireResourcesNav?.name : "Hire Resources"}
+								</Link>
+							</li>
+
+							<li className="mean-last">
+								<Link href={aboutNav?.path ? aboutNav?.path : "#"}>
+									{" "}
+									{aboutNav?.name ? aboutNav?.name : "About Us"}
+								</Link>
+							</li>
+							
 							<li className="mean-last">
 								<Link href={contactNav?.path ? contactNav?.path : "#"}>
 									{" "}
