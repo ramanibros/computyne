@@ -1,7 +1,9 @@
 import Footer from "@/components/layout/footer/Footer";
+import FooterMod from "@/components/layout/footer/FooterMod";
 import Header from "@/components/layout/header/Header";
 import BlogsGridPrimary from "@/components/sections/blogs/BlogsGridPrimary";
 import Cta from "@/components/sections/cta/Cta";
+import CallSchedule from "@/components/sections/funfacts/CallSchedule";
 import HeroInner from "@/components/sections/hero/HeroInner";
 import BackToTop from "@/components/shared/others/BackToTop";
 import HeaderSpace from "@/components/shared/others/HeaderSpace";
@@ -17,9 +19,9 @@ export default function BlogRightSidebar() {
 					<main>
 						<HeaderSpace /> <HeroInner title={"Blog grid"} text={"Blog grid"} />
 						<BlogsGridPrimary />
-						<Cta />
+						<CallSchedule />
 					</main>
-					<Footer />
+					<FooterMod />
 				</div>
 			</div>
 			<ClientWrapper />
