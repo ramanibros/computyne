@@ -46,29 +46,5 @@
 		"name": "Android",
 		"icon": "/images/tech/ic-android.svg",
 		"path": "/technologies/android"
-	},
-	{
-		"id": 9,
-		"name": "Artificial Intelligence",
-		"icon": "/images/tech/ic-ai.svg",
-		"path": "/technologies/artificial-intelligence"
-	},
-	{
-		"id": 10,
-		"name": "AWS",
-		"icon": "/images/tech/ic-aws.svg",
-		"path": "/technologies/aws"
-	},
-	{
-		"id": 11,
-		"name": "Azure",
-		"icon": "/images/tech/ic-azure.svg",
-		"path": "/technologies/azure"
-	},
-	{
-		"id": 12,
-		"name": "Google Cloud",
-		"icon": "/images/tech/ic-google-cloud.svg",
-		"path": "/technologies/google-cloud"
 	}
-];
+]

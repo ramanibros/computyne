@@ -1,7 +1,9 @@
 import Footer from "@/components/layout/footer/Footer";
+import FooterMod from "@/components/layout/footer/FooterMod";
 import Header from "@/components/layout/header/Header";
 import BlogMain from "@/components/layout/main/BlogMain";
 import Cta from "@/components/sections/cta/Cta";
+import CallSchedule from "@/components/sections/funfacts/CallSchedule";
 import BackToTop from "@/components/shared/others/BackToTop";
 import HeaderSpace from "@/components/shared/others/HeaderSpace";
 import ClientWrapper from "@/components/shared/wrappers/ClientWrapper";
@@ -17,9 +19,9 @@ export default function Blogs() {
 					<main>
 						<HeaderSpace />
 						<BlogMain />
-						<Cta />
+						<CallSchedule />
 					</main>
-					<Footer />
+					<FooterMod />
 				</div>
 			</div>
 			<ClientWrapper />

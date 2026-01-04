@@ -14,6 +14,7 @@ const Navbar = ({ headerType, isStickyHeader }) => {
 	const pagesNav = makeActiveLink(navItems[2]);
 	const industriesNav = makeActiveLink(navItems[3]);
 	const aboutNav = makeActiveLink(navItems[4])
+	const insightNav = makeActiveLink(navItems[9])
 	const blogNav = makeActiveLink(navItems[5]);
 	const portfolioNav = makeActiveLink(navItems[6]);
 	const contactNav = makeActiveLink(navItems[7])
@@ -37,11 +38,14 @@ const Navbar = ({ headerType, isStickyHeader }) => {
 						className={`has-dropdown ${servicesNav?.isActive ? "current-menu-ancestor" : ""
 							}`}
 					>
-						<Link href={servicesNav?.path}>{servicesNav?.name}</Link>
-
+						{/* <Link href={servicesNav?.path}>{servicesNav?.name}</Link> */}
+						<a className="custom-anchor" onClick={(e) => e.preventDefault()}>
+							{servicesNav?.name}
+						</a>
 						<ul className="sub-menu header__mega-menu mega-menu mega-menu-pages">
 							<li>
 								<div className="mega-menu-wrapper tabs-layout">
+									{/* LEFT SIDE : TAB MENU */}
 
 									<div className="mega-menu-left">
 										<div className="mega-menu-tabs">
@@ -82,14 +86,24 @@ const Navbar = ({ headerType, isStickyHeader }) => {
 
 									</div>
 
-									{/* LEFT SIDE : TAB MENU */}
 									
 
 									{/* CENTER : TAB CONTENT */}
-									<div className={`mega-menu-content ${servicesNav?.submenu?.[activeTab]?.items?.length <= 7
-											? "one-column"
-											: "two-column"
-										}`}>
+									<div className={`mega-menu-center`}>
+
+										{/*  TITLE — NOT GRID */}
+										<div className="mega-menu-submenu-title">
+											<Link href={servicesNav.submenu[activeTab].path}>
+												{servicesNav.submenu[activeTab].name}
+											</Link>
+										</div>
+
+										<div
+											className={`mega-menu-content ${servicesNav.submenu[activeTab].items.length <= 7
+													? "one-column"
+													: "two-column"
+												}`}
+										>
 										{servicesNav?.submenu?.[activeTab]?.items?.map((item, idx) => (
 											<Link
 												key={idx}
@@ -115,6 +129,7 @@ const Navbar = ({ headerType, isStickyHeader }) => {
 												)}
 											</Link>
 										))}
+										</div>
 									</div>
 
 									{/* RIGHT SIDE : FEATURE BOX */}
@@ -151,86 +166,18 @@ const Navbar = ({ headerType, isStickyHeader }) => {
 						</Link>
 					</li>
 
-					{/* <li
-						className={`has-dropdown ${
-							pagesNav?.isActive ? "current-menu-ancestor" : ""
-						}`}
-					>
-						<Link href={pagesNav?.path}>{pagesNav?.name}</Link>
-						<ul className="sub-menu header__mega-menu mega-menu mega-menu-pages">
-							<li>
-								<div className="mega-menu-wrapper">
-									{pagesNav?.submenu?.length
-										? pagesNav?.submenu?.map((pageItem, idx) => (
-												<div key={idx} className="mega-menu-pages-single">
-													<div className="mega-menu-pages-single-inner">
-														<h6 className="mega-menu-title">
-															{pageItem?.name}
-														</h6>
-														<div className="mega-menu-list">
-															{pageItem?.items?.length
-																? pageItem?.items?.map((item, idx2) => (
-																		<Link
-																			key={100 + idx2}
-																			href={item?.path ? item?.path : "/"}
-																			className={item?.isActive ? "active" : ""}
-																		>
-																			{item?.name}
-																			{item?.badge ? (
-																				<span
-																					className={`mega-menu-badge tj-zoom-in-out-anim ${
-																						item?.badge === "HOT"
-																							? "mega-menu-badge-hot"
-																							: ""
-																					}`}
-																				>
-																					{item?.badge}
-																				</span>
-																			) : (
-																				""
-																			)}
-																		</Link>
-																  ))
-																: ""}
-														</div>
-													</div>
-												</div>
-										  ))
-										: ""}
-
-									<div className="col-12 col-lg-3 mega-menu-pages-single">
-										<div className="mega-menu-pages-single-inner">
-											<div className="feature-box">
-												<div className="feature-content">
-													<h2 className="title">Modern</h2>
-													<span>Home Makeover</span>
-													<Link
-														className="read-more feature-contact"
-														href="tel:8321890640"
-													>
-														<i className="tji-phone-3"></i>
-														<span>+8 (321) 890-640</span>
-													</Link>
-												</div>
-												<div className="feature-images">
-													<img src="/images/service/service-ad.webp" alt="" />
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</li>
-						</ul>
-					</li> */}
 
 					<li
 						className={`has-dropdown ${
 							industriesNav?.isActive ? "current-menu-ancestor" : ""
 						}`}
 					>
-						<Link href={industriesNav?.path ? industriesNav?.path : "#"}>
+						{/* <Link href={industriesNav?.path ? industriesNav?.path : "#"}>
 							{industriesNav?.name}
-						</Link>
+						</Link> */}
+						<a className="custom-anchor" onClick={(e) => e.preventDefault()}>
+							{industriesNav?.name}
+						</a>
 						<ul className="sub-menu  mega-menu-service">
 							{industriesNav?.submenu?.length
 								? industriesNav?.submenu?.map((item, idx) => (
@@ -271,15 +218,18 @@ const Navbar = ({ headerType, isStickyHeader }) => {
 
 					<li
 						className={`has-dropdown ${
-							blogNav?.isActive ? "current-menu-ancestor" : ""
+							insightNav?.isActive ? "current-menu-ancestor" : ""
 						}`}
 					>
-						<Link href={blogNav?.path ? blogNav?.path : "#"}>
-							{blogNav?.name}
-						</Link>
+						{/* <Link href={insightNav?.path ? insightNav?.path : "#"}>
+							{insightNav?.name}
+						</Link> */}
+						<a className="custom-anchor" onClick={(e) => e.preventDefault()}>
+							{insightNav?.name}
+						</a>
 						<ul className="sub-menu">
-							{blogNav?.submenu?.length
-								? blogNav?.submenu?.map((item, idx) => (
+							{insightNav?.submenu?.length
+								? insightNav?.submenu?.map((item, idx) => (
 										<li
 											key={idx}
 											className={item?.isActive ? "current-menu-item" : ""}
@@ -292,32 +242,6 @@ const Navbar = ({ headerType, isStickyHeader }) => {
 								: ""}
 						</ul>
 					</li>
-
-					<li
-						className={`has-dropdown ${
-							portfolioNav?.isActive ? "current-menu-ancestor" : ""
-						}`}
-					>
-						<Link href={portfolioNav?.path ? portfolioNav?.path : "#"}>
-							{portfolioNav?.name}
-						</Link>
-						<ul className="sub-menu">
-							{portfolioNav?.submenu?.length
-								? portfolioNav?.submenu?.map((item, idx) => (
-										<li
-											key={idx}
-											className={item?.isActive ? "current-menu-item" : ""}
-										>
-											<Link href={item?.path ? item?.path : "/portfolios"}>
-												{item?.name ? item?.name : "Portfolio"}
-											</Link>
-										</li>
-								  ))
-								: ""}
-						</ul>
-					</li>
-
-					
 
 					<li className={contactNav?.isActive ? "current-menu-ancestor" : ""}>
 						<Link href={contactNav?.path ? contactNav?.path : "#"}>
