@@ -6,13 +6,6 @@ import MobileMenuItem from "./MobileMenuItem";
 
 const MobileNavbar = () => {
 	const navItems = getNavItems();
-	// const homeNav = navItems[0];
-	// const pagesNav = navItems[2];
-	// const serviceNav = navItems[3];
-	// const portfolioNav = navItems[4];
-	// const blogNav = navItems[5];
-	// const contactNav = navItems[6];
-
 
 	const homeNav = navItems[0];
 	const servicesNav = navItems[1];
