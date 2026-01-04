@@ -12,7 +12,68 @@ import FooterMod from "@/components/layout/footer/FooterMod";
 import CallSchedule from "@/components/sections/funfacts/CallSchedule";
 import PortfoliosMod from "@/components/sections/portfolios/PortfoliosMod";
 
-export default function Home2() {
+
+/* ================================
+   SEO META DATA (AUTO <head>)
+================================ */
+export const metadata = {
+	metadataBase: new URL("https://www.computyne.com"),
+
+	title: "Computyne: Global Outsourcing &amp; Data Services Company	",
+	description:
+		"Computyne is your trusted outsourcing company for end-to-end data services and solutions. Partner with us to boost efficiency, accuracy &amp; business performance.",
+	keywords: [
+		"data entry outsourcing",
+		"data enrichment",
+		"back office solutions",
+		"outsourcing company",
+		"business process management",
+	],
+
+	alternates: {
+		canonical: "https://computyne.com/",
+	},
+
+	openGraph: {
+		title: "Computyne: Global Outsourcing &amp; Data Services Company",
+		description:
+			"Computyne provides professional outsourcing services, data management, and business process solutions to help companies operate efficiently.",
+		url: "https://computyne.com/",
+		siteName: "Computyne",
+		type: "website",
+		images: [
+			{
+				url: "https://computyne.com/logo.png",
+				width: 800,
+				height: 600,
+				alt: "Computyne Logo",
+			},
+		],
+	},
+
+	twitter: {
+		card: "Computyne: Global Outsourcing &amp; Data Services Company",
+		title: "Computyne provides professional outsourcing services, data management, and business process solutions to help companies operate efficiently.",
+		description:
+			"End-to-end data outsourcing, data processing, and web research services for global enterprises.",
+		images: [
+			{
+				url: "https://computyne.com/logo.png",
+				width: 800,
+				height: 600,
+				alt: "Computyne Logo",
+			},
+		],
+	},
+
+};
+
+
+/* ================================
+   PAGE COMPONENT
+================================ */
+
+export default function Home(){
 	return (
 		<div>
 			<BackToTop />
