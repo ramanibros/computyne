@@ -93,7 +93,7 @@ const Navbar = ({ headerType, isStickyHeader }) => {
 
 										{/*  TITLE — NOT GRID */}
 										<div className="mega-menu-submenu-title">
-											<Link href={'/contact'}>
+											<Link href={servicesNav.submenu[activeTab].path}>
 												{servicesNav.submenu[activeTab].name}
 											</Link>
 										</div>

@@ -78,7 +78,7 @@
 			{
 				"id": 1,
 				"name": "Data Collection",
-				"path": "#",
+				"path": "/data-collection-services",
 				"items": [
 					{
 						"id": 1,
@@ -127,7 +127,7 @@
 			{
 				"id": 2,
 				"name": "Data Management",
-				"path": "#",
+				"path": "/data-management-services",
 				"items": [
 					{
 						"id": 1,
@@ -183,7 +183,7 @@
 			{
 				"id": 3,
 				"name": "Data Annotation Services",
-				"path": "#",
+				"path": "/data-annotation-services",
 				"items": [
 					{
 						"id": 1,
@@ -225,7 +225,7 @@
 			{
 				"id": 4,
 				"name": "Document Processing",
-				"path": "#",
+				"path": "/document-processing-services",
 				"items": [
 					{
 						"id": 1,
@@ -267,7 +267,7 @@
 			{
 				"id": 5,
 				"name": "Data Entry",
-				"path": "#",
+				"path": "/data-entry-services",
 				"items": [
 					{
 						"id": 1,
@@ -305,6 +305,12 @@
 						"badge": null
 					}
 				]
+			},
+			{
+				"id": 5,
+				"name": "Data Solutions",
+				"path": "/data-solutions-services",
+				"items": []
 			}
 		]
 	},
