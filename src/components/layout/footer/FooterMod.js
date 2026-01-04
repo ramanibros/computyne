@@ -102,13 +102,13 @@ const FooterMod = () => {
 										<Link href="/about">About Us</Link>
 									</li>
 									<li>
-										<Link href="/contact">Contact us</Link>
+										<Link href="#">Case Studies</Link>
 									</li>
 									<li>
 										<Link href="/blogs">Blogs</Link>
 									</li>
 									<li>
-										<Link href="#">Case Studies</Link>
+										<Link href="/contact">Contact us</Link>
 									</li>
 								</ul>
 							</div>

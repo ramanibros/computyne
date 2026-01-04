@@ -1,6 +1,7 @@
 import BootstrapWrapper from "@/components/shared/wrappers/BootstrapWrapper";
 import Link from "next/link";
 import FaqItem from "@/components/sections/service/FaqItem";
+import ButtonPrimary from "@/components/shared/buttons/ButtonPrimary";
 
 const Faq = () => {
 	const items =[
@@ -62,13 +63,9 @@ const Faq = () => {
 							<h2 className="sec-title text-anim">
 								Frequently Asked Questions
 							</h2>
-							<Link className="number" href="tel:18884521505">
-								{" "}
-								<span className="call-icon">
-									<i className="tji-phone"></i>
-								</span>
-								<span>1-888-452-1505</span>
-							</Link>
+							<div className="btn-area wow fadeInUp mt-30" data-wow-delay=".8s">
+								<ButtonPrimary text={"Contact Now"} url={"/contact"} />
+							</div>
 						</div>
 					</div>
 					<div className="col-12 col-lg-8">

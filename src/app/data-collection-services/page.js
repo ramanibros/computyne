@@ -35,7 +35,6 @@ export default function dataCollectionServices() {
                         <Faq type={1}/>
                         <Testimonials/>
                         <Industries/>
-                        {/*<Services5Mod/>*/}
                         <CallSchedule/>
                     </main>
                     <FooterMod/>

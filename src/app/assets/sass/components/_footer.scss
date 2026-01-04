@@ -50,13 +50,14 @@ START: Theme Footer CSS
 	grid-template-columns: repeat(2, 1fr);
 	column-gap: 1px;
 	row-gap: 18px;
+	max-width: 280px;
 }
 
 .award-logo-mod {
-	max-width: 96px;
+	max-width: 120px;
 	display: flex;
-	align-items: center;
-	justify-content: center;
+	align-items: start;
+	justify-content: left;
 }
 
 .footer-widget {
