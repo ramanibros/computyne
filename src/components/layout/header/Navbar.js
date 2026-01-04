@@ -2,7 +2,7 @@ import useActiveLink from "@/hooks/useActiveLink";
 import getNavItems from "@/libs/getNavItems";
 import getTechServices from "@/libs/getTechServices";
 import Link from "next/link";
-import { useState } from "react";
+import {useState} from "react";
 
 const Navbar = ({ headerType, isStickyHeader }) => {
 	const makeActiveLink = useActiveLink();
