@@ -1,0 +1,74 @@
+[
+	{
+		"id": 1,
+		"name": "Python",
+		"icon": "/images/tech/ic-python.svg",
+		"path": "/technologies/python"
+	},
+	{
+		"id": 2,
+		"name": "Java",
+		"icon": "/images/tech/ic-java.svg",
+		"path": "/technologies/java"
+	},
+	{
+		"id": 3,
+		"name": "NodeJS",
+		"icon": "/images/tech/ic-js.svg",
+		"path": "/technologies/nodejs"
+	},
+	{
+		"id": 4,
+		"name": ".NET",
+		"icon": "/images/tech/ic-dot-net.svg",
+		"path": "/technologies/dotnet"
+	},
+	{
+		"id": 5,
+		"name": "React Native",
+		"icon": "/images/tech/ic-react-native.svg",
+		"path": "/technologies/react-native"
+	},
+	{
+		"id": 6,
+		"name": "Angular",
+		"icon": "/images/tech/ic-angular.svg",
+		"path": "/technologies/angular"
+	},
+	{
+		"id": 7,
+		"name": "iOS",
+		"icon": "/images/tech/ic-ios.svg",
+		"path": "/technologies/ios"
+	},
+	{
+		"id": 8,
+		"name": "Android",
+		"icon": "/images/tech/ic-android.svg",
+		"path": "/technologies/android"
+	},
+	{
+		"id": 9,
+		"name": "Artificial Intelligence",
+		"icon": "/images/tech/ic-ai.svg",
+		"path": "/technologies/artificial-intelligence"
+	},
+	{
+		"id": 10,
+		"name": "AWS",
+		"icon": "/images/tech/ic-aws.svg",
+		"path": "/technologies/aws"
+	},
+	{
+		"id": 11,
+		"name": "Azure",
+		"icon": "/images/tech/ic-azure.svg",
+		"path": "/technologies/azure"
+	},
+	{
+		"id": 12,
+		"name": "Google Cloud",
+		"icon": "/images/tech/ic-google-cloud.svg",
+		"path": "/technologies/google-cloud"
+	}
+];

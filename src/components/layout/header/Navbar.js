@@ -1,25 +1,28 @@
 import useActiveLink from "@/hooks/useActiveLink";
 import getNavItems from "@/libs/getNavItems";
+import getTechServices from "@/libs/getTechServices";
 import Link from "next/link";
 import { useState } from "react";
 
 const Navbar = ({ headerType, isStickyHeader }) => {
 	const makeActiveLink = useActiveLink();
 	const navItems = getNavItems();
+	const techServices = getTechServices();
 	const homeNav = makeActiveLink(navItems[0]);
-	// const dataSolutionsNav = makeActiveLink(navItems[1]);
-	const pagesCustomNav = makeActiveLink(navItems[1]);
+	const servicesNav = makeActiveLink(navItems[1]);
+    const hireResourcesNav = makeActiveLink(navItems[8]);
 	const pagesNav = makeActiveLink(navItems[2]);
-	const serviceNav = makeActiveLink(navItems[3]);
-	const portfolioNav = makeActiveLink(navItems[4]);
+	const industriesNav = makeActiveLink(navItems[3]);
+	const aboutNav = makeActiveLink(navItems[4])
 	const blogNav = makeActiveLink(navItems[5]);
-	const contactNav = makeActiveLink(navItems[6]);
+	const portfolioNav = makeActiveLink(navItems[6]);
+	const contactNav = makeActiveLink(navItems[7])
 	const [activeTab, setActiveTab] = useState(0);
 	return (
 		<div className="menu-area d-none d-lg-inline-flex align-items-center">
 			<nav id="mobile-menu" className="mainmenu">
 				<ul>
-					<li
+					{/* <li
 						className={
 							homeNav?.isActive ? "current-menu-ancestor" : ""
 						}
@@ -27,140 +30,67 @@ const Navbar = ({ headerType, isStickyHeader }) => {
 						<Link href={homeNav?.path ? homeNav?.path : "#"}>
 							{homeNav?.name ? homeNav?.name : "Home"}
 						</Link>
-						{/* <ul className="sub-menu header__mega-menu mega-menu  ">
-							<li>
-								<div className="mega-menu-wrapper">
-									<div className="container-fluid gap-60-25">
-										<div className="row">
-											{homeNav?.submenu?.length
-												? homeNav?.submenu?.map((item, idx) => (
-														<div key={idx} className="col-xl-3 col-lg-3 col-12">
-															<div
-																className={`tj-demo-thumb ${
-																	item?.isComming ? "coming" : ""
-																}`}
-															>
-																<div className="image">
-																	<Image
-																		src={
-																			item?.img
-																				? item?.img
-																				: "/images/header/demo/home-1.webp"
-																		}
-																		alt=""
-																		width={570}
-																		height={434}
-																	/>
-																	{item?.badge ? (
-																		<span className="tj-demo-badge tj-zoom-in-out-anim">
-																			{item?.badge}
-																		</span>
-																	) : (
-																		""
-																	)}
-																	{!item?.isComming ? (
-																		<div className="tj-demo-button">
-																			<ButtonPrimary
-																				text={"View demo"}
-																				url={item?.path}
-																				className={"header_btn"}
-																			/>
-																		</div>
-																	) : (
-																		""
-																	)}
-																</div>
-																<h6 className="tj-demo-title">
-																	{item?.isComming ? (
-																		item?.name
-																	) : (
-																		<Link href={item?.path ? item?.path : "#"}>
-																			{item?.name}
-																		</Link>
-																	)}
-																</h6>
-															</div>
-														</div>
-												  ))
-												: ""}
-										</div>
-									</div>
-								</div>
-							</li>
-						</ul> */}
-					</li>
-
-					{/* <li
-						className={`has-dropdown ${
-							dataSolutionsNav?.isActive ? "current-menu-ancestor" : ""
-						}`}
-					>
-						<Link href={dataSolutionsNav?.path ? dataSolutionsNav?.path : "#"}>
-							{dataSolutionsNav?.name}
-						</Link>
-						<ul className="sub-menu  mega-menu-service">
-							{dataSolutionsNav?.submenu?.length
-								? dataSolutionsNav?.submenu?.map((item, idx) => (
-										<li key={idx}>
-											<Link
-												className="mega-menu-service-single"
-												href={item?.path ? item?.path : "/"}
-											>
-												{" "}
-												<span className="mega-menu-service-icon">
-													<i
-														className={
-															item?.icon ? item?.icon : "tji-service-1"
-														}
-													></i>
-												</span>{" "}
-												<span className="mega-menu-service-title">
-													{item?.name
-														? item?.name
-														: "Business process optimization"}
-												</span>{" "}
-												<span className="mega-menu-service-nav">
-													<i className="tji-arrow-right-long"></i>
-													<i className="tji-arrow-right-long"></i>
-												</span>
-											</Link>
-										</li>
-								  ))
-								: ""}
-						</ul>
+						
 					</li> */}
 
-
 					<li
-						className={`has-dropdown ${pagesCustomNav?.isActive ? "current-menu-ancestor" : ""
+						className={`has-dropdown ${servicesNav?.isActive ? "current-menu-ancestor" : ""
 							}`}
 					>
-						<Link href={pagesCustomNav?.path}>{pagesCustomNav?.name}</Link>
+						<Link href={servicesNav?.path}>{servicesNav?.name}</Link>
 
 						<ul className="sub-menu header__mega-menu mega-menu mega-menu-pages">
 							<li>
 								<div className="mega-menu-wrapper tabs-layout">
 
-									{/* LEFT SIDE : TAB MENU */}
-									<div className="mega-menu-tabs">
-										{pagesCustomNav?.submenu?.map((pageItem, idx) => (
-											<button
-												key={idx}
-												className={`mega-tab ${activeTab === idx ? "active" : ""
-													}`}
-												onMouseEnter={() => setActiveTab(idx)}
-											>
-												{pageItem?.name}
-											</button>
-										))}
+									<div className="mega-menu-left">
+										<div className="mega-menu-tabs">
+											{servicesNav?.submenu?.map((pageItem, idx) => (
+												<button
+													key={idx}
+													className={`mega-tab ${activeTab === idx ? "active" : ""
+														}`}
+													onMouseEnter={() => setActiveTab(idx)}
+												>
+													{pageItem?.name}
+												</button>
+											))}
+										</div>
+
+										{/* DIVIDER */}
+										<div className="mega-menu-divider" />
+
+										{/* QUICK TECHNOLOGIES */}
+										<div className="mega-tech-services">
+											<h6 className="mega-tech-title">Quick Technologies Services</h6>
+
+											<div className="mega-tech-grid">
+												{techServices.map((tech) => (
+													<Link
+														key={tech.id}
+														href={tech.path}
+														className="mega-tech-item"
+														title={tech.name}
+													>
+														<img src={tech.icon} alt={tech.name} />
+													</Link>
+												))}
+											</div>
+
+
+										</div>
+
 									</div>
 
+									{/* LEFT SIDE : TAB MENU */}
+									
+
 									{/* CENTER : TAB CONTENT */}
-									<div className={`mega-menu-content ${pagesCustomNav?.submenu?.[activeTab]?.items?.length <= 7
+									<div className={`mega-menu-content ${servicesNav?.submenu?.[activeTab]?.items?.length <= 7
 											? "one-column"
 											: "two-column"
 										}`}>
-										{pagesCustomNav?.submenu?.[activeTab]?.items?.map((item, idx) => (
+										{servicesNav?.submenu?.[activeTab]?.items?.map((item, idx) => (
 											<Link
 												key={idx}
 												href={item?.path || "/"}
@@ -215,8 +145,13 @@ const Navbar = ({ headerType, isStickyHeader }) => {
 						</ul>
 					</li>
 
+					<li className={hireResourcesNav?.isActive ? "current-menu-ancestor" : ""}>
+						<Link href={hireResourcesNav?.path ? hireResourcesNav?.path : "#"}>
+							{hireResourcesNav?.name ? hireResourcesNav?.name : "Hire Resources"}
+						</Link>
+					</li>
 
-					<li
+					{/* <li
 						className={`has-dropdown ${
 							pagesNav?.isActive ? "current-menu-ancestor" : ""
 						}`}
@@ -286,18 +221,19 @@ const Navbar = ({ headerType, isStickyHeader }) => {
 								</div>
 							</li>
 						</ul>
-					</li>
+					</li> */}
+
 					<li
 						className={`has-dropdown ${
-							serviceNav?.isActive ? "current-menu-ancestor" : ""
+							industriesNav?.isActive ? "current-menu-ancestor" : ""
 						}`}
 					>
-						<Link href={serviceNav?.path ? serviceNav?.path : "#"}>
-							{serviceNav?.name}
+						<Link href={industriesNav?.path ? industriesNav?.path : "#"}>
+							{industriesNav?.name}
 						</Link>
 						<ul className="sub-menu  mega-menu-service">
-							{serviceNav?.submenu?.length
-								? serviceNav?.submenu?.map((item, idx) => (
+							{industriesNav?.submenu?.length
+								? industriesNav?.submenu?.map((item, idx) => (
 										<li key={idx}>
 											<Link
 												className="mega-menu-service-single"
@@ -326,29 +262,13 @@ const Navbar = ({ headerType, isStickyHeader }) => {
 								: ""}
 						</ul>
 					</li>
-					<li
-						className={`has-dropdown ${
-							portfolioNav?.isActive ? "current-menu-ancestor" : ""
-						}`}
-					>
-						<Link href={portfolioNav?.path ? portfolioNav?.path : "#"}>
-							{portfolioNav?.name}
+
+					<li className={aboutNav?.isActive ? "current-menu-ancestor" : ""}>
+						<Link href={aboutNav?.path ? aboutNav?.path : "#"}>
+							{aboutNav?.name ? aboutNav?.name : "About US"}
 						</Link>
-						<ul className="sub-menu">
-							{portfolioNav?.submenu?.length
-								? portfolioNav?.submenu?.map((item, idx) => (
-										<li
-											key={idx}
-											className={item?.isActive ? "current-menu-item" : ""}
-										>
-											<Link href={item?.path ? item?.path : "/portfolios"}>
-												{item?.name ? item?.name : "Portfolio"}
-											</Link>
-										</li>
-								  ))
-								: ""}
-						</ul>
 					</li>
+
 					<li
 						className={`has-dropdown ${
 							blogNav?.isActive ? "current-menu-ancestor" : ""
@@ -372,11 +292,39 @@ const Navbar = ({ headerType, isStickyHeader }) => {
 								: ""}
 						</ul>
 					</li>
+
+					<li
+						className={`has-dropdown ${
+							portfolioNav?.isActive ? "current-menu-ancestor" : ""
+						}`}
+					>
+						<Link href={portfolioNav?.path ? portfolioNav?.path : "#"}>
+							{portfolioNav?.name}
+						</Link>
+						<ul className="sub-menu">
+							{portfolioNav?.submenu?.length
+								? portfolioNav?.submenu?.map((item, idx) => (
+										<li
+											key={idx}
+											className={item?.isActive ? "current-menu-item" : ""}
+										>
+											<Link href={item?.path ? item?.path : "/portfolios"}>
+												{item?.name ? item?.name : "Portfolio"}
+											</Link>
+										</li>
+								  ))
+								: ""}
+						</ul>
+					</li>
+
+					
+
 					<li className={contactNav?.isActive ? "current-menu-ancestor" : ""}>
 						<Link href={contactNav?.path ? contactNav?.path : "#"}>
 							{contactNav?.name ? contactNav?.name : "Contact"}
 						</Link>
 					</li>
+
 				</ul>
 			</nav>
 		</div>
