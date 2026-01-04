@@ -10,7 +10,7 @@ const Aboutus = ({type}) => {
                         <div className="about-content-area">
                             <div className={`sec-heading ${type === 2 ? "" : "style-3"}`}>
 								<span className="sub-title wow fadeInUp" data-wow-delay=".3s">
-									<i className="tji-box"></i>About Us
+									<i className="tji-box"></i>Overview
 								</span>
                                 <h2 className="sec-title title-anim">
                                     Outsource <span>Resume & CV Formatting</span> to Boost Hiring Speed and Productivity
