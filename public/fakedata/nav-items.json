@@ -73,12 +73,12 @@
 	{
 		"id": 2,
 		"name": "Services",
-		"path": "/404",
+		"path": "#",
 		"submenu": [
 			{
 				"id": 1,
 				"name": "Data Collection",
-				"path": "#",
+				"path": "/data-collection-services",
 				"items": [
 					{
 						"id": 1,
@@ -127,7 +127,7 @@
 			{
 				"id": 2,
 				"name": "Data Management",
-				"path": "#",
+				"path": "/data-management-services",
 				"items": [
 					{
 						"id": 1,
@@ -183,7 +183,7 @@
 			{
 				"id": 3,
 				"name": "Data Annotation Services",
-				"path": "#",
+				"path": "/data-annotation-services",
 				"items": [
 					{
 						"id": 1,
@@ -225,7 +225,7 @@
 			{
 				"id": 4,
 				"name": "Document Processing",
-				"path": "#",
+				"path": "/document-processing-services",
 				"items": [
 					{
 						"id": 1,
@@ -267,7 +267,7 @@
 			{
 				"id": 5,
 				"name": "Data Entry",
-				"path": "#",
+				"path": "/data-entry-services",
 				"items": [
 					{
 						"id": 1,
@@ -305,6 +305,12 @@
 						"badge": null
 					}
 				]
+			},
+			{
+				"id": 5,
+				"name": "Data Solutions",
+				"path": "/data-solutions-services",
+				"items": []
 			}
 		]
 	},
@@ -312,7 +318,7 @@
 	{
 		"id": 3,
 		"name": "Pages",
-		"path": "/about",
+		"path": "#",
 		"submenu": [
 			{
 				"id": 1,
@@ -470,43 +476,43 @@
 	{
 		"id":4,
 		"name": "Industries",
-		"path": "/services",
+		"path": "#",
 		"submenu": [
 			{
 				"id": 1,
 				"name": "Business Strategy Development",
 				"icon": "tji-service-1",
-				"path": "/services/1"
+				"path": "/industries"
 			},
 			{
 				"id": 2,
 				"name": "Customer Experience Solutions",
 				"icon": "tji-service-2",
-				"path": "/services/2"
+				"path": "/industries"
 			},
 			{
 				"id": 3,
 				"name": "Sustainability and ESG Consulting",
 				"icon": "tji-service-3",
-				"path": "/services/3"
+				"path": "/industries"
 			},
 			{
 				"id": 4,
 				"name": "Training and Development Programs",
 				"icon": "tji-service-4",
-				"path": "/services/4"
+				"path": "/industries"
 			},
 			{
 				"id": 5,
 				"name": "IT Support & Maintenance",
 				"icon": "tji-service-5",
-				"path": "/services/5"
+				"path": "/industries"
 			},
 			{
 				"id": 6,
 				"name": "Marketing Strategy & Campaigns",
 				"icon": "tji-service-6",
-				"path": "/services/6"
+				"path": "/industries"
 			}
 		]
 	},
@@ -571,9 +577,29 @@
 		"path": "/contact"
 	},
 	{
-		"id": 8,
+		"id": 9,
 		"name": "Hire Resources",
 		"path": "/hire-resources"
+	},
+	{
+		"id": 10,
+		"name": "Insight",
+		"path": "/blogs",
+		"submenu": [
+			{
+				"id": 1,
+				"name": "Blog",
+				"path": "/blog-grid",
+				"badge": "NEW"
+			},
+			{
+				"id": 2,
+				"name": "Casestudy",
+				"path": "/blog-sidebar",
+				"badge": null
+			}
+			
+		]
 	}
 	
 ]

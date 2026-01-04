@@ -22,7 +22,8 @@ const MobileNavbar = () => {
 	const aboutNav = navItems[4]
 	const blogNav = navItems[5];
 	const portfolioNav = navItems[6];
-	const contactNav = navItems[7]
+	const insightNav = navItems[9];
+	const contactNav = navItems[7];
 
 	return (
 		<div className="hamburger_menu">
@@ -120,6 +121,7 @@ const MobileNavbar = () => {
 															<h6 className="mega-menu-title">
 																{pageItem?.name}
 															</h6>
+															{/* <Link href={"/"} className="mega-menu-title">{pageItem?.name}</Link> */}
 															<div className="mega-menu-list">
 																{pageItem?.items?.length
 																	? pageItem?.items?.map((item, idx2) => (
@@ -291,41 +293,21 @@ const MobileNavbar = () => {
 									: ""}
 							</MobileMenuItem>
 
-							
-
 							<MobileMenuItem
-								text={blogNav?.name}
-								url={blogNav?.path ? blogNav?.path : "#"}
+								text={insightNav?.name}
+								url={insightNav?.path ? insightNav?.path : "#"}
 							>
-								{blogNav?.submenu?.length
-									? blogNav?.submenu?.map((item, idx) => (
-											<li
-												key={idx}
-												className={item?.isActive ? "current-menu-item" : ""}
-											>
-												<Link href={item?.path ? item?.path : "/portfolios"}>
-													{item?.name ? item?.name : "Portfolio"}
-												</Link>
-											</li>
-									  ))
-									: ""}
-							</MobileMenuItem>
-
-							<MobileMenuItem
-								text={portfolioNav?.name}
-								url={portfolioNav?.path ? portfolioNav?.path : "#"}
-							>
-								{portfolioNav?.submenu?.length
-									? portfolioNav?.submenu?.map((item, idx) => (
-											<li
-												key={idx}
-												className={item?.isActive ? "current-menu-item" : ""}
-											>
-												<Link href={item?.path ? item?.path : "/portfolios"}>
-													{item?.name ? item?.name : "Portfolio"}
-												</Link>
-											</li>
-									  ))
+								{insightNav?.submenu?.length
+									? insightNav?.submenu?.map((item, idx) => (
+										<li
+											key={idx}
+											className={item?.isActive ? "current-menu-item" : ""}
+										>
+											<Link href={item?.path ? item?.path : "/portfolios"}>
+												{item?.name ? item?.name : "Portfolio"}
+											</Link>
+										</li>
+									))
 									: ""}
 							</MobileMenuItem>
 
