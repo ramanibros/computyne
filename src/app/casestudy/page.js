@@ -19,8 +19,8 @@ export default function BlogGrid() {
 					<main>
 						<HeaderSpace />
 						<HeroInner
-							title={"Blog Right Sidebar"}
-							text={"Blog Right Sidebar"}
+							title={"Case Study"}
+							text={"Case Study"}
 						/>
 						<BlogsGridPrimary isSidebar={true} />
 						<CallSchedule />

@@ -17,7 +17,7 @@ export default function BlogRightSidebar() {
 			<div id="smooth-wrapper">
 				<div id="smooth-content">
 					<main>
-						<HeaderSpace /> <HeroInner title={"Blog grid"} text={"Blog grid"} />
+						<HeaderSpace /> <HeroInner title={"Blogs"} text={"Blogs"} />
 						<BlogsGridPrimary />
 						<CallSchedule />
 					</main>
