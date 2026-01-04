@@ -1,4 +1,3 @@
-import ButtonPrimary from "@/components/shared/buttons/ButtonPrimary";
 import React from "react";
 
 const HeroInnerMod = ({ title, text, isShowButton = false, buttonLabel, buttonLink }) => {
