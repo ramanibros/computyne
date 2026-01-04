@@ -1,23 +1,23 @@
-import Footer from "@/components/layout/footer/Footer";
 import FooterMod from "@/components/layout/footer/FooterMod";
 import Header from "@/components/layout/header/Header";
 import BlogsGridPrimary from "@/components/sections/blogs/BlogsGridPrimary";
-import Cta from "@/components/sections/cta/Cta";
 import CallSchedule from "@/components/sections/funfacts/CallSchedule";
-import HeroInner from "@/components/sections/hero/HeroInner";
 import BackToTop from "@/components/shared/others/BackToTop";
-import HeaderSpace from "@/components/shared/others/HeaderSpace";
 import ClientWrapper from "@/components/shared/wrappers/ClientWrapper";
+import HeroInnerMod from "@/components/sections/hero/HeroInnerMod";
+
 export default function BlogRightSidebar() {
 	return (
 		<div>
 			<BackToTop />
-			<Header />
-			<Header isStickyHeader={true} />
+			<Header headerType={5} />
+			<Header headerType={5} isStickyHeader={true} />
 			<div id="smooth-wrapper">
 				<div id="smooth-content">
 					<main>
-						<HeaderSpace /> <HeroInner title={"Blogs"} text={"Blogs"} />
+						<div className="top-space-15"></div>
+						<HeroInnerMod title={"Blogs"} text={"Our business process services - driven by data, technology, and people - help" +
+							" clients save time, reduce costs, and improve operational efficiency worldwide."} />
 						<BlogsGridPrimary />
 						<CallSchedule />
 					</main>
