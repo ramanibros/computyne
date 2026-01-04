@@ -589,13 +589,13 @@
 			{
 				"id": 1,
 				"name": "Blog",
-				"path": "/blog-grid",
+				"path": "/blog",
 				"badge": "NEW"
 			},
 			{
 				"id": 2,
 				"name": "Casestudy",
-				"path": "/blog-sidebar",
+				"path": "/casestudy",
 				"badge": null
 			}
 			
