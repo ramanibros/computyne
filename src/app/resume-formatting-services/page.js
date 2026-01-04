@@ -36,7 +36,6 @@ export default function resumeFormattingServices() {
                         <Faq type={1}/>
                         <Testimonials/>
                         <Industries/>
-                        {/*<Services5Mod/>*/}
                         <CallSchedule/>
                     </main>
                     <FooterMod/>
