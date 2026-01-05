@@ -1,7 +1,4 @@
-import Link from "next/link";
 import ButtonPrimary from "../buttons/ButtonPrimary";
-import Portfolios5 from "@/components/sections/portfolios/Portfolios5";
-import Funfact1 from "@/components/sections/funfacts/Funfact1";
 import FunfactSingle from "../funfact/FunfactSingle";
 
 const PortfolioCardMod = ({ portfolio }) => {

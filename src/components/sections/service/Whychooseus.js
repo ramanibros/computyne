@@ -2,7 +2,7 @@
 import getWhychooseus from "@/libs/service/data-collection-services/getWhychooseus";
 import {Autoplay, Navigation, Pagination} from "swiper/modules";
 import {Swiper, SwiperSlide} from "swiper/react";
-import WhychooseusCard from "@/components/sections/service/WhychooseusCard";
+import WhychooseusCard from "./WhychooseusCard";
 
 const Whychooseus = () => {
 	const showbleWhychooseus = getWhychooseus()?.slice(0, 3);

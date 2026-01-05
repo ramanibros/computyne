@@ -1,5 +1,5 @@
-import ButtonPrimary from "@/components/shared/buttons/ButtonPrimary";
 import React from "react";
+import ButtonPrimary from "./ButtonPrimary";
 
 const Banner = ({ title, text, isShowButton = false, buttonLabel, buttonLink }) => {
 	return (

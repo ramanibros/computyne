@@ -1,7 +1,6 @@
-import BootstrapWrapper from "@/components/shared/wrappers/BootstrapWrapper";
-import Link from "next/link";
-import FaqItem from "@/components/sections/service/FaqItem";
-import ButtonPrimary from "@/components/shared/buttons/ButtonPrimary";
+import ButtonPrimary from "./ButtonPrimary";
+import BootstrapWrapper from "./BootstrapWrapper";
+import FaqItem from "./FaqItem";
 
 const Faq = () => {
 	const items =[

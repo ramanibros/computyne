@@ -2,7 +2,7 @@
 import getIndustries from "@/libs/service/data-collection-services/getIndustries";
 import {Autoplay, Navigation, Pagination} from "swiper/modules";
 import {Swiper, SwiperSlide} from "swiper/react";
-import IndustriesCard from "@/components/sections/service/IndustriesCard";
+import IndustriesCard from "./IndustriesCard";
 
 const Industries = () => {
 	const industries = getIndustries();

@@ -1,4 +1,4 @@
-import ButtonPrimary from "@/components/shared/buttons/ButtonPrimary";
+import ButtonPrimary from "./ButtonPrimary";
 
 const IndustriesCard = ({ industry, idx }) => {
 	const { title, desc, id, img } = industry || {};

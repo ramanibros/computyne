@@ -1,14 +1,14 @@
 import Header from "@/components/layout/header/Header";
-import Faq2 from "@/components/sections/faq/Faq2";
-import FeaturesMod from "@/components/sections/features/FeaturesMod";
-import HeroInnerMod from "@/components/sections/hero/HeroInnerMod";
 import BackToTop from "@/components/shared/others/BackToTop";
 import ClientWrapper from "@/components/shared/wrappers/ClientWrapper";
-import FooterMod from "@/components/layout/footer/FooterMod";
-import CallSchedule from "@/components/sections/funfacts/CallSchedule";
-import Funfact2 from "@/components/sections/funfacts/Funfact2";
-import About3 from "@/components/sections/about/About3";
-import Team1 from "@/components/sections/teams/Team1";
+import Hero from "@/components/sections/about-page/Hero";
+import AboutCard from "@/components/sections/about-page/AboutCard";
+import Features from "@/components/sections/about-page/Features";
+import Funfact from "@/components/sections/about-page/Funfact";
+import Faq from "@/components/sections/about-page/Faq";
+import Team from "@/components/sections/about-page/Team";
+import CallSchedule from "@/components/sections/about-page/CallSchedule";
+import Footer from "@/components/sections/about-page/Footer";
 
 export default function About() {
     return (
@@ -19,21 +19,17 @@ export default function About() {
             <div id="smooth-wrapper">
                 <div id="smooth-content">
                     <main>
-                        {/*<HeaderSpace/>*/}
                         <div className="top-space-15"></div>    
-                        <HeroInnerMod title={"About Us"} text={"Our business process services - driven by data, technology, and people - help" +
+                        <Hero title={"About Us"} text={"Our business process services - driven by data, technology, and people - help" +
                             " clients save time, reduce costs, and improve operational efficiency worldwide."}/>
-                        <About3 type={1}/>
-                        <FeaturesMod type={2}/>
-                        {/*<Brands1 type={2} />*/}
-                        {/*<Testimonials2 type={2} />*/}
-                        <Funfact2/>
-                        <Faq2 type={2}/>
-                        <Team1 type={3}/>
+                        <AboutCard type={1}/>
+                        <Features type={2}/>
+                        <Funfact/>
+                        <Faq type={2}/>
+                        <Team type={3}/>
                         <CallSchedule/>
-                        {/*<Cta />*/}
                     </main>
-                    <FooterMod/>
+                    <Footer/>
                 </div>
             </div>
 
