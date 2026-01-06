@@ -31,7 +31,7 @@ export const metadata = {
 	],
 
 	alternates: {
-		canonical: "https://computyne.com/",
+		canonical: "https://www.computyne.com/",
 	},
 
 	openGraph: {
