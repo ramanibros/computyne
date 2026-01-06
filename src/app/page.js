@@ -19,7 +19,7 @@ import Footer from "@/components/sections/home-page/Footer";
 export const metadata = {
 	metadataBase: new URL("https://www.computyne.com"),
 
-	title: "Computyne: Global Outsourcing &amp; Data Services Company	",
+	title: "Computyne: Global Outsourcing &amp; Data Services Company",
 	description:
 		"Computyne is your trusted outsourcing company for end-to-end data services and solutions. Partner with us to boost efficiency, accuracy &amp; business performance.",
 	keywords: [
@@ -38,12 +38,12 @@ export const metadata = {
 		title: "Computyne: Global Outsourcing &amp; Data Services Company",
 		description:
 			"Computyne provides professional outsourcing services, data management, and business process solutions to help companies operate efficiently.",
-		url: "https://computyne.com/",
+		url: "https://www.computyne.com/",
 		siteName: "Computyne",
 		type: "website",
 		images: [
 			{
-				url: "https://computyne.com/logo.png",
+				url: "https://www.computyne.com/logo.png",
 				width: 800,
 				height: 600,
 				alt: "Computyne Logo",
