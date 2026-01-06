@@ -1,0 +1,51 @@
+import Image from "next/image";
+import Link from "next/link";
+
+const ServiceCard = ({blog, idx}) => {
+    const {
+        title,
+        desc,
+        id,
+        img = "/images/blog/blog-1.webp",
+        category,
+        date,
+        day,
+        month,
+    } = blog || {};
+    return (
+        <div className="blog-item wow fadeInUp" data-wow-delay=".3s">
+            <div className="blog-thumb">
+                <Link href={`/blogs/${id}`}>
+                    {" "}
+                    <Image src={img} alt="Images" width={870} height={450}/>
+                </Link>
+            </div>
+            <div className="blog-content">
+                {/*<div className="blog-meta">
+					<span className="categories">
+						<Link href={`/blogs?category=${makePath(category)}`}>
+							{category}
+						</Link>
+					</span>
+					<span>
+						By <Link href={`/blogs/${id}`}>Ellinien Loma</Link>
+					</span>
+				</div>*/}
+                <h4 className="title">
+                    <Link href={`/blogs/${id}`}>{title}</Link>
+                </h4>
+                <p className="desc">{desc}</p>
+                <Link className="text-btn" href={`/blogs/${id}`}>
+					<span className="btn-text">
+						<span>Read More</span>
+					</span>
+                    <span className="btn-icon">
+						<i className="tji-arrow-right-long"></i>
+					</span>
+                </Link>
+            </div>
+        </div>
+    );
+};
+
+export default ServiceCard;

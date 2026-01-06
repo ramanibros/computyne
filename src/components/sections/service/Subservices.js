@@ -1,6 +1,6 @@
 "use client";
 import getSubservice from "@/libs/service/data-collection-services/getSubservices";
-import SubserviceCard from "@/components/sections/service/SubserviceCard";
+import SubserviceCard from "./SubserviceCard";
 
 const Subservices = () => {
 	const subservices = getSubservice();

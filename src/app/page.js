@@ -1,16 +1,16 @@
 import Header from "@/components/layout/header/Header";
-import About5 from "@/components/sections/about/About5";
-import Blogs1 from "@/components/sections/blogs/Blogs1";
-import Industries from "@/components/sections/industries/Industries";
-import Hero2 from "@/components/sections/hero/Hero2";
-import Testimonials4 from "@/components/sections/testimonials/Testimonials4";
 import BackToTop from "@/components/shared/others/BackToTop";
 import ClientWrapper from "@/components/shared/wrappers/ClientWrapper";
-import ServicesMod2 from "@/components/sections/services-old/ServicesMod2";
-import ProcessMod from "@/components/sections/process/ProcessMod";
-import FooterMod from "@/components/layout/footer/FooterMod";
-import CallSchedule from "@/components/sections/funfacts/CallSchedule";
-import PortfoliosMod from "@/components/sections/portfolios/PortfoliosMod";
+import Hero from "@/components/sections/home-page/Hero";
+import Services from "@/components/sections/home-page/Services";
+import About from "@/components/sections/home-page/About";
+import Portfolios from "@/components/sections/home-page/Portfolios";
+import Process from "@/components/sections/home-page/Process";
+import Industries from "@/components/sections/home-page/Industries";
+import Testimonials from "@/components/sections/home-page/Testimonials";
+import Blogs from "@/components/sections/home-page/Blogs";
+import CallSchedule from "@/components/sections/home-page/CallSchedule";
+import Footer from "@/components/sections/home-page/Footer";
 
 
 /* ================================
@@ -19,7 +19,7 @@ import PortfoliosMod from "@/components/sections/portfolios/PortfoliosMod";
 export const metadata = {
 	metadataBase: new URL("https://www.computyne.com"),
 
-	title: "Computyne: Global Outsourcing &amp; Data Services Company	",
+	title: "Computyne: Global Outsourcing &amp; Data Services Company",
 	description:
 		"Computyne is your trusted outsourcing company for end-to-end data services and solutions. Partner with us to boost efficiency, accuracy &amp; business performance.",
 	keywords: [
@@ -31,19 +31,19 @@ export const metadata = {
 	],
 
 	alternates: {
-		canonical: "https://computyne.com/",
+		canonical: "https://www.computyne.com/",
 	},
 
 	openGraph: {
 		title: "Computyne: Global Outsourcing &amp; Data Services Company",
 		description:
 			"Computyne provides professional outsourcing services, data management, and business process solutions to help companies operate efficiently.",
-		url: "https://computyne.com/",
+		url: "https://www.computyne.com/",
 		siteName: "Computyne",
 		type: "website",
 		images: [
 			{
-				url: "https://computyne.com/logo.png",
+				url: "https://www.computyne.com/logo.png",
 				width: 800,
 				height: 600,
 				alt: "Computyne Logo",
@@ -83,17 +83,17 @@ export default function Home(){
 				<div id="smooth-content">
 					<main>
 						<div className="top-space-15"></div>
-						<Hero2 />
-						<ServicesMod2/>
-						<About5/>
-						<PortfoliosMod/>
-						<ProcessMod/>
+						<Hero />
+						<Services/>
+						<About/>
+						<Portfolios/>
+						<Process/>
 						<Industries/>
-						<Testimonials4/>
-						<Blogs1/>
+						<Testimonials/>
+						<Blogs/>
 						<CallSchedule/>
 					</main>
-					<FooterMod/>
+					<Footer/>
 				</div>
 			</div>
 

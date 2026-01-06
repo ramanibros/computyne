@@ -3,6 +3,7 @@
 		"id": 1,
 		"title": "ATS-Optimized Resume Formatting",
 		"desc": "Ensure your resume passes ATS filters with keyword-focused content, structured layouts, and proper formatting, increasing visibility and shortlisting chances with recruiters.",
+		"url": "#",
 		"data": [
 			{ "value": "Fast, automated extraction" },
 			{ "value": "Multi-format delivery (CSV, JSON, Excel, API feeds)" },
@@ -14,6 +15,7 @@
 		"id": 2,
 		"title": "Professional Resume Formatting",
 		"desc": "Create polished, clean resumes with standardized fonts, layouts, and alignment, presenting achievements clearly and making a strong professional impression.",
+		"url": "#",
 		"data": [
 			{ "value": "Fast, automated extraction" },
 			{ "value": "Multi-format delivery (CSV, JSON, Excel, API feeds)" },
@@ -25,6 +27,7 @@
 		"id": 3,
 		"title": "Resume Data Capture",
 		"desc": "Extract, organize, and structure work history, education, and skills into consistent, professional templates for a seamless and impactful presentation to recruiters.",
+		"url": "#",
 		"data": [
 			{ "value": "Fast, automated extraction" },
 			{ "value": "Multi-format delivery (CSV, JSON, Excel, API feeds)" },
@@ -36,6 +39,7 @@
 		"id": 4,
 		"title": "Industry-Specific Resume Formatting",
 		"desc": "Design resumes tailored to industry standards across IT, healthcare, finance, and creative sectors, ensuring relevance and maximum appeal to recruiters in your field.",
+		"url": "#",
 		"data": [
 			{ "value": "Fast, automated extraction" },
 			{ "value": "Multi-format delivery (CSV, JSON, Excel, API feeds)" },
@@ -47,6 +51,7 @@
 		"id": 5,
 		"title": "Bulk Resume Formatting for Recruiters & Enterprises",
 		"desc": "Standardize hundreds or thousands of resumes for staffing firms, job portals, and HR departments, ensuring consistency, professionalism, and quick processing.",
+		"url": "#",
 		"data": [
 			{ "value": "Fast, automated extraction" },
 			{ "value": "Multi-format delivery (CSV, JSON, Excel, API feeds)" },

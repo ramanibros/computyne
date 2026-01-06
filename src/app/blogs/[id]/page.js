@@ -2,6 +2,7 @@ import Footer from "@/components/layout/footer/Footer";
 import Header from "@/components/layout/header/Header";
 import BlogDetailsMain from "@/components/layout/main/BlogDetailsMain";
 import Cta from "@/components/sections/cta/Cta";
+import CallSchedule from "@/components/sections/home-page/CallSchedule";
 import BackToTop from "@/components/shared/others/BackToTop";
 import HeaderSpace from "@/components/shared/others/HeaderSpace";
 import ClientWrapper from "@/components/shared/wrappers/ClientWrapper";
@@ -25,7 +26,7 @@ export default async function BlogDetails({ params }) {
 					<main>
 						<HeaderSpace />
 						<BlogDetailsMain currentItemId={parseInt(id)} />
-						<Cta />
+						<CallSchedule />
 					</main>
 					<Footer />
 				</div>

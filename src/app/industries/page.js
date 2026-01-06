@@ -1,17 +1,17 @@
-import FooterMod from "@/components/layout/footer/FooterMod";
 import Header from "@/components/layout/header/Header";
-import CallSchedule from "@/components/sections/funfacts/CallSchedule";
 import BackToTop from "@/components/shared/others/BackToTop";
 import ClientWrapper from "@/components/shared/wrappers/ClientWrapper";
-import Aboutus from "@/components/sections/subservice/Aboutus";
-import Subservices from "@/components/sections/subservice/Subservices";
-import Banner from "@/components/sections/subservice/Banner";
-import Counter from "@/components/sections/subservice/Counter";
-import Whychooseus from "@/components/sections/subservice/Whychooseus";
-import Faq from "@/components/sections/subservice/Faq";
-import Industries from "@/components/sections/subservice/Industries";
-import Casestudy from "@/components/sections/subservice/Casestudy";
-import Testimonials from "@/components/sections/subservice/Testimonials";
+import Industries from "@/components/sections/industries-page/Industries";
+import Testimonials from "@/components/sections/industries-page/Testimonials";
+import Banner from "@/components/sections/industries-page/Banner";
+import Counter from "@/components/sections/industries-page/Counter";
+import Aboutus from "@/components/sections/industries-page/Aboutus";
+import Subservices from "@/components/sections/industries-page/Subservices";
+import Casestudy from "@/components/sections/industries-page/Casestudy";
+import Whychooseus from "@/components/sections/industries-page/Whychooseus";
+import Faq from "@/components/sections/industries-page/Faq";
+import CallSchedule from "@/components/sections/industries-page/CallSchedule";
+import Footer from "@/components/sections/industries-page/Footer";
 
 export default function industriesPage() {
     return (
@@ -36,10 +36,9 @@ export default function industriesPage() {
                         <Faq type={1}/>
                         <Testimonials/>
                         <Industries/>
-                        {/*<Services5Mod/>*/}
                         <CallSchedule/>
                     </main>
-                    <FooterMod/>
+                    <Footer/>
                 </div>
             </div>
 

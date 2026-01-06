@@ -15,31 +15,6 @@ import SubserviceSection from "@/components/sections/services-old/SubserviceSect
 import Services5Mod from "@/components/sections/services-old/Services5Mod";
 
 export default function Services() {
-    // return (
-    // 	<div>
-    // 		<BackToTop />
-    // 		<Header />
-    // 		<Header isStickyHeader={true} />
-    // 		<div id="smooth-wrapper">
-    // 			<div id="smooth-content">
-    // 				<main>
-    // 					<HeaderSpace />
-    // 					<HeroInner title={"Services"} text={"Services"} />
-    // 					<ServicesPrimary />
-    // 					<Contact2 />
-    // 					<PricingPlan type={3} />
-    // 					<Brands1 type={2} />
-    // 					<Cta />
-    // 				</main>
-    // 				<Footer />
-    // 			</div>
-    // 		</div>
-
-    // 		<ClientWrapper />
-    // 	</div>
-    // );
-
-
     return (
         <div>
             <BackToTop/>
@@ -49,12 +24,9 @@ export default function Services() {
                 <div id="smooth-content">
                     <main>
                         <div className="top-space-15"></div>
-                        {/* <HeaderSpace /> */}
-                        {/* <HeroInner title={"Services"} text={"Services"} /> */}
                         <HeroInnerService title={"Sub Services"} text={"Our business process services - driven by data, technology, and people -" +
                             " help clients save time, reduce costs, and improve operational efficiency worldwide."} isShowButton={true}
                                           buttonLabel={"Talk To Our Expert"}/>
-                        {/* <ServicesCounter className="mb-0" /> */}
                         <ServiceCounter/>
                         <AboutMod type={1}/>
                         <SubserviceSection/>
@@ -62,7 +34,6 @@ export default function Services() {
                         <TestimonialsMod/>
                         <Faq4 type={1}/>
                         <TestimonialsMod2/>
-                        {/* <Industries/> */}
 						<Testimonials4/>
                         <Services5Mod/>
                         <CallSchedule/>

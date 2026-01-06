@@ -1,7 +1,6 @@
-import ButtonPrimary from "@/components/shared/buttons/ButtonPrimary";
-import PortfolioCard5 from "@/components/shared/cards/PortfolioCard5";
-import PortfolioCardMod from "@/components/shared/cards/PortfolioCardMod";
 import getPortfolio from "@/libs/getPortfolio";
+import ButtonPrimary from "./ButtonPrimary";
+import PortfolioCard from "./PortfolioCard";
 const Casestudy = () => {
 	const portfolio = getPortfolio()?.slice(0, 3);
 	return (
@@ -32,7 +31,7 @@ const Casestudy = () => {
 							<div className="project-wrapper h5-project-wrapper">
 								{portfolio?.length
 									? portfolio?.map((portfolioSingle, idx) => (
-											<PortfolioCardMod key={idx} portfolio={portfolioSingle} />
+											<PortfolioCard key={idx} portfolio={portfolioSingle} />
 									  ))
 									: ""}
 							</div>

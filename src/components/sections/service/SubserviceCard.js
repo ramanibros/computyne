@@ -1,16 +1,16 @@
 import Link from "next/link";
 
 const SubserviceCard = ({subservice, idx}) => {
-    const {title, desc, id, data} = subservice || {};
+    const {title, desc, id, data, url} = subservice || {};
     return (
         <div className="blog-item style-4">
             <div className="blog-content-mod">
                 <div className="title-area">
                     <div className="project-text">
                         <h3 className="title">
-                            <Link href={`/portfolios/${id}`}>{title}</Link>
+                            <Link href={`${url}`}>{title}</Link>
                         </h3>
-                        <Link className="tji-icon-btn-mod" href={`/portfolios/${id}`}>
+                        <Link className="tji-icon-btn-mod" href={`${url}`}>
                             <i className="tji-arrow-right-long"></i>
                         </Link>
                     </div>

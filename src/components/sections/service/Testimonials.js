@@ -1,9 +1,9 @@
 "use client";
-import ReactNiceSelect from "@/components/shared/Inputs/ReactNiceSelect";
 import getTestimonials from "@/libs/getTestimonials";
 import {Autoplay, Navigation} from "swiper/modules";
 import {Swiper, SwiperSlide} from "swiper/react";
-import TestimonialsCard from "@/components/sections/service/TestimonialsCard";
+import ReactNiceSelect from "./ReactNiceSelect";
+import TestimonialsCard from "./TestimonialsCard";
 
 const Testimonials = () => {
 	const testimonials = getTestimonials()?.slice(0, 3);

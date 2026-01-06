@@ -1,6 +1,6 @@
 "use client";
 
-const FaqItem2 = ({ item = {}, idx }) => {
+const FaqItem = ({ item = {}, idx }) => {
 	const { title, desc, initActive } = item;
 
 	return (
@@ -28,4 +28,4 @@ const FaqItem2 = ({ item = {}, idx }) => {
 	);
 };
 
-export default FaqItem2;
+export default FaqItem;
