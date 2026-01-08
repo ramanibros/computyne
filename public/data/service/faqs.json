@@ -1,0 +1,808 @@
+{
+    "data-extraction-services": {
+		"cta": "Request a Free Consultation",
+		"faq": [
+			{
+				"title": "What are data extraction services?",
+				"desc": "Data extraction services involve collecting data from websites, documents, PDFs, databases, and business systems, then converting it into structured formats for analytics, reporting, and informed decision-making.",
+				"initActive": true
+			},
+			{
+				"title": "Why should businesses outsource data extraction?",
+				"desc": "Outsourcing data extraction reduces operational costs, improves accuracy, accelerates delivery timelines, and provides access to specialized expertise without the need to build or maintain in-house teams."
+			},
+			{
+				"title": "Which data sources can be extracted?",
+				"desc": "Data can be extracted from websites, APIs, PDFs, scanned documents, invoices, forms, databases, SaaS platforms, and other unstructured or semi-structured content across industries."
+			},
+			{
+				"title": "How is data accuracy ensured?",
+				"desc": "Accuracy is ensured through standardized extraction workflows, automated validation rules, and multi-level quality assurance checks."
+			},
+			{
+				"title": "Is outsourced data extraction secure?",
+				"desc": "Yes. Outsourced data extraction services follow strict security practices, including NDAs, encrypted data transfers, controlled access, and compliance with relevant data protection frameworks."
+			},
+			{
+				"title": "Can data extraction services scale with business growth?",
+				"desc": "Absolutely. Outsourced data extraction solutions are designed to scale on demand, supporting both small projects and enterprise-level workloads."
+			},
+			{
+				"title": "What delivery formats are supported?",
+				"desc": "Extracted data can be delivered in Excel, CSV, XML, JSON, and database-compatible formats based on your integration and reporting requirements."
+			}
+		]
+	},
+    "competitor-analysis-services": {
+		"cta": "Request a Free Consultation",
+		"faq": [
+			{
+				"title": "What are competitor and price intelligence services?",
+				"desc": "Competitor and price intelligence services collect, analyze, and interpret competitor pricing, promotions, product assortment, and availability data. These insights help businesses make informed pricing, merchandising, and market positioning decisions.",
+				"initActive": true
+			},
+			{
+				"title": "Why should businesses outsource competitor and price intelligence?",
+				"desc": "Outsourcing provides access to specialized expertise, advanced automation tools, and scalable analytics without the cost, time, or complexity of building and maintaining in-house intelligence systems."
+			},
+			{
+				"title": "How often is competitor pricing data updated?",
+				"desc": "Competitor pricing data can be updated daily or near real time, depending on market volatility, industry dynamics, and specific business requirements."
+			},
+			{
+				"title": "Which channels can be monitored?",
+				"desc": "Monitoring covers major marketplaces, brand-owned websites, online retailers, and multi-channel platforms, including regional, cross-border, and international sellers."
+			},
+			{
+				"title": "Can these services support dynamic pricing strategies?",
+				"desc": "Yes. Price intelligence insights directly support dynamic, automated, or rule-based pricing strategies aligned with demand fluctuations, inventory levels, and margin objectives."
+			},
+			{
+				"title": "How does price intelligence help protect profit margins?",
+				"desc": "By identifying underpricing, overpricing, and aggressive competitor promotions, price intelligence enables timely pricing adjustments that reduce margin erosion and improve profitability."
+			},
+			{
+				"title": "Is competitor pricing data reliable and accurate?",
+				"desc": "Yes. Professional price intelligence services rely on validated data sources, automated verification checks, and robust quality control processes to ensure high accuracy."
+			},
+			{
+				"title": "Are these services scalable for large product catalogs?",
+				"desc": "Absolutely. Solutions are designed to efficiently handle thousands of SKUs across multiple categories, regions, and competitive landscapes."
+			},
+			{
+				"title": "How do businesses get started with competitor and price intelligence?",
+				"desc": "Engagement typically begins with a pricing assessment to define competitors, objectives, monitored channels, and KPIs, followed by customized data monitoring, dashboards, and reporting workflows."
+			}
+		]
+	},
+    "data-appending-services": {
+		"cta": "Request a Free Consultation",
+		"faq": [
+			{
+				"title": "What are data appending services?",
+				"desc": "Data appending services enhance existing databases by adding missing or incomplete information such as email addresses, phone numbers, firmographic, or demographic details using verified and compliant data sources.",
+				"initActive": true
+			},
+			{
+				"title": "How do data appending services improve data quality?",
+				"desc": "They fill data gaps, correct inaccuracies, and standardize records, resulting in more complete, accurate, and analytics-ready datasets."
+			},
+			{
+				"title": "What types of data can be appended?",
+				"desc": "Appended data can include email addresses, phone numbers, job titles, company details, firmographics, demographics, geographic information, and CRM-specific fields."
+			},
+			{
+				"title": "Are data appending services compliant with data privacy regulations?",
+				"desc": "Yes. GDPR-compliant data appending services follow consent-based data sourcing, opt-out management, NDAs, and strict data protection standards."
+			},
+			{
+				"title": "Can data appending services integrate with CRM systems?",
+				"desc": "Yes. CRM data appending services integrate seamlessly with leading CRM platforms without disrupting existing workflows."
+			},
+			{
+				"title": "How accurate is appended data?",
+				"desc": "High data accuracy is ensured through multi-level validation processes, automated checks, and trusted data sources."
+			},
+			{
+				"title": "Is data appending suitable for large datasets?",
+				"desc": "Yes. Enterprise data appending services are designed to securely and efficiently process millions of records at scale."
+			},
+			{
+				"title": "How often should data appending be performed?",
+				"desc": "Monthly or quarterly data appending helps minimize data decay and maintain consistent data quality over time."
+			},
+			{
+				"title": "Which industries benefit most from data appending?",
+				"desc": "Industries such as B2B marketing, eCommerce, finance, healthcare, real estate, technology, and professional services benefit significantly from data appending."
+			},
+			{
+				"title": "How do I get started with data appending services?",
+				"desc": "You can get started by sharing your data requirements and sample records to receive a customized data appending strategy."
+			}
+		]
+	},
+    "data-cleansing-services": {
+		"cta": "Request a Free Consultation",
+		"faq": [
+			{
+				"title": "What are data cleansing services?",
+				"desc": "Data cleansing services involve identifying, correcting, and removing inaccurate, incomplete, duplicate, or outdated data to improve accuracy, consistency, and usability across business systems and analytics platforms.",
+				"initActive": true
+			},
+			{
+				"title": "Why is data cleansing important for businesses?",
+				"desc": "Dirty data leads to poor decision-making, increased operational costs, and reduced productivity. Data cleansing ensures reliable insights, improves CRM and analytics performance, and supports confident, data-driven strategies."
+			},
+			{
+				"title": "What types of data can be cleansed?",
+				"desc": "Data cleansing can be applied to customer data, CRM databases, financial records, product catalogs, operational data, marketing lists, and enterprise datasets stored in Excel, CSV files, databases, and cloud platforms."
+			},
+			{
+				"title": "How does data cleansing improve CRM and analytics performance?",
+				"desc": "Clean data minimizes errors, improves system integrations, and ensures accurate reporting, allowing CRM and analytics tools to deliver consistent and trustworthy insights."
+			},
+			{
+				"title": "What is the difference between data cleansing and data enrichment?",
+				"desc": "Data cleansing focuses on correcting, validating, and standardizing existing data, while data enrichment adds verified external information to enhance data completeness and profiling depth."
+			},
+			{
+				"title": "Is outsourced data cleansing secure?",
+				"desc": "Yes. Professional data cleansing providers follow strict security protocols, NDAs, and compliance-driven processes to safeguard sensitive and confidential business data."
+			},
+			{
+				"title": "Can data cleansing be automated?",
+				"desc": "Yes. Automated data cleansing leverages rules, algorithms, and validation logic, often combined with expert review for complex or high-risk datasets to ensure maximum accuracy."
+			},
+			{
+				"title": "How often should data cleansing be performed?",
+				"desc": "Data cleansing should be continuous or performed on a regular schedule to prevent data decay and maintain high-quality, decision-ready datasets."
+			},
+			{
+				"title": "How long does a data cleansing project take?",
+				"desc": "Project timelines depend on data volume and complexity, typically ranging from a few days to several weeks with scalable delivery models."
+			},
+			{
+				"title": "How do I get started with data cleansing services?",
+				"desc": "Getting started begins with a data quality assessment to identify gaps, inconsistencies, and risks, followed by a customized data cleansing strategy aligned with business objectives."
+			}
+		]
+	},
+    "data-collection-services": {
+		"cta": "Get a Free Consultation",
+		"faq": [
+			{
+				"title": "What are outsourced data collection services?",
+				"desc": "Outsourced data collection services involve partnering with a specialized provider to gather, validate, and deliver structured datasets. This approach reduces internal workload while ensuring scalable, accurate, and cost-efficient data sourcing.",
+				"initActive": true
+			},
+			{
+				"title": "Why should businesses outsource data collection to Computyne?",
+				"desc": "Computyne provides automated tools, experienced data professionals, 24×7 operations, and enterprise-grade accuracy. Businesses gain faster access to reliable data without internal hiring or infrastructure investments."
+			},
+			{
+				"title": "Which industries benefit most from outsourced data collection?",
+				"desc": "Industries such as AI & ML, eCommerce, real estate, B2B enterprises, finance, healthcare analytics, travel, and hospitality leverage outsourced data collection to support pricing, listings, analytics, and market intelligence."
+			},
+			{
+				"title": "Can Computyne collect data for AI and machine learning models?",
+				"desc": "Yes. Computyne delivers AI training data collection services, including labeled datasets, text and image data, structured feeds, and synthetic data to support machine learning workflows."
+			},
+			{
+				"title": "What types of data can be collected?",
+				"desc": "Collected data includes product catalogs, competitor pricing, property listings, B2B contact data, customer reviews, financial datasets, market intelligence, and document-based data sourced from websites, APIs, portals, SaaS platforms, and PDFs."
+			},
+			{
+				"title": "How accurate are the delivered datasets?",
+				"desc": "Most data collection projects achieve accuracy levels above 99%, supported by multi-stage validation processes and manual quality assurance checks."
+			},
+			{
+				"title": "What is the cost of outsourcing data collection services?",
+				"desc": "Pricing depends on factors such as data volume, frequency, complexity, sources, and delivery formats. Flexible project-based and monthly pricing models are available."
+			},
+			{
+				"title": "What data formats are supported?",
+				"desc": "Data can be delivered in CSV, Excel, JSON, XML, Google Sheets, via APIs, or through direct database uploads based on client requirements."
+			},
+			{
+				"title": "Can you provide real-time or scheduled updates?",
+				"desc": "Yes. Real-time data feeds, scheduled data extraction, and recurring monitoring are supported for pricing, inventory, listings, and customer reviews."
+			},
+			{
+				"title": "Is data handled securely?",
+				"desc": "All data collection projects follow strict security practices, including encryption, access controls, NDAs, and compliance with applicable data protection regulations."
+			},
+			{
+				"title": "Are custom datasets available?",
+				"desc": "Yes. Every dataset is fully customized to align with your KPIs, analytics requirements, and overall business objectives."
+			}
+		]
+	},
+    "data-enrichment-services": {
+		"cta": "Request a Free Consultation",
+		"faq": [
+			{
+				"title": "What are data enrichment services?",
+				"desc": "Data enrichment services enhance existing datasets by appending accurate, verified information from trusted sources, improving data completeness, usability, and decision-making across sales, marketing, analytics, and operations.",
+				"initActive": true
+			},
+			{
+				"title": "Why should businesses outsource data enrichment?",
+				"desc": "Outsourcing data enrichment reduces operational costs, improves data accuracy, ensures scalability, and provides access to skilled professionals and advanced tools without the need to manage in-house infrastructure."
+			},
+			{
+				"title": "What types of data can be enriched?",
+				"desc": "Data enrichment can be applied to customer data, B2B contact records, CRM databases, firmographic and demographic data, email and phone records, sales intelligence, and marketing datasets."
+			},
+			{
+				"title": "How does data enrichment improve sales and marketing performance?",
+				"desc": "Enriched data enables better targeting, accurate segmentation, improved personalization, and higher engagement by eliminating incomplete, outdated, or inconsistent records."
+			},
+			{
+				"title": "Is data enrichment compliant with data protection regulations?",
+				"desc": "Yes. Professional data enrichment providers follow strict security protocols and data privacy regulations to ensure ethical sourcing and protection of sensitive business information."
+			},
+			{
+				"title": "How often should data enrichment be performed?",
+				"desc": "Data enrichment should be performed regularly or continuously to prevent data decay and maintain high levels of accuracy and relevance."
+			},
+			{
+				"title": "Can data enrichment integrate with CRM and business systems?",
+				"desc": "Yes. Enriched datasets integrate seamlessly with CRM platforms, marketing automation tools, analytics systems, and enterprise databases without disrupting existing workflows."
+			},
+			{
+				"title": "How long does a data enrichment project take?",
+				"desc": "Project timelines depend on data volume and complexity. Outsourced providers typically deliver faster turnaround using automated processes and scalable workflows."
+			},
+			{
+				"title": "Which industries benefit most from data enrichment services?",
+				"desc": "Industries such as B2B services, technology, real estate, finance, healthcare, eCommerce, recruitment, and professional services benefit significantly from data enrichment."
+			},
+			{
+				"title": "How do I get started with data enrichment services?",
+				"desc": "To get started, share your data requirements and business goals. A customized data enrichment strategy is then designed to align with your objectives and compliance needs."
+			}
+		]
+	},
+    "data-entry-services": {
+		"cta": "Get a Free Consultation",
+		"faq": [
+			{
+				"title": "What are data entry services?",
+				"desc": "Data entry services involve capturing, digitizing, validating, and organizing business information into structured and searchable formats to support operations, reporting, and analytics.",
+				"initActive": true
+			},
+			{
+				"title": "Why should businesses outsource data entry services?",
+				"desc": "Outsourcing data entry reduces operational costs, improves accuracy, ensures faster turnaround times, and provides access to skilled professionals without the burden of internal overhead."
+			},
+			{
+				"title": "What types of data can be processed?",
+				"desc": "Data entry services can process invoices, forms, surveys, product catalogs, logistics records, bills of lading, property listings, scanned documents, and other unstructured datasets."
+			},
+			{
+				"title": "How is data accuracy ensured?",
+				"desc": "Accuracy is maintained through standardized workflows, automated validation checks, multi-level review processes, and manual quality assurance."
+			},
+			{
+				"title": "Are outsourced data entry services secure?",
+				"desc": "Yes. Secure data entry services follow strict data handling practices, including encryption, NDAs, controlled access, and compliance with global data protection regulations."
+			},
+			{
+				"title": "Can data entry services scale with business needs?",
+				"desc": "Absolutely. Data entry services are designed to scale efficiently, supporting bulk processing as well as enterprise-level data volumes."
+			},
+			{
+				"title": "Which industries benefit most from data entry services?",
+				"desc": "Industries such as eCommerce, healthcare, real estate, logistics, finance, insurance, education, and professional services benefit significantly from outsourced data entry."
+			},
+			{
+				"title": "What determines turnaround time?",
+				"desc": "Turnaround time depends on project complexity, data volume, and formatting requirements, all managed through SLA-driven workflows to ensure timely and reliable delivery."
+			}
+		]
+	},
+    "data-hygiene-services": {
+		"cta": "Request a Free Consultation",
+		"faq": [
+			{
+				"title": "What are data hygiene services?",
+				"desc": "Data hygiene services provide continuous monitoring, validation, and maintenance of enterprise data quality to ensure accuracy, consistency, and compliance across business systems.",
+				"initActive": true
+			},
+			{
+				"title": "How do data hygiene services differ from data cleansing?",
+				"desc": "Data cleansing focuses on fixing existing data issues at specific intervals, while data hygiene continuously prevents data decay through ongoing validation, standardization, and monitoring."
+			},
+			{
+				"title": "Why are data hygiene services important for enterprises?",
+				"desc": "Data hygiene services prevent duplicate records, outdated information, and inconsistencies, enabling reliable analytics, smoother operations, and improved customer experiences."
+			},
+			{
+				"title": "What types of data are covered by data hygiene services?",
+				"desc": "Services cover customer, product, vendor, financial, marketing, and operational data across CRM, ERP, cloud platforms, and other enterprise systems."
+			},
+			{
+				"title": "Are data hygiene services automated?",
+				"desc": "Yes. Automated rules, validation checks, and monitoring workflows are used to efficiently maintain data quality at scale."
+			},
+			{
+				"title": "Can data hygiene services support compliance requirements?",
+				"desc": "Yes. Data hygiene supports data governance frameworks, audit readiness, and regulatory compliance initiatives."
+			},
+			{
+				"title": "How often are data hygiene services performed?",
+				"desc": "Data hygiene services are performed continuously or at scheduled intervals based on business requirements, data volume, and system complexity."
+			},
+			{
+				"title": "Is data hygiene suitable for large datasets?",
+				"desc": "Absolutely. Data hygiene services are designed to support high-volume, multi-source enterprise data environments."
+			},
+			{
+				"title": "How do organizations get started with data hygiene services?",
+				"desc": "Organizations typically begin with a data quality assessment to define hygiene rules, identify risks, and establish an ongoing data hygiene framework."
+			}
+		]
+	},
+    "data-management-services": {
+		"cta": "Get a Free Consultation",
+		"faq": [
+			{
+				"title": "What are data management services?",
+				"desc": "Data management services include collecting, cleansing, enriching, organizing, validating, and maintaining data to ensure it remains accurate, secure, consistent, and analytics-ready across business systems.",
+				"initActive": true
+			},
+			{
+				"title": "Why should businesses outsource data management services?",
+				"desc": "Outsourcing data management reduces internal workload, accelerates delivery timelines, improves data accuracy, and provides access to skilled experts and secure technology without the need for in-house hiring or infrastructure."
+			},
+			{
+				"title": "Why choose Computyne for data management services?",
+				"desc": "Computyne offers over 15 years of industry experience, 24×7 operational support, up to 99.99% accuracy, highly scalable resources, secure systems, and customized workflows aligned with business goals."
+			},
+			{
+				"title": "Is outsourced data management secure?",
+				"desc": "Yes. All data management projects follow strict security practices, including encrypted access, NDA protocols, restricted workstation controls, and adherence to global data governance standards."
+			},
+			{
+				"title": "Can you handle large-volume data management projects?",
+				"desc": "Absolutely. Services support daily data processing, bulk repositories, and seasonal volume spikes, with capacity that scales instantly to meet business demands."
+			}
+		]
+	},
+	"data-mining-services": {
+		"cta": "Get a Free Consultation",
+		"faq": [
+			{
+				"title": "What are data mining services?",
+				"desc": "Data mining services analyze large volumes of data to identify patterns, correlations, and actionable insights that support business intelligence, strategic planning, and forecasting.",
+				"initActive": true
+			},
+			{
+				"title": "Why should businesses outsource data mining services?",
+				"desc": "Outsourcing data mining reduces operational costs, improves analytical accuracy, provides access to experienced specialists, and delivers faster insights without the complexity of building in-house capabilities."
+			},
+			{
+				"title": "What data sources can be mined?",
+				"desc": "Data mining can be performed on structured and unstructured data sourced from websites, databases, documents, PDFs, social media platforms, and legacy enterprise systems."
+			},
+			{
+				"title": "How is data accuracy ensured in data mining projects?",
+				"desc": "Accuracy is ensured through standardized workflows, predefined validation rules, and multi-level quality assurance checks throughout the data mining process."
+			},
+			{
+				"title": "Is my data secure with outsourced data mining services?",
+				"desc": "Yes. Secure data mining services follow strict confidentiality measures, data access controls, NDAs, and compliance with applicable data protection standards."
+			},
+			{
+				"title": "Can data mining services handle large datasets?",
+				"desc": "Absolutely. Scalable data mining services are designed to support enterprise-scale workloads and big data environments efficiently."
+			},
+			{
+				"title": "Do you offer custom data mining solutions?",
+				"desc": "Yes. All data mining solutions are fully customized to align with your industry requirements, business objectives, and reporting needs."
+			}
+		]
+	},
+    "data-solutions-services": {
+		"cta": "Get a Free Consultation",
+		"faq": [
+			{
+				"title": "What are data services?",
+				"desc": "Data services include extracting, formatting, organizing, cleansing, and managing business data to ensure it is usable across analytics platforms, CRM systems, automation tools, and operational decision-making.",
+				"initActive": true
+			},
+			{
+				"title": "Why should businesses outsource data services?",
+				"desc": "Outsourcing data services helps reduce operating expenses, eliminate manual workloads, improve turnaround times, and provide access to skilled data professionals without the need to recruit or manage internal staff."
+			},
+			{
+				"title": "What data services does Computyne provide?",
+				"desc": "Computyne offers outsourced data entry, data cleansing, data processing, data enrichment, CRM cleanup, web data scraping, database management, document digitization, data migration support, and enterprise-grade digital transformation solutions."
+			},
+			{
+				"title": "How does outsourcing improve data accuracy?",
+				"desc": "Outsourced data undergoes multi-step validation, standardization, deduplication, and structured QA workflows to ensure clean, consistent, and reliable datasets for analytics, reporting, and operations."
+			},
+			{
+				"title": "Are outsourced data services secure?",
+				"desc": "Yes. Computyne follows strict confidentiality practices, NDAs, access-controlled environments, encrypted data handling, and GDPR-aligned processes to ensure data security and compliance."
+			},
+			{
+				"title": "Can outsourced data services scale with business needs?",
+				"desc": "Yes. Our offshore data services model enables instant scaling for high-volume processing, daily operational workloads, data migrations, and multi-location business operations."
+			},
+			{
+				"title": "Which industries benefit from outsourced data services?",
+				"desc": "Industries such as staffing firms, eCommerce brands, logistics providers, BFSI institutions, healthcare organizations, real estate companies, marketing agencies, and SaaS businesses achieve measurable ROI from outsourced data operations."
+			},
+			{
+				"title": "How fast is delivery?",
+				"desc": "Delivery timelines depend on data volume and complexity, but offshore teams, automation, and standardized workflows ensure rapid turnaround with zero operational downtime."
+			},
+			{
+				"title": "Do clients need technical expertise to work with Computyne?",
+				"desc": "No. Computyne delivers ready-to-use, formatted, and structured datasets in your preferred formats or directly within your systems, requiring no internal IT or technical expertise."
+			}
+		]
+	},
+    "data-standarization-services": {
+		"cta": "Request a Free Consultation",
+		"faq": [
+			{
+				"title": "What are data standardization services?",
+				"desc": "Data standardization services convert multi-source data into consistent, unified formats, enabling accurate reporting, analytics, system integration, and enterprise-wide decision-making.",
+				"initActive": true
+			},
+			{
+				"title": "Why is data standardization important for businesses?",
+				"desc": "Inconsistent data formats create errors, slow operations, and unreliable insights. Data standardization improves accuracy, supports compliance, and ensures consistency across enterprise systems."
+			},
+			{
+				"title": "What types of data can be standardized?",
+				"desc": "Customer, product, vendor, financial, operational, marketing, and transactional data across databases, spreadsheets, CRM, ERP, and cloud platforms can be standardized."
+			},
+			{
+				"title": "How does data standardization differ from data cleansing?",
+				"desc": "Data cleansing focuses on correcting errors and removing duplicates, while data standardization ensures consistent formats, naming conventions, and structures. Together, they deliver reliable and usable datasets."
+			},
+			{
+				"title": "Can data standardization handle large datasets?",
+				"desc": "Yes. Scalable data standardization solutions support high-volume, multi-source enterprise datasets using automated workflows and rule-based validation."
+			},
+			{
+				"title": "Is data standardization customizable?",
+				"desc": "Absolutely. Standardization rules are customized to align with your business logic, industry regulations, and data governance requirements."
+			},
+			{
+				"title": "How does data standardization support analytics and AI?",
+				"desc": "Standardized data improves consistency and structure, enabling accurate analytics, enhanced AI model performance, and faster insight generation."
+			},
+			{
+				"title": "How long does a data standardization project take?",
+				"desc": "Project timelines vary based on data volume and complexity, ranging from a few days for small datasets to phased deployments for large enterprise environments."
+			},
+			{
+				"title": "Is data security maintained during standardization?",
+				"desc": "Yes. Strict security protocols, access controls, and confidentiality standards are maintained throughout the data standardization process."
+			},
+			{
+				"title": "How do I get started with data standardization services?",
+				"desc": "Getting started begins with a data assessment to identify inconsistencies, define standardization rules, and create a customized implementation roadmap."
+			}
+		]
+	},
+    "data-validation-services": {
+		"cta": "Request a Free Consultation",
+		"faq": [
+			{
+				"title": "What are data validation services?",
+				"desc": "Data validation services verify, correct, and standardize business data to ensure accuracy, completeness, and usability. The process identifies errors, duplicates, and inconsistencies, delivering reliable datasets for analytics, sales, and operations.",
+				"initActive": true
+			},
+			{
+				"title": "Why is data validation important for businesses?",
+				"desc": "Unvalidated data leads to inaccurate reporting, weak targeting, missed opportunities, and compliance risks. Data validation ensures organizations rely on trusted information for better decision-making and operational efficiency."
+			},
+			{
+				"title": "What types of data can be validated?",
+				"desc": "Data validation applies to contact data, customer records, firmographic information, transactional data, CRM databases, financial records, and multi-source enterprise datasets."
+			},
+			{
+				"title": "How do data validation services work?",
+				"desc": "Data validation combines automated validation rules, multi-source verification, web research, and direct confirmation. Each record is checked, corrected, standardized, and quality-tested before final delivery."
+			},
+			{
+				"title": "Do you support bulk and large-scale data validation projects?",
+				"desc": "Yes. Enterprise-scale and bulk data validation projects are supported, including millions of records, while meeting defined accuracy benchmarks, timelines, and budget requirements."
+			},
+			{
+				"title": "Can data validation be customized for specific industries?",
+				"desc": "Yes. Data validation frameworks are customized and industry-optimized for sectors such as retail, healthcare, banking, insurance, automotive, and more to ensure relevance and regulatory compliance."
+			},
+			{
+				"title": "How often should data be validated?",
+				"desc": "Because data changes continuously, regular validation is recommended. Many organizations choose ongoing or periodic validation to maintain consistent data quality."
+			},
+			{
+				"title": "Is data security maintained during validation?",
+				"desc": "Absolutely. Strict data security protocols, access controls, and confidentiality standards are followed throughout the data validation process."
+			},
+			{
+				"title": "What formats are supported for validated data delivery?",
+				"desc": "Validated datasets are delivered in CRM-ready formats, Excel, CSV, and custom formats aligned with specific business workflows."
+			},
+			{
+				"title": "How quickly can data validation projects be completed?",
+				"desc": "Turnaround times depend on data volume and complexity. Scalable processes ensure timely delivery without compromising accuracy or quality standards."
+			}
+		]
+	},
+    "document-processing-services": {
+		"cta": "Request a Free Consultation",
+		"faq": [
+			{
+				"title": "What are document processing services?",
+				"desc": "Document processing services involve capturing, extracting, validating, and converting data from physical and digital documents into structured formats that support analytics, reporting, and informed decision-making.",
+				"initActive": true
+			},
+			{
+				"title": "Which types of documents can be processed?",
+				"desc": "Invoices, freight bills, resumes, forms, contracts, statements, reports, and other high-volume unstructured documents can be processed using OCR, AI, and automated data extraction technologies."
+			},
+			{
+				"title": "How do outsourced document processing services improve accuracy?",
+				"desc": "Automation combined with standardized workflows and multi-level quality assurance checks helps eliminate errors, duplicates, and inconsistencies commonly found in manual processing."
+			},
+			{
+				"title": "Is document processing secure and compliant?",
+				"desc": "Yes. Professional document processing providers follow strict data security protocols, encryption standards, audit trails, and industry-specific compliance requirements."
+			},
+			{
+				"title": "Can document processing services scale with business growth?",
+				"desc": "Absolutely. Outsourced document processing services are designed to scale rapidly, supporting increasing volumes without infrastructure constraints or internal hiring challenges."
+			},
+			{
+				"title": "How long does document processing take?",
+				"desc": "Turnaround times vary based on document volume and complexity, but automated document processing significantly reduces overall processing cycles."
+			},
+			{
+				"title": "What formats are supported for output delivery?",
+				"desc": "Processed data can be delivered in Excel, CSV, XML, JSON, database-ready formats, dashboards, and customized reports based on business requirements."
+			},
+			{
+				"title": "How does document processing support better decision-making?",
+				"desc": "By delivering structured, decision-ready data and actionable insights from document content, document processing enables faster and more informed strategic and operational decisions."
+			}
+		]
+	},
+    "list-building-services": {
+		"cta": "Request a Free Consultation",
+		"faq": [
+			{
+				"title": "What are B2B list building services?",
+				"desc": "B2B list building services involve researching, collecting, validating, and organizing business contact data into targeted prospect lists to support sales, marketing, and lead generation efforts.",
+				"initActive": true
+			},
+			{
+				"title": "How does Computyne ensure data accuracy?",
+				"desc": "Computyne ensures high data accuracy through a combination of automated research tools, manual verification, and multi-level data validation processes."
+			},
+			{
+				"title": "What type of contact data do you provide?",
+				"desc": "We provide decision-maker names, job titles, company details, verified email addresses, industry classifications, and geographic information."
+			},
+			{
+				"title": "Are contact lists customized?",
+				"desc": "Yes. All B2B contact lists are customized based on industry, company size, job role, region, and specific campaign objectives."
+			},
+			{
+				"title": "Do you support LinkedIn-based contact discovery?",
+				"desc": "Yes. We offer LinkedIn lead list building and account-based contact research to identify and validate high-value prospects."
+			},
+			{
+				"title": "Can you clean existing databases?",
+				"desc": "Absolutely. We cleanse, deduplicate, enrich, and standardize existing databases to improve accuracy, usability, and performance."
+			},
+			{
+				"title": "Are your services compliant with privacy regulations?",
+				"desc": "Yes. Our services follow secure data handling practices, strict confidentiality standards, and compliance with applicable data privacy regulations."
+			},
+			{
+				"title": "What delivery formats do you support?",
+				"desc": "B2B contact lists can be delivered in Excel, CSV, Salesforce, HubSpot, and other CRM-compatible formats."
+			},
+			{
+				"title": "How fast is delivery?",
+				"desc": "Delivery timelines depend on project scope and volume, but our scalable processes ensure rapid turnaround without compromising accuracy."
+			},
+			{
+				"title": "Why should businesses outsource B2B list building?",
+				"desc": "Outsourcing B2B list building reduces costs, improves data accuracy, accelerates delivery timelines, and frees internal teams to focus on core revenue-generating activities."
+			}
+		]
+	},
+    "property-data-collection-services": {
+		"cta": "Request a Free Consultation",
+		"faq": [
+			{
+				"title": "What is property data collection?",
+				"desc": "Property data collection involves gathering, validating, and structuring listings, pricing, transactions, ownership records, tax details, zoning information, and location intelligence from multiple online and offline sources.",
+				"initActive": true
+			},
+			{
+				"title": "What types of property data can be collected?",
+				"desc": "Collected data includes residential and commercial listings, property transaction datasets, valuation data, rental and lease records, ownership details, tax information, zoning data, and geospatial intelligence."
+			},
+			{
+				"title": "How do you ensure data accuracy and quality?",
+				"desc": "Accuracy is ensured through automated real estate data processing, source verification, normalization rules, and manual audits to deliver consistent and decision-ready datasets."
+			},
+			{
+				"title": "Is property data collection compliant with regulations?",
+				"desc": "Yes. All property data collection services follow applicable data protection laws, ethical data sourcing practices, and regional regulatory compliance standards."
+			},
+			{
+				"title": "Can you collect data from multiple sources and regions?",
+				"desc": "Yes. Property data is collected from MLS platforms, real estate portals, government registries, municipal records, and offline documents across global regions."
+			},
+			{
+				"title": "Do you offer customized property data collection solutions?",
+				"desc": "Absolutely. Custom property data solutions are designed to align with specific business objectives, geographies, data formats, update frequencies, and integration requirements."
+			},
+			{
+				"title": "How is the collected data delivered?",
+				"desc": "Collected property data is delivered in Excel, CSV, JSON, XML, database-ready formats, or via direct system integrations for seamless usability."
+			},
+			{
+				"title": "How do you handle large-scale or ongoing data requirements?",
+				"desc": "Enterprise-grade workflows combined with AI-powered automation efficiently manage high-volume, recurring, and real-time property data requirements."
+			},
+			{
+				"title": "Is the collected property data secure?",
+				"desc": "Yes. We apply strict security measures including encryption, access controls, secure storage, and NDAs to protect sensitive property data."
+			},
+			{
+				"title": "Which industries benefit most from property data collection services?",
+				"desc": "Property developers, real estate brokers, investors, property managers, valuation firms, lenders, government bodies, and research organizations benefit significantly from structured property data."
+			}
+		]
+	},
+    "resume-formatting-services": {
+       "cta": "Request a Free Consultation",
+        "faq": [
+			{
+				"title": "What are resume/CV formatting services?",
+				"desc": "Resume and CV formatting services focus on transforming candidate resumes into clean, branded, and ATS-compliant documents. They ensure consistency in layout, design, fonts, and structure so recruitment agencies can present professional, client-ready profiles quickly.",
+				"initActive": true
+			},
+			{
+				"title": "Why should recruitment or staffing agencies outsource resume formatting?",
+				"desc": "Outsourcing resume formatting significantly reduces turnaround time, lowers internal workload, eliminates the need for in-house resources, and accelerates candidate submissions. It also ensures every resume meets agency branding, layout standards, and ATS compliance—leading to improved placement success."
+			},
+			{
+				"title": "Are the formatted resumes ATS-friendly?",
+				"desc": "Yes. All resumes are formatted using ATS-compatible templates, fonts, layouts, and keyword-ready structures to ensure files are easily parsed by Applicant Tracking Systems and recruitment platforms."
+			},
+			{
+				"title": "What formats can resumes be delivered in?",
+				"desc": "Formatted resumes are delivered in MS Word, PDF, or Google Docs. If required, scanned resumes (JPG/PDF) can be converted into fully editable Word formats."
+			},
+			{
+				"title": "Do you support bulk resume formatting?",
+				"desc": "Yes. High-volume resume formatting is available for bulk hiring campaigns, seasonal recruitment cycles, and urgent client submissions. Processing capacity can scale up to 10x depending on demand."
+			},
+			{
+				"title": "Can you work on custom templates or create new ones?",
+				"desc": "Yes. We can follow your existing resume templates or design fresh, branded layouts tailored to your recruitment agency’s guidelines or client-specific expectations."
+			},
+			{
+				"title": "Do you also rewrite summaries or highlight skills during formatting?",
+				"desc": "Yes. Optional add-on services include rewriting summaries, highlighting core skills, extracting key achievements, and tailoring the resume based on job descriptions or industry-specific roles."
+			},
+			{
+				"title": "What is the turnaround time (TAT)?",
+				"desc": "Standard delivery ranges from same-day to 24-hour turnaround depending on volume. Faster express delivery options are available upon request."
+			},
+			{
+				"title": "How do you ensure data privacy and confidentiality?",
+				"desc": "All resumes are handled under strict confidentiality. Secure file transfer methods, controlled access systems, and NDAs are applied to protect candidate and client data at every stage."
+			},
+			{
+				"title": "Is there a minimum order requirement?",
+				"desc": "No. Services can be scheduled for single-resume requests or large-volume recurring batches based on your operational needs."
+			},
+			{
+				"title": "Do you provide white-label resume formatting services?",
+				"desc": "Yes. All documents can be delivered fully white-labeled—showing only your agency’s logo, branding, and styling, with no third-party references included."
+			},
+			{
+				"title": "How can we submit resumes for formatting?",
+				"desc": "Resumes can be shared via email, shared drive, CRM/ATS integration, or a secure client portal—whichever workflow best fits your recruitment process."
+			}
+		] 
+    },
+    "web-research-services": {
+		"cta": "Get a Free Consultation",
+		"faq": [
+			{
+				"title": "What are web research services?",
+				"desc": "Web research services involve systematically collecting, analyzing, and validating information from online sources to support business decisions. This includes market research, competitor analysis, lead generation, pricing research, data verification, and industry intelligence delivered in structured, usable formats.",
+				"initActive": true
+			},
+			{
+				"title": "Why should businesses outsource web research services?",
+				"desc": "Outsourcing web research reduces operational costs, eliminates manual workloads, and provides access to skilled researchers and advanced tools. Businesses benefit from faster turnaround times, higher accuracy, and scalable support without investing in internal resources or infrastructure."
+			},
+			{
+				"title": "What types of web research services do you provide?",
+				"desc": "Services include market research, competitor benchmarking, lead and contact research, product and pricing analysis, industry trend analysis, data mining, survey research, and custom web-based research aligned with specific business objectives."
+			},
+			{
+				"title": "How do you ensure data accuracy and reliability?",
+				"desc": "Accuracy is ensured through multi-source validation, cross-checking, manual quality reviews, and standardized verification protocols. Every dataset undergoes strict quality assurance before delivery."
+			},
+			{
+				"title": "Can web research services be customized for specific industries?",
+				"desc": "Yes. Web research services are fully customizable for industries such as IT, healthcare, finance, retail, real estate, logistics, and manufacturing, with tailored research frameworks and output formats."
+			},
+			{
+				"title": "How quickly can web research projects be completed?",
+				"desc": "Turnaround time depends on project complexity and data volume. Optimized workflows and dedicated research teams enable rapid delivery while maintaining accuracy, even for large-scale or time-sensitive projects."
+			},
+			{
+				"title": "Is my business data secure when outsourcing web research?",
+				"desc": "Absolutely. Strict data security protocols are followed, including NDAs, controlled access, secure file transfers, and compliance-driven processes to protect sensitive business information."
+			},
+			{
+				"title": "What formats do you deliver web research data in?",
+				"desc": "Research outputs are delivered in Excel, CSV, Google Sheets, CRM-compatible formats, reports, dashboards, or custom templates, fully structured and ready for analysis or integration."
+			},
+			{
+				"title": "Can you handle ongoing or high-volume web research requirements?",
+				"desc": "Yes. A scalable delivery model supports one-time projects, recurring research, and high-volume requirements, with teams that can scale based on workload and timelines."
+			},
+			{
+				"title": "How does web research support better business decisions?",
+				"desc": "Accurate web research delivers market visibility, competitive insights, customer intelligence, and trend analysis, enabling informed strategies, reduced risk, improved targeting, and faster data-driven decision-making."
+			}
+		]
+	},
+    "web-scraping-services": {
+		"cta": "Request a Free Consultation",
+		"faq": [
+			{
+				"title": "What are web scraping services?",
+				"desc": "Web scraping services automate the collection of data from websites and online platforms, converting publicly available information into structured formats for analysis, reporting, and business intelligence.",
+				"initActive": true
+			},
+			{
+				"title": "Is web scraping legal and compliant?",
+				"desc": "Yes. Ethical web scraping follows public data access guidelines, respects website terms of service, and complies with applicable regulations through responsible and compliant data collection practices."
+			},
+			{
+				"title": "What types of data can be extracted through web scraping?",
+				"desc": "Web scraping can extract product information, pricing data, customer reviews, job listings, real estate data, financial information, company profiles, and public market intelligence."
+			},
+			{
+				"title": "How accurate is outsourced web scraping data?",
+				"desc": "Outsourced web scraping services combine automated extraction with validation, cleansing, and quality assurance processes to deliver highly accurate and standardized datasets."
+			},
+			{
+				"title": "Can web scraping handle large-scale data requirements?",
+				"desc": "Yes. Enterprise-grade web scraping solutions are designed to support large-scale, high-volume data extraction without performance or reliability issues."
+			},
+			{
+				"title": "How frequently can scraped data be updated?",
+				"desc": "Scraped data can be updated daily, weekly, monthly, or in real time, depending on business requirements and customized scheduling."
+			},
+			{
+				"title": "What formats are supported for data delivery?",
+				"desc": "Extracted data is delivered in CSV, Excel, JSON, XML, and database-ready formats, customized for BI tools, CRM systems, or analytics platforms."
+			},
+			{
+				"title": "Why should businesses outsource web scraping services?",
+				"desc": "Outsourcing web scraping reduces costs, improves data accuracy, accelerates delivery timelines, and provides access to scalable infrastructure and expert resources."
+			}
+		]
+	}
+}
