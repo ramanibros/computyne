@@ -3,9 +3,20 @@ import getIndustries from "@/libs/service/resume-formatting-services/getIndustri
 import {Autoplay, Navigation, Pagination} from "swiper/modules";
 import {Swiper, SwiperSlide} from "swiper/react";
 import IndustriesCard from "./IndustriesCard";
+import { usePathname } from "next/navigation";
+import getIndustriesData from "@/libs/service/getIndustriesData";
 
 const Industries = () => {
-	const industries = getIndustries();
+	// const industries = getIndustries();
+	const pathname = usePathname();
+	const slug = pathname.split("/").filter(Boolean).pop();
+
+	const industries = getIndustriesData(slug);
+
+	const industriesData =
+        !industries || Object.keys(industries).length === 0
+            ? getServiceData("data-extraction-services")
+            : industries;
 	return (
 		<section className="tj-blog-section-2 section-gap">
 			<div className="container">
@@ -18,7 +29,8 @@ const Industries = () => {
 							<div className="heading-wrap-content">
 								<div className="sec-heading style-2">
 									<h2 className="sec-title text-anim">
-										Industries We <span>Serve.</span>
+										{/* Industries We <span>Serve.</span> */}
+										{industriesData?.h2}
 									</h2>
 								</div>
 								<div className="wow fadeInUp" data-wow-delay=".5s">
@@ -81,8 +93,8 @@ const Industries = () => {
 								modules={[Pagination, Autoplay, Navigation]}
 								className="blog-slider"
 							>
-								{industries?.length
-									? industries?.map((industry, idx) => (
+								{industriesData?.industries.length
+									? industriesData?.industries.map((industry, idx) => (
 											<SwiperSlide key={idx}>
 												<IndustriesCard industry={industry} idx={idx} />
 											</SwiperSlide>

@@ -3,10 +3,29 @@ import getWhychooseus from "@/libs/service/resume-formatting-services/getWhychoo
 import {Autoplay, Navigation, Pagination} from "swiper/modules";
 import {Swiper, SwiperSlide} from "swiper/react";
 import WhychooseusCard from "./WhychooseusCard";
+import { usePathname } from "next/navigation";
+import getWhyChooseUsData from "@/libs/service/getWhyChooseUsData";
 
 const Whychooseus = () => {
-	const showbleWhychooseus = getWhychooseus()?.slice(0, 3);
-	const whychooseusData = [...showbleWhychooseus, ...showbleWhychooseus];
+	// const showbleWhychooseus = getWhychooseus()?.slice(0, 3);
+	// const whychooseusData = [...showbleWhychooseus, ...showbleWhychooseus];
+
+	const pathname = usePathname();
+    const slug = pathname.split("/").filter(Boolean).pop();
+
+    const whyChooseUs = getWhyChooseUsData(slug);
+
+	const getWhychooseusData =
+		!whyChooseUs || Object.keys(whyChooseUs).length === 0
+			? getServiceData("data-extraction-services")?.data.slice(0, 3)
+			: whyChooseUs?.data.slice(0, 3);
+
+	const whychooseusData = [...getWhychooseusData, ...getWhychooseusData];
+
+	const getWhychooseusTitle =
+		!whyChooseUs || Object.keys(whyChooseUs).length === 0
+			? getServiceData("data-extraction-services")?.h2
+			: whyChooseUs?.h2;
 
 	return (
 		<section className="tj-testimonial-section h7-testimonial section-gap section-gap-x">
@@ -18,7 +37,7 @@ const Whychooseus = () => {
 								<i className="tji-box"></i> Why Choose Us
 							</span>
 							<h2 className="sec-title text-anim">
-								Benefits of Outsourcing Resume/CV Formatting Services
+								{getWhychooseusTitle}
 							</h2>
 						</div>
 					</div>

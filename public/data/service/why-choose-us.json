@@ -1,0 +1,742 @@
+{
+    "data-extraction-services": {
+        "h2": "Benefits of Outsourcing Data Extraction Services",
+        "data": [
+            {
+                "id": 1,
+                "title": "Reduced Operational Costs",
+                "desc": "Outsourcing data extraction eliminates expenses related to hiring, training, infrastructure, and software. Businesses gain cost-effective access to skilled professionals and proven workflows with predictable delivery outcomes."
+            },
+            {
+                "id": 2,
+                "title": "Faster Turnaround and On-Demand Scalability",
+                "desc": "Dedicated teams and automation-ready processes ensure faster delivery. Services scale instantly for one-time projects or continuous high-volume workloads without operational disruption."
+            },
+            {
+                "id": 3,
+                "title": "High Accuracy and Reliable Data Quality",
+                "desc": "Standardized workflows, automated validation checks, and multi-level quality assurance deliver accurate, complete, and consistent datasets that reduce rework and improve reporting confidence."
+            },
+            {
+                "id": 4,
+                "title": "Access to Specialized Expertise",
+                "desc": "Outsourcing provides access to experienced data professionals skilled in handling complex formats, diverse industries, and advanced extraction tools aligned with business objectives."
+            },
+            {
+                "id": 5,
+                "title": "Secure and Compliant Data Handling",
+                "desc": "Encrypted data transfers, NDAs, restricted access controls, and GDPR- and HIPAA-aligned processes ensure secure, auditable, and compliant data extraction."
+            },
+            {
+                "id": 6,
+                "title": "Greater Focus on Core Business Priorities",
+                "desc": "By eliminating manual data extraction tasks, internal teams can focus on strategic initiatives, business growth, and improved customer outcomes."
+            }
+        ]
+    },
+    "competitor-analysis-services": {
+        "h2": "Key Benefits of Outsourcing Competitor and Price Intelligence Services",
+        "data": [
+            {
+                "id": 1,
+                "title": "Faster, Data-Driven Pricing Decisions",
+                "desc": "Outsourced competitor and price intelligence services deliver real-time market insights, enabling faster pricing responses to competitor moves, promotions, and demand shifts while maintaining competitiveness in dynamic markets."
+            },
+            {
+                "id": 2,
+                "title": "Improved Margins and Revenue Protection",
+                "desc": "Continuous competitor price monitoring helps prevent underpricing and margin erosion by identifying optimal price points, promotion thresholds, and pricing elasticity that support sustainable revenue growth."
+            },
+            {
+                "id": 3,
+                "title": "Reduced Operational Costs and Complexity",
+                "desc": "Pricing intelligence outsourcing eliminates the need for in-house tools, analysts, and infrastructure, reducing operational costs while providing scalable, automated price tracking without internal resource strain."
+            },
+            {
+                "id": 4,
+                "title": "Comprehensive Competitive Market Visibility",
+                "desc": "Dedicated competitor and price intelligence services provide full visibility into competitor pricing, promotions, assortments, and availability, supporting better forecasting, smarter merchandising, and stronger market positioning."
+            },
+            {
+                "id": 5,
+                "title": "Scalable Intelligence Across Products and Channels",
+                "desc": "Outsourced solutions scale seamlessly across thousands of SKUs, categories, and sales channels, ensuring consistent competitive price analysis as markets evolve without data gaps or bottlenecks."
+            }
+        ]
+    },
+    "data-appending-services": {
+        "h2": "Benefits of Outsourcing Data Appending Services",
+        "data": [
+            {
+                "id": 1,
+                "title": "Improved Data Accuracy and Completeness",
+                "desc": "Outsourced data appending fills missing contact, firmographic, and demographic fields using verified sources, ensuring accurate, complete, and reliable databases for business-critical decision-making."
+            },
+            {
+                "id": 2,
+                "title": "Cost and Resource Efficiency",
+                "desc": "Eliminate investments in internal tools, training, and data teams while gaining access to scalable data appending expertise at predictable and lower operational costs."
+            },
+            {
+                "id": 3,
+                "title": "Faster Turnaround and Scalability",
+                "desc": "Outsourced data appending services efficiently handle high-volume, multi-format datasets, enabling rapid updates and seamless scalability as business requirements evolve."
+            },
+            {
+                "id": 4,
+                "title": "Enhanced Sales and Marketing Performance",
+                "desc": "Complete and enriched records improve targeting precision, personalization, and outreach effectiveness, resulting in higher engagement, response rates, and conversions."
+            },
+            {
+                "id": 5,
+                "title": "Advanced Technology and Expertise",
+                "desc": "Access sophisticated data matching, validation, and appending technologies without the need to build proprietary infrastructure or hire specialized data professionals."
+            },
+            {
+                "id": 6,
+                "title": "Data Security and Compliance Assurance",
+                "desc": "Secure data appending services follow strict NDAs, access controls, and regulatory compliance frameworks to protect sensitive customer and business information."
+            },
+            {
+                "id": 7,
+                "title": "Focus on Core Business Priorities",
+                "desc": "By outsourcing data appending, internal teams are freed from manual data maintenance tasks, allowing greater focus on strategic initiatives, innovation, and revenue growth."
+            }
+        ]
+    },
+    "data-cleansing-services": {
+        "h2": "Benefits of Outsourcing Data Cleansing Services to Computyne",
+        "data": [
+            {
+                "id": 1,
+                "title": "Improved Data Accuracy and Reliability",
+                "desc": "Outsourced data cleansing removes errors, duplicates, and inconsistencies across datasets, ensuring information remains accurate and trustworthy. High-quality data supports reliable reporting, confident decision-making, and improved performance across marketing, sales, finance, and operations."
+            },
+            {
+                "id": 2,
+                "title": "Faster, Data-Driven Decision Making",
+                "desc": "Clean, validated, and standardized data enables real-time analytics and business intelligence, giving leaders timely access to actionable insights to respond quickly to market changes, identify opportunities, and mitigate risks."
+            },
+            {
+                "id": 3,
+                "title": "Reduced Operational Costs and Effort",
+                "desc": "Outsourcing data cleansing eliminates manual validation tasks, internal resource strain, and infrastructure investments. Automated and expert-led workflows reduce rework, accelerate delivery timelines, and ensure predictable costs."
+            },
+            {
+                "id": 4,
+                "title": "Enhanced CRM and System Performance",
+                "desc": "Accurate and standardized data improves CRM, ERP, and analytics platform performance by reducing system errors, improving integrations, and increasing user adoption across business-critical applications."
+            },
+            {
+                "id": 5,
+                "title": "Scalable Data Quality Management",
+                "desc": "Professional data cleansing and hygiene services scale seamlessly with growing data volumes, new data sources, and increasing business complexity without expanding internal teams or disrupting operations."
+            },
+            {
+                "id": 6,
+                "title": "Stronger Compliance and Data Governance",
+                "desc": "Data cleansing enforces consistent formats, validated fields, and auditable records, supporting compliance-ready data environments, reducing regulatory risks, and strengthening enterprise data governance."
+            }
+        ]
+    },
+    "data-collection-services": {
+        "h2": "Benefits of Outsourcing Data Collection Services",
+        "data": [
+            {
+                "id": 1,
+                "title": "Faster, Scalable Data Acquisition",
+                "desc": "Accelerate data sourcing through automated web data collection and API-driven workflows built for scale. Offshore data collection teams deliver large, structured datasets quickly to support AI training, analytics, and enterprise intelligence."
+            },
+            {
+                "id": 2,
+                "title": "Higher Accuracy & Verified Outputs",
+                "desc": "Every dataset undergoes multi-level validation, deduplication, and quality checks. High-accuracy data collection ensures clean, compliant outputs that reduce risk and support confident, data-driven decision-making."
+            },
+            {
+                "id": 3,
+                "title": "Reduced Operational Costs",
+                "desc": "Outsourcing data collection eliminates hiring, training, licensing, and infrastructure expenses. Businesses gain predictable pricing, faster delivery, and consistent quality without maintaining in-house teams."
+            },
+            {
+                "id": 4,
+                "title": "End-to-End Managed Services",
+                "desc": "From data sourcing and extraction to cleaning, formatting, and delivery, the entire data lifecycle is managed seamlessly, ensuring continuous access to structured, ready-to-use datasets."
+            },
+            {
+                "id": 5,
+                "title": "Custom Data Tailored to Your Needs",
+                "desc": "Datasets are customized around your KPIs, including SKU-level eCommerce data, B2B contact lists, AI-ready labeled datasets, and commercial property records aligned with business workflows and goals."
+            },
+            {
+                "id": 6,
+                "title": "Real-Time, Faster Decision-Making",
+                "desc": "Access live, scheduled, or event-triggered datasets for pricing intelligence, inventory monitoring, and market tracking, enabling timely decisions and reduced uncertainty."
+            },
+            {
+                "id": 7,
+                "title": "Secure & Compliant Handling",
+                "desc": "Strict security protocols, NDAs, and compliance standards—including GDPR-aligned and industry-regulated workflows—protect data confidentiality and integrity at every stage."
+            },
+            {
+                "id": 8,
+                "title": "On-Demand Scaling & Support",
+                "desc": "Scale seamlessly from thousands to millions of records using cloud-based infrastructure and dedicated data teams that support peak demand, seasonal growth, and multi-market expansion."
+            }
+        ]
+    },
+    "data-enrichment-services": {
+        "h2": "Benefits of Outsourcing Data Enrichment Services",
+        "data": [
+            {
+                "id": 1,
+                "title": "Reduced Operational Costs",
+                "desc": "Outsourcing data enrichment eliminates expenses related to hiring, training, tools, and infrastructure. Businesses gain access to skilled specialists and advanced enrichment technologies at predictable costs while improving overall data quality."
+            },
+            {
+                "id": 2,
+                "title": "Improved Data Accuracy and Reliability",
+                "desc": "Professional data enrichment providers apply multi-level validation, source verification, and quality assurance processes to deliver accurate, consistent, and reliable datasets for confident decision-making."
+            },
+            {
+                "id": 3,
+                "title": "Faster Turnaround and Scalability",
+                "desc": "Outsourced enrichment teams efficiently process large data volumes using automation and optimized workflows, enabling rapid turnaround and seamless scalability without internal constraints."
+            },
+            {
+                "id": 4,
+                "title": "Access to Expertise and Advanced Tools",
+                "desc": "Data enrichment companies leverage experienced analysts, AI-powered platforms, and proprietary tools to ensure precise data appending, cleansing, and standardization while adapting to evolving data sources and compliance needs."
+            },
+            {
+                "id": 5,
+                "title": "Enhanced Sales and Marketing Performance",
+                "desc": "Enriched datasets improve lead quality, segmentation accuracy, and personalization, helping sales and marketing teams achieve higher engagement, improved conversion rates, and stronger campaign ROI."
+            },
+            {
+                "id": 6,
+                "title": "Stronger Data Governance and Compliance",
+                "desc": "Reputable data enrichment providers follow strict security protocols and compliance standards, safeguarding sensitive information and ensuring ethical data sourcing aligned with global data protection regulations."
+            },
+            {
+                "id": 7,
+                "title": "Focus on Core Business Priorities",
+                "desc": "By outsourcing data enrichment, internal teams are freed from manual data maintenance, allowing organizations to focus on strategy, innovation, and revenue-generating initiatives."
+            }
+        ]
+    },
+    "data-entry-services": {
+        "h2": "Key Benefits of Outsourcing Data Entry Services",
+        "data": [
+            {
+                "id": 1,
+                "title": "Reduced Operational Costs",
+                "desc": "Outsourcing data entry eliminates expenses related to in-house hiring, training, infrastructure, and software. Businesses benefit from predictable pricing, optimized resource utilization, and significant cost savings."
+            },
+            {
+                "id": 2,
+                "title": "Improved Accuracy and Data Quality",
+                "desc": "Multi-level validation, standardized workflows, and experienced professionals ensure high-accuracy data entry with minimal errors and consistent, reliable outputs."
+            },
+            {
+                "id": 3,
+                "title": "Fast Turnaround Times",
+                "desc": "Dedicated teams and optimized processes deliver fast turnaround data entry services without compromising quality, enabling timely reporting and real-time decision-making."
+            },
+            {
+                "id": 4,
+                "title": "Scalable Operations",
+                "desc": "Easily scale data entry volumes up or down based on project requirements, seasonal demand, or business growth without permanent staffing challenges."
+            },
+            {
+                "id": 5,
+                "title": "Enhanced Data Security and Compliance",
+                "desc": "Secure data entry outsourcing includes encrypted data transfers, role-based access controls, NDAs, and GDPR- and HIPAA-compliant processes to protect sensitive information."
+            },
+            {
+                "id": 6,
+                "title": "Access to Skilled Data Professionals",
+                "desc": "Gain immediate access to trained specialists experienced in enterprise, industry-specific, and high-volume data entry projects."
+            },
+            {
+                "id": 7,
+                "title": "Focus on Core Business Activities",
+                "desc": "Outsourcing frees internal teams from repetitive data tasks, allowing greater focus on growth, customer engagement, and strategic initiatives."
+            },
+            {
+                "id": 8,
+                "title": "Consistent and Structured Business Data",
+                "desc": "Standardized data entry processes deliver clean, well-structured datasets that integrate seamlessly across systems and improve reporting accuracy."
+            }
+        ]
+    },
+    "data-hygiene-services": {
+        "h2": "Benefits of Outsourcing Data Hygiene Services for Sustained Data Quality",
+        "data": [
+            {
+                "id": 1,
+                "title": "Protect Data Accuracy and Business Confidence",
+                "desc": "Continuous data hygiene prevents errors, duplicates, and outdated records before they impact operations. This ensures enterprise data remains accurate and trusted, enabling confident decision-making, consistent customer experiences, and reduced business risk."
+            },
+            {
+                "id": 2,
+                "title": "Lower Costs by Preventing Data Rework",
+                "desc": "Proactive data hygiene eliminates recurring data issues that require manual corrections and reprocessing, reducing operational costs, improving efficiency, and freeing teams to focus on strategic initiatives."
+            },
+            {
+                "id": 3,
+                "title": "Stay Compliant and Audit-Ready",
+                "desc": "Ongoing data hygiene enforces standardized validation rules and governance controls, supporting regulatory compliance, audit readiness, and policy adherence while minimizing data quality risks."
+            },
+            {
+                "id": 4,
+                "title": "Enable Faster, Smarter Decision-Making",
+                "desc": "Clean, current, and consistent data improves analytics accuracy and reporting reliability, enabling leaders to identify trends faster and make informed decisions using trusted datasets."
+            },
+            {
+                "id": 5,
+                "title": "Maintain Long-Term Data Quality at Scale",
+                "desc": "Unlike one-time cleanup efforts, continuous data hygiene sustains high data quality over time, preventing data decay as volumes grow, sources expand, and enterprise systems evolve."
+            }
+        ]
+    },
+    "data-management-services": {
+        "h2": "Key Benefits of Outsourcing Data Management Services",
+        "data": [
+            {
+                "id": 1,
+                "title": "Reduced Operational Costs",
+                "desc": "Outsourcing data management eliminates internal hiring, training, infrastructure, and tool investments. Businesses benefit from predictable cost models, streamlined operations, and long-term savings while external experts optimize data workflows and reduce manual, repetitive data tasks."
+            },
+            {
+                "id": 2,
+                "title": "24×7 Continuous Support",
+                "desc": "A dedicated offshore support model ensures uninterrupted data processing across time zones. Continuous availability delivers faster turnaround, up-to-date datasets, and reliable reporting without downtime or dependency on internal schedules."
+            },
+            {
+                "id": 3,
+                "title": "High Accuracy and Quality Output",
+                "desc": "Structured methodologies, automated validation, multi-step audits, and expert analysts maintain data integrity. Clean, standardized, and verified datasets support confident reporting, accurate analytics, and reduced operational or compliance risks."
+            },
+            {
+                "id": 4,
+                "title": "Faster Time-to-Insight and Reporting",
+                "desc": "Efficient data pipelines and automated workflows accelerate access to actionable insights. Faster processing shortens reporting cycles, enables proactive strategies, and provides leaders with timely intelligence for better decision-making."
+            },
+            {
+                "id": 5,
+                "title": "Scalable to Any Volume or Project",
+                "desc": "Outsourced data management scales instantly to handle fluctuating workloads, seasonal demand, system migrations, and enterprise growth without capacity constraints or performance degradation."
+            },
+            {
+                "id": 6,
+                "title": "Enhanced Data Security and Compliance",
+                "desc": "Strict governance, encrypted workflows, NDA-controlled environments, and compliance-aligned protocols ensure secure data handling and minimize risk exposure across sensitive business and customer datasets."
+            },
+            {
+                "id": 7,
+                "title": "Allows Focus on Core Strategic Growth",
+                "desc": "By removing repetitive data operations, internal teams can focus on innovation, digital transformation, and revenue-driven initiatives, supported by clean, reliable, and decision-ready data."
+            }
+        ]
+    },
+    "data-mining-services": {
+        "h2": "Benefits of Outsourcing Data Mining Services to Computyne",
+        "data": [
+            {
+                "id": 1,
+                "title": "Reduced Operational Costs",
+                "desc": "Outsourcing data mining services eliminates investments in hiring, specialized tools, and infrastructure while delivering cost-effective, enterprise-grade analytics capabilities."
+            },
+            {
+                "id": 2,
+                "title": "Access to Skilled Data Mining Experts",
+                "desc": "Experienced data mining specialists apply proven tools, methodologies, and domain expertise to deliver accurate, high-quality insights without internal training overhead."
+            },
+            {
+                "id": 3,
+                "title": "Scalable and Flexible Delivery Models",
+                "desc": "From one-time analytics projects to fully managed data mining services, offshore and onshore delivery models scale seamlessly to match changing business needs."
+            },
+            {
+                "id": 4,
+                "title": "High Accuracy and Quality Assurance",
+                "desc": "Structured workflows, validation rules, and multi-level quality assurance ensure reliable, analysis-ready datasets that organizations can trust."
+            },
+            {
+                "id": 5,
+                "title": "Faster Insights and Decision Support",
+                "desc": "Optimized processes and automation accelerate data mining timelines, enabling faster forecasting, proactive insights, and improved business responsiveness."
+            },
+            {
+                "id": 6,
+                "title": "Advanced Tools Without Capital Investment",
+                "desc": "Access advanced data mining platforms, automation tools, and analytical technologies without purchasing, licensing, or maintaining expensive software."
+            },
+            {
+                "id": 7,
+                "title": "Enhanced Data Security and Compliance",
+                "desc": "Secure data mining outsourcing follows strict access controls, confidentiality agreements, and compliance-driven processes to protect sensitive information."
+            },
+            {
+                "id": 8,
+                "title": "Focus on Core Business Objectives",
+                "desc": "By outsourcing data mining, internal teams are freed from manual analysis tasks and can refocus on growth, innovation, and strategic business priorities."
+            }
+        ]
+    },
+    "data-solutions-services": {
+        "h2": "Benefits of Outsourcing Data Services to Computyne",
+        "data": [
+            {
+                "id": 1,
+                "title": "Reduce Operational Costs and Optimize ROI",
+                "desc": "Outsourcing data services eliminates the need for in-house hiring, onboarding, salaries, and infrastructure. Businesses leverage cost-effective offshore expertise to reduce operational expenses by up to 50% while maximizing return on investment."
+            },
+            {
+                "id": 2,
+                "title": "Faster Project Turnaround & Improved Productivity",
+                "desc": "A scalable workforce, automation tools, and structured SOPs accelerate data processing, validation, and delivery, enabling faster reporting cycles, fewer bottlenecks, and uninterrupted business workflows."
+            },
+            {
+                "id": 3,
+                "title": "High Accuracy Guaranteed with Multi-Level Validation",
+                "desc": "With up to 99.99% accuracy, multi-stage data cleansing, validation, and deduplication processes ensure clean, reliable datasets that analytics and business systems can trust."
+            },
+            {
+                "id": 4,
+                "title": "Scalable Outsourcing On-Demand",
+                "desc": "From seasonal workload spikes to large-scale data migrations, outsourcing enables instant scalability without internal hiring, ensuring consistent performance and high-volume turnaround."
+            },
+            {
+                "id": 5,
+                "title": "Secure, Compliant & Confidential",
+                "desc": "End-to-end data lifecycle management follows global compliance and governance standards, including encryption, access controls, NDA-protected teams, and GDPR- and ISO-aligned security practices."
+            }
+        ]
+    },
+    "data-standarization-services": {
+        "h2": "Key Benefits of Data Standardization Services for Enterprise Data Quality",
+        "data": [
+            {
+                "id": 1,
+                "title": "Improved Data Accuracy and Consistency",
+                "desc": "Data standardization eliminates format discrepancies, inconsistencies, and errors across datasets, ensuring uniform values across systems. This improves data accuracy, reduces rework, minimizes operational risk, and enables confident reporting, analytics, and decision-making."
+            },
+            {
+                "id": 2,
+                "title": "Enhanced Analytics and Business Intelligence",
+                "desc": "Standardized data ensures compatibility across analytics, BI, and AI platforms. Clean, structured, analytics-ready data improves reporting speed, insight accuracy, and trend identification using reliable, unified information."
+            },
+            {
+                "id": 3,
+                "title": "Operational Efficiency and Cost Reduction",
+                "desc": "Automated data normalization and validation reduce manual effort, reprocessing, and correction costs. Teams spend less time fixing data issues and more time on core initiatives, improving productivity and lowering operational overhead."
+            },
+            {
+                "id": 4,
+                "title": "Improved System Integration and Scalability",
+                "desc": "Consistent data formats enable seamless CRM, ERP, marketing, and financial system integration. Standardized datasets support scalable operations, smoother migrations, faster onboarding, and long-term digital transformation."
+            },
+            {
+                "id": 5,
+                "title": "Stronger Data Governance and Compliance",
+                "desc": "Data standardization enforces consistent rules, definitions, and structures aligned with governance frameworks, improving audit readiness, regulatory compliance, internal controls, and reducing enterprise data quality risks."
+            }
+        ]
+    },
+    "data-validation-services": {
+        "h2": "Benefits of Outsourcing Data Validation Services",
+        "data": [
+            {
+                "id": 1,
+                "title": "Improved Data Accuracy and Reliability",
+                "desc": "Outsourced data validation ensures every record is verified, corrected, and standardized using multi-source checks. This improves database accuracy, reduces errors, and delivers reliable, decision-ready data across sales, marketing, and analytics systems."
+            },
+            {
+                "id": 2,
+                "title": "Reduced Operational Costs and Internal Workload",
+                "desc": "Outsourcing data validation eliminates the need for internal tools, manual verification processes, and dedicated resources. This lowers operational costs, accelerates turnaround times, and allows teams to focus on revenue-driven initiatives."
+            },
+            {
+                "id": 3,
+                "title": "Enhanced Sales and Marketing Performance",
+                "desc": "Validated data improves lead quality, targeting precision, and outreach effectiveness. Accurate contact and firmographic data reduce bounce rates, increase engagement, and help teams convert opportunities faster and more consistently."
+            },
+            {
+                "id": 4,
+                "title": "Stronger Compliance and Risk Management",
+                "desc": "Professional data validation services ensure datasets meet regulatory, consent, and industry compliance standards. Verified records reduce legal exposure, mitigate reputational risk, and support audit readiness across enterprise data assets."
+            },
+            {
+                "id": 5,
+                "title": "Scalability for High-Volume and Enterprise Data",
+                "desc": "Outsourced data validation services scale seamlessly to manage bulk databases, multi-source inputs, and continuous revalidation while maintaining consistent data quality without infrastructure investments or performance constraints."
+            }
+        ]
+    },
+    "document-processing-services": {
+        "h2": "How Document Processing Outsourcing Drives Scalable Growth",
+        "data": [
+            {
+                "id": 1,
+                "title": "Reduced Operational Costs",
+                "desc": "Outsourcing document processing eliminates infrastructure investments, software licensing, recruitment, and training costs, enabling predictable pricing, better budget control, and higher returns on operational spending."
+            },
+            {
+                "id": 2,
+                "title": "Faster Turnaround Times",
+                "desc": "Dedicated teams and automated document workflows accelerate processing speed, ensuring faster data availability and timely business decisions without compromising accuracy or SLAs."
+            },
+            {
+                "id": 3,
+                "title": "Improved Data Accuracy and Consistency",
+                "desc": "Standardized workflows, data validation, verification services, and multi-level quality checks ensure accurate, consistent, and duplication-free datasets across enterprise systems."
+            },
+            {
+                "id": 4,
+                "title": "Scalability and Flexibility",
+                "desc": "Scalable document processing services allow organizations to handle fluctuating workloads efficiently without internal hiring delays or operational disruptions."
+            },
+            {
+                "id": 5,
+                "title": "Access to Advanced Technologies",
+                "desc": "AI-powered document processing, OCR, NLP, and machine learning analytics are delivered without the need for costly internal technology investments."
+            },
+            {
+                "id": 6,
+                "title": "Enhanced Compliance and Data Security",
+                "desc": "Secure document processing follows strict access controls, audit trails, and regulatory-compliant standards, including GDPR- and HIPAA-aligned practices."
+            },
+            {
+                "id": 7,
+                "title": "Focus on Core Business Priorities",
+                "desc": "Outsourcing non-core document processing frees internal teams to focus on strategic initiatives, innovation, and revenue-generating activities."
+            },
+            {
+                "id": 8,
+                "title": "Actionable Insights and Better Decisions",
+                "desc": "Clean, structured, and analytics-ready data enables faster reporting, improved visibility, and confident, data-driven decision-making."
+            }
+        ]
+    },
+    "list-building-services": {
+        "h2": "Advantages of Outsourcing B2B List Building to Computyne",
+        "data": [
+            {
+                "id": 1,
+                "title": "Access to Verified, High-Quality B2B Contact Data",
+                "desc": "We deliver thoroughly validated and continuously updated B2B contact lists that help sales and marketing teams engage real decision-makers, reduce bounce rates, and improve outreach effectiveness across campaigns."
+            },
+            {
+                "id": 2,
+                "title": "Reduced Costs and Faster Time-to-Market",
+                "desc": "Outsourcing list building eliminates recruitment, training, and infrastructure expenses while accelerating delivery through optimized workflows and parallel processing, enabling faster campaign launches without sacrificing data quality."
+            },
+            {
+                "id": 3,
+                "title": "Custom Targeting Aligned with Business Goals",
+                "desc": "Every prospect list is customized by industry, geography, company size, job function, and buyer persona to ensure higher relevance, stronger engagement, and measurable alignment with sales and marketing objectives."
+            },
+            {
+                "id": 4,
+                "title": "Advanced Tools Combined with Human Validation",
+                "desc": "Automation tools, premium research platforms, and skilled human validation work together to remove inaccuracies, duplicates, and outdated records, ensuring high accuracy, compliance, and data reliability."
+            },
+            {
+                "id": 5,
+                "title": "Scalable Support for Growing Sales Pipelines",
+                "desc": "Scalable list building services adapt to changing campaign volumes, market expansion, seasonal demand, and new territories without operational strain or quality degradation."
+            },
+            {
+                "id": 6,
+                "title": "CRM-Ready, Actionable Data Outputs",
+                "desc": "All contact datasets are cleansed, enriched, standardized, and delivered in CRM-ready formats, enabling seamless integration with sales and marketing platforms for faster activation and improved campaign performance."
+            }
+        ]
+    },
+    "property-data-collection-services": {
+        "h2": "Benefits of Outsourcing Property Data Collection Services",
+        "data": [
+            {
+                "id": 1,
+                "title": "Improved Data Accuracy and Consistency",
+                "desc": "Outsourced property data collection applies automated validation, standardized workflows, and multi-level quality checks to deliver reliable and consistent datasets across listings, transactions, valuations, and regulatory records."
+            },
+            {
+                "id": 2,
+                "title": "Reduced Operational Costs",
+                "desc": "Real estate data collection outsourcing eliminates hiring, training, infrastructure, and maintenance costs while delivering scalable, high-quality property data services at predictable and cost-efficient pricing."
+            },
+            {
+                "id": 3,
+                "title": "Faster Data Turnaround Times",
+                "desc": "Automation, parallel workflows, and dedicated teams accelerate property data processing cycles, ensuring timely delivery of large volumes without compromising data quality or freshness."
+            },
+            {
+                "id": 4,
+                "title": "Scalability for Growing Data Needs",
+                "desc": "Scalable property data services adapt seamlessly to portfolio expansion, geographic growth, and fluctuating data volumes without internal operational constraints."
+            },
+            {
+                "id": 5,
+                "title": "Access to Domain-Specific Expertise",
+                "desc": "Experienced real estate data specialists ensure accurate data management aligned with MLS standards, valuation models, and regulatory requirements."
+            },
+            {
+                "id": 6,
+                "title": "Enhanced Focus on Core Business Goals",
+                "desc": "Outsourcing property data collection frees internal teams to prioritize investments, sales execution, asset optimization, and long-term strategic growth initiatives."
+            },
+            {
+                "id": 7,
+                "title": "Secure and Compliant Data Handling",
+                "desc": "Secure property data collection follows strict security protocols, NDAs, and compliance frameworks to safeguard sensitive property, ownership, and financial information."
+            },
+            {
+                "id": 8,
+                "title": "Actionable Insights for Better Decisions",
+                "desc": "Clean, structured, and validated property datasets enable confident market analysis, pricing strategies, risk mitigation, and data-driven investment decisions."
+            }
+        ]
+    },
+    "resume-formatting-services": {
+        "h2": "Benefits of Outsourcing Resume/CV Formatting Services",
+        "data": [
+            {
+                "id": 1,
+                "title": "Accelerated Hiring Workflow",
+                "desc": "Professional resume formatting streamlines candidate document preparation and removes manual editing effort. Outsourcing enables faster resume conversion, quicker submissions, shorter hiring cycles, and higher recruiter productivity."
+            },
+            {
+                "id": 2,
+                "title": "Consistent, Brand-Aligned Resume Output",
+                "desc": "Every CV follows your agency’s branding, templates, visual standards, and ATS-ready structure, ensuring uniform, professional, and client-ready resume presentation."
+            },
+            {
+                "id": 3,
+                "title": "Improved Shortlisting & Placement Ratio",
+                "desc": "Clean, well-structured, and compelling resumes attract hiring manager attention, increase interview conversions, and improve placement success rates for recruitment teams."
+            },
+            {
+                "id": 4,
+                "title": "Scalable Resume Processing for All Hiring Volumes",
+                "desc": "Outsourcing supports high-volume resume formatting during peak hiring seasons without internal staffing expansion, ensuring uninterrupted and scalable delivery."
+            },
+            {
+                "id": 5,
+                "title": "Cost-Efficient Recruitment Operations",
+                "desc": "Resume formatting outsourcing eliminates internal payroll, training, software, and infrastructure costs, enabling lean recruitment operations while meeting client SLAs."
+            },
+            {
+                "id": 6,
+                "title": "Refocus Recruiter Time on Core Hiring Activities",
+                "desc": "By offloading formatting tasks, recruiters gain more time to source talent, engage candidates, build relationships, and close roles faster."
+            },
+            {
+                "id": 7,
+                "title": "ATS-Friendly, Accurate & Error-Free Resumes",
+                "desc": "Specialists ensure resumes are keyword-optimized, ATS-compliant, and error-free, improving readability, system parsing, and search relevance across recruitment platforms."
+            },
+            {
+                "id": 8,
+                "title": "Client-Specific Custom Resume Formatting",
+                "desc": "Custom layouts, skill highlighting, section restructuring, summary rewriting, and industry-specific optimization ensure each resume aligns perfectly with client job requirements."
+            },
+            {
+                "id": 9,
+                "title": "Data Security, Privacy & Confidentiality Controls",
+                "desc": "Strict data governance, secure systems, encrypted file transfers, and NDA-bound workflows protect candidate information at every stage of the formatting process."
+            },
+            {
+                "id": 10,
+                "title": "Faster Delivery & Guaranteed Turnaround Time (TAT)",
+                "desc": "Same-day, next-day, and express delivery options help agencies meet urgent submissions, maintain hiring pipelines, and respond instantly to client demand."
+            }
+        ]
+    },
+    "web-research-services": {
+        "h2": "Benefits of Outsourcing Web Research Services to Computyne",
+        "data": [
+            {
+                "id": 1,
+                "title": "Reduced Operational Costs",
+                "desc": "Outsourcing web research eliminates expenses related to hiring, onboarding, training, infrastructure, and research tools. Computyne delivers cost-efficient research services with predictable pricing while maintaining consistent, high-quality outputs."
+            },
+            {
+                "id": 2,
+                "title": "Access to Skilled Research Professionals",
+                "desc": "Gain direct access to experienced research analysts skilled in market intelligence, competitor analysis, data mining, validation, and online investigation—without building or managing in-house research teams."
+            },
+            {
+                "id": 3,
+                "title": "Faster Turnaround and Time-to-Insight",
+                "desc": "Optimized workflows, parallel execution, and structured methodologies accelerate research delivery, enabling faster access to actionable insights for sales, marketing, strategy, and leadership teams."
+            },
+            {
+                "id": 4,
+                "title": "High Accuracy and Data Reliability",
+                "desc": "Multi-level quality assurance, cross-source validation, and standardized research processes ensure accurate, relevant, and reliable datasets that strengthen confidence in analysis, reporting, and strategic planning."
+            },
+            {
+                "id": 5,
+                "title": "Scalable Research Support",
+                "desc": "Computyne’s flexible delivery model allows seamless scaling of research volumes to support project-based needs, seasonal demand, or long-term growth without delays or resource constraints."
+            },
+            {
+                "id": 6,
+                "title": "Advanced Tools and Modern Methodologies",
+                "desc": "Leverage enterprise-grade research tools, automation frameworks, analytics-ready formats, and modern data methodologies without additional investment, ensuring efficient and future-ready research execution."
+            },
+            {
+                "id": 7,
+                "title": "Data Security and Confidentiality",
+                "desc": "Strict NDAs, controlled system access, secure file transfers, and compliance-driven processes safeguard sensitive business information and ensure alignment with global data protection standards."
+            },
+            {
+                "id": 8,
+                "title": "Focus on Core Business Priorities",
+                "desc": "By outsourcing time-intensive web research tasks, internal teams can focus on strategic initiatives, revenue growth, customer engagement, and innovation while Computyne manages execution with precision."
+            }
+        ]
+    },
+    "web-scraping-services": {
+        "h2": "Benefits of Outsourcing Web Scraping Services",
+        "data": [
+            {
+                "id": 1,
+                "title": "Reduced Operational Costs",
+                "desc": "Outsourcing web scraping eliminates investments in infrastructure, software, and in-house teams. Businesses lower operational expenses while accessing expert resources, predictable pricing, and scalable data extraction without long-term commitments."
+            },
+            {
+                "id": 2,
+                "title": "Access to Specialized Web Scraping Expertise",
+                "desc": "Partnering with an experienced web scraping provider gives access to professionals skilled in automation, web crawling, and data validation, ensuring accurate, compliant, and enterprise-ready datasets."
+            },
+            {
+                "id": 3,
+                "title": "Faster Data Collection and Delivery",
+                "desc": "Outsourced web scraping accelerates data acquisition through automated workflows and parallel processing, delivering real-time web data that supports faster analysis and decision-making."
+            },
+            {
+                "id": 4,
+                "title": "Scalable Data Extraction on Demand",
+                "desc": "Scalable web scraping solutions allow businesses to increase or decrease extraction volumes as requirements change, ensuring consistent data availability during growth or peak demand periods."
+            },
+            {
+                "id": 5,
+                "title": "Improved Data Accuracy and Consistency",
+                "desc": "Professional web scraping services apply multi-level quality checks, structured extraction methods, and validation standards to improve analytics accuracy and business intelligence outcomes."
+            },
+            {
+                "id": 6,
+                "title": "Enhanced Focus on Core Business Activities",
+                "desc": "By outsourcing web scraping, internal teams avoid time-consuming data collection tasks and can focus on strategic initiatives, customer engagement, and revenue growth."
+            },
+            {
+                "id": 7,
+                "title": "Secure and Compliant Data Handling",
+                "desc": "Trusted web scraping providers follow ethical scraping practices, regulatory compliance standards, and strict security protocols to ensure responsible and secure data collection."
+            }
+        ]
+    }
+}

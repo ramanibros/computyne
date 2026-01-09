@@ -1,6 +1,19 @@
+"use client";
+import { usePathname } from "next/navigation";
 import FunfactSingle2 from "./FunfactSingle2";
+import getServiceData from "@/libs/service/getServiceData";
 
 const Counter = () => {
+    const pathname = usePathname();
+    const slug = pathname.split("/").filter(Boolean).pop();
+    const counters = getServiceData(slug);
+
+    const counterData =
+        !counters || Object.keys(counters).length === 0
+            ? getServiceData("data-extraction-services")
+            : counters;
+
+    console.log("Current route slug:", counterData);
     return (
         <div
             className={`tj-client-section-4 mb-0    section-gap-x wow fadeInUp`}
@@ -10,61 +23,27 @@ const Counter = () => {
                 <div className="row">
                     <div className="col-12">
                         <div className="countup-wrap">
-                            <div className="countup-item-mod">
-                                <FunfactSingle2 currentValue={15} symbol={"+"}/>
+                            {counterData.counter.map((item, index) => (
+                                <div className="countup-item-mod" key={index}>
+                                    <FunfactSingle2
+                                        currentValue={item.value}
+                                        symbol={item.symbol}
+                                    />
 
-                                <span className="count-text-mod-2">Years of Experience</span>
-                                <span
-                                    className="count-separator"
-                                    style={{
-                                        backgroundImage: "url('/images/shape/separator.svg')",
-                                    }}
-                                ></span>
-                            </div>
-                            <div className="countup-item-mod">
-                                <FunfactSingle2 currentValue={250} symbol={"+"}/>
-                                <span className="count-text-mod-2">Empowered Employees</span>
-                                <span
-                                    className="count-separator"
-                                    style={{
-                                        backgroundImage: "url('/images/shape/separator.svg')",
-                                    }}
-                                ></span>
-                            </div>
-                            <div className="countup-item-mod">
-                                <FunfactSingle2 currentValue={50} symbol={"M"}/>
-                                <span className="count-text-mod-2">Data Collected Annually</span>
-                                <span
-                                    className="count-separator"
-                                    style={{
-                                        backgroundImage: "url('/images/shape/separator.svg')",
-                                    }}
-                                ></span>
-                            </div>
-                            <div className="countup-item-mod">
-                                <FunfactSingle2 currentValue={50} symbol={"%"}/>
-                                <span className="count-text-mod-2">Cost Saving</span>
-                                <span
-                                    className="count-separator"
-                                    style={{
-                                        backgroundImage: "url('/images/shape/separator.svg')",
-                                    }}
-                                ></span>
-                            </div>
-                            <div className="countup-item-mod">
-                                <FunfactSingle2 currentValue={24} symbol={"x7"}/>
-                                <span className="count-text-mod-2">Data Support</span>
-                                <span
-                                    className="count-separator"
-                                    style={{
-                                        backgroundImage: "url('/images/shape/separator.svg')",
-                                    }}
-                                ></span>
-                            </div>
-                            <div className="countup-item-mod">
-                                <FunfactSingle2 currentValue={99.99} symbol={"%"}/>
-                                <span className="count-text-mod-2">Accuracy</span>
-                            </div>
+                                    <span className="count-text-mod-2">
+                                        {item.label}
+                                    </span>
+
+                                    {index !== counterData.counter.length - 1 && (
+                                        <span
+                                            className="count-separator"
+                                            style={{
+                                                backgroundImage: "url('/images/shape/separator.svg')",
+                                            }}
+                                        ></span>
+                                    )}
+                                </div>
+                            ))}
                         </div>
                     </div>
                 </div>

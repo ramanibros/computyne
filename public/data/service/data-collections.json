@@ -1,0 +1,70 @@
+{
+    "data-extraction-services": {
+        "banner": {
+            "image":"/images/service/data-collection-services/banner/data-extraction-banner.webp",
+            "h1": "Data Extraction Services",
+            "tagline": "Turn Raw Data into Accurate, Actionable Business Intelligence",
+            "cta": "Get Clean Structured Data"
+        },
+        "counter": [
+            {
+                "label": "Years of Experience",
+                "value": "15",
+                "symbol": "+"
+            },
+            {
+                "label": "Empowered Employees",
+                "value": "250",
+                "symbol": "+"
+            },
+            {
+                "label": "Data Security",
+                "value": "100",
+                "symbol": "%"
+            },
+            {
+                "label": "Cost Saving",
+                "value": null,
+                "symbol": "Up to 50%"
+            },
+            {
+                "label": "Data Support",
+                "value": "24",
+                "symbol": "x7"
+            },
+            {
+                "label": "Accuracy",
+                "value": "99.99",
+                "symbol": "%"
+            }
+        ],
+        "overview": {
+            "image": "/images/service/data-collection-services/data-extraction-overview.webp",
+            "h2": "Scalable Data Extraction Solutions for Clean, Decision-Ready Data",
+            "content": [
+                "Managing high volumes of unstructured and fragmented information often slows business operations and limits visibility. Computyne delivers professional Data Extraction Services that transform raw data into structured, reliable, and analytics-ready datasets.",
+                "As a trusted data extraction company, we help organizations extract business-critical information from websites, PDFs, documents, databases, APIs, and digital repositories with precision and consistency. Our managed data extraction services reduce manual effort while ensuring data accuracy, completeness, and usability.",
+                "Each data extraction solution is tailored to your business goals. By combining intelligent automation, AI-assisted tools, and expert manual validation, our specialists capture relevant data points and deliver verified outputs formatted for seamless system integration. Every dataset undergoes strict quality checks before delivery.",
+                "We support industries such as retail, healthcare, finance, logistics, real estate, and technology with scalable web data extraction services that power reporting, analytics, and operational efficiency. Whether processing high-volume files or managing complex, multi-source environments, we deliver fast turnaround times without compromising data quality."
+            ]
+        }
+    },
+    "competitor-analysis-services": {},
+    "data-appending-services": {},
+    "data-cleansing-services": {},
+    "data-collection-services": {},
+    "data-enrichment-services": {},
+    "data-entry-services": {},
+    "data-hygiene-services": {},
+    "data-management-services": {},
+	"data-mining-services": {},
+    "data-solutions-services": {},
+    "data-standarization-services": {},
+    "data-validation-services": {},
+    "document-processing-services": {},
+    "list-building-services": {},
+    "property-data-collection-services": {},
+    "resume-formatting-services": {},
+    "web-research-services": {},
+    "web-scraping-services": {}
+}
