@@ -1,4 +1,4 @@
-import {Mona_Sans} from "next/font/google";
+import { Mona_Sans } from "next/font/google";
 import "react-range-slider-input/dist/style.css";
 import "swiper/css";
 import "swiper/css/effect-coverflow";
@@ -15,6 +15,8 @@ import "./assets/css/meanmenu.css";
 import "./assets/css/nice-select2.css";
 import "./assets/css/odometer-theme-default.css";
 import "./globals.scss";
+import Script from "next/script";
+
 
 const bodyFont = Mona_Sans({
     variable: "--tj-ff-body",
@@ -36,12 +38,33 @@ export const metadata = {
     description: "Computyne -Global outsourcing & Data Services Company",
 };
 
-export default function RootLayout({children}) {
+export default function RootLayout({ children }) {
     return (
         <html lang="en" data-scroll-behavior="smooth" dir="ltr">
-        <body className={`${bodyFont.variable} ${headingFont.variable}`}>
-        {children}
-        </body>
+            <head>
+                <Script
+                    id="live2support-chat"
+                    strategy="afterInteractive"
+                    dangerouslySetInnerHTML={{
+                        __html: `
+                            (function () {
+                                var pp = document.createElement('script'),
+                                    ppr = document.getElementsByTagName('script')[0];
+                                var stid = 'VHJVakJQZmZscmQ4VWlxL1ZlSmFyQT09';
+                                pp.type = 'text/javascript';
+                                pp.async = true;
+                                pp.src =
+                                (document.location.protocol === 'https:' ? 'https://' : 'http://') +
+                                's01.live2support.com/dashboardv2/chatwindow/';
+                                ppr.parentNode.insertBefore(pp, ppr);
+                            })();
+                            `,
+                    }}
+                />
+            </head>
+            <body className={`${bodyFont.variable} ${headingFont.variable}`}>
+                {children}
+            </body>
         </html>
     );
 }
