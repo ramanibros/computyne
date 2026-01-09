@@ -17,14 +17,14 @@ const Whychooseus = () => {
 
 	const getWhychooseusData =
 		!whyChooseUs || Object.keys(whyChooseUs).length === 0
-			? getServiceData("data-extraction-services")?.data.slice(0, 3)
+			? getWhyChooseUsData("data-extraction-services")?.data.slice(0, 3)
 			: whyChooseUs?.data.slice(0, 3);
 
 	const whychooseusData = [...getWhychooseusData, ...getWhychooseusData];
 
 	const getWhychooseusTitle =
 		!whyChooseUs || Object.keys(whyChooseUs).length === 0
-			? getServiceData("data-extraction-services")?.h2
+			? getWhyChooseUsData("data-extraction-services")?.h2
 			: whyChooseUs?.h2;
 
 	return (

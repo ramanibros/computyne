@@ -2,7 +2,6 @@
 import getSubservice from "@/libs/service/resume-formatting-services/getSubservices";
 import SubserviceCard from "./SubserviceCard";
 import { usePathname } from "next/navigation";
-import getServiceData from "@/libs/service/getServiceData";
 import getSubServicesData from "@/libs/service/getSubServicesData";
 
 const Subservices = () => {
@@ -13,7 +12,7 @@ const Subservices = () => {
     const subServices = getSubServicesData(slug);
 	const subServicesData =
 		!subServices || Object.keys(subServices).length === 0
-			? getServiceData("data-extraction-services")
+			? getSubServicesData("data-extraction-services")
 			: subServices;
 	return (
 		<section className="tj-blog-section-2 section-gap">

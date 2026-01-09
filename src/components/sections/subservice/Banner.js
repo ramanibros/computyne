@@ -10,6 +10,8 @@ const Banner = () => {
 	const slug = pathname.split("/").filter(Boolean).pop();
 	const bannner = getServiceData(slug);
 
+	console.log("BANNER ",bannner)
+
 	const bannerData =
 		!bannner || Object.keys(bannner).length === 0
 			? getServiceData("data-extraction-services")

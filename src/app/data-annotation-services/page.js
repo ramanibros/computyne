@@ -3,15 +3,15 @@ import Header from "@/components/layout/header/Header";
 import CallSchedule from "@/components/sections/funfacts/CallSchedule";
 import BackToTop from "@/components/shared/others/BackToTop";
 import ClientWrapper from "@/components/shared/wrappers/ClientWrapper";
-import Aboutus from "@/components/sections/service/Aboutus";
-import Subservices from "@/components/sections/service/Subservices";
-import Banner from "@/components/sections/service/Banner";
-import Counter from "@/components/sections/service/Counter";
-import Whychooseus from "@/components/sections/service/Whychooseus";
-import Faq from "@/components/sections/service/Faq";
-import Industries from "@/components/sections/service/Industries";
-import Casestudy from "@/components/sections/service/Casestudy";
-import Testimonials from "@/components/sections/service/Testimonials";
+import Aboutus from "@/components/sections/subservice/Aboutus";
+import Subservices from "@/components/sections/subservice/Subservices";
+import Banner from "@/components/sections/subservice/Banner";
+import Counter from "@/components/sections/subservice/Counter";
+import Whychooseus from "@/components/sections/subservice/Whychooseus";
+import Faq from "@/components/sections/subservice/Faq";
+import Industries from "@/components/sections/subservice/Industries";
+import Casestudy from "@/components/sections/subservice/Casestudy";
+import Testimonials from "@/components/sections/subservice/Testimonials";
 
 export default function dataAnnotationServices() {
     return (

@@ -1,7 +1,7 @@
 {
     "data-extraction-services": {
         "banner": {
-            "image":"/images/service/data-collection-services/banner/data-extraction-banner.webp",
+            "image": "/images/service/banner/data-extraction-banner.webp",
             "h1": "Data Extraction Services",
             "tagline": "Turn Raw Data into Accurate, Actionable Business Intelligence",
             "cta": "Get Clean Structured Data"
@@ -39,7 +39,7 @@
             }
         ],
         "overview": {
-            "image": "/images/service/data-collection-services/data-extraction-overview.webp",
+            "image": "/images/service/data-extraction-overview.webp",
             "h2": "Scalable Data Extraction Solutions for Clean, Decision-Ready Data",
             "content": [
                 "Managing high volumes of unstructured and fragmented information often slows business operations and limits visibility. Computyne delivers professional Data Extraction Services that transform raw data into structured, reliable, and analytics-ready datasets.",
@@ -49,22 +49,904 @@
             ]
         }
     },
-    "competitor-analysis-services": {},
-    "data-appending-services": {},
-    "data-cleansing-services": {},
-    "data-collection-services": {},
-    "data-enrichment-services": {},
-    "data-entry-services": {},
-    "data-hygiene-services": {},
-    "data-management-services": {},
-	"data-mining-services": {},
-    "data-solutions-services": {},
-    "data-standarization-services": {},
-    "data-validation-services": {},
-    "document-processing-services": {},
-    "list-building-services": {},
-    "property-data-collection-services": {},
-    "resume-formatting-services": {},
-    "web-research-services": {},
-    "web-scraping-services": {}
+    "competitor-analysis-services": {
+        "banner": {
+            "image": "/images/service/banner/competitor-price-analysis-banner.webp",
+            "h1": "Competitor and Price Analysis Services",
+            "tagline": "Turn Competitive Intelligence and Price Insights into Measurable Revenue and Margin Gains",
+            "cta": "Talk to Our Data Expert"
+        },
+        "counter": [
+            {
+                "label": "Years of Experience",
+                "value": "15",
+                "symbol": "+"
+            },
+            {
+                "label": "Skilled Professionals",
+                "value": "250",
+                "symbol": "+"
+            },
+            {
+                "label": "Data Security",
+                "value": "100",
+                "symbol": "%"
+            },
+            {
+                "label": "Cost Saving",
+                "value": null,
+                "symbol": "Up to 50%"
+            },
+            {
+                "label": "Data Support",
+                "value": "24",
+                "symbol": "×7"
+            },
+            {
+                "label": "Accuracy",
+                "value": "99.99",
+                "symbol": "%"
+            }
+        ],
+        "overview": {
+            "image": "/images/service/competitor-price-analysis-overview.webp",
+            "h2": "Competitor Pricing Intelligence That Improves Revenue and Demand Forecasting",
+            "content": [
+                "In today’s highly competitive eCommerce landscape, a single product often competes against hundreds or even thousands of sellers across multiple channels. Even small price changes can significantly influence customer purchasing decisions, making accurate and ongoing competitor price tracking essential for sustainable growth.",
+                "Professional competitor and price analysis services provide real-time visibility into pricing trends, promotional activity, and competitor positioning. Continuous price monitoring enables data-driven pricing strategies that balance competitiveness with profitability while allowing retailers to respond quickly to market changes.",
+                "Competitor price monitoring also helps businesses determine whether products are underpriced, overpriced, or optimally positioned in the market. Advanced eCommerce price tracking services extend beyond pricing to include competitor stock availability and assortment changes, supporting accurate demand forecasting and preventing inventory stagnation.",
+                "At Computyne, we deliver tailored competitor price tracking and price comparison services aligned with your products, categories, and business objectives. Our competitive pricing intelligence helps online retailers increase sales, optimize pricing strategies, and maintain a strong competitive position across fast-moving digital marketplaces."
+            ]
+        }
+    },
+    "data-appending-services": {
+        "banner": {
+            "image": "/images/service/banner/data-appending-banner.webp",
+            "h1": "Data Appending Services",
+            "tagline": "Complete Incomplete Datasets with Reliable, Up-to-Date, Decision-Ready Information",
+            "cta": "Request a Data Appending Quote"
+        },
+        "counter": [
+            {
+                "label": "Years of Experience",
+                "value": "15",
+                "symbol": "+"
+            },
+            {
+                "label": "Skilled Professionals",
+                "value": "250",
+                "symbol": "+"
+            },
+            {
+                "label": "Data Security",
+                "value": "100",
+                "symbol": "%"
+            },
+            {
+                "label": "Cost Saving",
+                "value": null,
+                "symbol": "Up to 50%"
+            },
+            {
+                "label": "Data Support",
+                "value": "24",
+                "symbol": "×7"
+            },
+            {
+                "label": "Accuracy",
+                "value": "99.99",
+                "symbol": "%"
+            }
+        ],
+        "overview": {
+            "image": "/images/service/data-appending-overview.webp",
+            "h2": "Close Data Gaps with Scalable, Secure Data Appending Services",
+            "content": [
+                "In today’s data-driven business landscape, organizations rely on large volumes of consumer and B2B data to power marketing initiatives, improve operational efficiency, and reduce business risk. Incomplete or outdated contact information, however, limits the effectiveness of even the most advanced strategies.",
+                "Computyne’s Data Appending Services solve this challenge by filling critical data gaps and transforming fragmented datasets into complete, accurate, and actionable business intelligence. We enrich existing records with verified demographic, firmographic, contact, and behavioral attributes.",
+                "As a trusted data appending company, Computyne delivers customized B2B data appending services aligned with your specific business objectives. Using advanced data matching, validation, and appending technologies, we ensure fast, accurate, and secure data enrichment at scale.",
+                "Our scalable infrastructure supports real-time data appending services, multiple file formats, and enterprise-scale datasets, processing millions of records every month. The result is improved database accuracy, reduced data decay, and stronger sales and marketing performance driven by reliable, decision-ready data."
+            ]
+        }
+    },
+    "data-cleansing-services": {
+        "banner": {
+            "image": "/images/service/banner/data-cleansing-banner.webp",
+            "h1": "Data Cleansing Services",
+            "tagline": "Transform Messy Data into Clean, Validated, Decision-Ready Business Intelligence",
+            "cta": "Get Clean, Reliable Data"
+        },
+        "counter": [
+            {
+                "label": "Years of Experience",
+                "value": "15",
+                "symbol": "+"
+            },
+            {
+                "label": "Skilled Professionals",
+                "value": "250",
+                "symbol": "+"
+            },
+            {
+                "label": "Data Security",
+                "value": "100",
+                "symbol": "%"
+            },
+            {
+                "label": "Cost Saving",
+                "value": null,
+                "symbol": "Up to 50%"
+            },
+            {
+                "label": "Data Support",
+                "value": "24",
+                "symbol": "×7"
+            },
+            {
+                "label": "Accuracy",
+                "value": "99.99",
+                "symbol": "%"
+            }
+        ],
+        "overview": {
+            "image": "/images/service/data-cleansing-overview.webp",
+            "h2": "Data Cleansing Services Designed for Accurate, Decision-Ready Insights",
+            "content": [
+                "Dirty and inconsistent data weakens decision-making, increases operational costs, and reduces organizational productivity. To remain competitive, businesses need clean, consistent, and continuously updated datasets that support real-time analytics and reliable insights across operations.",
+                "Managing data accuracy across growing volumes, formats, and sources is complex and resource-intensive. Computyne’s data cleansing services transform unreliable information into a strategic asset that drives ROI, performance, and confident decision-making.",
+                "As a trusted data cleansing service provider, Computyne delivers comprehensive data cleaning and data quality management services across customer, operational, financial, product, and enterprise datasets. Our experts use advanced tools, automated workflows, and proven validation techniques for duplicate removal, error correction, format standardization, missing data enrichment, and data refresh.",
+                "We also provide complete data standardization and formatting services aligned with client-defined guidelines, including text case consistency, field validation, font uniformity, structured tables, and pivots. The result is a clean, well-organized database that integrates seamlessly with CRMs, ERPs, analytics platforms, and business intelligence tools, enabling faster insights and sustainable growth."
+            ]
+        }
+    },
+    "data-collection-services": {
+        "banner": {
+            "image": "/images/service/banner/data-collection-banner.webp",
+            "h1": "Data Collection Services",
+            "tagline": "Fuel Data-Driven Growth with Scalable, Accurate, and Outsourced Data Collection Services",
+            "cta": "Start Secure Data Collection"
+        },
+        "counter": [
+            {
+                "label": "Years of Experience",
+                "value": "15",
+                "symbol": "+"
+            },
+            {
+                "label": "Empowered Employees",
+                "value": "250",
+                "symbol": "+"
+            },
+            {
+                "label": "Data Collected Annually",
+                "value": "50",
+                "symbol": "M"
+            },
+            {
+                "label": "Cost Saving",
+                "value": null,
+                "symbol": "40 to 60%"
+            },
+            {
+                "label": "Data Support",
+                "value": "24",
+                "symbol": "x7"
+            },
+            {
+                "label": "Accuracy",
+                "value": "99.99",
+                "symbol": "%"
+            }
+        ],
+        "overview": {
+            "image": "/images/service/data-collection-overview.webp",
+            "h2": "Data Collection Services That Deliver Accurate, Scalable, Business-Ready Data",
+            "content": [
+                "Computyne delivers professional data collection services that help organizations eliminate manual workloads, reduce operational costs, and access reliable, decision-ready datasets. Our outsourced data collection services support enterprise analytics, AI initiatives, eCommerce intelligence, and market research with speed, accuracy, and security.",
+                "Many organizations struggle with fragmented, outdated, or incomplete data that delays insights and weakens decision-making. Computyne resolves these challenges through scalable data collection outsourcing that combines automated web data collection, API-based harvesting, and enterprise-grade validation workflows.",
+                "Our experienced data specialists help businesses accelerate AI adoption, automate reporting, optimize pricing strategies, and expand market intelligence—without the cost and complexity of internal hiring or infrastructure investment.",
+                "We collect and structure information from diverse global sources, including websites and online marketplaces, databases and APIs, SaaS tools and enterprise systems, PDFs and scanned documents, spreadsheets, unstructured content, and industry-specific digital records and government portals.",
+                "Every dataset is cleaned, validated, deduplicated, and formatted to integrate seamlessly with BI dashboards, CRM platforms, automation tools, AI pipelines, and enterprise analytics environments."
+            ]
+        }
+    },
+    "data-enrichment-services": {
+        "banner": {
+            "image": "/images/service/banner/data-enrichment-banner.webp",
+            "h1": "Data Enrichment Services",
+            "tagline": "Transform Raw Data into Enriched, Accurate, and Actionable Business Intelligence",
+            "cta": "Unlock Data Intelligence"
+        },
+        "counter": [
+            {
+                "label": "Years of Experience",
+                "value": "15",
+                "symbol": "+"
+            },
+            {
+                "label": "Empowered Employees",
+                "value": "250",
+                "symbol": "+"
+            },
+            {
+                "label": "Data Security",
+                "value": "100",
+                "symbol": "%"
+            },
+            {
+                "label": "Cost Saving",
+                "value": null,
+                "symbol": "Up to 50%"
+            },
+            {
+                "label": "Data Support",
+                "value": "24",
+                "symbol": "×7"
+            },
+            {
+                "label": "Accuracy",
+                "value": "99.99",
+                "symbol": "%"
+            }
+        ],
+        "overview": {
+            "image": "/images/service/data-enrichment-overview.webp",
+            "h2": "Enhance Data Quality with Scalable Data Enrichment Services",
+            "content": [
+                "Every business depends on high-quality data to power marketing initiatives, strengthen professional networks, and accelerate growth. Continuous data inflow, however, makes it challenging to maintain accuracy, relevance, and freshness across enterprise datasets.",
+                "Decisions driven by outdated or incomplete information often lead to missed opportunities, inefficient resource allocation, and avoidable financial losses. Computyne’s Data Enrichment Services address these challenges by creating insight-rich, decision-ready datasets.",
+                "Computyne enhances existing databases using trusted, verified, and compliant data sources to ensure precision and reliability. Our B2B Data Enrichment Services support informed decision-making for initiatives such as market expansion and mergers and acquisitions.",
+                "Through CRM Data Enrichment Services, we strengthen customer and prospect records with accurate, actionable intelligence that enables deeper profiling, improved segmentation, and targeted marketing execution. By closing data gaps and eliminating inaccuracies, Computyne helps businesses operate with confidence, efficiency, and data-driven clarity."
+            ]
+        }
+    },
+    "data-entry-services": {
+        "banner": {
+            "image": "/images/service/banner/data-entry-banner.webp",
+            "h1": "Data Entry Services",
+            "tagline": "Accurate, Secure, and Scalable Data Entry Solutions for Growing Businesses",
+            "cta": "Talk to a Data Entry Expert"
+        },
+        "counter": [
+            {
+                "label": "Years of Experience",
+                "value": "15",
+                "symbol": "+"
+            },
+            {
+                "label": "Empowered Employees",
+                "value": "250",
+                "symbol": "+"
+            },
+            {
+                "label": "Data Security",
+                "value": "100",
+                "symbol": "%"
+            },
+            {
+                "label": "Cost Saving",
+                "value": null,
+                "symbol": "Up to 50%"
+            },
+            {
+                "label": "Data Support",
+                "value": "24",
+                "symbol": "x7"
+            },
+            {
+                "label": "Accuracy",
+                "value": "99.99",
+                "symbol": "%"
+            }
+        ],
+        "overview": {
+            "image": "/images/service/data-entry-overview.webp",
+            "h2": "Reliable Data Entry Services That Keep Business Data Organized and Decision-Ready",
+            "content": [
+                "Managing high volumes of business information in-house often leads to errors, delays, and fragmented records. Computyne delivers professional data entry services that help organizations digitize, structure, and maintain critical data with precision, ensuring operational continuity and confident decision-making.",
+                "As a trusted data entry service provider, Computyne offers flexible and scalable data entry outsourcing services for enterprises and growing businesses. Our teams handle invoices, forms, product catalogs, surveys, logistics records, and scanned documents while maintaining strict confidentiality, security, and compliance standards.",
+                "By combining skilled manual validation with OCR-assisted automation, our online data entry services deliver fast turnaround times and consistently error-free output. Businesses that outsource data entry to Computyne reduce manual workload, improve data consistency, and gain centralized information control.",
+                "Every dataset is verified, standardized, and securely handled, ensuring your data remains accessible, audit-ready, and optimized for reporting, analytics, and daily business operations."
+            ]
+        }
+    },
+    "data-hygiene-services": {
+        "banner": {
+            "image": "/images/service/banner/data-hygiene-banner.webp",
+            "h1": "Data Hygiene Services",
+            "tagline": "Ensure Long-Term Data Accuracy, Consistency, and Compliance with Data Hygiene Services",
+            "cta": "Talk to a Data Quality Expert"
+        },
+        "counter": [
+            {
+                "label": "Years of Experience",
+                "value": "15",
+                "symbol": "+"
+            },
+            {
+                "label": "Skilled Professionals",
+                "value": "250",
+                "symbol": "+"
+            },
+            {
+                "label": "Data Security",
+                "value": "100",
+                "symbol": "%"
+            },
+            {
+                "label": "Cost Saving",
+                "value": null,
+                "symbol": "Up to 50%"
+            },
+            {
+                "label": "Data Support",
+                "value": "24",
+                "symbol": "×7"
+            },
+            {
+                "label": "Accuracy",
+                "value": "99.99",
+                "symbol": "%"
+            }
+        ],
+        "overview": {
+            "image": "/images/service/data-hygiene-overview.webp",
+            "h2": "Data Hygiene Services Ensuring Consistent, Up-To-Date Enterprise Data",
+            "content": [
+                "Data hygiene services are essential for maintaining accurate, consistent, and reliable enterprise data as information continuously flows from CRM systems, ERP platforms, marketing tools, cloud applications, databases, and external sources. Even well-maintained datasets naturally degrade over time due to duplication, outdated records, missing values, inconsistent formats, and system-driven errors.",
+                "Without a proactive data hygiene strategy, these issues compound and reduce overall data usability. Poor data quality slows operations, impacts customer engagement, and weakens confidence in analytics and reporting, making continuous data hygiene and data quality management services critical.",
+                "Computyne’s Data Hygiene Services focus on continuous monitoring, validation, and standardization rather than one-time data corrections. As a trusted data hygiene service provider, we use automated data hygiene solutions, rule-based validations, and governance-driven frameworks to keep data accurate, current, and aligned with business standards.",
+                "Effective data hygiene strengthens data governance and compliance, improves system performance, and supports analytics-ready environments. By outsourcing data hygiene services to Computyne, organizations gain a scalable, secure, and cost-effective solution that delivers clean, trusted, and decision-ready data for daily operations, advanced analytics, and long-term digital transformation."
+            ]
+        }
+    },
+    "data-management-services": {
+        "banner": {
+            "image": "/images/service/banner/data-management-banner.webp",
+            "h1": "Data Management Services",
+            "tagline": "Secure, Compliant, and Consistently Accurate Data Management Solutions",
+            "cta": "Consult Our Data Experts"
+        },
+        "counter": [
+            {
+                "label": "Years of Experience",
+                "value": "15",
+                "symbol": "+"
+            },
+            {
+                "label": "Skilled Data Professionals",
+                "value": "250",
+                "symbol": "+"
+            },
+            {
+                "label": "Data Security",
+                "value": "100",
+                "symbol": "%"
+            },
+            {
+                "label": "Operational Cost Savings",
+                "value": null,
+                "symbol": "Up to 50%"
+            },
+            {
+                "label": "Data Support",
+                "value": "24",
+                "symbol": "x7"
+            },
+            {
+                "label": "Guaranteed Accuracy",
+                "value": "99.99",
+                "symbol": "%"
+            }
+        ],
+        "overview": {
+            "image": "/images/service/data-management-overview.webp",
+            "h2": "Enterprise-Ready Data Management Services with Proven Governance",
+            "content": [
+                "Many organizations struggle with disorganized data, incompatible systems, incomplete records, and outdated information, which ultimately weakens business intelligence and decision accuracy. When data is scattered across tools and departments, analytics becomes unreliable and valuable insights are lost.",
+                "Processing heterogeneous datasets also requires strong security controls, compliance alignment, and regulatory governance, making in-house data management complex and time-intensive. Without a unified strategy, businesses face operational delays, reporting inefficiencies, and increased regulatory risk.",
+                "Computyne delivers comprehensive Data Management Services designed to centralize, structure, and secure enterprise data across every touchpoint. Through managed and outsourced engagement models, we support data collection, cleansing, validation, enrichment, integration, governance, and secure cloud-ready storage.",
+                "Using structured methodologies, automation, and scalable delivery frameworks, Computyne transforms fragmented databases into trusted, analytics-ready business assets. By partnering with Computyne, organizations build a future-ready data foundation that improves operational efficiency, strengthens analytics, and accelerates confident, data-driven decision-making."
+            ]
+        }
+    },
+    "data-mining-services": {
+        "banner": {
+            "image": "/images/service/banner/data-mining-banner.webp",
+            "h1": "Data Mining Services",
+            "tagline": "Turn Complex Data into Actionable Business Intelligence",
+            "cta": "Request Data Mining Consultation"
+        },
+        "counter": [
+            {
+                "label": "Years of Experience",
+                "value": "15",
+                "symbol": "+"
+            },
+            {
+                "label": "Empowered Employees",
+                "value": "250",
+                "symbol": "+"
+            },
+            {
+                "label": "Data Security",
+                "value": "100",
+                "symbol": "%"
+            },
+            {
+                "label": "Cost Saving",
+                "value": null,
+                "symbol": "Up to 50%"
+            },
+            {
+                "label": "Data Support",
+                "value": "24",
+                "symbol": "x7"
+            },
+            {
+                "label": "Accuracy",
+                "value": "99.99",
+                "symbol": "%"
+            }
+        ],
+        "overview": {
+            "image": "/images/service/data-mining-overview.webp",
+            "h2": "Secure Web and Document Data Mining for Scalable Insights",
+            "content": [
+                "Computyne delivers professional data mining services designed to transform complex, high-volume information into reliable business intelligence. Our secure and scalable data mining solutions help organizations identify patterns, uncover trends, and generate accurate forecasts without the cost or complexity of managing in-house analytics infrastructure.",
+                "As a trusted data mining service provider, we deliver customized data mining solutions aligned with your business objectives. Our specialists apply advanced techniques such as clustering, regression analysis, association rules, and pattern recognition to convert raw, unstructured data into clean, decision-ready datasets.",
+                "Every data mining output supports reporting, performance analysis, and strategic planning, enabling confident, data-driven decision-making across the organization.",
+                "Through automated web data mining and document data mining services, we extract and structure information from websites, online platforms, PDFs, scanned documents, and legacy systems. By outsourcing data mining services to Computyne, businesses gain a secure, cost-effective partner committed to accuracy, consistency, and compliance."
+            ]
+        }
+    },
+    "data-solutions-services": {
+        "banner": {
+            "image": "/images/service/banner/data-services-banner.webp",
+            "h1": "Data Services",
+            "tagline": "Accelerate Growth with Secure, Scalable & Enterprise-Grade Data Services",
+            "cta": "Outsource Your Data Operations"
+        },
+        "counter": [
+            {
+                "label": "Years of Experience",
+                "value": "15",
+                "symbol": "+"
+            },
+            {
+                "label": "Certified Data Experts",
+                "value": "250",
+                "symbol": "+"
+            },
+            {
+                "label": "Data Security",
+                "value": "100",
+                "symbol": "%"
+            },
+            {
+                "label": "Cost Saving",
+                "value": null,
+                "symbol": "Up to 50%"
+            },
+            {
+                "label": "Data Support",
+                "value": "24",
+                "symbol": "x7"
+            },
+            {
+                "label": "Accuracy",
+                "value": "99.99",
+                "symbol": "%"
+            }
+        ],
+        "overview": {
+            "image": "/images/service/data-services-overview.webp",
+            "h2": "Business-Ready Data That Powers Decision-Making",
+            "content": [
+                "The demand for accurate, secure, and efficient data management has never been greater. Organizations must meet increasing operational, commercial, and regulatory requirements while handling rapidly growing volumes of complex data.",
+                "Traditional in-house IT systems and manual data processes often struggle to keep pace, leading to higher employee workloads, delays, inconsistent datasets, and inefficient workflows. As a result, outsourcing data management services has become a more scalable and cost-effective approach.",
+                "With nearly three decades of industry experience, Computyne delivers end-to-end data services that support the complete enterprise data lifecycle. Our certified data experts specialize in AI and ML, automation, data science, business intelligence, and data visualization to convert raw information into decision-ready insights.",
+                "By leveraging robust IT infrastructure and proven methodologies, we manage diverse, high-volume data environments with precision and scalability. Outsourcing data operations to Computyne reduces operational burden, improves data accuracy, and helps organizations unlock the full business value of their data."
+            ]
+        }
+    },
+    "data-standarization-services": {
+        "banner": {
+            "image": "/images/service/banner/data-standardization-banner.webp",
+            "h1": "Data Standardization Services",
+            "tagline": "Transform Disparate Data into Consistent, Reliable, and Decision-Ready Intelligence",
+            "cta": "Request a Quote"
+        },
+        "counter": [
+            {
+                "label": "Years of Experience",
+                "value": "15",
+                "symbol": "+"
+            },
+            {
+                "label": "Skilled Professionals",
+                "value": "250",
+                "symbol": "+"
+            },
+            {
+                "label": "Data Security",
+                "value": "100",
+                "symbol": "%"
+            },
+            {
+                "label": "Cost Saving",
+                "value": null,
+                "symbol": "Up to 50%"
+            },
+            {
+                "label": "Data Support",
+                "value": "24",
+                "symbol": "×7"
+            },
+            {
+                "label": "Accuracy",
+                "value": "99.99",
+                "symbol": "%"
+            }
+        ],
+        "overview": {
+            "image": "/images/service/data-standardization-overview.webp",
+            "h2": "Data Standardization: Building Consistent, Trusted Enterprise Datasets",
+            "content": [
+                "Data quality challenges can significantly hinder business operations, making clean, consistent, and standardized data essential for operational efficiency, analytics accuracy, and sustainable growth. As data volumes increase, consolidating disparate data sources into a unified structure becomes complex, time-consuming, and costly.",
+                "Computyne’s Data Standardization Services address these challenges by delivering scalable solutions that transform fragmented datasets into a single, reliable source of truth. As a trusted data standardization service provider, we standardize data across platforms, formats, and enterprise systems to ensure consistency, accuracy, and usability.",
+                "Data flows into enterprises from multiple internal and external sources in diverse formats. Computyne identifies, parses, normalizes, and standardizes critical data elements using defined business rules and industry standards. Our data normalization, cleansing, matching, and deduplication techniques eliminate inconsistencies, remove duplicates, and correct inaccuracies.",
+                "With enterprise data standardization in place, organizations achieve stronger data governance, faster reporting cycles, enhanced analytics accuracy, and confident decision-making. Our solutions maximize data value across CRM, ERP, BI, and AI initiatives while supporting compliance, operational efficiency, and long-term scalability."
+            ]
+        }
+    },
+    "data-validation-services": {
+        "banner": {
+            "image": "/images/service/banner/data-validation-banner.webp",
+            "h1": "Data Validation Services",
+            "tagline": "Turn Unverified Data into Trusted Intelligence with Advanced Data Validation",
+            "cta": "Request a Data Validation Quote"
+        },
+        "counter": [
+            {
+                "label": "Years of Experience",
+                "value": "15",
+                "symbol": "+"
+            },
+            {
+                "label": "Skilled Professionals",
+                "value": "250",
+                "symbol": "+"
+            },
+            {
+                "label": "Data Security",
+                "value": "100",
+                "ymbol": "%"
+            },
+            {
+                "label": "Cost Saving",
+                "value": null,
+                "symbol": "Up to 50%"
+            },
+            {
+                "label": "Data Support",
+                "value": "24",
+                "symbol": "×7"
+            },
+            {
+                "label": "Accuracy",
+                "value": "99.99",
+                "symbol": "%"
+            }
+        ],
+        "overview": {
+            "image": "/images/service/data-validation-overview.webp",
+            "h2": "Advanced Data Validation to Detect Errors, Duplicates, and Inconsistencies",
+            "content": [
+                "Accurate and validated data is the foundation of effective business strategy, analytics, and customer engagement. Decisions based on unverified or outdated information negatively impact sales performance, marketing ROI, and overall revenue outcomes.",
+                "Computyne’s Data Validation Services resolve these challenges by validating, correcting, and standardizing critical business data before it is used for strategic decision-making. This reduces operational risk while improving targeting accuracy and data confidence.",
+                "Our professional data validation and verification services enhance database accuracy using intelligent web research, direct verification, and multi-source cross-checking. We validate contact information, company records, demographic attributes, and transactional data through automated workflows and rigorous quality assurance processes.",
+                "As a trusted data validation services provider, Computyne delivers accurate, complete, and compliant datasets across industries such as retail, insurance, healthcare, automotive, and banking. Our scalable outsourced data validation services remove duplicates, correct inconsistencies, and maintain long-term data accuracy, consistently delivering enterprise-scale projects within defined timelines and budgets."
+            ]
+        }
+    },
+    "document-processing-services": {
+        "banner": {
+            "image": "/images/service/banner/document-processing-banner.webp",
+            "h1": "Document Processing Services",
+            "tagline": "Automate Document Processing for Faster, Error-Free, Scalable Business Operations",
+            "cta": "Connect with a Data Specialist"
+        },
+        "counter": [
+            {
+                "label": "Years of Experience",
+                "value": "15",
+                "symbol": "+"
+            },
+            {
+                "label": "Skilled Professionals",
+                "value": "250",
+                "symbol": "+"
+            },
+            {
+                "label": "Data Security",
+                "value": "100",
+                "symbol": "%"
+            },
+            {
+                "label": "Cost Saving",
+                "value": null,
+                "symbol": "Up to 50%"
+            },
+            {
+                "label": "Data Support",
+                "value": "24",
+                "symbol": "×7"
+            },
+            {
+                "label": "Accuracy",
+                "value": "99.99",
+                "symbol": "%"
+            }
+        ],
+        "overview": {
+            "image": "/images/service/document-processing-overview.webp",
+            "h2": "Unlock the Full Value of Your Data with Outsourced Data Processing Services",
+            "content": [
+                "The rapid growth of diverse data types and sources has resulted in duplication, inconsistencies, and fragmented datasets. As data volumes increase, organizations face mounting pressure to process information quickly and make timely, data-driven decisions while managing rising infrastructure costs and limited in-house resources.",
+                "Professional Document Processing Services address these challenges by converting raw, unstructured data into accurate, actionable insights delivered within defined timelines and budgets. Outsourcing document processing reduces manual workloads, improves efficiency, and supports long-term operational scalability.",
+                "As a trusted document processing company, Computyne specializes in capturing, extracting, digitizing, and processing data from multiple sources. We transform complex information into structured, decision-ready intelligence that supports analytics, reporting, and business operations.",
+                "Computyne delivers end-to-end document processing services through a structured workflow that includes data collection, preparation, entry, conversion, and analysis. By consolidating data from diverse sources, correcting inconsistencies, standardizing formats, ensuring compliance, and applying AI- and ML-powered processing tools, we generate actionable insights through customized dashboards, reports, and visual analytics."
+            ]
+        }
+    },
+    "list-building-services": {
+        "banner": {
+            "image": "/images/service/banner/list-building-banner.webp",
+            "h1": "List Building Services",
+            "tagline": "Accurate B2B Contact Lists That Fuel Revenue Growth",
+            "cta": "Request Your Custom Prospect List"
+        },
+        "counter": [
+            {
+                "label": "Years of Experience",
+                "value": "15",
+                "symbol": "+"
+            },
+            {
+                "label": "Empowered Employees",
+                "value": "250",
+                "symbol": "+"
+            },
+            {
+                "label": "List Building Annually",
+                "value": "10",
+                "symbol": "M+"
+            },
+            {
+                "label": "Cost Saving",
+                "value": null,
+                "symbol": "40 to 60%"
+            },
+            {
+                "label": "Data Support",
+                "value": "24",
+                "symbol": "x7"
+            },
+            {
+                "label": "Accuracy",
+                "value": "99.99",
+                "symbol": "%"
+            }
+        ],
+        "overview": {
+            "image": "/images/service/list-building-overview.webp",
+            "h2": "Reliable List Building Services for Accurate, Sales-Ready Prospect Data",
+            "content": [
+                "Accurate prospect data is the foundation of high-performing sales and marketing programs. Computyne’s List Building Services help organizations research, compile, and validate reliable B2B contact data with speed and precision, eliminating the cost and effort of manual research.",
+                "Our B2B list building services follow a structured, scalable methodology aligned with your business objectives. Each project includes intelligent data sourcing, multi-level verification, and segmentation to ensure every record is current, accurate, and immediately usable for outreach.",
+                "We specialize in custom list building services that support smarter engagement and measurable growth. Using advanced research tools, automation, and expert validation, we extract verified data from professional networks, company websites, industry databases, and trusted directories.",
+                "In addition to new list creation, we cleanse, enrich, and standardize existing datasets, converting outdated information into clean, CRM-ready files optimized for marketing automation, analytics, and sales enablement. Every list we deliver is actionable, compliant, and built for long-term value."
+            ]
+        }
+    },
+    "property-data-collection-services": {
+        "banner": {
+            "image": "/images/service/banner/property-data-collection-banner.webp",
+            "h1": "Property Data Collection Services",
+            "tagline": "Automated Property Data Collection Enabling Faster Analysis and Better Decisions",
+            "cta": "Get a Free Quote"
+        },
+        "counter": [
+            {
+                "label": "Years of Experience",
+                "value": "15",
+                "symbol": "+"
+            },
+            {
+                "label": "Empowered Employees",
+                "value": "250",
+                "symbol": "+"
+            },
+            {
+                "label": "Data Security",
+                "value": "100",
+                "symbol": "%"
+            },
+            {
+                "label": "Cost Saving",
+                "value": null,
+                "symbol": "Up to 50%"
+            },
+            {
+                "label": "Data Support",
+                "value": "24",
+                "symbol": "x7"
+            },
+            {
+                "label": "Accuracy",
+                "value": "99.99",
+                "symbol": "%"
+            }
+        ],
+        "overview": {
+            "image": "/images/service/property-data-collection-overview.webp",
+            "h2": "End-to-End Property Data Collection for Real Estate Excellence",
+            "content": [
+                "The real estate industry is expanding at an unprecedented pace, generating large volumes of structured and unstructured data across multiple stakeholders. From complex transaction documents to continuously evolving property records, managing this information requires secure, accurate, and scalable property data collection services.",
+                "By leveraging outsourced property data collection, organizations can capture business-critical information with precision while maintaining data accuracy, consistency, and integrity. This enables internal teams to stay focused on strategic growth initiatives rather than manual data handling.",
+                "Powered by deep real estate domain expertise and AI-powered property data collection tools, Computyne delivers reliable real estate data collection services for firms, developers, MLS providers, property managers, and appraisers.",
+                "We collect, process, and structure real estate data from diverse online and offline sources, supporting operational efficiency, real estate analytics, and confident decision-making for agencies, investors, and brokers."
+            ]
+        }
+    },
+    "resume-formatting-services": {
+        "banner": {
+            "image": "/images/service/banner/resume-formatting-banner.webp",
+            "h1": "Resume / CV Formatting Services",
+            "tagline": "Delivering Clean, Corporate-Grade Resume Formatting that Gets You Noticed by Decision-Makers",
+            "cta": "Start Your 7-Day Free Trial"
+        },
+        "counter": [
+            {
+                "label": "Years of Experience",
+                "value": "15",
+                "symbol": "+"
+            },
+            {
+                "label": "Empowered Employees",
+                "value": "250",
+                "symbol": "+"
+            },
+            {
+                "label": "CV Formatted Monthly",
+                "value": "10",
+                "symbol": "K+"
+            },
+            {
+                "label": "Cost Saving",
+                "value": null,
+                "symbol": "40 to 60%"
+            },
+            {
+                "label": "Data Support",
+                "value": "24",
+                "symbol": "x7"
+            },
+            {
+                "label": "Accuracy",
+                "value": "99.99",
+                "symbol": "%"
+            }
+        ],
+        "overview": {
+            "image": "/images/service/resume-formatting-overview.webp",
+            "h2": "Outsource Resume & CV Formatting to Boost Hiring Speed and Productivity",
+            "content": [
+                "Computyne delivers professional resume and CV formatting services for recruitment agencies, HR departments, and job portals across the UK, USA, Australia, Singapore, and the UAE. We standardize candidate resumes into clean, consistent, and recruiter-ready documents that help teams evaluate talent faster and hire with confidence.",
+                "By outsourcing resume formatting, organizations stay focused on sourcing and closing top talent while we handle high-volume formatting operations. Our expert team converts large resume batches into polished, professional, and ATS-friendly formats aligned with your branding and hiring standards.",
+                "With streamlined workflows and scalable resources, we reduce manual effort, improve turnaround times, and deliver repeatable hiring success. Our services support bulk CV formatting, custom layout development, and resume template creation for recruitment firms and HR teams that demand speed and consistency.",
+                "As a trusted CV formatting company, Computyne delivers rapid turnaround, strict quality control, and reliable ongoing support. Our commitment to accuracy, service excellence, and scalability makes us a preferred outsourcing partner for staffing firms and HR teams worldwide."
+            ]
+        }
+    },
+    "web-research-services": {
+        "banner": {
+            "image": "/images/service/banner/web-research-banner.webp",
+            "h1": "Web Research Services",
+            "tagline": "Accelerate Decision-Making with Cost-Effective, Accurate, and Responsive Web Research Solutions",
+            "cta": "Request Web Research Consultation"
+        },
+        "counter": [
+            {
+                "label": "Years of Experience",
+                "value": "15",
+                "symbol": "+"
+            },
+            {
+                "label": "Empowered Employees",
+                "value": "250",
+                "symbol": "+"
+            },
+            {
+                "label": "Data Security",
+                "value": "100",
+                "symbol": "%"
+            },
+            {
+                "label": "Cost Saving",
+                "value": null,
+                "symbol": "Up to 50%"
+            },
+            {
+                "label": "Data Support",
+                "value": "24",
+                "symbol": "x7"
+            },
+            {
+                "label": "Accuracy",
+                "value": "99.99",
+                "symbol": "%"
+            }
+        ],
+        "overview": {
+            "image": "/images/service/web-research-overview.webp",
+            "h2": "Reliable Web Research Services Delivering Validated, Decision-Ready Intelligence",
+            "content": [
+                "Access timely, relevant, and verified information through professional web research services designed to support confident business decisions. Computyne delivers high-quality online research services that uncover actionable insights from vast digital data sources while reducing operational burden and research timelines.",
+                "As a trusted web research company, Computyne supports startups, enterprises, and global teams with business web research services spanning market intelligence, competitive analysis, data collection, lead research, and industry-specific insights. Each engagement is customized to align with defined objectives, target markets, and preferred output formats.",
+                "Our outsourced web research services combine skilled analysts, structured methodologies, and secure workflows to deliver accurate, relevant, and decision-ready information. From strategic planning to sales enablement and market expansion, our research solutions help organizations act faster and with greater confidence."
+            ]
+        }
+    },
+    "web-scraping-services": {
+        "banner": {
+            "image": "/images/service/banner/web-scrapping-banner.webp",
+            "h1": "Web Scraping Services",
+            "tagline": "Turn Web Data into Structured Intelligence at Enterprise Scale",
+            "cta": "Request a Web Scraping Quote"
+        },
+        "counter": [
+            {
+                "label": "Years of Experience",
+                "value": "15",
+                "symbol": "+"
+            },
+            {
+                "label": "Empowered Employees",
+                "value": "250",
+                "symbol": "+"
+            },
+            {
+                "label": "Data Scraped Annually",
+                "value": "100",
+                "symbol": "M+"
+            },
+            {
+                "label": "Cost Saving",
+                "value": null,
+                "symbol": "Up to 60%"
+            },
+            {
+                "label": "Data Support",
+                "value": "24",
+                "symbol": "x7"
+            },
+            {
+                "label": "Accuracy",
+                "value": "99.99",
+                "symbol": "%"
+            }
+        ],
+        "overview": {
+            "image": "/images/service/web-scrapping-overview.webp",
+            "h2": "Custom Web Scraping and Data Delivery Tailored to Your Needs",
+            "content": [
+                "Manually collecting data from multiple websites is time-intensive, error-prone, and difficult to scale. Computyne delivers professional Web Scraping Services that automate data extraction and convert scattered online information into clean, structured, and reliable datasets.",
+                "As a trusted web scraping company, we help organizations collect accurate website data for research, analytics, and reporting while reducing manual effort and improving data consistency and quality. Our solutions are designed to align with specific business objectives and industry requirements.",
+                "Computyne builds custom automated web scraping workflows to extract critical data from eCommerce platforms, real estate portals, job boards, financial websites, and public directories. Every dataset is validated, standardized, and formatted for immediate usability across enterprise systems.",
+                "Using advanced web crawler services and enterprise-grade extraction methodologies, we enable pricing tracking, competitor monitoring, and real-time market analysis. By outsourcing web scraping services to Computyne, businesses gain secure, scalable, and performance-driven data solutions that transform unstructured web content into actionable intelligence."
+            ]
+        }
+    }
 }
