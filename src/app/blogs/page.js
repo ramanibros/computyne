@@ -1,12 +1,10 @@
-import Footer from "@/components/layout/footer/Footer";
-import Footer from "@/components/layout/footer/Footer";
 import Header from "@/components/layout/header/Header";
 import BlogMain from "@/components/layout/main/BlogMain";
-import Cta from "@/components/sections/cta/Cta";
 import CallSchedule from "@/components/sections/funfacts/CallSchedule";
 import BackToTop from "@/components/shared/others/BackToTop";
 import HeaderSpace from "@/components/shared/others/HeaderSpace";
 import ClientWrapper from "@/components/shared/wrappers/ClientWrapper";
+import Footer from "@/components/layout/footer/Footer";
 
 export default function Blogs() {
 	return (
