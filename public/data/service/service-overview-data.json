@@ -39,7 +39,7 @@
             }
         ],
         "overview": {
-            "image": "/images/service/data-extraction-overview.webp",
+            "image": "/images/service/overview/data-extraction-overview.webp",
             "h2": "Scalable Data Extraction Solutions for Clean, Decision-Ready Data",
             "content": [
                 "Managing high volumes of unstructured and fragmented information often slows business operations and limits visibility. Computyne delivers professional Data Extraction Services that transform raw data into structured, reliable, and analytics-ready datasets.",
@@ -89,7 +89,7 @@
             }
         ],
         "overview": {
-            "image": "/images/service/competitor-price-analysis-overview.webp",
+            "image": "/images/service/overview/competitor-price-analysis-overview.webp",
             "h2": "Competitor Pricing Intelligence That Improves Revenue and Demand Forecasting",
             "content": [
                 "In today’s highly competitive eCommerce landscape, a single product often competes against hundreds or even thousands of sellers across multiple channels. Even small price changes can significantly influence customer purchasing decisions, making accurate and ongoing competitor price tracking essential for sustainable growth.",
@@ -139,7 +139,7 @@
             }
         ],
         "overview": {
-            "image": "/images/service/data-appending-overview.webp",
+            "image": "/images/service/overview/data-appending-overview.webp",
             "h2": "Close Data Gaps with Scalable, Secure Data Appending Services",
             "content": [
                 "In today’s data-driven business landscape, organizations rely on large volumes of consumer and B2B data to power marketing initiatives, improve operational efficiency, and reduce business risk. Incomplete or outdated contact information, however, limits the effectiveness of even the most advanced strategies.",
@@ -189,7 +189,7 @@
             }
         ],
         "overview": {
-            "image": "/images/service/data-cleansing-overview.webp",
+            "image": "/images/service/overview/data-cleansing-overview.webp",
             "h2": "Data Cleansing Services Designed for Accurate, Decision-Ready Insights",
             "content": [
                 "Dirty and inconsistent data weakens decision-making, increases operational costs, and reduces organizational productivity. To remain competitive, businesses need clean, consistent, and continuously updated datasets that support real-time analytics and reliable insights across operations.",
@@ -239,7 +239,7 @@
             }
         ],
         "overview": {
-            "image": "/images/service/data-collection-solutions-tailored-to-every-industry.webp",
+            "image": "/images/service/overview/data-collection-overview.webp",
             "h2": "Data Collection Services That Deliver Accurate, Scalable, Business-Ready Data",
             "content": [
                 "Computyne delivers professional data collection services that help organizations eliminate manual workloads, reduce operational costs, and access reliable, decision-ready datasets. Our outsourced data collection services support enterprise analytics, AI initiatives, eCommerce intelligence, and market research with speed, accuracy, and security.",
@@ -290,7 +290,7 @@
             }
         ],
         "overview": {
-            "image": "/images/service/data-enrichment-overview.webp",
+            "image": "/images/service/overview/data-enrichment-overview.webp",
             "h2": "Enhance Data Quality with Scalable Data Enrichment Services",
             "content": [
                 "Every business depends on high-quality data to power marketing initiatives, strengthen professional networks, and accelerate growth. Continuous data inflow, however, makes it challenging to maintain accuracy, relevance, and freshness across enterprise datasets.",
@@ -340,7 +340,7 @@
             }
         ],
         "overview": {
-            "image": "/images/service/data-entry-overview.webp",
+            "image": "/images/service/overview/data-entry-overview.webp",
             "h2": "Reliable Data Entry Services That Keep Business Data Organized and Decision-Ready",
             "content": [
                 "Managing high volumes of business information in-house often leads to errors, delays, and fragmented records. Computyne delivers professional data entry services that help organizations digitize, structure, and maintain critical data with precision, ensuring operational continuity and confident decision-making.",
@@ -390,7 +390,7 @@
             }
         ],
         "overview": {
-            "image": "/images/service/data-hygiene-overview.webp",
+            "image": "/images/service/overview/data-hygiene-overview.webp",
             "h2": "Data Hygiene Services Ensuring Consistent, Up-To-Date Enterprise Data",
             "content": [
                 "Data hygiene services are essential for maintaining accurate, consistent, and reliable enterprise data as information continuously flows from CRM systems, ERP platforms, marketing tools, cloud applications, databases, and external sources. Even well-maintained datasets naturally degrade over time due to duplication, outdated records, missing values, inconsistent formats, and system-driven errors.",
@@ -440,7 +440,7 @@
             }
         ],
         "overview": {
-            "image": "/images/service/data-management-overview.webp",
+            "image": "/images/service/overview/data-management-overview.webp",
             "h2": "Enterprise-Ready Data Management Services with Proven Governance",
             "content": [
                 "Many organizations struggle with disorganized data, incompatible systems, incomplete records, and outdated information, which ultimately weakens business intelligence and decision accuracy. When data is scattered across tools and departments, analytics becomes unreliable and valuable insights are lost.",
@@ -490,7 +490,7 @@
             }
         ],
         "overview": {
-            "image": "/images/service/data-mining-overview.webp",
+            "image": "/images/service/overview/data-mining-overview.webp",
             "h2": "Secure Web and Document Data Mining for Scalable Insights",
             "content": [
                 "Computyne delivers professional data mining services designed to transform complex, high-volume information into reliable business intelligence. Our secure and scalable data mining solutions help organizations identify patterns, uncover trends, and generate accurate forecasts without the cost or complexity of managing in-house analytics infrastructure.",
@@ -540,7 +540,7 @@
             }
         ],
         "overview": {
-            "image": "/images/service/data-solutions-overview.webp",
+            "image": "/images/service/overview/data-solutions-overview.webp",
             "h2": "Business-Ready Data That Powers Decision-Making",
             "content": [
                 "The demand for accurate, secure, and efficient data management has never been greater. Organizations must meet increasing operational, commercial, and regulatory requirements while handling rapidly growing volumes of complex data.",
@@ -590,7 +590,7 @@
             }
         ],
         "overview": {
-            "image": "/images/service/data-standardization-overview.webp",
+            "image": "/images/service/overview/data-standardization-overview.webp",
             "h2": "Data Standardization: Building Consistent, Trusted Enterprise Datasets",
             "content": [
                 "Data quality challenges can significantly hinder business operations, making clean, consistent, and standardized data essential for operational efficiency, analytics accuracy, and sustainable growth. As data volumes increase, consolidating disparate data sources into a unified structure becomes complex, time-consuming, and costly.",
@@ -640,7 +640,7 @@
             }
         ],
         "overview": {
-            "image": "/images/service/data-validation-overview.webp",
+            "image": "/images/service/overview/data-validation-overview.webp",
             "h2": "Advanced Data Validation to Detect Errors, Duplicates, and Inconsistencies",
             "content": [
                 "Accurate and validated data is the foundation of effective business strategy, analytics, and customer engagement. Decisions based on unverified or outdated information negatively impact sales performance, marketing ROI, and overall revenue outcomes.",
@@ -690,7 +690,7 @@
             }
         ],
         "overview": {
-            "image": "/images/service/document-processing-overview.webp",
+            "image": "/images/service/overview/document-processing-overview.webp",
             "h2": "Unlock the Full Value of Your Data with Outsourced Data Processing Services",
             "content": [
                 "The rapid growth of diverse data types and sources has resulted in duplication, inconsistencies, and fragmented datasets. As data volumes increase, organizations face mounting pressure to process information quickly and make timely, data-driven decisions while managing rising infrastructure costs and limited in-house resources.",
@@ -740,7 +740,7 @@
             }
         ],
         "overview": {
-            "image": "/images/service/list-building-overview.webp",
+            "image": "/images/service/overview/list-building-overview.webp",
             "h2": "Reliable List Building Services for Accurate, Sales-Ready Prospect Data",
             "content": [
                 "Accurate prospect data is the foundation of high-performing sales and marketing programs. Computyne’s List Building Services help organizations research, compile, and validate reliable B2B contact data with speed and precision, eliminating the cost and effort of manual research.",
@@ -790,7 +790,7 @@
             }
         ],
         "overview": {
-            "image": "/images/service/property-data-collection-overview.webp",
+            "image": "/images/service/overview/property-data-collection-overview.webp",
             "h2": "End-to-End Property Data Collection for Real Estate Excellence",
             "content": [
                 "The real estate industry is expanding at an unprecedented pace, generating large volumes of structured and unstructured data across multiple stakeholders. From complex transaction documents to continuously evolving property records, managing this information requires secure, accurate, and scalable property data collection services.",
@@ -840,7 +840,7 @@
             }
         ],
         "overview": {
-            "image": "/images/service/resume-formatting-overview.webp",
+            "image": "/images/service/overview/resume-formatting-overview.webp",
             "h2": "Outsource Resume & CV Formatting to Boost Hiring Speed and Productivity",
             "content": [
                 "Computyne delivers professional resume and CV formatting services for recruitment agencies, HR departments, and job portals across the UK, USA, Australia, Singapore, and the UAE. We standardize candidate resumes into clean, consistent, and recruiter-ready documents that help teams evaluate talent faster and hire with confidence.",
@@ -890,7 +890,7 @@
             }
         ],
         "overview": {
-            "image": "/images/service/web-research-overview.webp",
+            "image": "/images/service/overview/web-research-overview.webp",
             "h2": "Reliable Web Research Services Delivering Validated, Decision-Ready Intelligence",
             "content": [
                 "Access timely, relevant, and verified information through professional web research services designed to support confident business decisions. Computyne delivers high-quality online research services that uncover actionable insights from vast digital data sources while reducing operational burden and research timelines.",
@@ -939,7 +939,7 @@
             }
         ],
         "overview": {
-            "image": "/images/service/web-scrapping-overview.webp",
+            "image": "/images/service/overview/web-scrapping-overview.webp",
             "h2": "Custom Web Scraping and Data Delivery Tailored to Your Needs",
             "content": [
                 "Manually collecting data from multiple websites is time-intensive, error-prone, and difficult to scale. Computyne delivers professional Web Scraping Services that automate data extraction and convert scattered online information into clean, structured, and reliable datasets.",

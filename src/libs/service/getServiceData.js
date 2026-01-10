@@ -1,4 +1,4 @@
-import services from "../../../public/data/service/data-collections.json";
+import services from "../../../public/data/service/service-overview-data.json";
 
 const getServiceData = (slug) => {
   if (!slug) return null;
