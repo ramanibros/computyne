@@ -1,4 +1,4 @@
-import FooterMod from "@/components/layout/footer/FooterMod";
+import Footer from "@/components/layout/footer/Footer";
 import Header from "@/components/layout/header/Header";
 import AboutMod from "@/components/sections/about/AboutMod";
 import CallSchedule from "@/components/sections/funfacts/CallSchedule";
@@ -38,7 +38,7 @@ export default function Services() {
                         <Services5Mod/>
                         <CallSchedule/>
                     </main>
-                    <FooterMod/>
+                    <Footer/>
                 </div>
             </div>
 

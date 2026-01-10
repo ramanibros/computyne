@@ -6,23 +6,23 @@ const Process = () => {
 	const process = [
 		{
 			id: 1,
-			title: "Discovery & Planning",
-			desc: "The first step in our process is understanding your unique business needs,  objectives, and our cutomes challenges.",
+			title: "Requirement Assessment",
+			desc: "We analyze workflows, data volumes, compliance needs, and accuracy benchmarks to design an optimized processing strategy.",
 		},
 		{
 			id: 2,
-			title: "Execution & Delivery",
-			desc: "Once the plan is in place, our team moves forward with execution, turning strategies into actiony to deliver.",
+			title: "Secure Data Intake",
+			desc: "Data is securely received, encrypted, validated, and standardized to ensure consistency before structured processing begins.",
 		},
 		{
 			id: 3,
-			title: "Review & Support",
-			desc: "After project completion, we conduct a thorough review to ensure everything aligns with your goals and requirements.",
+			title: "Intelligent Processing",
+			desc: "Advanced automation and expert validation ensure high accuracy, faster turnaround, and seamless integration with business systems.",
 		},
         {
 			id: 4,
-			title: "Review & Support",
-			desc: "After project completion, we conduct a thorough review to ensure everything aligns with your goals and requirements.",
+			title: "Quality Assurance & Delivery",
+			desc: "Multi-level quality checks guarantee precision, timely delivery, and reliable outputs aligned with agreed service levels.",
 		},
 	];
 	return (

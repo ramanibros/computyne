@@ -8,7 +8,7 @@ import Funfact from "@/components/sections/about-page/Funfact";
 import Faq from "@/components/sections/about-page/Faq";
 import Team from "@/components/sections/about-page/Team";
 import CallSchedule from "@/components/sections/about-page/CallSchedule";
-import Footer from "@/components/sections/about-page/Footer";
+import Footer from "@/components/layout/footer/Footer";
 
 export default function About() {
     return (

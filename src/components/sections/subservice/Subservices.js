@@ -1,7 +1,6 @@
 "use client";
-import getSubservice from "@/libs/service/resume-formatting-services/getSubservices";
 import SubserviceCard from "./SubserviceCard";
-import { usePathname } from "next/navigation";
+import {usePathname} from "next/navigation";
 import getSubServicesData from "@/libs/service/getSubServicesData";
 
 const Subservices = () => {
