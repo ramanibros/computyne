@@ -1,8 +1,9 @@
 import Footer from "@/components/layout/footer/Footer";
 import Header from "@/components/layout/header/Header";
-import Cta from "@/components/sections/cta/Cta";
+
 import HeroInner from "@/components/sections/hero/HeroInner";
 import PortfoliosPrimary from "@/components/sections/portfolios/PortfoliosPrimary";
+import CallSchedule from "@/components/sections/subservice/CallSchedule";
 import BackToTop from "@/components/shared/others/BackToTop";
 import HeaderSpace from "@/components/shared/others/HeaderSpace";
 import ClientWrapper from "@/components/shared/wrappers/ClientWrapper";
@@ -18,7 +19,7 @@ export default function Portfolios() {
 						<HeaderSpace />
 						<HeroInner title={"Portfolio"} text={"Portfolio"} />
 						<PortfoliosPrimary />
-						<Cta />
+						<CallSchedule />
 					</main>
 					<Footer />
 				</div>

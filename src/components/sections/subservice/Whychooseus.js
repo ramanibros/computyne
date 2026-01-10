@@ -1,5 +1,4 @@
 "use client";
-import getWhychooseus from "@/libs/service/resume-formatting-services/getWhychooseus";
 import {Autoplay, Navigation, Pagination} from "swiper/modules";
 import {Swiper, SwiperSlide} from "swiper/react";
 import WhychooseusCard from "./WhychooseusCard";

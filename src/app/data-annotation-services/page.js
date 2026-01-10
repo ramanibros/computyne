@@ -23,10 +23,7 @@ export default function dataAnnotationServices() {
                 <div id="smooth-content">
                     <main>
                         <div className="top-space-15"></div>
-                        <Banner title={"Data Collection Services"}
-                                          text={"Fuel Data-Driven Growth with Scalable, Accurate, and Outsourced Data Collection Services"}
-                                          isShowButton={true}
-                                          buttonLabel={"Connect with Our Data Expert"}/>
+                        <Banner/>
                         <Counter/>
                         <Aboutus type={1}/>
                         <Subservices/>
