@@ -1,10 +1,10 @@
 import Footer from "@/components/layout/footer/Footer";
 import Header from "@/components/layout/header/Header";
-import BlogsGridPrimary from "@/components/sections/blogs/BlogsGridPrimary";
 import CallSchedule from "@/components/sections/funfacts/CallSchedule";
 import BackToTop from "@/components/shared/others/BackToTop";
 import ClientWrapper from "@/components/shared/wrappers/ClientWrapper";
 import HeroInnerMod from "@/components/sections/hero/HeroInnerMod";
+import CaseStudyGrid from "@/components/sections/casestudy/CaseStudyGrid";
 
 export default function BlogGrid() {
 	return (
@@ -21,7 +21,7 @@ export default function BlogGrid() {
 							text={"Our business process services - driven by data, technology, and people - help" +
 								" clients save time, reduce costs, and improve operational efficiency worldwide."}
 						/>
-						<BlogsGridPrimary isSidebar={true} />
+						<CaseStudyGrid isSidebar={true} />
 						<CallSchedule />
 					</main>
 					<Footer />
