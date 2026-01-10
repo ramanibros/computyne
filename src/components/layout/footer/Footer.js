@@ -10,7 +10,7 @@ const Footer = () => {
 							<div className="footer-widget wow fadeInUp" data-wow-delay=".1s">
 								<div className="footer-logo">
 									<Link href="/">
-										<img src="/images/logos/logo.svg" alt="Logos" />
+										<img src="/images/site-logo/white-logo.svg" alt="Logos" />
 									</Link>
 								</div>
 								<div className="footer-text-mod">
