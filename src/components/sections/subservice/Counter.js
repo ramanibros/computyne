@@ -13,7 +13,6 @@ const Counter = () => {
             ? getServiceData("data-extraction-services")
             : counters;
 
-    console.log("Current route slug:", counterData);
     return (
         <div
             className={`tj-client-section-4 mb-0    section-gap-x wow fadeInUp`}

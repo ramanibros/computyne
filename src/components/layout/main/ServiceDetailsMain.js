@@ -1,5 +1,4 @@
 import HeroInner from "@/components/sections/hero/HeroInner";
-import ServicesDetailsPrimary from "@/components/sections/services-old/ServicesDetailsPrimary";
 import getALlServices from "@/libs/getALlServices";
 import getPreviousNextItem from "@/libs/getPreviousNextItem";
 

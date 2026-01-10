@@ -68,7 +68,6 @@ const Faq = () => {
             ? getFaqsData("data-extraction-services")
             : faqs;
 
-		console.log("faqs ",faqsData)
 	return (
 		<section className="h7-faq section-gap slidebar-stickiy-container">
 			<div className="container">

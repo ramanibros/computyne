@@ -11,8 +11,8 @@ import PortfoliosMod from "@/components/sections/portfolios/PortfoliosMod";
 import TestimonialsMod from "@/components/sections/testimonials/TestimonialsMod";
 import Faq4 from "@/components/sections/faq/Faq4";
 import TestimonialsMod2 from "@/components/sections/testimonials/TestimonialsMod2";
-import SubserviceData from "@/components/sections/services-old/SubserviceData";
-import Services5Mod from "@/components/sections/services-old/Services5Mod";
+import Subservices from "@/components/sections/service/Subservices";
+import Industries from "@/components/sections/service/Industries";
 
 export default function Services() {
 
@@ -30,13 +30,13 @@ export default function Services() {
                                           buttonLabel={"Talk To Our Expert"}/>
                         <ServiceCounter/>
                         <AboutMod type={1}/>
-                        <SubserviceData/>
+                        <Subservices/>
                         <PortfoliosMod/>
                         <TestimonialsMod/>
                         <Faq4 type={1}/>
                         <TestimonialsMod2/>
 						<Testimonials4/>
-                        <Services5Mod/>
+                        <Industries/>
                         <CallSchedule/>
                     </main>
                     <Footer/>
