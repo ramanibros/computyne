@@ -5,7 +5,7 @@ import Hero from "@/components/sections/contact-page/Hero";
 import ContactCard from "@/components/sections/contact-page/ContactCard";
 import ContactLocation from "@/components/sections/contact-page/ContactLocation";
 import CallSchedule from "@/components/sections/contact-page/CallSchedule";
-import Footer from "@/components/sections/contact-page/Footer";
+import Footer from "@/components/layout/footer/Footer";
 
 export default function Contact() {
 	return (

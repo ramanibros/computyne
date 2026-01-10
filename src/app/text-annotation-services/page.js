@@ -1,4 +1,4 @@
-import FooterMod from "@/components/layout/footer/FooterMod";
+import Footer from "@/components/layout/footer/Footer";
 import Header from "@/components/layout/header/Header";
 import BackToTop from "@/components/shared/others/BackToTop";
 import ClientWrapper from "@/components/shared/wrappers/ClientWrapper";
@@ -40,7 +40,7 @@ export default function textAnnotationServices() {
                         <Industries/>
                         <CallSchedule/>
                     </main>
-                    <FooterMod/>
+                    <Footer/>
                 </div>
             </div>
 

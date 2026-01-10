@@ -7,35 +7,22 @@ const ServiceCard = ({blog, idx}) => {
         desc,
         id,
         img = "/images/blog/blog-1.webp",
-        category,
-        date,
-        day,
-        month,
+        link
     } = blog || {};
     return (
         <div className="blog-item wow fadeInUp" data-wow-delay=".3s">
             <div className="blog-thumb">
-                <Link href={`/blogs/${id}`}>
+                <Link href={link}>
                     {" "}
                     <Image src={img} alt="Images" width={870} height={450}/>
                 </Link>
             </div>
             <div className="blog-content">
-                {/*<div className="blog-meta">
-					<span className="categories">
-						<Link href={`/blogs?category=${makePath(category)}`}>
-							{category}
-						</Link>
-					</span>
-					<span>
-						By <Link href={`/blogs/${id}`}>Ellinien Loma</Link>
-					</span>
-				</div>*/}
                 <h4 className="title">
-                    <Link href={`/blogs/${id}`}>{title}</Link>
+                    <Link href={link}>{title}</Link>
                 </h4>
                 <p className="desc">{desc}</p>
-                <Link className="text-btn" href={`/blogs/${id}`}>
+                <Link className="text-btn" href={link}>
 					<span className="btn-text">
 						<span>Read More</span>
 					</span>

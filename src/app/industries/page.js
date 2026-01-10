@@ -11,7 +11,7 @@ import Casestudy from "@/components/sections/industries-page/Casestudy";
 import Whychooseus from "@/components/sections/industries-page/Whychooseus";
 import Faq from "@/components/sections/industries-page/Faq";
 import CallSchedule from "@/components/sections/industries-page/CallSchedule";
-import Footer from "@/components/sections/industries-page/Footer";
+import Footer from "@/components/layout/footer/Footer";
 
 export default function industriesPage() {
     return (

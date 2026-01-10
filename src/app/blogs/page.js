@@ -1,5 +1,5 @@
 import Footer from "@/components/layout/footer/Footer";
-import FooterMod from "@/components/layout/footer/FooterMod";
+import Footer from "@/components/layout/footer/Footer";
 import Header from "@/components/layout/header/Header";
 import BlogMain from "@/components/layout/main/BlogMain";
 import Cta from "@/components/sections/cta/Cta";
@@ -21,7 +21,7 @@ export default function Blogs() {
 						<BlogMain />
 						<CallSchedule />
 					</main>
-					<FooterMod />
+					<Footer />
 				</div>
 			</div>
 			<ClientWrapper />

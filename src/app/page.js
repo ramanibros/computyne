@@ -10,7 +10,7 @@ import Industries from "@/components/sections/home-page/Industries";
 import Testimonials from "@/components/sections/home-page/Testimonials";
 import Blogs from "@/components/sections/home-page/Blogs";
 import CallSchedule from "@/components/sections/home-page/CallSchedule";
-import Footer from "@/components/sections/home-page/Footer";
+import Footer from "@/components/layout/footer/Footer";
 
 
 /* ================================
