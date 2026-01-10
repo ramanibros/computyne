@@ -5,7 +5,7 @@ const Banner = ({ title, text, isShowButton = false, buttonLabel, buttonLink }) 
 	return (
 		<section
 			className="tj-page-header-mod section-gap-x"
-			style={{ backgroundImage: `url('/images/service/data-collection-services/data-collection-services-banner.webp')` }}
+			style={{ backgroundImage: `url('/images/service/data-collection-services-banner.webp')` }}
 		>
 			<div className="container">
 				<div className="row">

@@ -65,7 +65,7 @@ const Faq = () => {
 
 	const faqsData =
         !faqs || Object.keys(faqs).length === 0
-            ? getServiceData("data-extraction-services")
+            ? getFaqsData("data-extraction-services")
             : faqs;
 
 		console.log("faqs ",faqsData)

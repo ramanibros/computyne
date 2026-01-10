@@ -15,7 +15,7 @@ const Industries = () => {
 
 	const industriesData =
         !industries || Object.keys(industries).length === 0
-            ? getServiceData("data-extraction-services")
+            ? getIndustriesData("data-extraction-services")
             : industries;
 	return (
 		<section className="tj-blog-section-2 section-gap">
