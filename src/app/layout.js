@@ -1,4 +1,4 @@
-import { Mona_Sans } from "next/font/google";
+import {Mona_Sans} from "next/font/google";
 import "react-range-slider-input/dist/style.css";
 import "swiper/css";
 import "swiper/css/effect-coverflow";
@@ -38,33 +38,30 @@ export const metadata = {
     description: "Computyne -Global outsourcing & Data Services Company",
 };
 
-export default function RootLayout({ children }) {
+export default function RootLayout({children}) {
     return (
         <html lang="en" data-scroll-behavior="smooth" dir="ltr">
-            <head>
-                <Script
-                    id="live2support-chat"
-                    strategy="afterInteractive"
-                    dangerouslySetInnerHTML={{
-                        __html: `
-                            (function () {
-                                var pp = document.createElement('script'),
-                                    ppr = document.getElementsByTagName('script')[0];
-                                var stid = 'VHJVakJQZmZscmQ4VWlxL1ZlSmFyQT09';
-                                pp.type = 'text/javascript';
-                                pp.async = true;
-                                pp.src =
-                                (document.location.protocol === 'https:' ? 'https://' : 'http://') +
-                                's01.live2support.com/dashboardv2/chatwindow/';
-                                ppr.parentNode.insertBefore(pp, ppr);
-                            })();
-                            `,
-                    }}
-                />
-            </head>
-            <body className={`${bodyFont.variable} ${headingFont.variable}`}>
-                {children}
-            </body>
+        <body className={`${bodyFont.variable} ${headingFont.variable}`}>
+        {children}
+
+        <Script
+            id="live2support-chat"
+            strategy="afterInteractive"
+        >
+            {`
+          (function(){
+            var pp = document.createElement('script'),
+                ppr = document.getElementsByTagName('script')[0];
+            stid = 'VHJVakJQZmZscmQ4VWlxL1ZlSmFyQT09';
+            pp.type = 'text/javascript';
+            pp.async = true;
+            pp.src = (document.location.protocol === 'https:' ? 'https://' : 'http://') +
+                     's01.live2support.com/dashboardv2/chatwindow/';
+            ppr.parentNode.insertBefore(pp, ppr);
+          })();
+        `}
+        </Script>
+        </body>
         </html>
     );
 }
