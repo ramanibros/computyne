@@ -502,7 +502,7 @@
     },
     "data-solutions-services": {
         "banner": {
-            "image": "/images/service/banner/data-services-banner.webp",
+            "image": "/images/service/banner/data-solution-banner.webp",
             "h1": "Data Services",
             "tagline": "Accelerate Growth with Secure, Scalable & Enterprise-Grade Data Services",
             "cta": "Outsource Your Data Operations"

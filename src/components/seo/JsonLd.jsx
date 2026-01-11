@@ -8,7 +8,7 @@ export default function JsonLd({ id, schema }) {
       strategy="beforeInteractive"
       type="application/ld+json"
       dangerouslySetInnerHTML={{
-        __html: JSON.stringify(schema)
+        __html: JSON.stringify(schema, null, 2)
       }}
     />
   );
