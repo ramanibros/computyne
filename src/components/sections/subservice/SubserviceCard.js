@@ -10,9 +10,11 @@ const SubserviceCard = ({subservice, idx}) => {
                         <h4 className="title">
                             {title}
                         </h4>
-                        <Link className="tji-icon-btn-mod" href={`${url}`}>
-                            <i className="tji-arrow-right-long"></i>
-                        </Link>
+                        {url?.trim().length > 0 && (
+                            <Link className="tji-icon-btn-mod" href={url}>
+                                <i className="tji-arrow-right-long"></i>
+                            </Link>
+                        )}
                     </div>
                     <p className="desc  wow fadeInUp" data-wow-delay=".8s">
                         {desc}
