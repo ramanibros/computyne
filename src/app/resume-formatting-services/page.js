@@ -20,7 +20,7 @@ export default function resumeFormattingServices() {
     return (
         <>
             <JsonLd
-                id="web-scraping-schema"
+                id="resume-cv-formatting-services-schema"
                 schema={resumeCvFormattingServicesSchema}
             />
             <div>

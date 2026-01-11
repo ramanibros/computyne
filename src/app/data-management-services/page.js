@@ -20,7 +20,7 @@ export default function dataManagementServices() {
     return (
         <>
             <JsonLd
-                id="web-scraping-schema"
+                id="data-management-services-schema"
                 schema={dataManagementServicesSchema}
             />
             <div>

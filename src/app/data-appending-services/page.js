@@ -19,7 +19,7 @@ export default function dataAppendingServices() {
     return (
         <>
             <JsonLd
-                id="web-scraping-schema"
+                id="data-appending-services-schema"
                 schema={dataAppendingServicesSchema}
             />
             <div>

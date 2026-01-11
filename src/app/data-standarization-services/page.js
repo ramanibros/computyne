@@ -20,7 +20,7 @@ export default function dataStandarizationServices() {
     return (
         <>
             <JsonLd
-                id="web-scraping-schema"
+                id="data-standardization-services-schema"
                 schema={dataStandardizationServicesSchema}
             />
             <div>

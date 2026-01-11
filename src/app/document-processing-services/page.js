@@ -20,7 +20,7 @@ export default function documentProcessingServices() {
     return (
         <>
             <JsonLd
-                id="web-scraping-schema"
+                id="document-processing-services-schema"
                 schema={documentProcessingServicesSchema}
             />
             <div>

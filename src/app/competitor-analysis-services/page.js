@@ -19,7 +19,7 @@ export default function competitorAnalysisServices() {
     return (
         <>
             <JsonLd
-                id="web-scraping-schema"
+                id="competitor-analysis-schema"
                 schema={competitorAnalysisSchema}
             />
             <div>

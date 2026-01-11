@@ -20,7 +20,7 @@ export default function dataValidationServices() {
     return (
         <>
             <JsonLd
-                id="web-scraping-schema"
+                id="data-validation-services-schema"
                 schema={dataValidationServicesSchema}
             />
             <div>

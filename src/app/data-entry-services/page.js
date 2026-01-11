@@ -14,14 +14,15 @@ import Testimonials from "@/components/sections/subservice/Testimonials";
 import CallSchedule from "@/components/sections/subservice/CallSchedule";
 import { dataEnrichmentServicesSchema } from "@/libs/schema/services/dataEnrichmentServicesSchema";
 import JsonLd from "@/components/seo/JsonLd";
+import { dataEntryServicesSchema } from "@/libs/schema/services/dataEntryServicesSchema";
 
 export default function dataEntryServices() {
     
     return (
         <>
             <JsonLd
-                id="web-scraping-schema"
-                schema={dataEnrichmentServicesSchema}
+                id="data-entry-services-schema"
+                schema={dataEntryServicesSchema}
             />
             <div>
                 <BackToTop />

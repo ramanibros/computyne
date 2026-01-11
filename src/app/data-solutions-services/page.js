@@ -20,7 +20,7 @@ export default function dataSolutionsServices() {
     return (
         <>
             <JsonLd
-                id="web-scraping-schema"
+                id="enterprise-data-services-schema"
                 schema={enterpriseDataServicesSchema}
             />
             <div>

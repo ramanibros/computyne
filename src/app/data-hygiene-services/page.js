@@ -20,7 +20,7 @@ export default function dataHydieneServices() {
     return (
         <>
             <JsonLd
-                id="web-scraping-schema"
+                id="data-hygiene-services-schema"
                 schema={dataHygieneServicesSchema}
             />
             <div>

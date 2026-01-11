@@ -19,7 +19,7 @@ export default function dataCollectionServices() {
     return (
         <>
             <JsonLd
-                id="web-scraping-schema"
+                id="data-collection-services-schema"
                 schema={dataCollectionServicesSchema}
             />
             <div>

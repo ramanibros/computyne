@@ -20,7 +20,7 @@ export default function dataEnrichmentServices() {
     return (
         <>
             <JsonLd
-                id="web-scraping-schema"
+                id="data-enrichment-services-schema"
                 schema={dataEnrichmentServicesSchema}
             />
             <div>

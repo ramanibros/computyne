@@ -18,7 +18,11 @@ const Banner = () => {
 	return (
 		<section
 			className="tj-page-header-mod section-gap-x"
-			style={{ backgroundImage: `url('${bannerData.banner.image}')` }}
+			// style={{ backgroundImage: `url('${bannerData.banner.image}')` }}
+			style={{
+				backgroundImage: `url('${bannerData?.banner?.image?.trim() || "/images/service/banner/data-solution-banner.webp"
+					}')`,
+			}}
 		>
 			<div className="container">
 				<div className="row">

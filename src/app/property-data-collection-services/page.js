@@ -21,7 +21,7 @@ export default function propertyDataCollectionServices() {
     return (
         <>
             <JsonLd
-                id="web-scraping-schema"
+                id="property-data-collection-services-schema"
                 schema={propertyDataCollectionServicesSchema}
             />
             <div>

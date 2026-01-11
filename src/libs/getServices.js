@@ -1,4 +1,4 @@
-import services from "../../public/fakedata/services.json";
+import services from "../../public/data/services.json";
 
 const getServices = () => {
   return services;

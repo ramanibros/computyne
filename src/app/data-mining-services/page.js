@@ -20,7 +20,7 @@ export default function dataMiningServices() {
     return (
         <>
             <JsonLd
-                id="web-scraping-schema"
+                id="data-mining-services-schema"
                 schema={dataMiningServicesSchema}
             />
             <div>

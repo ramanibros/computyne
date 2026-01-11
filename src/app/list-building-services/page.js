@@ -20,7 +20,7 @@ export default function listBuildingServices() {
     return (
         <>
             <JsonLd
-                id="web-scraping-schema"
+                id="list-building-services-schema"
                 schema={listBuildingServicesSchema}
             />
             <div>

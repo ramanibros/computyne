@@ -12,33 +12,41 @@ import Faq from "@/components/sections/subservice/Faq";
 import Industries from "@/components/sections/subservice/Industries";
 import Casestudy from "@/components/sections/subservice/Casestudy";
 import Testimonials from "@/components/sections/subservice/Testimonials";
+import JsonLd from "@/components/seo/JsonLd";
+import { freightBillOfLadingSchema } from "@/libs/schema/services/freightBillOfLadingSchema";
 
 export default function billOfLadingDataEntryServices() {
     return (
-        <div>
-            <BackToTop/>
-            <Header headerType={5}/>
-            <Header headerType={5} isStickyHeader={true}/>
-            <div id="smooth-wrapper">
-                <div id="smooth-content">
-                    <main>
-                        <div className="top-space-15"></div>
-                        <Banner/>
-                        <Counter/>
-                        <Aboutus type={1}/>
-                        <Subservices/>
-                        <Casestudy/>
-                        <Whychooseus/>
-                        <Faq type={1}/>
-                        <Testimonials/>
-                        <Industries/>
-                        <CallSchedule/>
-                    </main>
-                    <Footer/>
+        <>
+            <JsonLd
+                id="freight-bill-of-lading-schema"
+                schema={freightBillOfLadingSchema}
+            />
+            <div>
+                <BackToTop />
+                <Header headerType={5} />
+                <Header headerType={5} isStickyHeader={true} />
+                <div id="smooth-wrapper">
+                    <div id="smooth-content">
+                        <main>
+                            <div className="top-space-15"></div>
+                            <Banner />
+                            <Counter />
+                            <Aboutus type={1} />
+                            <Subservices />
+                            <Casestudy />
+                            <Whychooseus />
+                            <Faq type={1} />
+                            <Testimonials />
+                            <Industries />
+                            <CallSchedule />
+                        </main>
+                        <Footer />
+                    </div>
                 </div>
-            </div>
 
-            <ClientWrapper/>
-        </div>
+                <ClientWrapper />
+            </div>
+        </>
     );
 }

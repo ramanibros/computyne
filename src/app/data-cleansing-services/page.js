@@ -19,7 +19,7 @@ export default function dataCleansingServices() {
     return (
         <>
             <JsonLd
-                id="web-scraping-schema"
+                id="data-cleansing-services-schema"
                 schema={dataCleansingServicesSchema}
             />
             <div>

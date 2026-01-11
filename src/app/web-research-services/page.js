@@ -20,7 +20,7 @@ export default function webResearchServices() {
     return (
         <>
             <JsonLd
-                id="web-scraping-schema"
+                id="web-research-services-schema"
                 schema={webResearchServicesSchema}
             />
             <div>

@@ -52,7 +52,8 @@ const Aboutus = ({type}) => {
                             <div className="about-img overflow-hidden">
                                 <Image
                                     data-speed=".8"
-                                    src={overviewData.image}
+                                    // src={overviewData.image}
+                                    src={overviewData?.image?.trim() || "/images/service/overview/data-solutions-overview.webp"}
                                     alt=""
                                     width={791}
                                     height={839}

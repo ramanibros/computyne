@@ -1,4 +1,4 @@
-import heroBannerBlockData from "../../public/fakedata/hero-banner-block-data";
+import heroBannerBlockData from "../../public/data/hero-banner-block-data";
 
 const getHeroBannerBlockData = () => {
 	return heroBannerBlockData;
