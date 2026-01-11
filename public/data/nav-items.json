@@ -579,7 +579,34 @@
 	{
 		"id": 9,
 		"name": "Hire Resources",
-		"path": "/hire-resources"
+		"path": "/hire-resources",
+		"submenu": [
+			{
+				"id": 1,
+				"name": "Hire Web Researchers",
+				"path": "/hire-web-researchers",
+				"badge": null
+			},
+			{
+				"id": 2,
+				"name": "Hire Data Entry Specialists",
+				"path": "/hire-data-entry-specialists",
+				"badge": null
+			},
+			{
+				"id": 3,
+				"name": "Hire Virtual Assistants",
+				"path": "/hire-virtual-assistants",
+				"badge": null
+			},
+			{
+				"id": 4,
+				"name": "Hire Data Science Specialists",
+				"path": "/hire-data-science-specialist",
+				"badge": null
+			}
+			
+		]
 	},
 	{
 		"id": 10,
