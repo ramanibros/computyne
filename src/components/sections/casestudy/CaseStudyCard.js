@@ -9,7 +9,7 @@ const CaseStudyCard = ({ blog, idx }) => {
 	return (
 		<div className="blog-item wow fadeInUp" data-wow-delay={`0.${idx + 1}s`}>
 			<div className="blog-thumb">
-				<Link href={`/blogs/${id}`}>
+				<Link href={`/casestudys/${id}`}>
 					{" "}
 					<Image
 						src={img ? img : "/images/blog/blog-1.webp"}
@@ -26,21 +26,21 @@ const CaseStudyCard = ({ blog, idx }) => {
 			<div className="blog-content">
 				<div className="blog-meta">
 					<span className="categories">
-						<Link href={`/blogs?category=${makePath(category)}`}>
+						<Link href={`/casestudys?category=${makePath(category)}`}>
 							{" "}
 							{category}
 						</Link>
 					</span>
 					<span>
-						By <Link href={`/blogs/${id}`}>Ellinien Loma</Link>
+						By <Link href={`/casestudys/${id}`}>Ellinien Loma</Link>
 					</span>
 				</div>
 				<h4 className="title">
-					<Link href={`/blogs/${id}`}>{title}.</Link>
+					<Link href={`/casestudys/${id}`}>{title}.</Link>
 				</h4>
 				<ButtonPrimary
 					text={"Read More"}
-					url={`/blogs/${id}`}
+					url={`/casestudys/${id}`}
 					isTextBtn={true}
 				/>
 			</div>

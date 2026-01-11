@@ -5,6 +5,7 @@ export default function JsonLd({ id, schema }) {
   return (
     <Script
       id={id}
+      strategy="beforeInteractive"
       type="application/ld+json"
       dangerouslySetInnerHTML={{
         __html: JSON.stringify(schema)
