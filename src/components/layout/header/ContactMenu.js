@@ -23,7 +23,7 @@ const ContactMenu = ({ isContactOpen, setIsContactOpen }) => {
 						<div className="hamburger_top d-flex align-items-center justify-content-between">
 							<div className="hamburger_logo">
 								<Link href="/" className="mobile_logo">
-									<img src="/images/logos/logo.svg" alt="Logo" />
+									<img src="/images/site-logo/white-logo.svg" alt="Logo" />
 								</Link>
 							</div>
 							<div className="hamburger_close">

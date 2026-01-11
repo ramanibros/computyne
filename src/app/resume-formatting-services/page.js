@@ -12,37 +12,42 @@ import Faq from "@/components/sections/subservice/Faq";
 import Industries from "@/components/sections/subservice/Industries";
 import Casestudy from "@/components/sections/subservice/Casestudy";
 import Testimonials from "@/components/sections/subservice/Testimonials";
+import { resumeCvFormattingServicesSchema } from "@/libs/schema/services/resumeCvFormattingServicesSchema";
+import JsonLd from "@/components/seo/JsonLd";
+
 
 export default function resumeFormattingServices() {
     return (
-        <div>
-            <BackToTop/>
-            <Header headerType={5}/>
-            <Header headerType={5} isStickyHeader={true}/>
-            <div id="smooth-wrapper">
-                <div id="smooth-content">
-                    <main>
-                        <div className="top-space-15"></div>
-                        <Banner title={"Resume/CV Formatting Services"}
-                                          text={"Delivering Clean, Corporate-Grade Resume Formatting that Gets You Noticed by Decision-Makers"}
-                                          isShowButton={true}
-                                          bannerimage={"/images/subservice/resume-formatting-services/resume-cv-formatting-services.webp"}
-                                          buttonLabel={"Connect with Our Data Expert"}/>
-                        <Counter/>
-                        <Aboutus type={1}/>
-                        <Subservices/>
-                        <Casestudy/>
-                        <Whychooseus/>
-                        <Faq type={1}/>
-                        <Testimonials/>
-                        <Industries/>
-                        <CallSchedule/>
-                    </main>
-                    <Footer/>
+        <>
+            <JsonLd
+                id="resume-cv-formatting-services-schema"
+                schema={resumeCvFormattingServicesSchema}
+            />
+            <div>
+                <BackToTop />
+                <Header headerType={5} />
+                <Header headerType={5} isStickyHeader={true} />
+                <div id="smooth-wrapper">
+                    <div id="smooth-content">
+                        <main>
+                            <div className="top-space-15"></div>
+                            <Banner />
+                            <Counter />
+                            <Aboutus type={1} />
+                            <Subservices />
+                            <Casestudy />
+                            <Whychooseus />
+                            <Faq type={1} />
+                            <Testimonials />
+                            <Industries />
+                            <CallSchedule />
+                        </main>
+                        <Footer />
+                    </div>
                 </div>
-            </div>
 
-            <ClientWrapper/>
-        </div>
+                <ClientWrapper />
+            </div>
+        </>
     );
 }

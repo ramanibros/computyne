@@ -1,16 +1,16 @@
 import Header from "@/components/layout/header/Header";
 import BackToTop from "@/components/shared/others/BackToTop";
 import ClientWrapper from "@/components/shared/wrappers/ClientWrapper";
-import Industries from "@/components/sections/industries-page/Industries";
-import Testimonials from "@/components/sections/industries-page/Testimonials";
-import Banner from "@/components/sections/industries-page/Banner";
-import Counter from "@/components/sections/industries-page/Counter";
-import Aboutus from "@/components/sections/industries-page/Aboutus";
-import Subservices from "@/components/sections/industries-page/Subservices";
-import Casestudy from "@/components/sections/industries-page/Casestudy";
-import Whychooseus from "@/components/sections/industries-page/Whychooseus";
-import Faq from "@/components/sections/industries-page/Faq";
-import CallSchedule from "@/components/sections/industries-page/CallSchedule";
+import Industries from "@/components/sections/subservice/Industries";
+import Testimonials from "@/components/sections/subservice/Testimonials";
+import Banner from "@/components/sections/subservice/Banner";
+import Counter from "@/components/sections/subservice/Counter";
+import Aboutus from "@/components/sections/subservice/Aboutus";
+import Subservices from "@/components/sections/subservice/Subservices";
+import Casestudy from "@/components/sections/subservice/Casestudy";
+import Whychooseus from "@/components/sections/subservice/Whychooseus";
+import Faq from "@/components/sections/subservice/Faq";
+import CallSchedule from "@/components/sections/subservice/CallSchedule";
 import Footer from "@/components/layout/footer/Footer";
 
 export default function industriesPage() {
@@ -23,11 +23,7 @@ export default function industriesPage() {
                 <div id="smooth-content">
                     <main>
                         <div className="top-space-15"></div>
-                        <Banner title={"Industries"}
-                                          text={"Delivering Clean, Corporate-Grade Resume Formatting that Gets You Noticed by Decision-Makers"}
-                                          isShowButton={true}
-                                          bannerimage={"/images/subservice/resume-formatting-services/resume-cv-formatting-services.webp"}
-                                          buttonLabel={"Connect with Our Data Expert"}/>
+                        <Banner />
                         <Counter/>
                         <Aboutus type={1}/>
                         <Subservices/>

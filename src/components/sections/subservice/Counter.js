@@ -13,6 +13,14 @@ const Counter = () => {
             ? getServiceData("data-extraction-services")
             : counters;
 
+    // 🔒 Guard clause — hide section completely if no counters
+    if (
+        !Array.isArray(counterData?.counter) ||
+        counterData.counter.length === 0
+    ) {
+        return null;
+    }
+
     return (
         <div
             className={`tj-client-section-4 mb-0    section-gap-x wow fadeInUp`}

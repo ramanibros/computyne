@@ -1,0 +1,605 @@
+[
+	{
+		"id": 1,
+		"name": "Home",
+		"path": "/",
+		"submenu": [
+			{
+				"id": 1,
+				"name": "Home - 01",
+				"img": "/images/header/demo/home-1.webp",
+				"path": "/"
+			},
+			{
+				"id": 2,
+				"name": "Home - 02",
+				"img": "/images/header/demo/home-2.webp",
+				"path": "/home-02"
+			},
+			{
+				"id": 3,
+				"name": "Home - 03",
+				"img": "/images/header/demo/home-3.webp",
+				"path": "/home-03"
+			},
+			{
+				"id": 4,
+				"name": "Home - 04",
+				"img": "/images/header/demo/home-4.webp",
+				"path": "/home-04"
+			},
+			{
+				"id": 5,
+				"name": "Home - 05",
+				"img": "/images/header/demo/home-5.webp",
+				"path": "/home-05"
+			},
+			{
+				"id": 6,
+				"name": "Home - 06",
+				"img": "/images/header/demo/home-6.webp",
+				"path": "/home-06"
+			},
+			{
+				"id": 7,
+				"name": "Home - 07",
+				"img": "/images/header/demo/home-7.webp",
+				"path": "/home-07",
+				"badge": "New"
+			},
+			{
+				"id": 8,
+				"name": "Home - 08",
+				"img": "/images/header/demo/home-8.webp",
+				"path": "/home-08",
+				"badge": "New"
+			},
+			{
+				"id": 9,
+				"name": "Home - 09",
+				"img": "/images/header/demo/home-9.webp",
+				"path": "/home-09",
+				"badge": "New"
+			},
+			{
+				"id": 10,
+				"name": "Home - 10",
+				"img": "/images/header/demo/home-10.webp",
+				"path": "/home-10",
+				"badge": "New"
+			}
+		]
+	},
+	{
+		"id": 2,
+		"name": "Services",
+		"path": "#",
+		"submenu": [
+			{
+				"id": 1,
+				"name": "Data Collection",
+				"path": "/data-collection-services",
+				"items": [
+					{
+						"id": 1,
+						"name": "Data Extraction",
+						"desc": "Accurate extraction of structured and unstructured data from multiple digital sources.",
+						"path": "/data-extraction-services",
+						"badge": null
+					},
+					{
+						"id": 2,
+						"name": "Data Mining",
+						"desc": "Discover patterns, trends, and insights from large datasets using advanced techniques.",
+						"path": "/data-mining-services",
+						"badge": null
+					},
+					{
+						"id": 3,
+						"name": "Web Research",
+						"desc": "In-depth web research to collect reliable and verified business information.",
+						"path": "/web-research-services",
+						"badge": null
+					},
+					{
+						"id": 4,
+						"name": "List Building",
+						"desc": "Targeted and verified lead lists tailored to your business requirements.",
+						"path": "/list-building-services",
+						"badge": null
+					},
+					{
+						"id": 5,
+						"name": "Web Scraping",
+						"desc": "Automated web scraping solutions for fast and scalable data collection.",
+						"path": "/web-scraping-services",
+						"badge": null
+					},
+					{
+						"id": 6,
+						"name": "Property Data Collection",
+						"desc": "Comprehensive real estate data collection for property insights and analysis.",
+						"path": "/property-data-collection-services",
+						"badge": null
+					}
+				]
+			},
+			{
+				"id": 2,
+				"name": "Data Management",
+				"path": "/data-management-services",
+				"items": [
+					{
+						"id": 1,
+						"name": "Data Enrichment",
+						"desc": "Enhance existing data with additional attributes for better decision-making.",
+						"path": "/data-enrichment-services",
+						"badge": null
+					},
+					{
+						"id": 2,
+						"name": "Data Cleansing",
+						"desc": "Remove errors, duplicates, and inconsistencies to ensure data accuracy.",
+						"path": "/data-cleansing-services",
+						"badge": null
+					},
+					{
+						"id": 3,
+						"name": "Data Appending",
+						"desc": "Append missing information to improve data completeness and value.",
+						"path": "/data-appending-services",
+						"badge": null
+					},
+					{
+						"id": 4,
+						"name": "Data Validation",
+						"desc": "Validate data accuracy and reliability using strict quality checks.",
+						"path": "/data-validation-services",
+						"badge": null
+					},
+					{
+						"id": 5,
+						"name": "Data Standardization",
+						"desc": "Standardize data formats for consistency across all systems.",
+						"path": "/data-standarization-services",
+						"badge": null
+					},
+					{
+						"id": 6,
+						"name": "Data Hygiene",
+						"desc": "Maintain clean, updated, and compliant datasets over time.",
+						"path": "/data-hygiene-services",
+						"badge": null
+					},
+					{
+						"id": 7,
+						"name": "Competitor Analysis",
+						"desc": "Actionable competitor insights to support smarter business strategies.",
+						"path": "/competitor-analysis-services",
+						"badge": null
+					}
+				]
+			},
+			{
+				"id": 3,
+				"name": "Data Annotation",
+				"path": "/data-annotation-services",
+				"items": [
+					{
+						"id": 1,
+						"name": "Text Annotation Services",
+						"desc": "High-quality text labeling to train NLP and AI models accurately.",
+						"path": "/text-annotation-services",
+						"badge": null
+					},
+					{
+						"id": 2,
+						"name": "Image Annotation Services",
+						"desc": "Precise image labeling for computer vision and AI applications.",
+						"path": "/image-annotation-services",
+						"badge": null
+					},
+					{
+						"id": 3,
+						"name": "Audio Annotation Services",
+						"desc": "Accurate audio tagging to improve speech and voice recognition models.",
+						"path": "/audio-annotation-services",
+						"badge": null
+					},
+					{
+						"id": 4,
+						"name": "Video Annotation Services",
+						"desc": "Frame-level video annotation for advanced AI and ML training.",
+						"path": "/video-annotation-services",
+						"badge": null
+					},
+					{
+						"id": 5,
+						"name": "Multimodal Annotation Services",
+						"desc": "Unified annotation across text, image, audio, and video data.",
+						"path": "/multimodal-annotation-services",
+						"badge": null
+					}
+				]
+			},
+			{
+				"id": 4,
+				"name": "Document Processing",
+				"path": "/document-processing-services",
+				"items": [
+					{
+						"id": 1,
+						"name": "Freight Audit",
+						"desc": "Audit freight invoices to reduce errors and control logistics costs.",
+						"path": "/freight-audit-services",
+						"badge": null
+					},
+					{
+						"id": 2,
+						"name": "Invoice Processing",
+						"desc": "Automated and accurate invoice processing for faster operations.",
+						"path": "/invoice-processing-services",
+						"badge": null
+					},
+					{
+						"id": 3,
+						"name": "Resume Formatting",
+						"desc": "Professional resume formatting for consistency and ATS compatibility.",
+						"path": "/resume-formatting-services",
+						"badge": null
+					},
+					{
+						"id": 4,
+						"name": "Forms Processing",
+						"desc": "Efficient extraction and processing of data from business forms.",
+						"path": "/forms-processing-services",
+						"badge": null
+					},
+					{
+						"id": 5,
+						"name": "Document Digitization",
+						"desc": "Convert physical documents into secure, searchable digital formats.",
+						"path": "/document-digitization-services",
+						"badge": null
+					}
+				]
+			},
+			{
+				"id": 5,
+				"name": "Data Entry",
+				"path": "/data-entry-services",
+				"items": [
+					{
+						"id": 1,
+						"name": "Image Data Entry",
+						"desc": "Accurate data entry services from scanned and digital images.",
+						"path": "/image-data-entry-services",
+						"badge": null
+					},
+					{
+						"id": 2,
+						"name": "Logistics Data Entry",
+						"desc": "Reliable logistics data entry to streamline supply chain operations.",
+						"path": "/logistics-data-entry-services",
+						"badge": null
+					},
+					{
+						"id": 3,
+						"name": "Bill of Lading Data Entry",
+						"desc": "Precise bill of lading data entry for shipping accuracy.",
+						"path": "/bill-of-lading-data-entry-services",
+						"badge": null
+					},
+					{
+						"id": 4,
+						"name": "Appraisal & Valuation Data Entry",
+						"desc": "Structured appraisal data entry for valuation and reporting needs.",
+						"path": "/appraisal-data-entry-services",
+						"badge": null
+					},
+					{
+						"id": 5,
+						"name": "Real Estate Property Listing",
+						"desc": "Accurate property listing data for real estate platforms.",
+						"path": "/real-estate-property-listing-services",
+						"badge": null
+					}
+				]
+			},
+			{
+				"id": 5,
+				"name": "Data Solutions",
+				"path": "/data-solutions-services",
+				"items": []
+			}
+		]
+	},
+	
+	{
+		"id": 3,
+		"name": "Pages",
+		"path": "#",
+		"submenu": [
+			{
+				"id": 1,
+				"name": "Main Pages",
+				"path": "#",
+				"items": [
+					{ "id": 1, "name": "About us", "path": "/about", "badge": null },
+					{
+						"id": 2,
+						"name": "Our history",
+						"path": "/history",
+						"badge": "HOT"
+					},
+					{ "id": 3, "name": "Team", "path": "/team", "badge": null },
+					{
+						"id": 4,
+						"name": "Team details",
+						"path": "/team/1",
+						"badge": null
+					},
+					{
+						"id": 5,
+						"name": "Careers",
+						"path": "/careers",
+						"badge": "New"
+					},
+					{
+						"id": 6,
+						"name": "Careers details",
+						"path": "/careers/1",
+						"badge": null
+					},
+					{
+						"id": 7,
+						"name": "Pricing Plan",
+						"path": "/pricing-plan",
+						"badge": null
+					},
+					{ "id": 8, "name": "Feedbacks", "path": "#", "badge": null },
+					{ "id": 9, "name": "Faq", "path": "/faq", "badge": null },
+					{ "id": 10, "name": "Conatct", "path": "/contact", "badge": null }
+				]
+			},
+			{
+				"id": 2,
+				"name": "Other pages",
+				"path": "#",
+				"items": [
+					{ "id": 1, "name": "Services", "path": "/services", "badge": null },
+					{
+						"id": 2,
+						"name": "Service details",
+						"path": "/services/1",
+						"badge": null
+					},
+					{
+						"id": 3,
+						"name": "Portfolios",
+						"path": "/portfolios",
+						"badge": null
+					},
+					{
+						"id": 4,
+						"name": "Portfolio details",
+						"path": "/portfolios/1",
+						"badge": null
+					},
+					{
+						"id": 5,
+						"name": "Error 404",
+						"path": "/error",
+						"badge": null
+					},
+					{
+						"id": 6,
+						"name": "Blog grid",
+						"path": "/blog-grid",
+						"badge": "NEW"
+					},
+					{
+						"id": 7,
+						"name": "Blog standard",
+						"path": "/blogs",
+						"badge": null
+					},
+					{
+						"id": 8,
+						"name": "Blog sidebar",
+						"path": "/blog-sidebar",
+						"badge": null
+					},
+					{
+						"id": 9,
+						"name": "Blog details",
+						"path": "/blogs/1",
+						"badge": null
+					},
+					{
+						"id": 10,
+						"name": "Term & conditions",
+						"path": "/terms-and-conditions",
+						"badge": null
+					}
+				]
+			},
+			{
+				"id": 3,
+				"name": "Shop pages",
+				"path": "/shop",
+				"items": [
+					{ "id": 1, "name": "Shop", "path": "/shop", "badge": "HOT" },
+					{
+						"id": 2,
+						"name": "Shop details",
+						"path": "/shop/1",
+						"badge": null
+					},
+					{ "id": 3, "name": "Cart", "path": "/cart", "badge": null },
+					{
+						"id": 4,
+						"name": "Checkout",
+						"path": "/checkout",
+						"badge": null
+					},
+					{
+						"id": 5,
+						"name": "My account",
+						"path": "#",
+						"badge": null
+					},
+					{
+						"id": 6,
+						"name": "Wishlist",
+						"path": "/wishlist",
+						"badge": "NEW"
+					},
+					{
+						"id": 7,
+						"name": "Login",
+						"path": "/login",
+						"badge": null
+					},
+					{
+						"id": 8,
+						"name": "Registration",
+						"path": "/password",
+						"badge": null
+					},
+					{ "id": 9, "name": "Order confirm", "path": "#", "badge": null },
+					{ "id": 10, "name": "Coming soon", "path": "#", "badge": null }
+				]
+			}
+		]
+	},
+	{
+		"id":4,
+		"name": "Industries",
+		"path": "#",
+		"submenu": [
+			{
+				"id": 1,
+				"name": "Business Strategy Development",
+				"icon": "tji-service-1",
+				"path": "/industries"
+			},
+			{
+				"id": 2,
+				"name": "Customer Experience Solutions",
+				"icon": "tji-service-2",
+				"path": "/industries"
+			},
+			{
+				"id": 3,
+				"name": "Sustainability and ESG Consulting",
+				"icon": "tji-service-3",
+				"path": "/industries"
+			},
+			{
+				"id": 4,
+				"name": "Training and Development Programs",
+				"icon": "tji-service-4",
+				"path": "/industries"
+			},
+			{
+				"id": 5,
+				"name": "IT Support & Maintenance",
+				"icon": "tji-service-5",
+				"path": "/industries"
+			},
+			{
+				"id": 6,
+				"name": "Marketing Strategy & Campaigns",
+				"icon": "tji-service-6",
+				"path": "/industries"
+			}
+		]
+	},
+
+	{
+		"id": 5,
+		"name": "About Us",
+		"path": "/about"
+	},
+
+	{
+		"id": 6,
+		"name": "Blog",
+		"path": "/blogs",
+		"submenu": [
+			{
+				"id": 1,
+				"name": "Blog",
+				"path": "/blogs",
+				"badge": "NEW"
+			},
+			{
+				"id": 2,
+				"name": "Blog grid",
+				"path": "/blog-grid",
+				"badge": null
+			},
+			{
+				"id": 3,
+				"name": "Blog with sidebar",
+				"path": "/blog-sidebar",
+				"badge": null
+			},
+			{
+				"id": 4,
+				"name": "Blog details",
+				"path": "/blogs/1",
+				"badge": null
+			}
+		]
+	},
+	{
+		"id": 7,
+		"name": "Casestudy",
+		"path": "/portfolios",
+		"submenu": [
+			{
+				"id": 1,
+				"name": "Portfolios",
+				"path": "/portfolios"
+			},
+			{
+				"id": 2,
+				"name": "Portfolio details",
+				"path": "/portfolios/1"
+			}
+		]
+	},
+	{
+		"id": 8,
+		"name": "Contact",
+		"path": "/contact"
+	},
+	{
+		"id": 9,
+		"name": "Hire Resources",
+		"path": "/hire-resources"
+	},
+	{
+		"id": 10,
+		"name": "Insight",
+		"path": "/blogs",
+		"submenu": [
+			{
+				"id": 1,
+				"name": "Blog",
+				"path": "/blog",
+				"badge": "NEW"
+			},
+			{
+				"id": 2,
+				"name": "Casestudy",
+				"path": "/casestudy",
+				"badge": null
+			}
+			
+		]
+	}
+	
+]

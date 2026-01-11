@@ -1,5 +1,5 @@
 
-import navItems from "../../public/fakedata/tech-services"
+import navItems from "../../public/data/tech-services"
 
 const getTechServices = () => {
 

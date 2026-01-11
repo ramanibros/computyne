@@ -1,5 +1,4 @@
 "use client";
-import getIndustries from "@/libs/service/resume-formatting-services/getIndustries";
 import {Autoplay, Navigation, Pagination} from "swiper/modules";
 import {Swiper, SwiperSlide} from "swiper/react";
 import IndustriesCard from "./IndustriesCard";

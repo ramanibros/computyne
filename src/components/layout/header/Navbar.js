@@ -160,10 +160,37 @@ const Navbar = ({ headerType, isStickyHeader }) => {
 						</ul>
 					</li>
 
-					<li className={hireResourcesNav?.isActive ? "current-menu-ancestor" : ""}>
+					{/* <li className={hireResourcesNav?.isActive ? "current-menu-ancestor" : ""}>
 						<Link href={hireResourcesNav?.path ? hireResourcesNav?.path : "#"}>
 							{hireResourcesNav?.name ? hireResourcesNav?.name : "Hire Resources"}
 						</Link>
+					</li> */}
+
+					<li
+						className={`has-dropdown ${
+							hireResourcesNav?.isActive ? "current-menu-ancestor" : ""
+						}`}
+					>
+						{/* <Link href={hireResourcesNav?.path ? hireResourcesNav?.path : "#"}>
+							{hireResourcesNav?.name}
+						</Link> */}
+						<a className="custom-anchor" onClick={(e) => e.preventDefault()}>
+							{hireResourcesNav?.name}
+						</a>
+						<ul className="sub-menu">
+							{hireResourcesNav?.submenu?.length
+								? hireResourcesNav?.submenu?.map((item, idx) => (
+										<li
+											key={idx}
+											className={item?.isActive ? "current-menu-item" : ""}
+										>
+											<Link href={item?.path ? item?.path : "/portfolios"}>
+												{item?.name ? item?.name : "Portfolio"}
+											</Link>
+										</li>
+								  ))
+								: ""}
+						</ul>
 					</li>
 
 

@@ -1,1 +1,0 @@
-export { webScrapingSchema } from "./webScraping";

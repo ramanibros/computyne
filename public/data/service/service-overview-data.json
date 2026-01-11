@@ -948,5 +948,787 @@
                 "Using advanced web crawler services and enterprise-grade extraction methodologies, we enable pricing tracking, competitor monitoring, and real-time market analysis. By outsourcing web scraping services to Computyne, businesses gain secure, scalable, and performance-driven data solutions that transform unstructured web content into actionable intelligence."
             ]
         }
+    },
+    "appraisal-data-entry-services": {
+        "banner": {
+            "image": "",
+            "h1": "Appraisal & Valuation Data Entry Services",
+            "tagline": "Accurate. Compliant. Decision-Ready Valuation Data.",
+            "cta": "Request a Tailored Pricing Proposal"
+        },
+        "counter": [
+            {
+                "label": "Years of Experience",
+                "value": "15",
+                "symbol": "+"
+            },
+            {
+                "label": "Skilled Professionals",
+                "value": "250",
+                "symbol": "+"
+            },
+            {
+                "label": "Data Security",
+                "value": "100",
+                "symbol": "%"
+            },
+            {
+                "label": "Cost Saving",
+                "value": "50",
+                "symbol": "%"
+            },
+            {
+                "label": "Data Support",
+                "value": "24",
+                "symbol": "×7"
+            },
+            {
+                "label": "Data Accuracy",
+                "value": "99.99",
+                "symbol": "%"
+            }
+        ],
+        "overview": {
+            "image": "",
+            "h2": "Reliable Property Data Management for Accurate Appraisals and Valuations",
+            "content": [
+                "Accurate property data is the foundation of every successful appraisal and valuation process. Incomplete figures, inconsistent records, or unstructured reports can delay valuations, underwriting decisions, and mortgage approvals. Computyne’s Appraisal & Valuation Data Entry Services help real estate, mortgage, and financial organizations maintain precise, well-structured, and compliance-driven property datasets, ready for rapid analysis, approvals, and regulatory reporting.",
+                "Manual appraisal data entry often leads to duplication, calculation errors, and inconsistent valuation outcomes that compromise accuracy and efficiency. Our experienced professionals deliver accurate appraisal data entry by capturing property characteristics, ownership details, comparable sales data, valuation adjustments, market value information, and financial records. Using standardized templates, validation frameworks, and quality-controlled appraisal data entry processes, we ensure every dataset is consistent, verified, and audit-ready.",
+                "By outsourcing appraisal and valuation data entry services to Computyne, organizations reduce administrative workloads while improving data accuracy and operational efficiency. Our scalable appraisal data entry services support fluctuating volumes without impacting turnaround times. Every record is securely processed, formatted, and optimized to support valuation reporting, regulatory compliance, and informed decision-making."
+            ]
+        }
+    },
+    "bill-of-lading-data-entry-services": {
+        "banner": {
+            "image": "",
+            "h1": "Freight Bill of Lading Services",
+            "tagline": "Error-Free Freight Bill of Lading Management for Seamless Domestic and International Shipping",
+            "cta": "Talk to a Freight Expert"
+        },
+        "counter": [
+            {
+                "label": "Years of Experience",
+                "value": "15",
+                "symbol": "+"
+            },
+            {
+                "label": "Skilled Professionals",
+                "value": "250",
+                "symbol": "+"
+            },
+            {
+                "label": "Data Security",
+                "value": "100",
+                "symbol": "%"
+            },
+            {
+                "label": "Cost Saving",
+                "value": "60",
+                "symbol": "%"
+            },
+            {
+                "label": "Data Support",
+                "value": "24",
+                "symbol": "×7"
+            },
+            {
+                "label": "Data Accuracy",
+                "value": "99.99",
+                "symbol": "%"
+            }
+        ],
+        "overview": {
+            "image": "",
+            "h2": "Streamlined Freight Bill of Lading Management",
+            "content": [
+                "Is your logistics business challenged by inaccurate documentation, limited shipment visibility, inefficient tracking, and complex regulatory requirements? These issues often result in billing discrepancies, carrier disputes, shipment delays, and increased administrative overhead. Computyne delivers tailored Freight Bill of Lading (BOL) services that simplify documentation, tracking, and invoicing while ensuring end-to-end regulatory compliance across the freight lifecycle.",
+                "With over two decades of experience, Computyne supports shipping and transportation organizations including freight carriers, courier companies, air cargo operators, maritime shipping firms, trucking companies, and integrated logistics providers. Our Freight Bill of Lading data entry services include document processing, verification and validation, shipment tracking and tracing, classification and coding, and compliance management.",
+                "Our streamlined BOL processing begins with secure receipt of shipment data through client-preferred channels. Information is verified, accurately entered into dedicated systems, and converted into compliant Bill of Lading documents. Rigorous quality checks ensure error-free output before submission to carriers, customs authorities, and stakeholders. Post-submission, shipments are continuously monitored using advanced tracking tools.",
+                "We leverage OCR, EDI, barcoding, RFID, and AI-powered automation to enhance processing speed, accuracy, and efficiency. Backed by logistics experts proficient in MercuryGate, SAP Transportation Management, and Oracle Transportation Management, we consistently deliver 99.5%+ data accuracy."
+            ]
+        }
+    },
+    "data-annotation-services": {
+        "banner": {
+            "image": "",
+            "h1": "Enterprise Data Annotation Services for Scalable AI",
+            "tagline": "High-precision labeled datasets that power accurate, production-ready Machine Learning models.",
+            "cta": "Get a Free Quote"
+        },
+        "counter": [],
+        "overview": {
+            "image": "",
+            "h2": "Reliable Data Labeling for Next-Gen Model Training",
+            "content": [
+                "Data annotation is the critical process of labeling raw text, image, audio, video, and multimodal data to create the \"ground truth\" required for machine learning. These labeled datasets serve as the educational foundation for Computer Vision, Natural Language Processing (NLP), and sophisticated AI systems.",
+                "As AI initiatives move from proof-of-concept to production, complexity spikes. Dataset volumes expand, retraining cycles accelerate, and data formats diversify. Internal teams often struggle to maintain labeling consistency and speed while focusing on core algorithm development.",
+                "Without managed intervention, annotation backlogs grow and label variance (drift) undermines model accuracy. Computyne’s managed data annotation services mitigate these risks. We utilize structured workflows, strict quality benchmarks, and secure environments to deliver model-ready datasets that align with real-world performance requirements.",
+                "Our approach moves beyond simple task execution to a governance-led delivery framework. We align our annotation workflows directly with your specific labeling guidelines, tooling preferences, and accuracy thresholds.",
+                "Every dataset passes through a rigorous lifecycle:",
+                "• Validation: Ensuring raw data meets input criteria.",
+                "• Auditability: Tracking who labeled what and when.",
+                "• Access Management: Strict protocols for data security.",
+                "This framework supports seamless integration with your internal AI Ops, ensuring adaptability as your models and use cases evolve."
+            ]
+        }
+    },
+    "data-labeling-services": {
+        "banner": {
+            "image": "",
+            "h1": "Data Labeling Services for Scalable AI & Machine Learning",
+            "tagline": "Accurate training data. Managed workflows. Enterprise-grade security.",
+            "cta": "Get a Free Quote"
+        },
+        "counter": [],
+        "overview": {
+            "image": "",
+            "h2": "Operational Excellence for Growing AI Initiatives",
+            "content": [
+                "Building reliable AI and machine learning models depends on one critical factor: Ground Truth. Without consistent, high-quality labeling, even the most advanced algorithms fail to generalize in real-world conditions.",
+                "As your AI initiatives mature, data requirements expand. Engineering teams often face bottlenecks caused by manual effort, evolving guidelines, and fragmented processes. Computyne removes these constraints. We embed managed, Human-in-the-Loop (HITL) teams into your workflow to deliver training-ready datasets at scale. This allows your data scientists to focus on model architecture while we handle the precision, speed, and operational reliability of your data pipeline."
+            ]
+        }
+    },
+    "document-digitization-services": {
+        "banner": {
+            "image": "",
+            "h1": "Document Digitization Services",
+            "tagline": "Convert Paper-Based Records into Secure, Searchable, Business-Ready Digital Assets",
+            "cta": "Start Your Document Digitization Project"
+        },
+        "counter": [
+            {
+                "label": "Years of Experience",
+                "value": "15",
+                "symbol": "+"
+            },
+            {
+                "label": "Skilled Professionals",
+                "value": "250",
+                "symbol": "+"
+            },
+            {
+                "label": "Data Security",
+                "value": "100",
+                "symbol": "%"
+            },
+            {
+                "label": "Cost Saving",
+                "value": "60",
+                "symbol": "%"
+            },
+            {
+                "label": "Data Support",
+                "value": "24",
+                "symbol": "×7"
+            },
+            {
+                "label": "Data Accuracy",
+                "value": "99.99",
+                "symbol": "%"
+            }
+        ],
+        "overview": {
+            "image": "",
+            "h2": "Paperless Document Digitization for Faster, Smarter Business Operations",
+            "content": [
+                "Many organizations continue to store physical records for extended periods, resulting in data loss, misplacement, limited accessibility, and underutilization. As digital transformation accelerates, enterprises face increasing pressure to convert legacy documents into structured, searchable digital formats that simplify data access, management, and utilization across systems. Addressing this challenge, Computyne delivers professional Document Digitization Services designed to help data-intensive organizations transition seamlessly to secure, paperless operations.",
+                "Our end-to-end document digitization solutions cover the complete lifecycle, from physical document collection and secure document scanning to OCR data extraction, indexing, validation, and delivery of audit-ready digital records. By converting unstructured and semi-structured data into actionable intelligence, we enable intelligent document processing, automated workflows, and improved operational efficiency across departments.",
+                "As a trusted document digitization company, Computyne provides advanced document imaging, large-volume document scanning and digitization, file conversion services, and secure digital archiving services. Leveraging AI-based document digitization, optical character recognition services, double key entry validation, and quality assurance in digitization, our specialists accurately convert documents of all sizes and formats, including business records, images, books, newspapers, and periodicals, into client-preferred digital outputs, ensuring secure, rapid, and cost-effective paper to digital conversion services."
+            ]
+        }
+    },
+    "form-processing-services": {
+        "banner": {
+            "image": "",
+            "h1": "Form Processing Services",
+            "tagline": "Eliminate Manual Form Handling with Intelligent Automation",
+            "cta": "Get a Free Quote"
+        },
+        "counter": [
+            {
+                "label": "Years of Experience",
+                "value": "15",
+                "symbol": "+"
+            },
+            {
+                "label": "Skilled Professionals",
+                "value": "250",
+                "symbol": "+"
+            },
+            {
+                "label": "Data Security",
+                "value": "100",
+                "symbol": "%"
+            },
+            {
+                "label": "Cost Saving",
+                "value": "60",
+                "symbol": "%"
+            },
+            {
+                "label": "Data Support",
+                "value": "24",
+                "symbol": "×7"
+            },
+            {
+                "label": "Data Accuracy",
+                "value": "99.99",
+                "symbol": "%"
+            }
+        ],
+        "overview": {
+            "image": "",
+            "h2": "Accelerate Digital Transformation with Automated Form Processing Services",
+            "content": [
+                "Form processing is a critical prerequisite for modern enterprises managing data across multiple formats, including invoices, vouchers, survey forms, insurance documents, financial and legal records, purchase orders, tax statements, and more. As businesses increasingly rely on both paper-based and digital forms, accurate and timely data extraction becomes essential for operational efficiency, compliance, and informed decision-making.",
+                "Computyne delivers end-to-end form processing services that simplify information retrieval and eliminate manual workloads. Our comprehensive service portfolio includes document and form processing services, form data processing services, data management services, address management services, list building services, payroll processing services, form data normalization, survey form data entry services, and online form processing services. These solutions help organizations achieve error-free form processing, faster turnaround times, and measurable productivity gains.",
+                "Powered by multi-dimensional expertise, robust infrastructure, intelligent form processing technologies, and streamlined workflows, Computyne ensures consistent excellence across every engagement. Our automated form processing solutions support high-volume data capture, OCR and ICR form data extraction, validation, and digitization while maintaining strict data security and regulatory compliance.",
+                "We serve diverse industry verticals including banking, healthcare, government, education, travel, insurance, retail, logistics, and transportation. By choosing to outsource form processing to Computyne, organizations gain access to cost-effective, scalable form processing solutions that enhance data quality and accelerate long-term digital transformation initiatives."
+            ]
+        }
+    },
+    "freight-audit-services": {
+        "banner": {
+            "image": "",
+            "h1": "Freight Audit Services",
+            "tagline": "Ensure Freight Invoice Accuracy. Eliminate Overcharges. Protect Margins.",
+            "cta": "Request a Custom Freight Audit Quote"
+        },
+        "counter": [
+            {
+                "label": "Years of Experience",
+                "value": "15",
+                "symbol": "+"
+            },
+            {
+                "label": "Skilled Professionals",
+                "value": "250",
+                "symbol": "+"
+            },
+            {
+                "label": "Data Security",
+                "value": "100",
+                "symbol": "%"
+            },
+            {
+                "label": "Cost Saving",
+                "value": "50",
+                "symbol": "%"
+            },
+            {
+                "label": "Data Support",
+                "value": "24",
+                "symbol": "×7"
+            },
+            {
+                "label": "Invoice Accuracy",
+                "value": "99.99",
+                "symbol": "%"
+            }
+        ],
+        "overview": {
+            "image": "",
+            "h2": "Intelligent Freight Audit Services for Accurate Billing and Cost Control",
+            "content": [
+                "Does your supply chain business face invoicing errors, complex carrier contracts, delayed payments, or disconnected systems? These challenges often lead to freight billing discrepancies, strained carrier relationships, operational inefficiencies, and increased administrative workload. A reliable freight audit partner is essential to regain control. Our freight audit and payment services deliver accurate freight invoice auditing, cost validation, timely carrier payments, and detailed reporting.",
+                "As an experienced provider of freight audit services serving global clients since 2009, we help organizations resolve invoicing inaccuracies, rate mismatches, compliance issues, and inefficient payment workflows. Our logistics audit services include freight invoice processing, carrier payment processing, rate verification, audit discrepancy resolution, freight cost allocation, and transportation spend analytics.",
+                "Our structured freight audit process begins with receiving carrier invoices, followed by freight invoice validation against contracted rates, tariffs, and services rendered. Discrepancies are identified, reconciled, and approved invoices are processed for payment. Costs are accurately allocated to departments or cost centers, and payments are released within agreed terms.",
+                "Supported by skilled professionals, freight audit software, TMS-integrated freight audit capabilities, ERP freight invoice audit workflows, and strict quality controls, we consistently achieve over 99% freight invoice accuracy."
+            ]
+        }
+    },
+    "hire-data-and-virtual-assistants": {
+        "banner": {
+            "image": "",
+            "h1": "Hire Data & Virtual Assistants for Scalable Business Support",
+            "tagline": "Dedicated experts delivering managed data support and virtual assistance for growing businesses.",
+            "cta": "Get a Free Quote"
+        },
+        "counter": [],
+        "overview": {
+            "image": "",
+            "h2": "Smarter Data and Virtual Assistant Services for Growing Teams",
+            "content": [
+                "Hiring data and virtual assistants means engaging trained remote professionals who handle data, research, and administrative tasks through a managed delivery model that ensures consistency, accuracy, and accountability.",
+                "As organizations scale, operational complexity often increases before efficiency catches up. Data volumes expand. Research requests grow. Administrative responsibilities multiply across teams.",
+                "Over time, skilled employees spend valuable hours on essential but non-strategic work. Updating records. Validating data. Managing inboxes. Coordinating reports. These tasks are necessary, yet they quietly slow execution and dilute focus on growth.",
+                "Hiring full-time staff for each operational function is rarely practical. Recruitment cycles are long. Training adds cost. Fixed headcount limits flexibility as workloads fluctuate.",
+                "When you hire data and virtual assistants through Computyne, those pressures ease. Our remote professionals integrate directly into your workflows, operate within your tools, and follow documented processes from day one. The outcome is consistent delivery, fewer operational bottlenecks, and more time for your internal teams to focus on decisions that move the business forward.",
+                "In real-world execution, this results in faster turnaround on data tasks, cleaner reporting, and reliable day-to-day support without expanding internal teams."
+            ]
+        }
+    },
+    "hire-data-entry-specialists": {
+        "banner": {
+            "image": "",
+            "h1": "Hire Remote Data Entry Specialists",
+            "tagline": "Scale Data Operations Seamlessly with Remote Data Entry Specialists",
+            "cta": "Request a Custom Hiring Plan"
+        },
+        "counter": [
+            {
+                "label": "Years of Experience",
+                "value": "15",
+                "symbol": "+"
+            },
+            {
+                "label": "Skilled Professionals",
+                "value": "250",
+                "symbol": "+"
+            },
+            {
+                "label": "Data Security",
+                "value": "100",
+                "symbol": "%"
+            },
+            {
+                "label": "Cost Savings",
+                "value": "60",
+                "symbol": "%"
+            },
+            {
+                "label": "Customer Support",
+                "value": "24",
+                "symbol": "×7"
+            },
+            {
+                "label": "Project Accuracy",
+                "value": "99.99",
+                "symbol": "%"
+            }
+        ],
+        "overview": {
+            "image": "",
+            "h2": "Scale Faster with Skilled Remote Data Entry Professionals",
+            "content": [
+                "In today’s fast-paced business environment, managing increasing data volumes can become complex, time-consuming, and costly. Manual processes, fragmented records, and inconsistent formats often result in errors, delays, and reduced productivity. When you hire remote data entry specialists, you gain immediate access to trained professionals who accurately capture, validate, and organize data across systems, ensuring speed, precision, and reliability.",
+                "From CRM updates and database management to product catalog maintenance and document digitization, our remote data entry professionals deliver structured, error-free information that supports faster decision-making and operational efficiency. Outsourcing data entry eliminates the burden of recruiting, training, and supervising internal teams while significantly reducing overhead costs.",
+                "Internal data handling is frequently prone to inaccuracies and scalability limitations, particularly during peak workloads. By choosing to hire remote data entry professionals for business, organizations minimize costly errors, improve turnaround times, and maintain consistent quality without compromising data security.",
+                "By partnering with Computyne, you benefit from standardized workflows, advanced validation tools, and a scalable delivery model. Our dedicated remote data entry staff efficiently support both short-term tasks and enterprise-level projects, allowing your teams to focus on strategic growth initiatives."
+            ]
+        }
+    },
+    "hire-data-science-specialists": {
+        "banner": {
+            "image": "",
+            "h1": "Hire Data Science Specialists",
+            "tagline": "Transform Data into Predictive Intelligence with Expert Data Science Talent",
+            "cta": "Request a Custom Hiring Plan"
+        },
+        "counter": [
+            {
+                "label": "Years of Experience",
+                "value": "15",
+                "symbol": "+"
+            },
+            {
+                "label": "Skilled Professionals",
+                "value": "250",
+                "symbol": "+"
+            },
+            {
+                "label": "Data Security",
+                "value": "100",
+                "symbol": "%"
+            },
+            {
+                "label": "Cost Savings",
+                "value": "60",
+                "symbol": "%"
+            },
+            {
+                "label": "Customer Support",
+                "value": "24",
+                "symbol": "×7"
+            },
+            {
+                "label": "Project Accuracy",
+                "value": "99.99",
+                "symbol": "%"
+            }
+        ],
+        "overview": {
+            "image": "",
+            "h2": "Transform Complex Data into Predictive Business Intelligence",
+            "content": [
+                "Managing large volumes of data, uncovering hidden patterns, and generating predictive intelligence can quickly become complex, time-consuming, and resource-intensive. By choosing to hire data science specialists, organizations gain access to advanced analytics expertise that converts raw, unstructured data into actionable business insights. This enables smarter decision-making, stronger operational efficiency, and measurable improvements across enterprise functions.",
+                "Extracting meaningful intelligence from complex datasets requires advanced statistical modeling, specialized tools, and continuous analytical effort. Building a full-time internal team for every initiative often leads to higher costs and reduced flexibility. Fixed staffing models make it difficult to scale analytics capabilities, adapt to changing project requirements, or deploy niche expertise when business priorities shift.",
+                "Our data science specialists deliver comprehensive data science services without the overhead of permanent hiring. They integrate seamlessly with existing teams, workflows, and technology environments while quickly understanding operational processes and strategic goals. From predictive analytics services and trend analysis to business intelligence and analytics, our experts ensure every insight is accurate, relevant, and aligned with measurable business outcomes."
+            ]
+        }
+    },
+    "hire-virtual-assistants": {
+        "banner": {
+            "image": "",
+            "h1": "Hire Virtual Assistants",
+            "tagline": "Hire Skilled Virtual Assistants to Simplify Workflows and Maximize Productivity",
+            "cta": "Get a Dedicated Virtual Assistant"
+        },
+        "counter": [
+            {
+                "label": "Years of Experience",
+                "value": "15",
+                "symbol": "+"
+            },
+            {
+                "label": "Skilled Professionals",
+                "value": "250",
+                "symbol": "+"
+            },
+            {
+                "label": "Data Security",
+                "value": "100",
+                "symbol": "%"
+            },
+            {
+                "label": "Cost Savings",
+                "value": "60",
+                "symbol": "%"
+            },
+            {
+                "label": "Customer Support",
+                "value": "24",
+                "symbol": "×7"
+            },
+            {
+                "label": "Project Accuracy",
+                "value": "99.99",
+                "symbol": "%"
+            }
+        ],
+        "overview": {
+            "image": "",
+            "h2": "Dedicated Virtual Assistants to Support Your Business Growth",
+            "content": [
+                "Running a business demands continuous attention to emails, reports, calls, scheduling, and follow-ups, time-intensive responsibilities that often divert focus from strategic growth. By hiring virtual assistants, businesses can delegate these routine tasks to trained professionals who ensure daily operations remain structured, efficient, and cost-effective.",
+                "Many organizations lose valuable productive hours each week managing administrative and manual work that does not directly generate revenue. Hiring full-time staff for every operational requirement increases overhead and limits agility. Virtual assistant outsourcing provides a smarter alternative by reducing costs, accelerating turnaround times, and enabling scalable support without long-term employment commitments.",
+                "Our dedicated virtual assistants’ function as a seamless extension of your internal team. They are process-driven, carefully trained, and adaptable to your workflows, ensuring consistent performance and dependable outcomes. From administrative virtual assistant services to specialized operational support, we help eliminate backlogs, enhance operational efficiency, and allow your core teams to focus on clients, performance, and sustainable business growth."
+            ]
+        }
+    },
+    "hire-web-researchers": {
+        "banner": {
+            "image": "",
+            "h1": "Hire Web Research Experts",
+            "tagline": "Skilled Web Research Assistants Delivering Accurate, Actionable Data",
+            "cta": "Get a Custom Web Research Plan"
+        },
+        "counter": [
+            {
+                "label": "Years of Experience",
+                "value": "15",
+                "symbol": "+"
+            },
+            {
+                "label": "Skilled Professionals",
+                "value": "250",
+                "symbol": "+"
+            },
+            {
+                "label": "Data Security",
+                "value": "100",
+                "symbol": "%"
+            },
+            {
+                "label": "Cost Savings",
+                "value": "60",
+                "symbol": "%"
+            },
+            {
+                "label": "Customer Support",
+                "value": "24",
+                "symbol": "×7"
+            },
+            {
+                "label": "Data Accuracy",
+                "value": "99.99",
+                "symbol": "%"
+            }
+        ],
+        "overview": {
+            "image": "",
+            "h2": "Accurate, Verified Web Research That Drives Confident Decisions",
+            "content": [
+                "In today’s fast-moving digital environment, accessing accurate and dependable online information is increasingly challenging. Businesses often face fragmented data sources, time-intensive research tasks, and costly inaccuracies. When you hire web research experts, these challenges are resolved efficiently and consistently. Our experienced web research assistants collect, verify, and structure high-quality online data aligned with your specific business goals. From market research and competitor analysis to lead generation and contact database development, we deliver actionable insights that support confident decision-making, reduce turnaround time, and enable sustainable growth.",
+                "Managing web research internally frequently strains resources and slows execution. Information scattered across multiple platforms makes it difficult to maintain accuracy, relevance, and consistency. As a result, teams spend excessive time validating incomplete or outdated data, delaying strategic initiatives and missed opportunities.",
+                "By outsourcing web research services to our dedicated team, you gain access to trained professionals, standardized research frameworks, and advanced validation tools. Our virtual web research assistants deliver precise, up-to-date, and business-ready results without increasing overhead. Whether you require ongoing research support or a project-based engagement, we provide scalable, dependable solutions aligned with your timelines and objectives."
+            ]
+        }
+    },
+    "image-annotation-services": {
+        "banner": {
+            "image": "",
+            "h1": "Image Annotation Services for Computer Vision",
+            "tagline": "Secure, pixel-perfect labeling managed by experts.",
+            "cta": "Get a Free Quote"
+        },
+        "counter": [],
+        "overview": {
+            "image": "",
+            "h2": "Scalable Image Annotation Services Without Operational Bottlenecks",
+            "content": [
+                "High-performing computer vision models require large volumes of accurately labeled image data. As AI initiatives scale, image volumes increase, annotation guidelines grow more complex, and internal teams struggle to keep pace without diverting focus from core model development.",
+                "Relying on internal labeling often creates hidden costs. Engineering resources become tied up in annotation oversight, review cycles slow down as deadlines tighten, and repeated hiring and training introduce friction that delays product delivery and impacts consistency.",
+                "Computyne addresses these challenges through fully managed image annotation services designed for production AI. Our delivery model integrates directly into your data pipeline while preserving full control over tools, labeling guidelines, and quality thresholds.",
+                "We manage the annotation workforce, daily execution, and quality assurance through documented workflows aligned with ISO-based quality and information security practices. From pilot programs to production-scale pipelines, our approach ensures image datasets scale in volume without sacrificing accuracy, consistency, or the contextual depth required for commercial computer vision systems."
+            ]
+        }
+    },
+    "image-data-entry-services": {
+        "banner": {
+            "image": "",
+            "h1": "Image Data Entry Services",
+            "tagline": "From Images to Intelligence: Reliable Data Entry at Scale",
+            "cta": "Talk to a Data Expert"
+        },
+        "counter": [
+            {
+                "label": "Years of Experience",
+                "value": "15",
+                "symbol": "+"
+            },
+            {
+                "label": "Skilled Professionals",
+                "value": "250",
+                "symbol": "+"
+            },
+            {
+                "label": "Data Security",
+                "value": "100",
+                "symbol": "%"
+            },
+            {
+                "label": "Cost Saving",
+                "value": "60",
+                "symbol": "%"
+            },
+            {
+                "label": "Data Support",
+                "value": "24",
+                "symbol": "×7"
+            },
+            {
+                "label": "Data Accuracy",
+                "value": "99.99",
+                "symbol": "%"
+            }
+        ],
+        "overview": {
+            "image": "",
+            "h2": "Streamlining Image-to-Data Conversion for Faster Decision-Making",
+            "content": [
+                "Are you facing challenges converting information from images into accurate digital formats? Inconsistent image quality, complex data structures, and growing scalability demands often slow image data entry operations. Our image data entry services are purpose-built to overcome these challenges efficiently and cost-effectively. We specialize in image to data conversion from paper documents, photographs, charts, graphs, books, artwork, spreadsheets, pamphlets, and digital files such as PDF, XML, and JSON.",
+                "For more than 15 years, we have delivered secure and scalable image data entry solutions to organizations worldwide. As an experienced image data entry company, we help businesses convert large volumes of image-based information into searchable, structured, and business-ready digital data. By choosing image data entry outsourcing, clients benefit from faster turnaround times, improved data accuracy, flexible scalability, and enterprise-grade data security.",
+                "Our process begins with integrating advanced OCR image data entry systems with client databases. Images are collected from multiple sources, relevant data is extracted, validated, indexed, and entered into designated systems. We provide customized image data entry solutions, including categorization, tagging, and indexing based on specific client requirements. Leveraging automated image data extraction, template-based data entry, validation checks, and continuous workforce training, we consistently deliver up to 98% accuracy with seamless communication and workflow efficiency."
+            ]
+        }
+    },
+    "invoice-processing-services": {
+        "banner": {
+            "image": "",
+            "h1": "Invoice Processing Services",
+            "tagline": "Accurate Invoice Processing for Faster, Error-Free Financial Operations",
+            "cta": "Reduce Invoice Processing Costs"
+        },
+        "counter": [
+            {
+                "label": "Years of Experience",
+                "value": "15",
+                "symbol": "+"
+            },
+            {
+                "label": "Skilled Professionals",
+                "value": "250",
+                "symbol": "+"
+            },
+            {
+                "label": "Data Security",
+                "value": "100",
+                "symbol": "%"
+            },
+            {
+                "label": "Cost Saving",
+                "value": "60",
+                "symbol": "%"
+            },
+            {
+                "label": "Data Support",
+                "value": "24",
+                "symbol": "×7"
+            },
+            {
+                "label": "Invoice Accuracy",
+                "value": "99.99",
+                "symbol": "%"
+            }
+        ],
+        "overview": {
+            "image": "",
+            "h2": "Automated Invoice Processing for Faster Payment Cycles",
+            "content": [
+                "Managing invoices across multiple sources, formats, and geographies presents ongoing challenges for accounts payable and accounts receivable teams. Manual invoice sorting, invoice data entry, and invoice posting services consume valuable time, increase operational costs, and introduce avoidable errors. Even minor inaccuracies can delay payments, trigger penalties, strain vendor relationships, and negatively impact credit ratings.",
+                "To overcome these challenges, organizations increasingly adopt outsourced invoice processing services and automated invoice processing services. As a trusted invoice processing company, Computyne enables accounts payable digital transformation by combining intelligent invoice automation, invoice OCR services, and human-led validation to support global invoice processing requirements securely and at scale.",
+                "Our invoice processing solutions follow a structured, scalable delivery model that integrates OCR invoice data extraction, AI-driven classification, and expert review. Acting as an extension of your finance team, we handle invoice data capture services, validate invoice data across multiple invoice types, including standard, proforma, debit, credit, and commercial invoices, and process supporting documents such as purchase orders, delivery receipts, and vouchers within defined SLAs. The result is a future-ready, audit-ready, and cost-effective invoice processing solution that scales seamlessly with evolving business needs."
+            ]
+        }
+    },
+    "logistics-data-entry-services": {
+        "banner": {
+            "image": "",
+            "h1": "Logistics Data Entry Services",
+            "tagline": "Transform Logistics Data into Actionable, Error-Free Intelligence",
+            "cta": "Talk to a Data Expert"
+        },
+        "counter": [
+            {
+                "label": "Years of Experience",
+                "value": "15",
+                "symbol": "+"
+            },
+            {
+                "label": "Skilled Professionals",
+                "value": "250",
+                "symbol": "+"
+            },
+            {
+                "label": "Data Security",
+                "value": "100",
+                "symbol": "%"
+            },
+            {
+                "label": "Cost Saving",
+                "value": "60",
+                "symbol": "%"
+            },
+            {
+                "label": "Data Support",
+                "value": "24",
+                "symbol": "×7"
+            },
+            {
+                "label": "Data Accuracy",
+                "value": "99.99",
+                "symbol": "%"
+            }
+        ],
+        "overview": {
+            "image": "",
+            "h2": "Intelligent Logistics Data Entry for Accurate, Scalable, and Connected Supply Chain Operations",
+            "content": [
+                "Is logistics data entry becoming increasingly complex for your organization? Managing diverse data formats, reducing manual errors, and ensuring seamless data flow across supply chain systems often impacts operational efficiency. Our logistics data entry services are designed to address these challenges by delivering accurate, structured, and consistently formatted databases that improve visibility, control, and decision-making across logistics operations.",
+                "As a trusted logistics data entry services provider with over two decades of industry experience, we deliver end-to-end solutions including customer order data entry, inventory and stock management, shipment and tracking data entry, freight bill processing, bill of lading entry, and PO line-item data capture. We support transportation and logistics companies, retail and eCommerce businesses, manufacturing enterprises, and allied industries, consistently delivering standardized, business-ready logistics data with high accuracy.",
+                "Our logistics data entry process follows a systematic, end-to-end methodology aligned with industry and data standardization best practices. We capture and validate purchase orders, shipment details, tracking numbers, and inventory updates within a centralized system to ensure accuracy, compliance, and consistency. We also manage critical logistics documents such as freight bills, bills of lading, and proof of delivery to maintain complete operational visibility.",
+                "Backed by trained data entry professionals, logistics coordinators, quality analysts, and compliance specialists, we leverage OCR, automated data entry systems, AI-driven tools, and proven workflows to deliver accurate, timely, and scalable logistics data entry solutions."
+            ]
+        }
+    },
+    "multimodal-annotation-services": {
+        "banner": {
+            "image": "",
+            "h1": "Multimodal Annotation Services for Advanced AI",
+            "tagline": "Build reliable Generative AI & Perception Models with precisely aligned data.",
+            "cta": "Get a Free Quote"
+        },
+        "counter": [],
+        "overview": {
+            "image": "",
+            "h2": "Operational Support for the Next Generation of AI",
+            "content": [
+                "Modern AI has evolved beyond single tasks. Today’s Large Multimodal Models (LMMs) and autonomous systems must interpret images, text, audio, and sensor data as a unified signal. Multimodal Annotation is the critical process of synchronizing these diverse inputs to teach machines context, continuity, and reasoning.",
+                "When data streams are not perfectly aligned, models hallucinate. They fail to associate a visual cue with a spoken instruction or a LiDAR obstacle with a traffic sign.",
+                "The Challenge: Unlike standard labeling, multimodal annotation requires complex temporal synchronization. Objects must be tracked across video frames while simultaneously being grounded in text descriptions or audio timestamps.",
+                "The Computyne Solution: We remove the bottleneck of complex data preparation. We embed domain-trained teams into your workflow to deliver instruction-tuning datasets, sensor fusion logs, and RLHF data. Your engineers stay focused on model architecture while we ensure your \"ground truth\" is pixel-perfect and logically consistent."
+            ]
+        }
+    },
+    "real-estate-property-listing-services": {
+        "banner": {
+            "image": "",
+            "h1": "Real Estate Property Listing Services",
+            "tagline": "Structured Property Listings That Increase Accuracy, Visibility, and Speed in Real Estate",
+            "cta": "Optimize Listings Today"
+        },
+        "counter": [
+            {
+                "label": "Years of Experience",
+                "value": "15",
+                "symbol": "+"
+            },
+            {
+                "label": "Skilled Professionals",
+                "value": "250",
+                "symbol": "+"
+            },
+            {
+                "label": "Data Security",
+                "value": "100",
+                "symbol": "%"
+            },
+            {
+                "label": "Cost Savings",
+                "value": "50",
+                "symbol": "%"
+            },
+            {
+                "label": "Listings Updated Monthly",
+                "value": "50",
+                "symbol": "k+"
+            },
+            {
+                "label": "Data Accuracy",
+                "value": "99.99",
+                "symbol": "%"
+            }
+        ],
+        "overview": {
+            "image": "",
+            "h2": "Intelligent Property Listing Management for Growing Real Estate Portfolios",
+            "content": [
+                "Accurate property listings are critical for maintaining transparency, strengthening buyer confidence, and accelerating decision-making. In a competitive real estate environment, even small data inconsistencies can lead to buyer confusion, reduced engagement, missed opportunities, or delayed transactions. Our Real Estate Property Listing Services help agencies, developers, and brokers maintain accurate, verified, and consistently updated listings that enhance visibility, credibility, and trust across digital and print channels.",
+                "Manual property listing creation often results in fragmented datasets, missing information, and formatting inconsistencies. To address these challenges, we apply standardized workflows designed for precision and repeatability. Every listing is reviewed and enriched with verified ownership details, property specifications, pricing information, zoning classifications, and regulatory data, ensuring compliance and readiness for buyers, investors, and internal stakeholders.",
+                "Our Property Listing Data Management solutions consolidate multiple data sources into a centralized, easy-to-manage structure. Whether managing residential, commercial, or mixed-use properties, we ensure listings align with branding standards, marketing goals, and compliance requirements. The result is structured, searchable, and SEO-optimized property data that improves online discoverability and supports faster, more informed real estate transactions."
+            ]
+        }
+    },
+    "text-annotation-services": {
+        "banner": {
+            "image": "",
+            "h1": "Text Annotation Services",
+            "tagline": "Enterprise-grade text labeling for accurate, scalable NLP model training.",
+            "cta": "Get a Free Quote"
+        },
+        "counter": [],
+        "overview": {
+            "image": "",
+            "h2": "Text Annotation Built for Production-Grade NLP Systems",
+            "content": [
+                "Text annotation is the foundation of high-performance Natural Language Processing (NLP) models. It involves the meticulous labeling of raw text data to train machine learning algorithms in understanding sentiment, intent, syntax, and context.",
+                "Growing AI teams often face a critical operational bottleneck. Your internal data scientists and engineers spend valuable hours scrubbing and labeling data instead of optimizing models. This distraction slows deployment and burns out core talent.",
+                "Computyne solves this by providing a fully managed, remote annotation workforce. Our operational model absorbs the heavy lifting of data preparation. We deliver structured, accurate datasets that allow your internal team to focus on innovation and model performance.",
+                "Scalable Services Overview",
+                "Our managed delivery model bridges the gap between raw data and deployment-ready AI. We do not just supply temporary staff; we build dedicated, process-driven teams that integrate directly with your workflow.",
+                "We analyze your project requirements and adapt to your preferred tool stack or recommend industry-standard platforms. This approach guarantees consistency, reduces management overhead, and allows you to scale annotation volume up or down based on immediate project needs."
+            ]
+        }
+    },
+    "video-annotation-services": {
+        "banner": {
+            "image": "",
+            "h1": "Video Annotation Services for Scalable Computer Vision",
+            "tagline": "Pixel-perfect data labeling. Managed workflows. Enterprise-grade security.",
+            "cta": "Get a Free Quote"
+        },
+        "counter": [],
+        "overview": {
+            "image": "",
+            "h2": "Operational Support for Growing AI Initiatives",
+            "content": [
+                "Building reliable computer vision models requires large volumes of accurately labeled video data. Video annotation converts raw footage into structured datasets that algorithms can interpret, enabling machines to understand movement, behavior, and context over time. Without consistently annotated video data, even advanced AI models struggle to perform reliably in real-world environments.",
+                "Unlike image annotation, video annotation introduces temporal complexity. Objects must remain identifiable across frames, actions require precise time-based labeling, and contextual relationships must be preserved throughout entire sequences.",
+                "As AI initiatives scale, annotation demands increase rapidly. Internal teams often face bottlenecks caused by manual labeling effort, evolving guidelines, and quality inconsistencies.",
+                "Computyne removes these constraints. We embed trained annotation teams into your data workflows. We adapt to your labeling tools, follow project-specific guidelines, and deliver training-ready video datasets with consistent accuracy. This allows your engineers to remain focused on innovation while we handle data preparation with speed, precision, and operational reliability."
+            ]
+        }
     }
 }

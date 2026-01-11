@@ -1,5 +1,4 @@
 import ButtonPrimary from "@/components/shared/buttons/ButtonPrimary";
-import PopupVideo from "@/components/shared/popup-video/PopupVideo";
 import BlogSidebar from "@/components/shared/sidebar/BlogSidebar";
 import makePath from "@/libs/makePath";
 import Image from "next/image";
@@ -196,7 +195,7 @@ const BlogDetailsPrimary = ({ option }) => {
 										height={498}
 										style={{ height: "auto" }}
 									/>
-									<PopupVideo>
+									{/* <PopupVideo>
 										<Link
 											className="video-btn video-popup glightbox"
 											href="https://www.youtube.com/watch?v=MLpWrANjFbI&ab_channel=eidelchteinadvogados"
@@ -205,7 +204,7 @@ const BlogDetailsPrimary = ({ option }) => {
 												<i className="tji-play"></i>
 											</span>
 										</Link>
-									</PopupVideo>
+									</PopupVideo> */}
 								</div>
 								<h3 className="wow fadeInUp" data-wow-delay=".3s">
 									Conclusions

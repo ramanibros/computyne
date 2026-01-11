@@ -12,39 +12,48 @@ import Industries from "@/components/sections/subservice/Industries";
 import Casestudy from "@/components/sections/subservice/Casestudy";
 import Testimonials from "@/components/sections/subservice/Testimonials";
 import CallSchedule from "@/components/sections/subservice/CallSchedule";
+import { propertyDataCollectionServicesSchema } from "@/libs/schema/services/propertyDataCollectionServicesSchema";
+import JsonLd from "@/components/seo/JsonLd";
+
 
 export default function propertyDataCollectionServices() {
     
     return (
-        <div>
-            <BackToTop/>
-            <Header headerType={5}/>
-            <Header headerType={5} isStickyHeader={true}/>
-            <div id="smooth-wrapper">
-                <div id="smooth-content">
-                    <main>
-                        <div className="top-space-15"></div>
-                       {/* <Banner title={serviceData.banner.h1}
+        <>
+            <JsonLd
+                id="property-data-collection-services-schema"
+                schema={propertyDataCollectionServicesSchema}
+            />
+            <div>
+                <BackToTop />
+                <Header headerType={5} />
+                <Header headerType={5} isStickyHeader={true} />
+                <div id="smooth-wrapper">
+                    <div id="smooth-content">
+                        <main>
+                            <div className="top-space-15"></div>
+                            {/* <Banner title={serviceData.banner.h1}
                                           text={serviceData.banner.tagline}
                                           isShowButton={true}
                                           bannerimage={serviceData.banner.image}
                                           buttonLabel={serviceData.banner.cta}/> */}
-                        <Banner/>
-                        <Counter/>
-                        <Aboutus type={1}/>
-                        <Subservices/>
-                        <Casestudy/>
-                        <Whychooseus/>
-                        <Faq type={1}/>
-                        <Testimonials/>
-                        <Industries/>
-                        <CallSchedule/>
-                    </main>
-                    <Footer/>
+                            <Banner />
+                            <Counter />
+                            <Aboutus type={1} />
+                            <Subservices />
+                            <Casestudy />
+                            <Whychooseus />
+                            <Faq type={1} />
+                            <Testimonials />
+                            <Industries />
+                            <CallSchedule />
+                        </main>
+                        <Footer />
+                    </div>
                 </div>
-            </div>
 
-            <ClientWrapper/>
-        </div>
+                <ClientWrapper />
+            </div>
+        </>
     );
 }

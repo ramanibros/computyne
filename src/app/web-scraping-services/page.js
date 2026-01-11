@@ -13,15 +13,17 @@ import Casestudy from "@/components/sections/subservice/Casestudy";
 import Testimonials from "@/components/sections/subservice/Testimonials";
 import CallSchedule from "@/components/sections/subservice/CallSchedule";
 import JsonLd from "@/components/seo/JsonLd";
-import { webScrapingSchema } from "@/libs/schema/services";
+import { webScrapingServicesSchema } from "@/libs/schema/services/webScrapingServicesSchema";
+
 
 export default function webScrapingServices() {
+    
     
     return (
         <>
             <JsonLd
                 id="web-scraping-schema"
-                schema={webScrapingSchema}
+                schema={webScrapingServicesSchema}
             />
 
             <div>

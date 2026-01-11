@@ -738,5 +738,715 @@
                 "desc": "Trusted web scraping providers follow ethical scraping practices, regulatory compliance standards, and strict security protocols to ensure responsible and secure data collection."
             }
         ]
+    },
+    "appraisal-data-entry-services": {
+        "h2": "Key Benefits of Outsourcing Appraisal & Valuation Data Entry",
+        "data": [
+            {
+                "id": 1,
+                "title": "Reduced Operational Costs",
+                "desc": "Outsourced appraisal data entry eliminates recruitment, infrastructure, and rework costs, delivering cost-effective appraisal data solutions with predictable pricing while maintaining accuracy, compliance, and service quality standards."
+            },
+            {
+                "id": 2,
+                "title": "Faster Turnaround Time (TAT)",
+                "desc": "Streamlined workflows, standardized processes, and dedicated appraisal data teams enable faster appraisal turnaround, quicker underwriting decisions, and improved mortgage approval timelines during peak volumes."
+            },
+            {
+                "id": 3,
+                "title": "Improved Data Accuracy",
+                "desc": "Multi-level quality checks and experienced reviewers ensure accurate appraisal data entry, reducing discrepancies, minimizing rejections, and supporting reliable valuation outcomes aligned with regulatory requirements."
+            },
+            {
+                "id": 4,
+                "title": "Enhanced Process Scalability",
+                "desc": "Scalable appraisal data entry services allow organizations to manage seasonal spikes and portfolio growth efficiently without delays or permanent staffing constraints."
+            },
+            {
+                "id": 5,
+                "title": "Strengthened Compliance & Audit Readiness",
+                "desc": "Standardized data formats and compliance-driven appraisal data processing ensure audit-ready valuation data aligned with lender, regulatory, and reporting standards."
+            }
+        ]
+    },
+    "bill-of-lading-data-entry-services": {
+        "h2": "Trusted Partner for Freight Bill of Lading Processing",
+        "data": [
+            {
+                "id": 1,
+                "title": "Cost Optimization",
+                "desc": "Outsourced Freight Bill of Lading services reduce staffing, infrastructure, and technology costs while minimizing rework, penalties, and disputes, delivering predictable spend and improved cost efficiency."
+            },
+            {
+                "id": 2,
+                "title": "Faster Turnaround Time (TAT)",
+                "desc": "Automation-driven BOL processing accelerates data capture, validation, document generation, and submission, reducing cycle times, shipment delays, and billing lags."
+            },
+            {
+                "id": 3,
+                "title": "Higher Data Accuracy",
+                "desc": "Standardized workflows, automated validations, and multi-level quality checks ensure highly accurate Bill of Lading data, reducing errors, disputes, and compliance-related holds."
+            },
+            {
+                "id": 4,
+                "title": "Improved Compliance Control",
+                "desc": "Consistent regulatory checks and audit-ready documentation reduce compliance deviations, customs delays, and penalties while protecting SLA-driven KPIs."
+            },
+            {
+                "id": 5,
+                "title": "Scalable Performance Management",
+                "desc": "Outsourced BOL services scale seamlessly with shipment volumes without compromising cost control, turnaround targets, or data accuracy thresholds."
+            },
+            {
+                "id": 6,
+                "title": "Enhanced Billing Efficiency",
+                "desc": "Accurate BOL data aligned with invoicing systems accelerates billing cycles, improves first-pass acceptance, reduces disputes, and strengthens cash-flow predictability."
+            }
+        ]
+    },
+    "data-annotation-services": {
+        "h2": "Engineered for Precision, Built for Scale",
+        "data": [
+            {
+                "id": 1,
+                "title": "Embedded Accuracy",
+                "desc": "We define strict validation logic and acceptance criteria upfront to ensure high-precision output from the very first label applied."
+            },
+            {
+                "id": 2,
+                "title": "Process-Controlled Execution",
+                "desc": "Standardized quality checkpoints and governed workflows prevent batch-level errors and maintain consistent data quality throughout the project lifecycle."
+            },
+            {
+                "id": 3,
+                "title": "Zero Annotation Drift",
+                "desc": "Robust governance frameworks preserve labeling standards and consistency, even as dataset volumes scale significantly over time."
+            },
+            {
+                "id": 4,
+                "title": "ISO/IEC 27001:2022 and GDPR Compliant",
+                "desc": "Security Operations follow ISO/IEC 27001:2022 standards and GDPR requirements, ensuring secure, lawful handling of sensitive and personal training data."
+            },
+            {
+                "id": 5,
+                "title": "Accelerated Readiness",
+                "desc": "Parallel processing workflows reduce operational bottlenecks and speed dataset availability for faster model development and deployment."
+            },
+            {
+                "id": 6,
+                "title": "Predictable Economics",
+                "desc": "Transparent scoping models stabilize cost-per-label and minimize administrative overhead, enabling clear budget control and planning."
+            },
+            {
+                "id": 7,
+                "title": "Continuous Evolution",
+                "desc": "Annotation services support the full AI lifecycle, from initial model training to retraining, active learning, and ongoing updates."
+            }
+        ]
+    },
+    "data-labeling-services": {
+        "h2": "Engineered for Accuracy, Built for Scale",
+        "data": [
+            {
+                "id": 1,
+                "title": "Experienced Data Labeling Professionals",
+                "desc": "We do not rely on anonymous crowdsourcing. Our data labeling teams consist of trained, full-time specialists aligned to your domain—including medical imaging, finance, agritech, and industrial AI. This ensures contextual understanding and consistent outcomes."
+            },
+            {
+                "id": 2,
+                "title": "Secure Data Outsourcing & Compliance",
+                "desc": "Security is foundational to our operations. All workflows operate within environments aligned with ISO/IEC 27001:2022 and GDPR compliance requirements. We apply secure VPN access, PII protection measures, and NDA-bound teams to safeguard your intellectual property."
+            },
+            {
+                "id": 3,
+                "title": "Managed Delivery, Not Just Staffing",
+                "desc": "Dedicated project managers oversee day-to-day execution. We integrate with your preferred tools (such as CVAT or Labelbox), enforce standardized operating procedures, and maintain consistent annotation logic across teams."
+            },
+            {
+                "id": 4,
+                "title": "Quality Control at Every Stage",
+                "desc": "Accuracy is maintained through a multi-tier quality assurance framework. This includes gold standard datasets, inter-annotator agreement checks, and reviewer validation to ensure outputs consistently exceed 98% accuracy."
+            },
+            {
+                "id": 5,
+                "title": "Domain-Calibrated Labeling Guidelines",
+                "desc": "Before production begins, we align on detailed labeling guidelines tailored to your model objectives. Calibration cycles resolve edge cases early, ensuring consistent interpretation across annotators."
+            },
+            {
+                "id": 6,
+                "title": "Human-in-the-Loop Validation",
+                "desc": "We combine automation with expert human review to produce training data that is accurate, unbiased, and model-ready. This approach improves downstream model performance and reduces costly retraining cycles."
+            }
+        ]
+    },
+    "document-digitization-services": {
+        "h2": "Why Outsource Document Digitization for Business Efficiency",
+        "data": [
+            {
+                "id": 1,
+                "title": "Reduced Operational Costs",
+                "desc": "Outsourcing document digitization eliminates investments in scanners, software, storage, and staffing, converting fixed costs into predictable operational expenses while improving efficiency and return on investment."
+            },
+            {
+                "id": 2,
+                "title": "Faster Turnaround Times",
+                "desc": "Automated document digitization workflows and high-capacity scanning infrastructure enable rapid processing of large document backlogs without disrupting core business operations."
+            },
+            {
+                "id": 3,
+                "title": "Improved Data Accuracy and Quality",
+                "desc": "Advanced OCR, double key entry validation, and rigorous quality assurance frameworks ensure digitized documents remain accurate, searchable, and reliable for analytics, audits, and compliance."
+            },
+            {
+                "id": 4,
+                "title": "Enhanced Data Security and Compliance",
+                "desc": "Enterprise-grade security controls, encrypted storage, and GDPR-compliant, HIPAA-compliant, and ISO-certified digitization services protect sensitive information throughout the digitization lifecycle."
+            },
+            {
+                "id": 5,
+                "title": "Scalability and Operational Flexibility",
+                "desc": "Enterprise document digitization services scale seamlessly to accommodate fluctuating volumes, seasonal demand, and regulatory timelines without long-term infrastructure commitments."
+            },
+            {
+                "id": 6,
+                "title": "Increased Focus on Core Business Activities",
+                "desc": "By outsourcing document scanning and digitization, internal teams focus on strategic initiatives instead of manual records management and administrative processing tasks."
+            }
+        ]
+    },
+    "form-processing-services": {
+        "h2": "Advantages of Outsourcing Form Processing Operations",
+        "data": [
+            {
+                "id": 1,
+                "title": "Reduced Operational Costs",
+                "desc": "Outsourced form processing services eliminate investments in infrastructure, software, and in-house staffing, delivering predictable pricing and significant cost savings."
+            },
+            {
+                "id": 2,
+                "title": "Improved Data Accuracy and Quality",
+                "desc": "Advanced validation frameworks, automated checks, and skilled professionals ensure accurate form data processing across paper-based and digital formats."
+            },
+            {
+                "id": 3,
+                "title": "Faster Turnaround Times",
+                "desc": "Automated workflows and scalable resources accelerate form digitization and data availability for faster business decisions."
+            },
+            {
+                "id": 4,
+                "title": "Scalability and Flexibility",
+                "desc": "Scalable form processing solutions allow organizations to handle fluctuating workloads without additional internal resource commitments."
+            },
+            {
+                "id": 5,
+                "title": "Enhanced Data Security and Compliance",
+                "desc": "Secure form processing services adhere to enterprise-grade security standards and regulatory requirements, including GDPR and HIPAA compliance."
+            },
+            {
+                "id": 6,
+                "title": "Focus on Core Business Functions",
+                "desc": "Outsourcing form processing enables internal teams to focus on strategic priorities and value-driven business initiatives."
+            }
+        ]
+    },
+    "freight-audit-services": {
+        "h2": "Why Our Freight Audit Solutions Protect Margins and Improve Visibility",
+        "data": [
+            {
+                "id": 1,
+                "title": "Proven Freight Audit Expertise",
+                "desc": "Leverages deep freight audit experience to reduce audit rework, accelerate invoice processing timelines, and improve financial accuracy, enabling organizations to control freight spend, minimize operational risk, and maintain consistent audit performance at scale."
+            },
+            {
+                "id": 2,
+                "title": "99%+ Freight Invoice Accuracy",
+                "desc": "Multi-layer audit validation and contract rate matching significantly improve billing accuracy, reduce exception handling, prevent duplicate or incorrect charges, and lower downstream corrections, delivering reliable, audit-ready freight invoices with minimal manual intervention."
+            },
+            {
+                "id": 3,
+                "title": "Measurable Freight Cost Recovery",
+                "desc": "Systematic identification of rate mismatches, accessorial errors, and fuel surcharge discrepancies directly reduces freight costs, improves recovery rates, and delivers measurable savings as a percentage of total transportation spend."
+            },
+            {
+                "id": 4,
+                "title": "End-to-End Freight Audit & Payment",
+                "desc": "Integrated audit-to-payment workflows reduce cycle time, streamline approvals, eliminate handoffs, and ensure timely carrier settlements, improving cash flow predictability while reducing administrative effort and invoice processing turnaround time."
+            },
+            {
+                "id": 5,
+                "title": "Advanced Technology & Integrations",
+                "desc": "Automation-driven freight audit platforms integrated with TMS and ERP systems accelerate invoice validation, reduce manual processing time, enhance data accuracy, and support scalable audit operations across high-volume, multi-carrier environments."
+            },
+            {
+                "id": 6,
+                "title": "Regulatory Compliance & Data Security",
+                "desc": "Standardized audit controls, secure data handling, and compliance-focused workflows reduce financial risk, prevent non-compliant payments, and ensure data integrity while meeting enterprise governance, carrier contract, and regulatory requirements."
+            },
+            {
+                "id": 7,
+                "title": "Actionable Freight Spend Visibility",
+                "desc": "Real-time dashboards and analytics improve visibility into freight costs, exception trends, and carrier performance, enabling faster decision-making, improved budget control, and ongoing optimization of transportation spend and operational efficiency."
+            },
+            {
+                "id": 8,
+                "title": "Dedicated Audit Specialists",
+                "desc": "Experienced freight audit professionals reduce error rates, shorten resolution cycles, and maintain consistent audit quality, ensuring faster discrepancy resolution, accurate approvals, and dependable performance across complex freight billing environments."
+            }
+        ]
+    },
+    "hire-data-and-virtual-assistants": {
+        "h2": "Hiring Data and Virtual Assistants, Delivered the Right Way",
+        "data": [
+            {
+                "id": 1,
+                "title": "Experienced Remote Professionals",
+                "desc": "Data and virtual assistants are selected for hands-on experience and trained to follow defined processes, adapt quickly to tools, and integrate seamlessly into workflows."
+            },
+            {
+                "id": 2,
+                "title": "Managed Delivery, Not Just Staffing",
+                "desc": "Delivery ownership includes quality checks, process adherence, and performance oversight, reducing reliance on individual contributors as requirements change."
+            },
+            {
+                "id": 3,
+                "title": "Scalable Support That Grows With You",
+                "desc": "Resources scale up or down as priorities shift, allowing responsiveness to growth, seasonality, and operational change without restarting hiring cycles."
+            },
+            {
+                "id": 4,
+                "title": "Secure Data Outsourcing You Can Trust",
+                "desc": "Security is embedded into every workflow through confidentiality agreements, role-based access controls, and structured practices aligned with ISO 27001:2022."
+            },
+            {
+                "id": 5,
+                "title": "Faster Turnaround With Consistent Quality",
+                "desc": "Defined processes and dedicated resources reduce delays and rework, enabling faster execution through clear expectations and accountability."
+            },
+            {
+                "id": 6,
+                "title": "Cost Control Without Compromising Delivery",
+                "desc": "Managed services help control costs by avoiding fixed headcount and overhead while maintaining visibility, performance tracking, and predictable support expenses."
+            },
+            {
+                "id": 7,
+                "title": "A Long-Term Partnership Approach",
+                "desc": "Support adapts as business needs evolve, providing continuity without disruption or repeated onboarding of new teams."
+            }
+        ]
+    },
+    "hire-data-entry-specialists": {
+        "h2": "Benefits of Hiring Experienced Remote Data Entry Professionals",
+        "data": [
+            {
+                "id": 1,
+                "title": "Improved Accuracy and Data Quality",
+                "desc": "Experienced remote data entry professionals follow standardized workflows, validation checks, and quality controls to eliminate errors, maintain consistency, and deliver reliable, business-ready datasets across all systems."
+            },
+            {
+                "id": 2,
+                "title": "Cost Efficiency and Reduced Overhead",
+                "desc": "Hiring remote data entry professionals removes expenses related to recruitment, training, infrastructure, and supervision, enabling predictable costs while maintaining high-quality output and operational efficiency."
+            },
+            {
+                "id": 3,
+                "title": "Scalability and Operational Flexibility",
+                "desc": "Remote data entry teams scale quickly to handle workload fluctuations, seasonal spikes, and project expansions without delays, ensuring uninterrupted operations and faster turnaround times."
+            },
+            {
+                "id": 4,
+                "title": "Faster Turnaround and Productivity Gains",
+                "desc": "Dedicated professionals process large data volumes efficiently, reducing backlogs and enabling faster access to accurate information that supports timely decisions and improved business performance."
+            },
+            {
+                "id": 5,
+                "title": "Data Security and Compliance Assurance",
+                "desc": "Experienced providers implement access controls, confidentiality agreements, and secure workflows to protect sensitive information while meeting industry compliance and data protection standards."
+            },
+            {
+                "id": 6,
+                "title": "Focus on Core Business Activities",
+                "desc": "Outsourcing data entry allows internal teams to concentrate on strategic initiatives, customer engagement, and growth-driven tasks instead of time-consuming administrative processes."
+            }
+        ]
+    },
+    "hire-data-science-specialists": {
+        "h2": "Key Benefits of Hiring Data Science Specialists",
+        "data": [
+            {
+                "id": 1,
+                "title": "Improved Decision-Making Accuracy",
+                "desc": "Hiring data science specialists enables organizations to base strategic decisions on validated insights, predictive intelligence, and advanced analytics frameworks. This minimizes uncertainty, reduces risk, and ensures consistent, data-backed outcomes."
+            },
+            {
+                "id": 2,
+                "title": "Cost Efficiency and Operational Flexibility",
+                "desc": "Engaging on-demand data science experts eliminates full-time hiring costs, training expenses, and infrastructure investments while enabling scalable resource allocation aligned with evolving business needs."
+            },
+            {
+                "id": 3,
+                "title": "Faster Insights and Time-to-Value",
+                "desc": "Experienced data science professionals accelerate data processing, modeling, and insight generation, allowing organizations to respond quickly to market changes and implement strategies faster."
+            },
+            {
+                "id": 4,
+                "title": "Access to Advanced Tools and Expertise",
+                "desc": "Our specialists leverage modern AI modeling and analytics platforms, big data analytics solutions, and cloud-based data science services without requiring internal technology expansion."
+            },
+            {
+                "id": 5,
+                "title": "Scalable Analytics and Business Growth",
+                "desc": "Hiring data science professionals supports scalable AI models and analytics initiatives that grow alongside increasing data volumes and organizational complexity."
+            }
+        ]
+    },
+    "hire-virtual-assistants": {
+        "h2": "Client Success Stories with Dedicated Virtual Assistants",
+        "data": [
+            {
+                "id": 1,
+                "title": "Cost Efficiency",
+                "desc": "Virtual assistance reduces operational costs by eliminating full-time salaries, infrastructure, recruitment, and training expenses. Predictable pricing models help businesses control budgets, improve margins, and reallocate resources toward strategic growth initiatives sustainably."
+            },
+            {
+                "id": 2,
+                "title": "Improved Productivity",
+                "desc": "By delegating routine administrative and operational tasks to virtual assistants, internal teams reclaim valuable time, streamline workflows, and focus on high-impact activities that directly support revenue generation and long-term performance goals."
+            },
+            {
+                "id": 3,
+                "title": "Scalability and Flexibility",
+                "desc": "Virtual assistant services allow organizations to scale support resources quickly based on demand, seasonality, or growth, without long-term commitments or workforce constraints, ensuring operational continuity across evolving business environments."
+            },
+            {
+                "id": 4,
+                "title": "Access to Skilled Professionals",
+                "desc": "Hiring virtual assistants provides access to trained professionals with domain expertise, standardized processes, and quality controls, ensuring accurate execution while maintaining consistency, compliance, and performance standards across business functions."
+            },
+            {
+                "id": 5,
+                "title": "Faster Turnaround Times",
+                "desc": "Dedicated virtual assistants follow defined workflows and service-level expectations, enabling faster task completion, reduced backlogs, and improved turnaround times that support reliable service delivery and operational efficiency."
+            },
+            {
+                "id": 6,
+                "title": "Operational Continuity",
+                "desc": "Virtual assistance ensures continuous business support across time zones, minimizing delays and downtime through structured handoffs, documentation, and process adherence that protect productivity during scaling and growth phases."
+            }
+        ]
+    },
+    "hire-web-researchers": {
+        "h2": "Benefits of Hire Web Research Experts",
+        "data": [
+            {
+                "id": 1,
+                "title": "Cost Efficiency and Predictable Spend",
+                "desc": "Hiring web research experts eliminates recruitment, training, and infrastructure costs while offering predictable pricing models that control expenses, optimize budgets, and deliver measurable cost savings over in-house research teams."
+            },
+            {
+                "id": 2,
+                "title": "Faster Turnaround Time (TAT)",
+                "desc": "Dedicated web research assistants follow streamlined workflows and proven tools to accelerate data collection, validation, and delivery, significantly reducing turnaround time and supporting faster execution and decision cycles."
+            },
+            {
+                "id": 3,
+                "title": "High Data Accuracy and Reliability",
+                "desc": "Our web research experts apply multi-source verification, standardized validation processes, and quality controls to deliver accurate, consistent, and up-to-date data that minimizes errors and improves reporting reliability."
+            },
+            {
+                "id": 4,
+                "title": "Scalable Research Capacity",
+                "desc": "Hiring web research experts enables rapid scaling based on project scope or volume without long-term commitments, ensuring consistent output and maintained service quality during business growth or demand fluctuations."
+            },
+            {
+                "id": 5,
+                "title": "Improved Internal Productivity",
+                "desc": "By delegating research tasks to specialized professionals, internal teams focus on strategic priorities, customer engagement, and revenue-driving initiatives while maintaining compliance, data quality, and operational efficiency."
+            }
+        ]
+    },
+    "image-annotation-services": {
+        "h2": "Image Annotation Services at Enterprise Scale",
+        "data": [
+            {
+                "id": 1,
+                "title": "Experienced Image Annotation Professionals",
+                "desc": "Computyne employs trained, full-time image annotation specialists with deep experience in computer vision data preparation. ISO-aligned processes ensure consistency, traceability, and accountability across large image datasets."
+            },
+            {
+                "id": 2,
+                "title": "Managed Delivery, Not Just Staffing",
+                "desc": "You manage outcomes, not individuals. We oversee daily execution, supervision, performance tracking, and reporting through structured governance models aligned with ISO quality and service management practices."
+            },
+            {
+                "id": 3,
+                "title": "Scalable Support That Grows With Your AI Programs",
+                "desc": "Begin with a pilot team to validate image annotation quality, then scale seamlessly as model complexity and data volumes increase. Process consistency is maintained at every stage."
+            },
+            {
+                "id": 4,
+                "title": "Secure Image Data Outsourcing You Can Trust",
+                "desc": "All image annotation workflows operate within environments aligned with ISO/IEC 27001:2022 and GDPR compliance requirements. Controlled access, confidentiality protocols, and regulated data handling protect sensitive visual data and intellectual property."
+            },
+            {
+                "id": 5,
+                "title": "Faster Turnaround With Consistent Annotation Quality",
+                "desc": "Parallelized workflows, experienced reviewers, and standardized QA checkpoints enable high-throughput image annotation while maintaining accuracy across large-scale computer vision datasets."
+            },
+            {
+                "id": 6,
+                "title": "Cost Control Without Compromising Delivery",
+                "desc": "Our offshore managed delivery model reduces image annotation costs while preserving enterprise-grade reliability, auditability, and ISO-aligned operational discipline."
+            },
+            {
+                "id": 7,
+                "title": "A Long-Term Partnership Approach",
+                "desc": "Computyne retains domain knowledge through documented workflows and retained teams. As image datasets, models, and requirements evolve, delivery adapts without disruption."
+            }
+        ]
+    },
+    "image-data-entry-services": {
+        "h2": "Why Outsource Image Data Entry Services for Accuracy and Efficiency",
+        "data": [
+            {
+                "id": 1,
+                "title": "Cost Efficiency and Operational Savings",
+                "desc": "Outsourced image data entry services eliminate infrastructure investments, reduce staffing costs, and provide predictable pricing while maintaining high accuracy and fast turnaround for large-scale data projects."
+            },
+            {
+                "id": 2,
+                "title": "High Accuracy and Data Quality",
+                "desc": "Our professional image data entry teams use OCR technology, image data validation and verification, and standardized workflows to minimize errors and deliver reliable, business-ready data."
+            },
+            {
+                "id": 3,
+                "title": "Scalability and Flexible Capacity",
+                "desc": "Image data entry outsourcing enables seamless scaling for fluctuating workloads, seasonal peaks, and enterprise-level image data entry for large volumes."
+            },
+            {
+                "id": 4,
+                "title": "Faster Turnaround and Improved Productivity",
+                "desc": "Dedicated offshore image data entry services accelerate image-to-text data entry cycles, improving productivity and enabling faster, data-driven decision-making."
+            },
+            {
+                "id": 5,
+                "title": "Enhanced Data Security and Compliance",
+                "desc": "Secure image data entry services include encrypted transfers, controlled access, confidentiality agreements, and compliance-driven processes protecting sensitive information."
+            },
+            {
+                "id": 6,
+                "title": "Focus on Core Business Functions",
+                "desc": "Outsourcing manual image data entry services frees internal teams to focus on strategic initiatives while ensuring continuity, accuracy, and operational efficiency."
+            }
+        ]
+    },
+    "invoice-processing-services": {
+        "h2": "Key Advantages of Outsourced Invoice Processing",
+        "data": [
+            {
+                "id": 1,
+                "title": "Reduced Manual Effort and Errors",
+                "desc": "Invoice processing outsourcing minimizes manual effort, eliminates repetitive AP invoice data entry, improves accuracy, and allows finance teams to focus on strategic initiatives instead of transactional workloads."
+            },
+            {
+                "id": 2,
+                "title": "Lower Operational and Processing Costs",
+                "desc": "Cost-effective invoice processing reduces staffing overheads, infrastructure expenses, rework, penalties, and delayed payments while delivering predictable pricing and long-term invoice processing cost savings."
+            },
+            {
+                "id": 3,
+                "title": "Improved Compliance and Audit Readiness",
+                "desc": "Our audit-ready invoice processing enforces validation rules, approval controls, tax checks, and documented workflows, ensuring GDPR-compliant and SOX-compliant invoice processing across regions."
+            },
+            {
+                "id": 4,
+                "title": "Faster Invoice Turnaround and Payments",
+                "desc": "Automated invoice processing services accelerate turnaround times through OCR, workflow automation, and ERP invoice processing, enabling timely payments and improved vendor relationships."
+            },
+            {
+                "id": 5,
+                "title": "Scalability and Operational Flexibility",
+                "desc": "Scalable invoice processing solutions support seasonal volumes, high-volume invoice processing, and global operations without increasing internal headcount or complexity."
+            },
+            {
+                "id": 6,
+                "title": "Access to Expertise and Best Practices",
+                "desc": "Our experts deliver standardized workflows, continuous improvement, and consistent quality across outsourced accounts payable services in complex enterprise environments."
+            }
+        ]
+    },
+    "logistics-data-entry-services": {
+        "h2": "Why Businesses Trust Our Logistics Data Entry Services",
+        "data": [
+            {
+                "id": 1,
+                "title": "Improved Accuracy and Data Consistency",
+                "desc": "Standardized workflows, multi-level validation, and continuous quality checks improve data accuracy to 99.99%, reduce rework, and deliver consistently formatted logistics data that supports audit readiness, reporting reliability, and confident operational decision-making."
+            },
+            {
+                "id": 2,
+                "title": "Cost Efficiency and Resource Optimization",
+                "desc": "Outsourced logistics data entry reduces operational costs by up to 60% by eliminating hiring, training, and infrastructure expenses, while improving processing efficiency, cost predictability, and resource utilization across high-volume, multi-location logistics operations."
+            },
+            {
+                "id": 3,
+                "title": "Scalability and Operational Flexibility",
+                "desc": "Elastic delivery models scale resources instantly to handle seasonal spikes, volume fluctuations, and expansion, ensuring uninterrupted processing, stable turnaround times, and consistent service quality without increasing fixed costs or operational risk."
+            },
+            {
+                "id": 4,
+                "title": "Faster Turnaround and Improved Visibility",
+                "desc": "Optimized workflows, automation, and real-time updates accelerate turnaround times, enabling faster order processing, shipment tracking, and inventory visibility that supports proactive issue resolution and timely, data-driven logistics decisions."
+            },
+            {
+                "id": 5,
+                "title": "Access to Expertise and Advanced Technologies",
+                "desc": "Certified professionals leverage OCR, AI-driven validation, and automated workflows to improve processing speed, accuracy, and compliance, delivering scalable logistics data entry aligned with evolving technology standards and operational KPIs."
+            },
+            {
+                "id": 6,
+                "title": "Enhanced Security and Regulatory Compliance",
+                "desc": "Robust security controls, access governance, and compliance frameworks protect sensitive logistics data, ensure regulatory adherence, minimize risk exposure, and maintain operational integrity across global supply chain data environments."
+            }
+        ]
+    },
+    "multimodal-annotation-services": {
+        "h2": "Engineered for Accuracy, Built for Scale",
+        "data": [
+            {
+                "id": 1,
+                "title": "Experienced Multimodal Annotation Specialists",
+                "desc": "We employ full-time domain specialists, not crowdsourcing. Teams are matched to healthcare, automotive, legal, and enterprise AI use cases to ensure accurate multimodal data annotation."
+            },
+            {
+                "id": 2,
+                "title": "Managed Multimodal Annotation Delivery",
+                "desc": "Dedicated project managers enforce standardized annotation logic across image, video, text, audio, and sensor data from pilot programs through production-scale AI pipelines."
+            },
+            {
+                "id": 3,
+                "title": "Secure Multimodal Data Annotation",
+                "desc": "All multimodal annotation workflows operate within environments aligned with ISO/IEC 27001:2022 and GDPR compliance requirements, protecting sensitive datasets, IP, and regulated data."
+            },
+            {
+                "id": 4,
+                "title": "Cross-Modal Quality Assurance",
+                "desc": "Senior reviewers validate synchronization across modalities, identifying alignment errors between images, video, audio, text, and sensor data that automated checks cannot detect."
+            },
+            {
+                "id": 5,
+                "title": "Predictable Cost Control at Scale",
+                "desc": "Our managed delivery model converts fixed internal overhead into flexible operational spend while maintaining enterprise-grade quality across complex multimodal datasets."
+            }
+        ]
+    },
+    "real-estate-property-listing-services": {
+        "h2": "Key Benefits of Outsourcing Property Listing Data Entry Services",
+        "data": [
+            {
+                "id": 1,
+                "title": "Reduced Operational Costs",
+                "desc": "Outsourcing property listing data entry eliminates recruitment, training, infrastructure, and overhead expenses while converting fixed costs into predictable operational spending, delivering measurable cost savings without compromising quality."
+            },
+            {
+                "id": 2,
+                "title": "Improved Turnaround Time (TAT)",
+                "desc": "Dedicated teams, standardized workflows, and 24×7 processing significantly reduce listing creation and update cycles, enabling faster market exposure and quicker responses to property availability changes."
+            },
+            {
+                "id": 3,
+                "title": "Higher Data Accuracy",
+                "desc": "Multi-level quality checks, validation protocols, and experienced specialists ensure error-free property data, reducing rework, preventing listing rejections, and maintaining consistent accuracy across platforms."
+            },
+            {
+                "id": 4,
+                "title": "Scalable Processing Capacity",
+                "desc": "Outsourced models support rapid scaling during seasonal demand or portfolio expansion, maintaining turnaround time and accuracy without increasing internal operational burden."
+            },
+            {
+                "id": 5,
+                "title": "Enhanced Data Consistency",
+                "desc": "Centralized data management and standardized formats ensure uniform information across channels, improving listing reliability, analytics accuracy, and marketing performance measurement."
+            }
+        ]
+    },
+    "text-annotation-services": {
+        "h2": "Performance-Driven Annotation Standards",
+        "data": [
+            {
+                "id": 1,
+                "title": "Experienced Text Annotation Professionals",
+                "desc": "We employ career-focused, full-time text annotation specialists, not crowdsourced workers. Annotators are matched to legal, medical, financial, and technical domains to ensure contextual accuracy."
+            },
+            {
+                "id": 2,
+                "title": "Managed Delivery, Not Just Staffing",
+                "desc": "Dedicated project managers oversee execution using documented SOPs aligned with your guidelines. Training, validation loops, and real-time spot checks ensure consistent, production-ready NLP datasets."
+            },
+            {
+                "id": 3,
+                "title": "Scalable Text Annotation Support",
+                "desc": "Start with a pilot team and scale quickly as data volumes grow. Our model supports rapid expansion without recruitment delays, aligning annotation capacity with your AI development roadmap."
+            },
+            {
+                "id": 4,
+                "title": "Secure Text Data Outsourcing",
+                "desc": "All text annotation workflows operate within environments aligned with ISO/IEC 27001:2022 and GDPR compliance requirements. Strict access controls, NDAs, and secure data transfer protect sensitive text data and IP."
+            },
+            {
+                "id": 5,
+                "title": "Faster Turnaround With Consistent Accuracy",
+                "desc": "Optimized workflows and dedicated teams deliver high-throughput text labeling without sacrificing accuracy, agreement rates, or linguistic consistency across large datasets."
+            },
+            {
+                "id": 6,
+                "title": "Cost Control Without Compromising Quality",
+                "desc": "Our offshore managed delivery model reduces the cost of text annotation while maintaining enterprise-grade reliability, auditability, and predictable pricing."
+            },
+            {
+                "id": 7,
+                "title": "A Long-Term NLP Partnership",
+                "desc": "We operate as an extension of your data operations, continuously refining annotation processes as NLP models, datasets, and business requirements evolve."
+            }
+        ]
+    },
+    "video-annotation-services": {
+        "h2": "Engineered for Precision, Scaled for Computer Vision",
+        "data": [
+            {
+                "id": 1,
+                "title": "Experienced Video Annotation Professionals",
+                "desc": "We employ full-time, trained video annotation specialists, not anonymous crowdsourcing. Annotators are matched to medical, automotive, retail, and industrial domains for strong contextual understanding."
+            },
+            {
+                "id": 2,
+                "title": "Managed Video Annotation Delivery",
+                "desc": "Dedicated project managers oversee daily execution. We align with your workflows, integrate with your tools, and enforce standardized annotation logic across all video datasets."
+            },
+            {
+                "id": 3,
+                "title": "Scalable Video Annotation Support",
+                "desc": "Start with a focused pilot team and scale seamlessly as video volumes and model complexity increase. We manage hiring, training, and expansion without operational disruption."
+            },
+            {
+                "id": 4,
+                "title": "Secure Video Data Outsourcing",
+                "desc": "All video annotation workflows operate within environments aligned with ISO/IEC 27001:2022 and GDPR compliance requirements. Secure access controls and NDA-bound teams protect sensitive video data and IP."
+            },
+            {
+                "id": 5,
+                "title": "Faster Turnaround With Consistent Quality",
+                "desc": "Senior reviewers audit video annotations before delivery. Structured feedback loops maintain frame-level accuracy while supporting high-throughput processing."
+            },
+            {
+                "id": 6,
+                "title": "Cost-Efficient Video Annotation at Scale",
+                "desc": "Our managed offshore delivery model converts fixed internal costs into flexible operational spend while preserving enterprise-grade quality and auditability."
+            },
+            {
+                "id": 7,
+                "title": "A Long-Term Video Annotation Partnership",
+                "desc": "We operate as an extension of your engineering team, continuously refining video annotation processes as AI models, datasets, and requirements evolve."
+            }
+        ]
     }
 }

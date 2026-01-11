@@ -119,6 +119,24 @@ const MobileNavbar = () => {
 							</MobileMenuItem>
 
 							<MobileMenuItem
+								text={hireResourcesNav?.name}
+								url={hireResourcesNav?.path ? hireResourcesNav?.path : "#"}
+							>
+								{hireResourcesNav?.submenu?.length
+									? hireResourcesNav?.submenu?.map((item, idx) => (
+										<li
+											key={idx}
+											className={item?.isActive ? "current-menu-item" : ""}
+										>
+											<Link href={item?.path ? item?.path : "#"}>
+												{item?.name ? item?.name : "Hire Resources"}
+											</Link>
+										</li>
+									))
+									: ""}
+							</MobileMenuItem>
+
+							<MobileMenuItem
 								text={industriesNav?.name}
 								url={industriesNav?.path ? industriesNav?.path : "#"}
 								submenuClass={"mega-menu-service"}
@@ -171,12 +189,12 @@ const MobileNavbar = () => {
 									: ""}
 							</MobileMenuItem>
 
-							<li className="mean-last">
+							{/* <li className="mean-last">
 								<Link href={hireResourcesNav?.path ? hireResourcesNav?.path : "#"}>
 									{" "}
 									{hireResourcesNav?.name ? hireResourcesNav?.name : "Hire Resources"}
 								</Link>
-							</li>
+							</li> */}
 
 							<li className="mean-last">
 								<Link href={aboutNav?.path ? aboutNav?.path : "#"}>

@@ -13,8 +13,8 @@ const Logo = ({ headerType, isStickyHeader }) => {
 							headerType === 7 ||
 							headerType === 9) &&
 						!isStickyHeader
-							? "/images/logos/logo.svg" //for dark logo
-							: "/images/logos/logo-2.svg"
+							? "/images/site-logo/white-logo.svg" //for dark logo
+							: "/images/site-logo/blue-logo.svg"
 					}
 					alt=""
 					width={544}
