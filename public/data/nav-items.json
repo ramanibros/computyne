@@ -187,35 +187,35 @@
 				"items": [
 					{
 						"id": 1,
-						"name": "Text Annotation Services",
+						"name": "Text Annotation",
 						"desc": "High-quality text labeling to train NLP and AI models accurately.",
 						"path": "/text-annotation-services",
 						"badge": null
 					},
 					{
 						"id": 2,
-						"name": "Image Annotation Services",
+						"name": "Image Annotation",
 						"desc": "Precise image labeling for computer vision and AI applications.",
 						"path": "/image-annotation-services",
 						"badge": null
 					},
 					{
 						"id": 3,
-						"name": "Audio Annotation Services",
+						"name": "Audio Annotation",
 						"desc": "Accurate audio tagging to improve speech and voice recognition models.",
 						"path": "/audio-annotation-services",
 						"badge": null
 					},
 					{
 						"id": 4,
-						"name": "Video Annotation Services",
+						"name": "Video Annotation",
 						"desc": "Frame-level video annotation for advanced AI and ML training.",
 						"path": "/video-annotation-services",
 						"badge": null
 					},
 					{
 						"id": 5,
-						"name": "Multimodal Annotation Services",
+						"name": "Multimodal Annotation",
 						"desc": "Unified annotation across text, image, audio, and video data.",
 						"path": "/multimodal-annotation-services",
 						"badge": null
