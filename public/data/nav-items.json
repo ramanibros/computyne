@@ -201,9 +201,9 @@
 					},
 					{
 						"id": 3,
-						"name": "Audio Annotation",
-						"desc": "Accurate audio tagging to improve speech and voice recognition models.",
-						"path": "/audio-annotation-services",
+						"name": "Data Labeling",
+						"desc": "The process of annotating raw data to make it usable for training machine learning models.",
+						"path": "/data-labeling-services",
 						"badge": null
 					},
 					{
