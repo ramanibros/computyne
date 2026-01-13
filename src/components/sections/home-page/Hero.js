@@ -11,10 +11,10 @@ const Hero = () => {
 			subtitle: "number #1 solver agency",
 			title: (
 				<>
-					Leading Future for <span>Business.</span>
+					Business Process & Data Services Built for Operational <span>Excellence</span>
 				</>
 			),
-			desc: "Committed to delivering innovative solutions that drive success. With a focus on quality.",
+			desc: "Accurate, Scalable, and Compliance-Ready Outsourcing Solutions That Drive Efficiency",
 			img: "/images/hero/slider-1.webp",
 			thumbImg: "/images/hero/slider-thumb-1.webp",
 		}/*,
