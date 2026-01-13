@@ -13,15 +13,15 @@ import Casestudy from "@/components/sections/subservice/Casestudy";
 import Testimonials from "@/components/sections/subservice/Testimonials";
 import CallSchedule from "@/components/sections/subservice/CallSchedule";
 import JsonLd from "@/components/seo/JsonLd";
-import {dataExtractionServicesSchema} from "@/libs/schema/services/dataExtractionServicesSchema";
+import {dataLabelingAnnotationSchema} from "@/libs/schema/services/dataLabelingAnnotationSchema";
 
 export default function dataExtractionServices() {
     
     return (
         <>
             <JsonLd
-                id="data-extraction-services-schema"
-                schema={dataExtractionServicesSchema}
+                id="data-labeling-services-schema"
+                schema={dataLabelingAnnotationSchema}
             />
             <div>
                 <BackToTop />
