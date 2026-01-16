@@ -41,7 +41,7 @@ const Banner = () => {
 			</div>
 			<div
 				className="page-header-overlay"
-				style={{ backgroundImage: `linear-gradient(90deg, #0c1d36 20%, #0c1d3666 60%, #0c1d361a 100%)` }}
+				style={{ backgroundImage: `linear-gradient(90deg, rgb(12, 29, 54) 2%, rgba(12, 29, 54, 0.65) 25%, rgba(12, 29, 54, 0.3) 70%, rgb(12, 29, 54) 100%)` }}
 			></div>
 		</section>
 	);

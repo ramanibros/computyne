@@ -5,7 +5,7 @@ const Hero = ({title, text, breadcrums = []}) => {
     return (
         <section
             className="tj-page-header section-gap-x"
-            style={{backgroundImage: `url('/images/bg/pheader-bg.webp')`}}
+            style={{backgroundImage: `url('/images/bg/contact-us.webp')`}}
         >
             <div className="container">
                 <div className="row">
