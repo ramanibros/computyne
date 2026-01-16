@@ -4382,5 +4382,747 @@
                 "data": []
             }
         ]
+    },
+    "ecommerce": {
+        "h2": "Integrated Solutions for Managing Complex eCommerce Operations",
+        "desc": "Our eCommerce outsourcing solutions integrate people, processes, and technology to manage operational scale, variability, and marketplace complexity efficiently.",
+        "services": [
+            {
+                "id": 1,
+                "title": "eCommerce Catalog Management Services",
+                "desc": "Accurate product data is essential for discoverability, compliance, and conversion. Our eCommerce catalog management outsourcing services ensure consistent, optimized, and marketplace-ready listings.",
+                "url": "#",
+                "data": [
+                    {
+                        "value": "SKU creation, enrichment, and standardization workflows"
+                    },
+                    {
+                        "value": "Product taxonomy structuring and attribute normalization"
+                    },
+                    {
+                        "value": "Image tagging and content optimization support"
+                    },
+                    {
+                        "value": "Marketplace policy compliance monitoring and reporting"
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "title": "Order Processing & Fulfillment Support",
+                "desc": "Our eCommerce order management services streamline back-office order workflows to improve fulfillment accuracy, turnaround times, and customer satisfaction.",
+                "url": "#",
+                "data": [
+                    {
+                        "value": "Order validation, exception handling, and status management"
+                    },
+                    {
+                        "value": "Returns, refunds, and RMA processing support"
+                    },
+                    {
+                        "value": "Invoicing, reconciliation, and order lifecycle tracking"
+                    },
+                    {
+                        "value": "SLA monitoring and performance reporting dashboards"
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "title": "Inventory & Pricing Management Services",
+                "desc": "Centralized inventory management outsourcing and pricing controls help prevent stockouts, overselling, and revenue leakage across channels.",
+                "url": "#",
+                "data": [
+                    {
+                        "value": "Real-time inventory synchronization across platforms"
+                    },
+                    {
+                        "value": "Pricing audits and competitive benchmarking analysis"
+                    },
+                    {
+                        "value": "Promotional pricing setup and rule-based controls"
+                    },
+                    {
+                        "value": "Inventory forecasting and demand planning data support"
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "title": "Customer Support & Experience Management",
+                "desc": "Our eCommerce customer support outsourcing services deliver consistent, multichannel engagement that improves responsiveness and brand trust.",
+                "url": "#",
+                "data": [
+                    {
+                        "value": "Email, chat, and voice-based customer support operations"
+                    },
+                    {
+                        "value": "Order inquiries, complaints, and escalations handling"
+                    },
+                    {
+                        "value": "CRM updates and interaction documentation accuracy"
+                    },
+                    {
+                        "value": "CSAT tracking and continuous improvement initiatives"
+                    }
+                ]
+            },
+            {
+                "id": 5,
+                "title": "Marketplace Seller Operations Support",
+                "desc": "We provide end-to-end eCommerce marketplace management services to simplify seller operations and ensure account stability.",
+                "url": "#",
+                "data": [
+                    {
+                        "value": "Seller onboarding and catalog readiness validation"
+                    },
+                    {
+                        "value": "Account health monitoring and remediation workflows"
+                    },
+                    {
+                        "value": "Policy compliance audits and documentation management"
+                    },
+                    {
+                        "value": "Performance dashboards and reporting governance"
+                    }
+                ]
+            }
+        ]
+    },
+    "energy-and-utilities": {
+        "h2": "Integrated BPO Services Supporting Energy and Utility Enterprises",
+        "desc": "Integrated utilities business process outsourcing solutions streamline operations, ensure regulatory compliance, enhance data accuracy, and support scalable growth for energy enterprises across regulated and competitive markets.",
+        "services": [
+            {
+                "id": 1,
+                "title": "Meter-to-Cash BPO Services",
+                "desc": "Comprehensive utility billing outsourcing services ensure accurate billing, timely collections, regulatory compliance, and improved utility cash flow through end-to-end revenue management support.",
+                "url": "#",
+                "data": [
+                    {
+                        "value": "Meter data validation and billing accuracy"
+                    },
+                    {
+                        "value": "Invoice generation, adjustments, and exception handling"
+                    },
+                    {
+                        "value": "Energy billing and collections management support"
+                    },
+                    {
+                        "value": "Regulatory-compliant revenue assurance and reporting"
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "title": "Customer Operations & Utility Support Services",
+                "desc": "Utility-focused customer operations BPO improves service levels, accelerates query resolution, enhances satisfaction, and ensures compliance across customer-facing utility operations.",
+                "url": "#",
+                "data": [
+                    {
+                        "value": "Utility customer service outsourcing solutions"
+                    },
+                    {
+                        "value": "Billing inquiries and service request management"
+                    },
+                    {
+                        "value": "Customer data management utilities support"
+                    },
+                    {
+                        "value": "SLA-driven performance monitoring and reporting"
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "title": "Regulatory Compliance & Reporting Services",
+                "desc": "Energy compliance outsourcing ensures audit-ready documentation, timely submissions, reduced regulatory risk, and strong governance alignment across utility operations.",
+                "url": "#",
+                "data": [
+                    {
+                        "value": "Utility regulatory reporting services"
+                    },
+                    {
+                        "value": "Audit support for energy companies"
+                    },
+                    {
+                        "value": "Statutory reporting utilities compliance support"
+                    },
+                    {
+                        "value": "Regulatory data management energy controls"
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "title": "Asset & Field Data Management Services",
+                "desc": "Accurate energy asset data outsourcing improves maintenance planning, operational visibility, infrastructure reliability, and data-driven decision-making.",
+                "url": "#",
+                "data": [
+                    {
+                        "value": "Utility asset data management services"
+                    },
+                    {
+                        "value": "Energy field data processing support"
+                    },
+                    {
+                        "value": "GIS and network data management updates"
+                    },
+                    {
+                        "value": "Work order data support services"
+                    }
+                ]
+            }
+        ]
+    },
+    "finance-and-accounting": {
+        "h2": "Structured Finance and Accounting Support Across Core Functions",
+        "desc": "Computyne delivers standardized, scalable accounting outsourcing services across core transactional processes, compliance functions, and financial reporting requirements.",
+        "services": [
+            {
+                "id": 1,
+                "title": "Accounts Payable Outsourcing Services",
+                "desc": "Our accounts payable outsourcing services ensure accurate invoice processing, timely vendor payments, and improved cash flow management through controlled, compliance-ready workflows.",
+                "url": "#",
+                "data": [
+                    {
+                        "value": "Invoice data capture, validation, and three-way matching"
+                    },
+                    {
+                        "value": "Vendor master management and control checks"
+                    },
+                    {
+                        "value": "Payment scheduling and disbursement management"
+                    },
+                    {
+                        "value": "AP reconciliations and accounts payable reporting"
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "title": "Accounts Receivable Outsourcing Services",
+                "desc": "Our accounts receivable outsourcing services improve billing accuracy, accelerate collections, and reduce DSO through structured receivables management.",
+                "url": "#",
+                "data": [
+                    {
+                        "value": "Invoice generation and billing validation"
+                    },
+                    {
+                        "value": "Payment tracking and allocation management"
+                    },
+                    {
+                        "value": "Collections follow-ups and dispute resolution"
+                    },
+                    {
+                        "value": "AR aging analysis and receivables reporting"
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "title": "General Ledger Accounting Services",
+                "desc": "Our general ledger accounting outsourcing ensures accurate financial records, reconciliations, and audit-ready books through disciplined ledger management.",
+                "url": "#",
+                "data": [
+                    {
+                        "value": "Journal entry posting and review controls"
+                    },
+                    {
+                        "value": "Periodic account reconciliations"
+                    },
+                    {
+                        "value": "Month-end and year-end close management"
+                    },
+                    {
+                        "value": "Financial statement preparation and review"
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "title": "Payroll Processing Outsourcing",
+                "desc": "Our payroll outsourcing services deliver end-to-end payroll processing with strict confidentiality, accuracy, and statutory compliance.",
+                "url": "#",
+                "data": [
+                    {
+                        "value": "Payroll calculations and salary processing"
+                    },
+                    {
+                        "value": "Statutory deductions and compliance filings"
+                    },
+                    {
+                        "value": "Payslip generation and distribution support"
+                    },
+                    {
+                        "value": "Payroll reconciliation and compliance reporting"
+                    }
+                ]
+            },
+            {
+                "id": 5,
+                "title": "Financial Reporting & Compliance Support",
+                "desc": "Our financial reporting outsourcing and compliance services provide management-ready insights and regulatory alignment across finance operations.",
+                "url": "#",
+                "data": [
+                    {
+                        "value": "MIS reporting services and performance dashboards"
+                    },
+                    {
+                        "value": "Compliance documentation and audit support outsourcing"
+                    },
+                    {
+                        "value": "Budgeting, forecasting, and variance analysis"
+                    },
+                    {
+                        "value": "Regulatory and statutory reporting accuracy"
+                    }
+                ]
+            }
+        ]
+    },
+    "healthcare": {
+        "h2": "End-to-End Healthcare Process Outsourcing Solutions",
+        "desc": "Comprehensive healthcare process outsourcing solutions delivering compliant, scalable, and efficient support across administrative, clinical, and operational workflows.",
+        "services": [
+            {
+                "id": 1,
+                "title": "Medical Billing & Revenue Cycle Management (RCM)",
+                "desc": "End-to-end revenue cycle management services supporting accurate billing, faster reimbursements, and reduced claim denials through structured workflows and expert oversight.",
+                "url": "#",
+                "data": [
+                    {
+                        "value": "Charge capture and coding accuracy"
+                    },
+                    {
+                        "value": "Claims submission and follow-ups"
+                    },
+                    {
+                        "value": "Denial management outsourcing"
+                    },
+                    {
+                        "value": "Payment posting and reconciliation"
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "title": "Healthcare Data Management & Medical Records Processing",
+                "desc": "Secure healthcare data management services ensuring accurate, accessible, and compliant handling of sensitive patient and clinical information.",
+                "url": "#",
+                "data": [
+                    {
+                        "value": "Electronic health records management"
+                    },
+                    {
+                        "value": "Medical transcription and indexing"
+                    },
+                    {
+                        "value": "Patient data validation services"
+                    },
+                    {
+                        "value": "HIPAA compliant data processing"
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "title": "Insurance Claims Processing & Payer Operations",
+                "desc": "Accurate insurance claims processing outsourcing supporting faster adjudication, reduced errors, and improved coordination across payer-provider workflows.",
+                "url": "#",
+                "data": [
+                    {
+                        "value": "Claims intake and verification"
+                    },
+                    {
+                        "value": "Eligibility verification outsourcing"
+                    },
+                    {
+                        "value": "Preauthorization services healthcare"
+                    },
+                    {
+                        "value": "Claims audit and reconciliation"
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "title": "Provider Credentialing & Enrollment Services",
+                "desc": "Efficient provider credentialing services ensuring compliance, faster onboarding, and uninterrupted care delivery across healthcare networks.",
+                "url": "#",
+                "data": [
+                    {
+                        "value": "Provider data collection verification"
+                    },
+                    {
+                        "value": "Credentialing application management"
+                    },
+                    {
+                        "value": "CAQH profile management"
+                    },
+                    {
+                        "value": "Provider enrollment outsourcing"
+                    }
+                ]
+            },
+            {
+                "id": 5,
+                "title": "Healthcare Administrative & Back-Office Support",
+                "desc": "Comprehensive healthcare back-office outsourcing solutions reducing administrative workload while improving operational consistency and service quality.",
+                "url": "#",
+                "data": [
+                    {
+                        "value": "Patient scheduling outsourcing"
+                    },
+                    {
+                        "value": "Referral management services"
+                    },
+                    {
+                        "value": "Patient demographics verification"
+                    },
+                    {
+                        "value": "Healthcare administrative support services"
+                    }
+                ]
+            },
+            {
+                "id": 6,
+                "title": "Healthcare Compliance & Quality Reporting Support",
+                "desc": "Compliance-driven services supporting audits, regulatory reporting healthcare, and quality improvement initiatives across healthcare organizations.",
+                "url": "#",
+                "data": [
+                    {
+                        "value": "Healthcare audit support services"
+                    },
+                    {
+                        "value": "Quality reporting services healthcare"
+                    },
+                    {
+                        "value": "HIPAA compliance documentation"
+                    },
+                    {
+                        "value": "Healthcare risk management support"
+                    }
+                ]
+            }
+        ]
+    },
+    "ites": {
+        "h2": "High-Accuracy Data and Back-Office Support for ITES",
+        "desc": "Delivering secure, scalable, and precision-driven data and back-office operations to support ITES performance and sustainable growth.",
+        "services": [
+            {
+                "id": 1,
+                "title": "Data Processing & Management",
+                "desc": "Structured data processing services designed to ensure accuracy, scalability, compliance, and operational efficiency for ITES enterprises.",
+                "url": "#",
+                "data": [
+                    {
+                        "value": "Data entry, validation, cleansing, standardization, and automation"
+                    },
+                    {
+                        "value": "High-volume transaction processing support services"
+                    },
+                    {
+                        "value": "Database management with controlled updates and maintenance"
+                    },
+                    {
+                        "value": "SLA-driven accuracy benchmarks and turnaround assurance"
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "title": "Document Management & Digitization",
+                "desc": "Secure document digitization and workflow management solutions that improve accessibility, compliance, and processing speed across ITES operations.",
+                "url": "#",
+                "data": [
+                    {
+                        "value": "Document scanning, OCR, and intelligent indexing services"
+                    },
+                    {
+                        "value": "Digital archiving and secure retrieval systems"
+                    },
+                    {
+                        "value": "Version control and audit-ready documentation frameworks"
+                    },
+                    {
+                        "value": "Role-based access controls and secure permissions management"
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "title": "Data Validation & Quality Assurance",
+                "desc": "Multi-layered data validation frameworks that minimize errors, enhance reliability, and strengthen compliance and client confidence.",
+                "url": "#",
+                "data": [
+                    {
+                        "value": "Rule-based and manual quality assurance checks"
+                    },
+                    {
+                        "value": "Exception handling and discrepancy resolution workflows"
+                    },
+                    {
+                        "value": "Continuous accuracy monitoring and performance reporting"
+                    },
+                    {
+                        "value": "SLA-aligned quality metrics and governance models"
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "title": "Reporting & Analytics Support",
+                "desc": "Operational reporting and analytics support that delivers actionable insights, visibility, and performance tracking for ITES leadership teams.",
+                "url": "#",
+                "data": [
+                    {
+                        "value": "MIS dashboards and customized operational reports"
+                    },
+                    {
+                        "value": "Data consolidation and trend analysis support"
+                    },
+                    {
+                        "value": "Real-time performance monitoring and alerts"
+                    },
+                    {
+                        "value": "Decision-ready insights for stakeholders and managers"
+                    }
+                ]
+            }
+        ]
+    },
+    "logistics-and-transportation": {
+        "h2": "Integrated Logistics BPO Solutions",
+        "desc": "Technology-enabled logistics operations support services delivering operational efficiency, compliance assurance, scalability, and end-to-end supply chain transparency across domestic and global supply chains.",
+        "services": [
+            {
+                "id": 1,
+                "title": "Freight Forwarding Support",
+                "desc": "Comprehensive freight management outsourcing and transportation BPO services that ensure efficient coordination, accurate documentation, and on-time global shipments.",
+                "url": "#",
+                "data": [
+                    {
+                        "value": "Carrier coordination and carrier management outsourcing"
+                    },
+                    {
+                        "value": "Shipment tracking support services with milestone-based reporting"
+                    },
+                    {
+                        "value": "Freight billing and auditing services including invoice reconciliation"
+                    },
+                    {
+                        "value": "Exception handling, dispatch coordination, and operational escalation support"
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "title": "Export and Import Support",
+                "desc": "Accurate import export documentation services designed to improve compliance, accelerate customs movement, and reduce cross-border delays.",
+                "url": "#",
+                "data": [
+                    {
+                        "value": "Export documentation preparation and validation checks"
+                    },
+                    {
+                        "value": "Import filing and customs documentation outsourcing"
+                    },
+                    {
+                        "value": "HS code classification assistance and trade data validation"
+                    },
+                    {
+                        "value": "License management and cross-border trade coordination services"
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "title": "Customs Clearance Support",
+                "desc": "Structured customs and trade compliance support services that minimize clearance risks, ensure regulatory adherence, and improve cargo release timelines.",
+                "url": "#",
+                "data": [
+                    {
+                        "value": "Customs documentation review and accuracy audits"
+                    },
+                    {
+                        "value": "Duty calculation and valuation support services"
+                    },
+                    {
+                        "value": "Regulatory updates monitoring and compliance assurance"
+                    },
+                    {
+                        "value": "Post-clearance queries, audit assistance, and documentation support"
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "title": "Analytics and Reporting Assistance",
+                "desc": "Advanced logistics data analytics outsourcing delivering actionable insights, cost transparency, and data-driven decision support for logistics and supply chain leaders.",
+                "url": "#",
+                "data": [
+                    {
+                        "value": "Logistics KPI reporting support and performance dashboards"
+                    },
+                    {
+                        "value": "Cost analysis and profitability insights reporting"
+                    },
+                    {
+                        "value": "SLA monitoring, exception trend analysis, and root-cause insights"
+                    },
+                    {
+                        "value": "Custom supply chain reporting services for management decisions"
+                    }
+                ]
+            },
+            {
+                "id": 5,
+                "title": "Logistics Document Processing",
+                "desc": "High-volume logistics documentation outsourcing designed for accuracy, faster turnaround, and secure digital record management.",
+                "url": "#",
+                "data": [
+                    {
+                        "value": "Bill of lading processing and validation support"
+                    },
+                    {
+                        "value": "Invoice and packing list data entry services"
+                    },
+                    {
+                        "value": "Proof of delivery (POD) management and archiving"
+                    },
+                    {
+                        "value": "Secure document indexing, retrieval, and compliance-ready storage"
+                    }
+                ]
+            }
+        ]
+    },
+    "real-estate": {
+        "h2": "Scalable Real Estate and Property Management Solutions",
+        "desc": "End-to-end real estate data solutions supporting accuracy, compliance, efficiency, and scalable operations across residential and commercial portfolios.",
+        "services": [
+            {
+                "id": 1,
+                "title": "Real Estate Data Management Services",
+                "desc": "Centralized property data management ensuring accuracy, accessibility, compliance-ready processes, and seamless real estate operations.",
+                "url": "#",
+                "data": [
+                    {
+                        "value": "Standardized property records across portfolios globally"
+                    },
+                    {
+                        "value": "Secure document storage and retrieval processes"
+                    },
+                    {
+                        "value": "Real-time updates for operational visibility control"
+                    },
+                    {
+                        "value": "Compliance-ready data governance frameworks"
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "title": "Property Data Entry & Processing",
+                "desc": "Accurate property data entry services reducing errors, accelerating workflows, and improving operational efficiency.",
+                "url": "#",
+                "data": [
+                    {
+                        "value": "High-volume listing and record processing support"
+                    },
+                    {
+                        "value": "Structured data capture and validation controls"
+                    },
+                    {
+                        "value": "Floor plans and valuation inputs managed"
+                    },
+                    {
+                        "value": "Quality checks for consistent accuracy assurance"
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "title": "Digital Document & Lease Management",
+                "desc": "Digitized property documentation and lease records enabling faster access, compliance, and collaboration across enterprises.",
+                "url": "#",
+                "data": [
+                    {
+                        "value": "Centralized lease and contract data management"
+                    },
+                    {
+                        "value": "Version control and audit readiness ensured"
+                    },
+                    {
+                        "value": "Secure access for authorized stakeholders only"
+                    },
+                    {
+                        "value": "Faster document retrieval for operations"
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "title": "Property Data Collection",
+                "desc": "Accurate property data collection supporting structured records, analytics, and reliable real estate operations.",
+                "url": "#",
+                "data": [
+                    {
+                        "value": "Field and source-based data aggregation"
+                    },
+                    {
+                        "value": "Residential and commercial property coverage"
+                    },
+                    {
+                        "value": "Standardized formats for system integration"
+                    },
+                    {
+                        "value": "Verified datasets for operational accuracy"
+                    }
+                ]
+            },
+            {
+                "id": 5,
+                "title": "Appraisal & Valuation Data Entry",
+                "desc": "Precise appraisal and valuation data entry ensuring accuracy, compliance, and decision-ready property insights.",
+                "url": "#",
+                "data": [
+                    {
+                        "value": "Appraisal report digitization and indexing"
+                    },
+                    {
+                        "value": "Property valuation data capture and validation"
+                    },
+                    {
+                        "value": "Compliance-aligned formatting and structure"
+                    },
+                    {
+                        "value": "Support for lenders and assessors"
+                    }
+                ]
+            },
+            {
+                "id": 6,
+                "title": "Real Estate Property Listing Management",
+                "desc": "Comprehensive property listing management ensuring consistency, visibility, and faster market readiness.",
+                "url": "#",
+                "data": [
+                    {
+                        "value": "Listing creation and optimization services"
+                    },
+                    {
+                        "value": "Multi-platform property listing data synchronization"
+                    },
+                    {
+                        "value": "Image, description, and metadata handling"
+                    },
+                    {
+                        "value": "Ongoing updates for listing accuracy"
+                    }
+                ]
+            }
+        ]
     }
 }

@@ -160,12 +160,6 @@ const Navbar = ({ headerType, isStickyHeader }) => {
 						</ul>
 					</li>
 
-					{/* <li className={hireResourcesNav?.isActive ? "current-menu-ancestor" : ""}>
-						<Link href={hireResourcesNav?.path ? hireResourcesNav?.path : "#"}>
-							{hireResourcesNav?.name ? hireResourcesNav?.name : "Hire Resources"}
-						</Link>
-					</li> */}
-
 					<li
 						className={`has-dropdown ${
 							hireResourcesNav?.isActive ? "current-menu-ancestor" : ""
@@ -193,49 +187,30 @@ const Navbar = ({ headerType, isStickyHeader }) => {
 						</ul>
 					</li>
 
-
 					<li
 						className={`has-dropdown ${
 							industriesNav?.isActive ? "current-menu-ancestor" : ""
 						}`}
 					>
-						{/* <Link href={industriesNav?.path ? industriesNav?.path : "#"}>
-							{industriesNav?.name}
-						</Link> */}
 						<a className="custom-anchor" onClick={(e) => e.preventDefault()}>
 							{industriesNav?.name}
 						</a>
-						<ul className="sub-menu  mega-menu-service">
+						<ul className="sub-menu">
 							{industriesNav?.submenu?.length
 								? industriesNav?.submenu?.map((item, idx) => (
-										<li key={idx}>
-											<Link
-												className="mega-menu-service-single"
-												href={item?.path ? item?.path : "/"}
-											>
-												{" "}
-												<span className="mega-menu-service-icon">
-													<i
-														className={
-															item?.icon ? item?.icon : "tji-service-1"
-														}
-													></i>
-												</span>{" "}
-												<span className="mega-menu-service-title">
-													{item?.name
-														? item?.name
-														: "Business process optimization"}
-												</span>{" "}
-												<span className="mega-menu-service-nav">
-													<i className="tji-arrow-right-long"></i>
-													<i className="tji-arrow-right-long"></i>
-												</span>
-											</Link>
-										</li>
-								  ))
+									<li
+										key={idx}
+										className={item?.isActive ? "current-menu-item" : ""}
+									>
+										<Link href={item?.path ? item?.path : "/portfolios"}>
+											{item?.name ? item?.name : "Portfolio"}
+										</Link>
+									</li>
+								))
 								: ""}
 						</ul>
 					</li>
+
 
 					<li className={aboutNav?.isActive ? "current-menu-ancestor" : ""}>
 						<Link href={aboutNav?.path ? aboutNav?.path : "#"}>

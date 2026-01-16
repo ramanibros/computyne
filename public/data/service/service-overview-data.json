@@ -1730,5 +1730,134 @@
                 "Computyne removes these constraints. We embed trained annotation teams into your data workflows. We adapt to your labeling tools, follow project-specific guidelines, and deliver training-ready video datasets with consistent accuracy. This allows your engineers to remain focused on innovation while we handle data preparation with speed, precision, and operational reliability."
             ]
         }
+    },
+    "ecommerce": {
+        "banner": {
+            "image": "/images/service/banner/retails-and-ecommerce-banner.webp",
+            "h1": "BPO Services for eCommerce Industry",
+            "tagline": "Accuracy-Driven BPO Services for Competitive eCommerce Operations",
+            "cta": "Get a Cost Optimization Quote"
+        },
+        "counter": [],
+        "overview": {
+            "image": "/images/service/overview/retails-and-ecommerce-overview.webp",
+            "h2": "End-to-End eCommerce Process Outsourcing for High-Growth Brands",
+            "content": [
+                "Computyne delivers comprehensive eCommerce BPO services that enable brands to streamline back-office operations, improve customer experience, and scale efficiently across digital channels. As a specialized eCommerce process outsourcing company, we support online retailers, marketplaces, and D2C businesses in managing high-volume operations with greater speed, precision, and cost control.",
+                "Our eCommerce business process outsourcing model spans the entire operational lifecycle, product catalog management, order processing, inventory and pricing support, seller operations, customer service, and data management. By outsourcing these critical workflows, organizations reduce operational complexity while allowing internal teams to focus on strategic growth, marketing, and revenue optimization.",
+                "Built on standardized workflows, trained domain specialists, and rigorous quality assurance frameworks, our eCommerce back office outsourcing solutions ensure consistent service delivery across platforms and marketplaces. With SLA-driven performance management, secure infrastructure, and scalable delivery models, Computyne adapts seamlessly to seasonal demand spikes, rapid SKU expansion, and evolving marketplace requirements, acting as a reliable operational extension of your eCommerce business."
+            ]
+        }
+    },
+    "energy-and-utilities": {
+        "banner": {
+            "image": "/images/service/banner/Energy-and-utilities-banner.webp",
+            "h1": "BPO Services for Energy & Utilities",
+            "tagline": "Powering Efficiency Across Energy and Utility Operations",
+            "cta": "Reduce Operational Overheads Today"
+        },
+        "counter": [],
+        "overview": {
+            "image": "/images/service/overview/Energy-and-utilities-overview.webp",
+            "h2": "Reliable Business Process Outsourcing for the Energy and Utilities Sector",
+            "content": [
+                "Energy and utility organizations operate in highly regulated, asset-intensive environments where accuracy, data integrity, and operational efficiency are essential. Managing high-volume back-office operations alongside evolving regulatory mandates, customer expectations, and sustainability initiatives places significant pressure on internal teams.",
+                "Our energy and utilities BPO services are designed to support utility process outsourcing by streamlining non-core operations, improving workflow reliability, and strengthening compliance across the energy value chain. We enable power generation companies, transmission and distribution utilities, renewable energy providers, and energy service firms to optimize critical processes while meeting strict service-level and regulatory standards.",
+                "By combining standardized delivery frameworks, skilled domain professionals, and technology-enabled process controls, our energy industry outsourcing services deliver measurable improvements in turnaround times, billing accuracy, and operational transparency. This scalable outsourcing model allows organizations to respond quickly to demand fluctuations, regulatory changes, and market expansion without increasing internal overhead.",
+                "From meter-to-cash outsourcing and customer data management to regulatory reporting and asset data support, our energy sector BPO solutions allow enterprises to focus on generation, distribution, and sustainability priorities while we manage complex back-office operations efficiently."
+            ]
+        }
+    },
+    "finance-and-accounting": {
+        "banner": {
+            "image": "/images/service/banner/Finance-and-Accounting-banner.webp",
+            "h1": "Finance and Accounting Outsourcing Services",
+            "tagline": "Accuracy-Driven Finance & Accounting Outsourcing Services",
+            "cta": "Speak with an Accounting Specialist"
+        },
+        "counter": [],
+        "overview": {
+            "image": "/images/service/overview/Finance-and-Accounting-overview.webp",
+            "h2": "Compliance-Ready Finance and Accounting Outsourcing You Can Trust",
+            "content": [
+                "Computyne delivers end-to-end Finance and Accounting Outsourcing Services that help organizations streamline financial operations, strengthen compliance, and achieve sustainable cost efficiency. As a trusted finance and accounting outsourcing company, we support businesses across industries by managing complex, high-volume finance processes with precision, consistency, and enterprise-grade data security.",
+                "Modern finance functions require more than transactional bookkeeping. They demand structured workflows, real-time financial visibility, audit-ready reporting, and compliance-driven controls. Computyne addresses these requirements by combining skilled finance professionals, standardized operating frameworks, and technology-enabled governance to deliver reliable financial outsourcing solutions.",
+                "Our finance outsourcing services for businesses cover the complete financial lifecycle, including accounts payable outsourcing, accounts receivable outsourcing, general ledger accounting, payroll processing, financial reporting, and regulatory compliance support. We operate as a seamless extension of your internal finance team, integrating with your systems, policies, and reporting structures without disruption.",
+                "By choosing Computyne as your F&A outsourcing firm, organizations benefit from improved financial accuracy, reduced operational overhead, faster turnaround times, and scalable finance operations. Leadership teams gain the freedom to focus on strategic planning and growth while we ensure stable, compliant, and performance-driven finance operations."
+            ]
+        }
+    },
+    "healthcare": {
+        "banner": {
+            "image": "/images/service/banner/Healthcare-banner.webp",
+            "h1": "BPO Services for Healthcare",
+            "tagline": "Optimizing Healthcare Back-Office Operations with Accuracy and Care",
+            "cta": "Reduce Healthcare Operational Costs"
+        },
+        "counter": [],
+        "overview": {
+            "image": "/images/service/overview/retails-and-ecommerce-overview.webp",
+            "h2": "Trusted Healthcare BPO Services for Regulatory-Driven Environments",
+            "content": [
+                "Computyne delivers specialized healthcare BPO services designed to help healthcare organizations streamline administrative operations, strengthen regulatory compliance, and improve overall operational efficiency without compromising patient care. As a trusted healthcare outsourcing company, we support organizations operating in highly regulated, data-sensitive environments.",
+                "Healthcare organizations face increasing pressure from evolving regulations, rising administrative workloads, and complex operational workflows. Through structured healthcare process outsourcing, Computyne enables providers and payers to manage high-volume back-office functions accurately while reducing internal operational strain and compliance risks.",
+                "Our BPO services for healthcare support hospitals, physician groups, healthcare networks, payers, TPAs, and allied health organizations. From medical BPO services and healthcare data management to payer operations and compliance-driven reporting, we allow organizations to focus on core clinical and patient engagement priorities while ensuring seamless business operations.",
+                "By combining healthcare-trained professionals, standardized delivery frameworks, and rigorous quality controls, Computyne helps organizations achieve cost optimization, faster turnaround times, and scalable healthcare BPO support. Our delivery model emphasizes data security, HIPAA compliant BPO services, and transparent governance, ensuring reliability, accountability, and long-term operational resilience."
+            ]
+        }
+    },
+    "ites": {
+        "banner": {
+            "image": "/images/service/banner/ITES-Banner.webp",
+            "h1": "BPO Support for the ITES Industry",
+            "tagline": "Precision-Driven Data and Back-Office Support for High-Performance ITES Operations",
+            "cta": "Talk to a Data Support Expert"
+        },
+        "counter": [],
+        "overview": {
+            "image": "/images/service/overview/ITES-overview.webp",
+            "h2": "Driving ITES Efficiency Through Intelligent Process Management",
+            "content": [
+                "Computyne delivers specialized BPO support services for ITES organizations, helping IT-enabled service providers streamline operations, improve data accuracy, and scale service delivery with confidence. Our ITES-focused outsourcing solutions are purpose-built for high-volume, process-intensive environments, combining structured workflows, skilled domain teams, and technology-enabled quality controls.",
+                "We manage mission-critical back-office and data-centric functions, including data processing, validation, enrichment, document management, reporting support, and workflow automation, allowing ITES companies to concentrate on core competencies and client-facing innovation. Our BPO model is designed to enhance operational efficiency, optimize turnaround times, and maintain strict adherence to data security, compliance, and governance standards.",
+                "Through a consultative engagement approach, Computyne aligns its ITES BPO services with your service-level agreements (SLAs), business objectives, and long-term growth roadmap. The outcome is a scalable, cost-efficient, and reliable ITES support framework that improves productivity, reduces operational risk, and delivers consistent, high-quality results across global delivery environments."
+            ]
+        }
+    },
+    "logistics-and-transportation": {
+        "banner": {
+            "image": "/images/service/banner/Logistics-and-supply-Chain-banner.webp",
+            "h1": "Logistics BPO Support Services",
+            "tagline": "Streamlining Logistics Operations Through Intelligent Process Outsourcing",
+            "cta": "Talk to a Logistics Outsourcing Expert"
+        },
+        "counter": [],
+        "overview": {
+            "image": "/images/service/overview/Logistics-and-supply-Chain-overview.webp",
+            "h2": "End-to-End Logistics Process Outsourcing Built for Performance",
+            "content": [
+                "Computyne provides end-to-end Logistics BPO services designed to optimize back-office operations, improve process accuracy, and strengthen supply chain visibility across complex logistics environments. As a specialized logistics BPO company, we support logistics providers, freight forwarders, 3PL/4PL operators, and enterprise supply chain teams by managing mission-critical operational workflows with precision, scalability, and compliance.",
+                "Our logistics process outsourcing model combines domain-trained professionals, workflow automation, and data-driven controls to reduce operational overhead, accelerate turnaround times, and improve service reliability. By offloading non-core but high-volume tasks, organizations gain the agility to focus on customer experience, growth, and strategic initiatives.",
+                "Computyne’s logistics back office outsourcing solutions are built to integrate seamlessly with existing TMS support services, ERP logistics back office systems, WMS platforms, and transportation software. This ensures secure collaboration, data integrity, real-time visibility, and consistent execution across global logistics operations."
+            ]
+        }
+    },
+    "real-estate": {
+        "banner": {
+            "image": "/images/service/banner/Real-Estate-Banner.webp",
+            "h1": "Real Estate and Property Management Solution",
+            "tagline": "End-to-End Property Intelligence for Smarter Real Estate Decisions",
+            "cta": "Talk to an Expert"
+        },
+        "counter": [],
+        "overview": {
+            "image": "/images/service/overview/Real-Estate-overview.webp",
+            "h2": "Accurate, Compliant Property Data Management You Can Trust",
+            "content": [
+                "The modern property sector depends on structured, accurate, and up-to-date data to enable efficient sales, leasing, and transaction management. Real estate organizations handle extensive information volumes, including property listings, floor plans, client records, valuation reports, and legal documentation. Without standardized real estate data workflows, inconsistencies, duplication, and manual errors can delay transactions, impact compliance, and increase operational costs across property management operations.",
+                "Computyne’s Real Estate and Property Management Solution delivers reliable real estate data management services and streamlined digital property workflows for agencies, property consultants, and developers. We capture, organize, and maintain property data within centralized real estate data platforms, ensuring accuracy, accessibility, and consistency. Our approach combines real estate domain expertise, smart property data management practices, and scalable technology to support faster decision-making and seamless team collaboration.",
+                "Whether managing residential developments, commercial properties, or large real estate portfolios, Computyne provides a dependable operational foundation. By leveraging cost-effective real estate outsourcing services, organizations reduce administrative workload, improve internal coordination, and maintain consistent data quality, allowing teams to focus on sales growth, customer engagement, regulatory compliance, and long-term portfolio optimization."
+            ]
+        }
     }
 }

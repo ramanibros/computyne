@@ -10,7 +10,7 @@ const SubserviceCard = ({subservice, idx}) => {
                         <h4 className="title">
                             {title}
                         </h4>
-                        {url?.trim().length > 0 && (
+                        {url?.trim().length > 0 && url?.trim()!=='#' && (
                             <Link className="tji-icon-btn-mod" href={url}>
                                 <i className="tji-arrow-right-long"></i>
                             </Link>
