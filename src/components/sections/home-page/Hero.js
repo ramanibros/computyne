@@ -15,7 +15,7 @@ const Hero = () => {
 				</>
 			),
 			desc: "Accurate, Scalable, and Compliance-Ready Outsourcing Solutions That Drive Efficiency",
-			img: "/images/hero/hero-banner.webp",
+			img: "/images/hero/hero-banner-2.webp",
 			thumbImg: "",
 		}
 	];
