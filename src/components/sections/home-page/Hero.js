@@ -11,35 +11,13 @@ const Hero = () => {
 			subtitle: "number #1 solver agency",
 			title: (
 				<>
-					Business Process & Data Services Built for Operational <span>Excellence</span>
+					Business Process & Data Services Built for <br></br> Operational <span>Excellence</span>
 				</>
 			),
 			desc: "Accurate, Scalable, and Compliance-Ready Outsourcing Solutions That Drive Efficiency",
-			img: "/images/hero/slider-1.webp",
-			thumbImg: "/images/hero/slider-thumb-1.webp",
-		}/*,
-		{
-			subtitle: "number #1 solver agency",
-			title: (
-				<>
-					Leading Future for <span>Business.</span>
-				</>
-			),
-			desc: "Committed to delivering innovative solutions that drive success. With a focus on quality.",
-			img: "/images/hero/slider-2.webp",
-			thumbImg: "/images/hero/slider-thumb-2.webp",
-		},
-		{
-			subtitle: "number #1 solver agency",
-			title: (
-				<>
-					Leading Future for <span>Business.</span>
-				</>
-			),
-			desc: "Committed to delivering innovative solutions that drive success. With a focus on quality.",
-			img: "/images/hero/slider-3.webp",
-			thumbImg: "/images/hero/slider-thumb-3.webp",
-		},*/
+			img: "/images/hero/hero-banner.webp",
+			thumbImg: "",
+		}
 	];
 	return (
 		<section className="tj-slider-section">
@@ -72,10 +50,10 @@ const Hero = () => {
 						></div>
 						<div className="container">
 							<div className="slider-wrapper">
-								<div className="slider-content">
+								<div className="slider-content text-center">
 									<h1 className="slider-title">{title}</h1>
-									<div className="slider-desc">{desc}</div>
-									<div className="slider-btn">
+									<div className="slider-desc mt-4">{desc}</div>
+									<div className="slider-btn mt-5">
 										<ButtonPrimary text={"Talk to an Outsourcing Expert"} url={"/contact"}/>
 									</div>
 								</div>
