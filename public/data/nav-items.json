@@ -480,39 +480,45 @@
 		"submenu": [
 			{
 				"id": 1,
-				"name": "Business Strategy Development",
+				"name": "Real Estate",
 				"icon": "tji-service-1",
-				"path": "/industries"
+				"path": "/real-estate"
 			},
 			{
 				"id": 2,
-				"name": "Customer Experience Solutions",
+				"name": "Logistics & Transportation",
 				"icon": "tji-service-2",
-				"path": "/industries"
+				"path": "/logistics-and-transportation"
 			},
 			{
 				"id": 3,
-				"name": "Sustainability and ESG Consulting",
+				"name": "Ecommerce",
 				"icon": "tji-service-3",
-				"path": "/industries"
+				"path": "/ecommerce"
 			},
 			{
 				"id": 4,
-				"name": "Training and Development Programs",
+				"name": "ITES",
 				"icon": "tji-service-4",
-				"path": "/industries"
+				"path": "/ites"
 			},
 			{
 				"id": 5,
-				"name": "IT Support & Maintenance",
+				"name": "Finance & Accounting",
 				"icon": "tji-service-5",
-				"path": "/industries"
+				"path": "/finance-and-accounting"
 			},
 			{
 				"id": 6,
-				"name": "Marketing Strategy & Campaigns",
+				"name": "Energy & Utilities",
 				"icon": "tji-service-6",
-				"path": "/industries"
+				"path": "/energy-and-utilities"
+			},
+			{
+				"id": 7,
+				"name": "Health Care",
+				"icon": "tji-service-1",
+				"path": "/healthcare"
 			}
 		]
 	},

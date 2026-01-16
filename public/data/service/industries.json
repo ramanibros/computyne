@@ -2035,5 +2035,19 @@
                 "img": "/images/blog/blog-1.webp"
             }
         ]
-    }
+    },
+    "ecommerce": {
+	},
+	"energy-and-utilities": {
+	},
+	"finance-and-accounting": {
+	},
+	"healthcare": {
+	},
+	"ites": {
+	},
+	"logistics-and-transportation": {
+	},
+	"real-estate": {
+	}
 }

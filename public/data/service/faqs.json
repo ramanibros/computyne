@@ -1620,5 +1620,279 @@
 				"desc": "We support all standard video formats such as MP4, AVI, and MOV, as well as specialized formats including medical DICOM videos, industrial footage, and surveillance video streams."
 			}
 		]
+	},
+	"ecommerce": {
+		"cta": "Request a Free Consultation",
+		"faq": [
+			{
+				"title": "What are eCommerce BPO services?",
+				"desc": "eCommerce BPO services involve outsourcing back-office and operational processes such as catalog management, order processing, inventory support, customer service, and marketplace operations to specialized providers.",
+				"initActive": true
+			},
+			{
+				"title": "Which eCommerce processes can be outsourced?",
+				"desc": "Product listing and enrichment, order and returns processing, inventory and pricing support, seller operations, customer support, data entry, and performance reporting."
+			},
+			{
+				"title": "How does eCommerce outsourcing reduce costs?",
+				"desc": "It eliminates in-house hiring, training, infrastructure, and technology expenses while converting fixed costs into scalable, usage-based operational models."
+			},
+			{
+				"title": "Is eCommerce BPO suitable for small and mid-sized businesses?",
+				"desc": "Yes. eCommerce outsourcing services are highly scalable and allow SMBs to access skilled resources without large upfront investments."
+			},
+			{
+				"title": "Can eCommerce BPO support multiple marketplaces and platforms?",
+				"desc": "Yes. Providers typically support Amazon, Flipkart, Shopify, Magento, WooCommerce, and custom D2C platforms through standardized workflows."
+			},
+			{
+				"title": "How is performance measured in eCommerce BPO engagements?",
+				"desc": "Using KPIs such as order accuracy, turnaround time, SLA adherence, CSAT scores, error rates, and productivity metrics with regular reporting."
+			}
+		]
+	},
+	"energy-and-utilities": {
+		"cta": "Request a Free Consultation",
+		"faq": [
+			{
+				"title": "What are BPO services for the energy and utilities industry?",
+				"desc": "BPO services for energy companies involve outsourcing non-core processes such as meter-to-cash, customer operations, compliance reporting, and asset data management to improve efficiency, accuracy, and regulatory adherence.",
+				"initActive": true
+			},
+			{
+				"title": "Which energy and utility processes can be outsourced?",
+				"desc": "Commonly outsourced functions include utility operations outsourcing, billing and collections, customer service, regulatory reporting, asset and field data management, finance support, and analytics-driven reporting."
+			},
+			{
+				"title": "How do BPO services support regulatory compliance in utilities?",
+				"desc": "Utility process outsourcing services apply standardized workflows, audit-ready documentation, validation checks, and regulatory reporting controls to ensure compliance with statutory and governance requirements."
+			},
+			{
+				"title": "Are BPO services suitable for renewable energy companies?",
+				"desc": "Yes. Renewable energy BPO services support solar and wind operations by managing project data, compliance reporting, customer operations, sustainability reporting support, and scalable back-office services."
+			},
+			{
+				"title": "How does BPO improve cost efficiency for energy enterprises?",
+				"desc": "BPO reduces costs through optimized workflows, shared delivery models, predictable pricing, and elimination of internal overheads while maintaining service quality and compliance."
+			},
+			{
+				"title": "Can BPO services scale with demand fluctuations?",
+				"desc": "Yes. Managed services for utilities are designed to scale rapidly in response to consumption changes, regulatory updates, customer growth, or market expansion without service disruption."
+			},
+			{
+				"title": "How is data security handled in energy and utilities BPO?",
+				"desc": "Energy BPO providers implement role-based access controls, encrypted systems, audit trails, and strict compliance protocols to protect sensitive operational and customer data."
+			}
+		]
+	},
+	"finance-and-accounting": {
+		"cta": "Request a Free Consultation",
+		"faq": [
+			{
+				"title": "What are Finance and Accounting Outsourcing services?",
+				"desc": "Finance and Accounting Outsourcing involves delegating accounting, financial management, and compliance processes to a specialized provider to improve accuracy, reduce costs, and enhance operational efficiency.",
+				"initActive": true
+			},
+			{
+				"title": "Which finance and accounting processes can be outsourced?",
+				"desc": "Organizations can outsource accounts payable, accounts receivable, general ledger accounting, payroll processing, bank reconciliations, financial reporting, compliance support, and month-end or year-end closing."
+			},
+			{
+				"title": "How does finance outsourcing reduce costs?",
+				"desc": "Finance outsourcing reduces costs by eliminating recruitment, training, infrastructure, and technology expenses while providing scalable access to skilled professionals."
+			},
+			{
+				"title": "Is finance and accounting outsourcing secure?",
+				"desc": "Yes. Secure finance outsourcing services use role-based access, encrypted systems, and compliance-driven controls to protect sensitive financial information."
+			},
+			{
+				"title": "How does outsourcing improve financial accuracy?",
+				"desc": "Accuracy improves through standardized workflows, documented procedures, multi-level quality checks, and adherence to accounting best practices."
+			},
+			{
+				"title": "Can finance outsourcing support regulatory compliance?",
+				"desc": "Yes. Compliance-ready accounting outsourcing supports statutory regulations, audit requirements, and documentation controls, ensuring audit readiness and reduced risk exposure."
+			},
+			{
+				"title": "Is finance outsourcing suitable for small and mid-sized businesses?",
+				"desc": "Yes. Finance outsourcing for SMEs and accounting outsourcing for startups enables access to professional expertise without hiring full-time finance staff."
+			},
+			{
+				"title": "How scalable are finance and accounting outsourcing services?",
+				"desc": "Outsourced finance services scale easily based on transaction volume, seasonal demand, or business expansion."
+			},
+			{
+				"title": "Will outsourcing replace my internal finance team?",
+				"desc": "No. Finance outsourcing complements internal teams by handling operational tasks, allowing in-house leaders to focus on strategy and analysis."
+			},
+			{
+				"title": "How quickly can finance outsourcing be implemented?",
+				"desc": "Implementation timelines depend on scope but typically include process assessment, system integration, knowledge transfer, and controlled transition planning."
+			}
+		]
+	},
+	"healthcare": {
+		"cta": "Request a Free Consultation",
+		"faq": [
+			{
+				"title": "What are BPO services for healthcare?",
+				"desc": "Healthcare BPO services involve outsourcing non-clinical, administrative, and operational processes such as medical billing, claims processing, healthcare data management, and compliance support to specialized providers.",
+				"initActive": true
+			},
+			{
+				"title": "Which healthcare organizations can benefit from BPO services?",
+				"desc": "Hospitals, clinics, physician groups, healthcare networks, payers, TPAs, diagnostic centers, and digital health companies benefit from healthcare process outsourcing through improved efficiency and compliance."
+			},
+			{
+				"title": "How do healthcare BPO services support HIPAA compliance?",
+				"desc": "Providers follow HIPAA-aligned workflows, secure data handling, access controls, audit trails, and quality checks to protect patient information and meet regulatory standards."
+			},
+			{
+				"title": "What processes are commonly outsourced in healthcare BPO?",
+				"desc": "Commonly outsourced functions include RCM outsourcing healthcare, medical billing outsourcing, claims adjudication services, medical records outsourcing, provider credentialing, and administrative support."
+			},
+			{
+				"title": "How does healthcare BPO help reduce operational costs?",
+				"desc": "Healthcare BPO reduces costs by eliminating internal staffing, infrastructure, and technology expenses while enabling scalable, variable operating models."
+			},
+			{
+				"title": "Can healthcare BPO services scale with organizational growth?",
+				"desc": "Yes. Scalable healthcare BPO services adapt to patient volume fluctuations, payer demands, and expansion without compromising compliance or service quality."
+			},
+			{
+				"title": "How is data accuracy maintained in healthcare outsourcing?",
+				"desc": "Accuracy is ensured through standardized workflows, multi-level quality checks, trained professionals, and SLA-based performance monitoring."
+			},
+			{
+				"title": "Is healthcare BPO suitable for small and mid-sized providers?",
+				"desc": "Yes. Healthcare BPO supports organizations of all sizes seeking operational efficiency, cost control, and access to specialized expertise."
+			},
+			{
+				"title": "How long does it take to transition to a healthcare BPO model?",
+				"desc": "Transition timelines vary by process complexity but are typically phased to ensure data security, continuity, and minimal operational disruption."
+			},
+			{
+				"title": "Why choose Computyne for healthcare BPO services?",
+				"desc": "Computyne is a trusted healthcare BPO provider delivering compliance-driven processes, scalable delivery models, and strong governance to support long-term operational efficiency and stability."
+			}
+		]
+	},
+	"ites": {
+		"cta": "Request a Free Consultation",
+		"faq": [
+			{
+				"title": "What are BPO services for ITES?",
+				"desc": "BPO services for ITES involve outsourcing data processing, back-office operations, reporting, and workflow support to specialized providers, enabling IT-enabled service companies to improve efficiency, accuracy, scalability, and cost control.",
+				"initActive": true
+			},
+			{
+				"title": "How do BPO services benefit ITES companies?",
+				"desc": "ITES organizations benefit from reduced operational costs, faster turnaround times, improved data accuracy, standardized processes, and the ability to scale operations without increasing internal overhead."
+			},
+			{
+				"title": "Which ITES processes can be outsourced?",
+				"desc": "Commonly outsourced ITES processes include data entry and validation, document management, transaction processing, reporting support, quality assurance, and compliance-driven back-office operations."
+			},
+			{
+				"title": "How is data security ensured in ITES BPO services?",
+				"desc": "Data security is ensured through role-based access controls, secure infrastructure, audit trails, governed workflows, and adherence to industry compliance standards."
+			},
+			{
+				"title": "Can BPO services scale with ITES business growth?",
+				"desc": "Yes. ITES BPO services are designed to scale on demand, allowing organizations to quickly adjust resources based on workload changes or expansion needs."
+			},
+			{
+				"title": "How does Computyne support ITES outsourcing requirements?",
+				"desc": "Computyne delivers structured, SLA-driven BPO services for ITES by combining skilled teams, technology-enabled workflows, and robust governance frameworks to ensure accuracy, security, and consistent performance."
+			}
+		]
+	},
+	"logistics-and-transportation": {
+		"cta": "Request a Free Consultation",
+		"faq": [
+			{
+				"title": "What are Logistics BPO Services?",
+				"desc": "Logistics BPO services involve outsourcing back-office and operational support functions such as freight documentation, shipment tracking, customs support, analytics, and reporting to specialized service providers.",
+				"initActive": true
+			},
+			{
+				"title": "Which logistics processes can be outsourced?",
+				"desc": "Commonly outsourced processes include freight forwarding support, transportation BPO services, export-import documentation, customs clearance assistance, logistics document processing, billing reconciliation, and performance reporting."
+			},
+			{
+				"title": "Who benefits from Logistics Back Office Outsourcing?",
+				"desc": "Freight forwarders, 3PL/4PL providers, global supply chain enterprises, eCommerce logistics operators, and organizations seeking enterprise logistics outsourcing solutions benefit significantly."
+			},
+			{
+				"title": "How does Logistics BPO improve operational efficiency?",
+				"desc": "Efficiency improves through standardized workflows, automation, domain-trained teams, reduced manual errors, faster turnaround times, and enhanced operational visibility."
+			},
+			{
+				"title": "Is Logistics BPO suitable for high-volume operations?",
+				"desc": "Yes. Offshore logistics BPO services and 24/7 logistics back office support models are specifically designed for high-volume, transaction-intensive environments."
+			},
+			{
+				"title": "How is data security maintained in Logistics BPO?",
+				"desc": "Reputable providers implement strict data security protocols, role-based access controls, secure document management systems, and compliance with global data protection standards."
+			},
+			{
+				"title": "Can Logistics BPO integrate with existing systems?",
+				"desc": "Yes. Modern logistics BPO engagements support seamless integration with TMS, WMS, ERP platforms, and transportation software for real-time collaboration and data integrity."
+			},
+			{
+				"title": "What cost benefits does Logistics BPO offer?",
+				"desc": "Logistics BPO reduces costs by lowering staffing expenses, minimizing rework, improving accuracy, avoiding compliance penalties, and converting fixed costs into scalable operating expenses."
+			},
+			{
+				"title": "How does outsourcing support compliance and customs requirements?",
+				"desc": "Outsourced teams ensure accurate documentation, HS code validation, duty calculations, audit-ready records, and adherence to trade regulations, reducing clearance delays and compliance risks."
+			},
+			{
+				"title": "How quickly can Logistics BPO services be implemented?",
+				"desc": "Most logistics BPO engagements can be operational within a few weeks following process mapping, system access, pilot execution, and SLA finalization."
+			},
+			{
+				"title": "What makes a good Logistics BPO partner?",
+				"desc": "An effective partner offers logistics domain expertise, SLA-driven delivery, automation capabilities, system integration readiness, data security compliance, and proven operational performance."
+			}
+		]
+	},
+	"real-estate": {
+		"cta": "Request a Free Consultation",
+		"faq": [
+			{
+				"title": "What is real estate and property management outsourcing services?",
+				"desc": "They involve outsourcing real estate data processing, property data entry services, listing management, document digitization, and record maintenance to specialized providers.",
+				"initActive": true
+			},
+			{
+				"title": "How does outsourcing real estate data management benefit property businesses?",
+				"desc": "It reduces operational costs, improves accuracy, ensures compliance, and enables faster processing while supporting strategic focus."
+			},
+			{
+				"title": "What types of real estate data can be outsourced?",
+				"desc": "Property listings, lease records, appraisal and valuation data, client databases, floor plans, legal documents, and portfolio data."
+			},
+			{
+				"title": "Is outsourced real estate data management secure and compliant?",
+				"desc": "Yes. Secure real estate data outsourcing providers follow strict security protocols, access controls, and compliance standards."
+			},
+			{
+				"title": "Can outsourcing support large real estate portfolios?",
+				"desc": "Yes. Scalable real estate data services support enterprise-level portfolios, new developments, and demand fluctuations."
+			},
+			{
+				"title": "How does outsourcing improve turnaround times?",
+				"desc": "Standardized workflows and dedicated teams accelerate updates, documentation, and listing readiness."
+			},
+			{
+				"title": "Which industries benefit most from real estate data outsourcing?",
+				"desc": "Agencies, developers, brokers, asset managers, valuation firms, and commercial property operators."
+			},
+			{
+				"title": "How do outsourced services integrate with existing systems?",
+				"desc": "Teams integrate seamlessly with CRMs, property management platforms, ERPs, and listing portals."
+			}
+		]
 	}
 }
