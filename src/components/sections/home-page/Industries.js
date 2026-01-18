@@ -3,8 +3,11 @@ import getBlogs from "@/libs/getBlogs";
 import { Autoplay, Navigation, Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import BlogCard2 from "./BlogCard2";
+import IndustriesCard from "./IndustriesCard";
+import getIndustries from "@/libs/getIndustries";
 const Industries = () => {
-	const blogs = getBlogs().slice(0, 4);
+	// const blogs = getBlogs().slice(0, 4);
+	const industries = getIndustries();
 	return (
 		<section className="tj-blog-section-2 section-gap">
 			<div className="container">
@@ -80,13 +83,20 @@ const Industries = () => {
 								modules={[Pagination, Autoplay, Navigation]}
 								className="blog-slider"
 							>
-								{blogs?.length
+								{industries?.length
+									? industries?.map((industry, idx) => (
+											<SwiperSlide key={idx}>
+												<IndustriesCard industry={industry} idx={idx} />
+											</SwiperSlide>
+									  ))
+									: ""}
+									{/* {blogs?.length
 									? blogs?.map((blog, idx) => (
 											<SwiperSlide key={idx}>
 												<BlogCard2 blog={blog} idx={idx} />
 											</SwiperSlide>
 									  ))
-									: ""}
+									: ""} */}
 								<div className="swiper-pagination-area"></div>
 							</Swiper>
 						</div>

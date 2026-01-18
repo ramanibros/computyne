@@ -138,7 +138,7 @@ const Navbar = ({ headerType, isStickyHeader }) => {
 										<div className="mega-menu-pages-single-inner">
 											<div className="feature-box">
 												<div className="feature-content">
-													<h2 className="title">Validate</h2>
+													<h2 className="title-24">Validate</h2>
 													<span>Quality Before You Commit.</span>
 													<Link
 														className="read-more feature-contact"
@@ -148,7 +148,9 @@ const Navbar = ({ headerType, isStickyHeader }) => {
 													</Link>
 												</div>
 												<div className="feature-images">
-													<img src="/images/service/menu-image.png" alt="" />
+													{/* <img src="/images/service/menu-image.png" alt="" /> */}
+													<img src="/images/service/img-menu-3rd.png" alt="" />
+													{/* service-ad */}
 												</div>
 											</div>
 										</div>

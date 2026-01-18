@@ -39,7 +39,7 @@ export default function textAnnotationServices() {
                             <Banner />
                             <Counter />
                             <Aboutus type={1} />
-                            <Subservices />
+                            <Subservices isDefaultSubServiceCard={false} />
                             <Casestudy />
                             <Whychooseus />
                             <Faq type={1} />
