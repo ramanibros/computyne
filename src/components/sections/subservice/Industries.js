@@ -26,17 +26,17 @@ const Industries = () => {
 								Industries
 							</span>
 							<div className="heading-wrap-content">
-								<div className="sec-heading style-2">
+								<div className="sec-heading-subservice style-2">
 									<h2 className="sec-title text-anim">
 										{/* Industries We <span>Serve.</span> */}
 										{industriesData?.h2}
 									</h2>
 								</div>
-								<div className="wow fadeInUp" data-wow-delay=".5s">
+								{/* <div className="wow fadeInUp" data-wow-delay=".5s">
 									<p className="desc tagline">
 										Computyne empowers multiple industries with customized Data Services designed for accuracy, security, and growth.
 									</p>
-								</div>
+								</div> */}
 								<div
 									className="slider-navigation d-none d-md-inline-flex wow fadeInUp"
 									data-wow-delay=".7s"

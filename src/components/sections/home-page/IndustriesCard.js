@@ -1,12 +1,12 @@
 import Link from "next/link";
 
-const BlogCard2 = ({ blog, idx }) => {
-	const { title, desc, id, img1, category, date, day, month } = blog || {};
+const IndustriesCard = ({ industry, idx }) => {
+	const { title, desc, id, img, url} = industry || {};
 	return (
 		<div className="blog-item style-2">
 			<div className="blog-thumb">
-				<Link href={`/blogs/${id}`}>
-					<img src={img1 ? img1 : "/images/blog/blog-4.webp"} alt="" />
+				<Link href={url}>
+					<img src={img} alt="" />
 				</Link>
 			</div>
 			<div className="blog-content">
@@ -31,14 +31,10 @@ const BlogCard2 = ({ blog, idx }) => {
 					</div>
 
 				</div>
-				{/*<ButtonPrimary
-					text={"Read More"}
-					url={`/blogs/${id}`}
-					isTextBtn={true}
-				/>*/}
+				
 			</div>
 		</div>
 	);
 };
 
-export default BlogCard2;
+export default IndustriesCard;
