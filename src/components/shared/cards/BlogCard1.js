@@ -5,20 +5,27 @@ import Link from "next/link";
 import ButtonPrimary from "../buttons/ButtonPrimary";
 
 const BlogCard1 = ({ blog, idx }) => {
-	const { title, desc, id, img, category, date, day, month } = blog || {};
+	const { title, desc, id,slug, img, category, date, day, month } = blog || {};
 	return (
 		<div className="blog-item wow fadeInUp" data-wow-delay={`0.${idx + 1}s`}>
 			<div className="blog-thumb">
-				<Link href={`/blogs/${id}`}>
+				<Link href={`/blog/${slug}`}>
 					{" "}
-					<Image
-						src={img ? img : "/images/blog/blog-1.webp"}
+					{/* <Image
+						src={img}
 						alt="Images"
 						width={870}
 						height={450}
+					/> */}
+					<Image
+						src={img}
+						alt="Images"
+						fill
+						style={{ objectFit: "cover", objectPosition: "center" }}
+						sizes="(max-width: 768px) 100vw, 870px"
 					/>
 				</Link>
-				<div className="blog-date">
+				<div className="blog-date-sm	">
 					<span className="date">{modifyNumber(day)}</span>
 					<span className="month">{month}</span>
 				</div>
@@ -31,16 +38,16 @@ const BlogCard1 = ({ blog, idx }) => {
 							{category}
 						</Link>
 					</span>
-					<span>
+					{/* <span>
 						By <Link href={`/blogs/${id}`}>Ellinien Loma</Link>
-					</span>
+					</span> */}
 				</div>
 				<h4 className="title">
-					<Link href={`/blogs/${id}`}>{title}.</Link>
+					<Link href={`/blog/${slug}`}>{title}.</Link>
 				</h4>
 				<ButtonPrimary
 					text={"Read More"}
-					url={`/blogs/${id}`}
+					url={`/blog/${slug}`}
 					isTextBtn={true}
 				/>
 			</div>

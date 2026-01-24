@@ -4,7 +4,8 @@ import Link from "next/link";
 import CtaSidebar from "./CtaSidebar";
 const CasestudyDetailsPrimary2 = ({ option }) => {
 	const { prevId, nextId, currentItem, isPrevItem, isNextItem } = option || {};
-	const { title, titleLarge, id, imgLarge } = currentItem || {};
+	const { img, title, id, content, clientWords } = currentItem || {};
+	console.log("CURRENT ITEM", currentItem)
 
 	return (
 		<section className="tj-blog-section section-gap">
@@ -12,133 +13,65 @@ const CasestudyDetailsPrimary2 = ({ option }) => {
 				<div className="row rg-50">
 					<div className="col-lg-8">
 						<div className="post-details-wrapper">
-							<div className="casestudy-images wow fadeInUp" data-wow-delay=".1s">
-								<Image
-									src="/images/blog/blog-1.webp"
-									alt="Images"
-									width={868}
-									height={450}
-									style={{ height: "auto" }}
-								/>
-							</div>
-							<h2 className="title title-anim">
-								Designing a Modern Brand Identity for Competitive Edge
-							</h2>
-							<div className="blog-text">
-								<p className="wow fadeInUp" data-wow-delay=".3s">
-									Rebranding is more than just a logo change or a new color
-									palette; it’s about reshaping how your company is perceived in
-									the marketplace. At [Company Name], we specialize in crafting
-									comprehensive rebranding strategies that align your business
-									with its evolving goals, values, and target audience. Whether
-									you’re launching in new markets, updating your identity for
-									modern relevance, or simply reinvigorating a tired brand, we
-									take a holistic approach to ensure your brand resonates with
-									customers on a deeper level.
+							{Array.isArray(content) && content.map((item, index) => (
+								<div key={index} className="tj-sidebar-widget blog-item style-4">
+									<div className="blog-content-mod">
+										<div className="title-area">
+
+											{/* TITLE */}
+											{item?.title && (
+												<div className="project-text">
+													<h3 className="title-casestudy">{item.title}</h3>
+												</div>
+											)}
+
+											{/* SUB LINE */}
+											{item?.subLine && (
+												<p className="wow fadeInUp" data-wow-delay=".3s">
+													{item.subLine}
+												</p>
+											)}
+
+											{/* PARAGRAPH DATA (string) */}
+											{typeof item?.data === "string" && (
+												<p className="wow fadeInUp" data-wow-delay=".6s">
+													{item.data}
+												</p>
+											)}
+
+											{/* LIST DATA (array) */}
+											{Array.isArray(item?.data) && item.data.length > 0 && (
+												<div className="desc blog-text-mod wow fadeInUp" data-wow-delay=".8s">
+													<ul className="wow fadeInUp">
+														{item.data.map((listItem, i) => (
+															<li key={i}>
+																<span>
+																	<i className="tji-list"></i>
+																</span>
+																{listItem}
+															</li>
+														))}
+													</ul>
+												</div>
+											)}
+
+
+
+										</div>
+
+									</div>
+
+								</div>
+							))}
+
+							<blockquote className="wow fadeInUp" data-wow-delay=".3s">
+								<p>
+									{clientWords.data}
 								</p>
-								<p className="wow fadeInUp" data-wow-delay=".3s">
-									Our rebranding process is rooted in strategic thinking, market
-									research, and creativity. We work closely with you to
-									understand your business, vision, and customers, ensuring that
-									every element of the rebrand— from visual design to messaging—
-									is authentic and impactful. The end result is a refreshed
-									brand that speaks.
-								</p>
-								<h3 className="wow fadeInUp" data-wow-delay=".3s">
-									Project Overview
-								</h3>
-								<p className="wow fadeInUp" data-wow-delay=".3s">
-									In today’s dynamic market, a strong and consistent brand
-									identity is key to standing out and driving growth. [Client
-									Name], a growing business in the Bexon, recognized the need to
-									evolve its brand to better resonate with an expanding audience
-									and adapt to shifting market trends.
-								</p>
-								<ul className="wow fadeInUp" data-wow-delay=".3s">
-									<li>
-										<span>
-											<i className="tji-check"></i>
-										</span>
-										Brand Audit & Research
-									</li>
-									<li>
-										<span>
-											<i className="tji-check"></i>
-										</span>
-										Holder & Internal Communication
-									</li>
-									<li>
-										<span>
-											<i className="tji-check"></i>
-										</span>
-										Customer Experience
-									</li>
-									<li>
-										<span>
-											<i className="tji-check"></i>
-										</span>
-										Strategy Development
-									</li>
-									<li>
-										<span>
-											<i className="tji-check"></i>
-										</span>
-										Launch & Marketing
-									</li>
-									<li>
-										<span>
-											<i className="tji-check"></i>
-										</span>
-										Creative Direction
-									</li>
-									<li>
-										<span>
-											<i className="tji-check"></i>
-										</span>
-										Touchpoints
-									</li>
-								</ul>
-								<h3 className="wow fadeInUp" data-wow-delay=".3s">
-									Project Galley
-								</h3>
-								<p className="wow fadeInUp" data-wow-delay=".3s">
-									Our Rebranding Strategy for [Client Name] transformed their
-									entire brand identity, from a fresh new logo to an updated
-									visual design that resonates with their growing audience.
-								</p>
-								<div className="images-wrap">
-                                                                    <div className="row">
-                                                                        <div className="col-sm-6">
-                                                                            <div
-                                                                                className="image-box wow fadeInUp"
-                                                                                data-wow-delay=".3s"
-                                                                            >
-                                                                                <Image
-                                                                                    src="/images/blog/blog-9.webp"
-                                                                                    alt="Image"
-                                                                                    width={420}
-                                                                                    height={420}
-                                                                                    style={{ height: "auto" }}
-                                                                                />
-                                                                            </div>
-                                                                        </div>
-                                                                        <div className="col-sm-6">
-                                                                            <div
-                                                                                className="image-box wow fadeInUp"
-                                                                                data-wow-delay=".5s"
-                                                                            >
-                                                                                <Image
-                                                                                    src="/images/blog/blog-10.webp"
-                                                                                    alt="Image"
-                                                                                    width={420}
-                                                                                    height={420}
-                                                                                    style={{ height: "auto" }}
-                                                                                />
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-							</div>
+								<cite>{clientWords.by}</cite>
+							</blockquote>
+
+
 							<div
 								className="tj-post__navigation mb-0 wow fadeInUp"
 								data-wow-delay="0.3s"
@@ -175,6 +108,8 @@ const CasestudyDetailsPrimary2 = ({ option }) => {
 									</div>
 								</div>
 							</div>
+
+
 						</div>
 					</div>
 					<div className="col-lg-4">

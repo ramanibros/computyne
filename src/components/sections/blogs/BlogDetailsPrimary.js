@@ -1,17 +1,54 @@
+"use client";
 import ButtonPrimary from "@/components/shared/buttons/ButtonPrimary";
 import BlogSidebar from "@/components/shared/sidebar/BlogSidebar";
+import getHtmlStringData from "@/libs/getHtmlStringData";
 import makePath from "@/libs/makePath";
 import Image from "next/image";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
+import { useEffect, useState } from "react";
+
 
 const BlogDetailsPrimary = ({ option }) => {
 	const { prevId, nextId, currentItem, isPrevItem, isNextItem } = option || {};
 	const { title, id, img, tags } = currentItem || {};
+
+	// const router = useRouter();
+	// const { slug } = router.query;
+	const pathname = usePathname();
+	const slug = pathname.split("/").filter(Boolean).pop();
+
+
+	const [htmlString, setHtmlString] = useState("");
+
+	useEffect(() => {
+		if (!slug) return;
+
+		getHtmlStringData(slug).then((data) => {
+			setHtmlString(data || "<p>Content not found</p>");
+		});
+	}, [slug]);
 	return (
 		<section className="tj-blog-section section-gap slidebar-stickiy-container">
 			<div className="container">
 				<div className="row row-gap-5">
-					<div className="col-lg-8">
+					<div
+						className="postBody-module__Mf2ZlW__content col-lg-8"
+						dangerouslySetInnerHTML={{ __html: htmlString }}
+					/>
+					{/* <blockquote className="wow fadeInUp" data-wow-delay=".3s">
+						<p>
+							The true entrepreneur is a doer, not a dreamer. Innovation
+							is the catalyst that transforms ideas into reality. In
+							today’s fast-paced world, success depends not on just
+							surviving change.
+						</p>
+						<cite>Kevin Hooks</cite>
+					</blockquote> */}
+
+
+
+					{/* <div className="col-lg-8">
 						<div className="post-details-wrapper">
 							<div className="blog-images wow fadeInUp" data-wow-delay=".1s">
 								<Image
@@ -195,16 +232,6 @@ const BlogDetailsPrimary = ({ option }) => {
 										height={498}
 										style={{ height: "auto" }}
 									/>
-									{/* <PopupVideo>
-										<Link
-											className="video-btn video-popup glightbox"
-											href="https://www.youtube.com/watch?v=MLpWrANjFbI&ab_channel=eidelchteinadvogados"
-										>
-											<span>
-												<i className="tji-play"></i>
-											</span>
-										</Link>
-									</PopupVideo> */}
 								</div>
 								<h3 className="wow fadeInUp" data-wow-delay=".3s">
 									Conclusions
@@ -265,7 +292,6 @@ const BlogDetailsPrimary = ({ option }) => {
 								className="tj-post__navigation  wow fadeInUp"
 								data-wow-delay="0.3s"
 							>
-								{/* <!-- previous post --> */}
 								<div
 									className="tj-nav__post previous"
 									style={{ visibility: isPrevItem ? "visible" : "hidden" }}
@@ -282,7 +308,6 @@ const BlogDetailsPrimary = ({ option }) => {
 								<Link href={"/blogs"} className="tj-nav-post__grid">
 									<i className="tji-window"></i>
 								</Link>
-								{/* <!-- next post --> */}
 								<div
 									className="tj-nav__post next"
 									style={{ visibility: isNextItem ? "visible" : "hidden" }}
@@ -483,7 +508,7 @@ const BlogDetailsPrimary = ({ option }) => {
 								</div>
 							</div>
 						</div>
-					</div>
+					</div> */}
 					<div className="col-lg-4">
 						<BlogSidebar />
 					</div>

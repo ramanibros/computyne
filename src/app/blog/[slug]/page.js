@@ -1,7 +1,7 @@
 import Footer from "@/components/layout/footer/Footer";
 import Header from "@/components/layout/header/Header";
 import BlogDetailsMain from "@/components/layout/main/BlogDetailsMain";
-import CasestudyDetailsMain from "@/components/layout/main/CasestudyDetailsMain";
+import BlogDetailsMain2 from "@/components/layout/main/BlogDetailsMain2";
 
 import CallSchedule from "@/components/sections/home-page/CallSchedule";
 import BackToTop from "@/components/shared/others/BackToTop";
@@ -12,11 +12,19 @@ import { notFound } from "next/navigation";
 const items = getBlogs();
 
 export default async function BlogDetails({ params }) {
-	const { id } = await params;
-	const isExistItem = items?.find(({ id: id1 }) => id1 === parseInt(id));
-	if (!isExistItem) {
+	// const { id } = await params;
+	// const isExistItem = items?.find(({ id: id1 }) => id1 === parseInt(id));
+	// if (!isExistItem) {
+	// 	notFound();
+	// }
+	const { slug } = await params;
+
+	const currentItem = items.find((item) => item.slug === slug);
+
+	if (!currentItem) {
 		notFound();
 	}
+
 	return (
 		<div>
 			<BackToTop />
@@ -26,7 +34,8 @@ export default async function BlogDetails({ params }) {
 				<div id="smooth-content">
 					<main>
 						<HeaderSpace />
-						<CasestudyDetailsMain currentItemId={parseInt(id)} />
+						{/* <BlogDetailsMain currentItemId={parseInt(id)} /> */}
+						<BlogDetailsMain2 currentItem={currentItem} />
 						<CallSchedule />
 					</main>
 					<Footer />
@@ -37,6 +46,11 @@ export default async function BlogDetails({ params }) {
 	);
 }
 
+// export async function generateStaticParams() {
+// 	return items?.map(({ id }) => ({ id: id.toString() }));
+// }
 export async function generateStaticParams() {
-	return items?.map(({ id }) => ({ id: id.toString() }));
+  return items.map(({ slug }) => ({
+    slug,
+  }));
 }
