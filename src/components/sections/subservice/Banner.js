@@ -33,7 +33,7 @@ const Banner = () => {
 								{bannerData.banner.tagline}
                             </div>
 							<div className="btn-area wow fadeInUp mt-4" data-wow-delay=".8s">
-								<ButtonPrimary text={bannerData.banner.cta} url={"/contact"} />
+								<ButtonPrimary text={bannerData.banner.cta} url={"/contact-us"} />
 							</div>
 						</div>
 					</div>

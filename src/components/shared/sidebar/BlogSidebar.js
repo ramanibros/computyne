@@ -6,7 +6,7 @@ const BlogSidebar = ({ type }) => {
 	return (
 		<aside className={`tj-main-sidebar ${type == 2 ? "p-0" : ""}`}>
 			{/* <!-- search --> */}
-			<div className="tj-sidebar-widget widget-search">
+			{/* <div className="tj-sidebar-widget widget-search">
 				<h4 className="widget-title">Search here</h4>
 				<div className="search-box">
 					<form action="#">
@@ -21,7 +21,7 @@ const BlogSidebar = ({ type }) => {
 						</button>
 					</form>
 				</div>
-			</div>
+			</div> */}
 			{/* <!-- recent post --> */}
 			{/* <RecentBlogWidget /> */}
 			{/* <!-- category --> */}

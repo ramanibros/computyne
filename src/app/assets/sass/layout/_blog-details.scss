@@ -868,6 +868,21 @@ blockquote {
 					font-size: 60px;
 				}
 			}
+			.title-24 {
+									font-size: 24px;
+									color: var(--tj-color-common-white);
+									margin-bottom: 15px;
+									line-height: 1;
+									@media #{$xl} {
+										font-size: 20px;
+									}
+									@media #{$lg} {
+										font-size: 16px;
+									}
+									@media #{$sm, $xs} {
+										font-size: 20px;
+									}
+								}
 			> span {
 				display: block;
 				font-size: 20px;

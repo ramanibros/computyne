@@ -3,7 +3,6 @@ import Link from "next/link";
 import React from "react";
 const HeroInner = ({ title, text, breadcrums = [], bgImg }) => {
 	// img ? img : "/images/blog/blog-1.webp"
-	console.log("CHECK THIS bgImg", bgImg)
 
 	return (
 		<section

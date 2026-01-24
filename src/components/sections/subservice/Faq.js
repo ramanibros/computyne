@@ -81,7 +81,7 @@ const Faq = () => {
 								Frequently Asked Questions
 							</h2>
 							<div className="btn-area wow fadeInUp mt-30" data-wow-delay=".8s">
-								<ButtonPrimary text={faqsData.cta} url={"/contact"} />
+								<ButtonPrimary text={faqsData.cta} url={"/contact-us"} />
 							</div>
 						</div>
 					</div>
