@@ -57,7 +57,7 @@ const Faq = ({ type = 1 }) => {
 									technologies and <br /> strategies to competitive
 								</p>
 								<div className="wow fadeInUp" data-wow-delay=".8s">
-									<ButtonPrimary text={"Request a Call"} url={"/contact"} />
+									<ButtonPrimary text={"Request a Call"} url={"/contact-us"} />
 								</div>
 							</div>
 						</div>

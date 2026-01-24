@@ -4,15 +4,16 @@ const CtaSidebar = () => {
 	return (
 		<div className="feature-box">
 			<div className="feature-content">
-				<h2 className="title">Modern</h2>
-				<span>Home Makeover</span>
-				<Link className="read-more feature-contact" href="tel:8321890640">
-					<i className="tji-phone-3"></i>
-					<span>+8 (321) 890-640</span>
+				<h2 className="title-24">Validate</h2>
+				<span>Quality Before You Commit.</span>
+				<Link className="read-more feature-contact" href="/contact-us">
+					{/* <i className="tji-phone-3"></i> */}
+					<span>Start a Free Pilot Project</span>
 				</Link>
 			</div>
 			<div className="feature-images">
-				<img src="/images/service/service-ad.webp" alt="" />
+				{/* <img src="/images/service/service-ad.webp" alt="" /> */}
+				<img src="/images/service/img-menu-3rd.png" alt="" />
 			</div>
 		</div>
 	);

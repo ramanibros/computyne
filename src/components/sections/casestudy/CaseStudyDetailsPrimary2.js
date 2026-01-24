@@ -125,17 +125,17 @@ const CasestudyDetailsPrimary2 = ({ option }) => {
 										<i className="tji-user"></i>
 									</div>
 									<div className="project-text">
-										<span>Clients</span>
+										<span>Company</span>
 										<h6 className="title">Innovate Interiors Group</h6>
 									</div>
 								</div>
 								<div className="infos-item">
 									<div className="project-icons">
-										<i className="tji-budget"></i>
+										<i className="tji-chart"></i>
 									</div>
 									<div className="project-text">
-										<span>Budget</span>
-										<h6 className="title">$100M USD</h6>
+										<span>Industry</span>
+										<h6 className="title">Corporate Business</h6>
 									</div>
 								</div>
 								<div className="infos-item">
@@ -147,13 +147,14 @@ const CasestudyDetailsPrimary2 = ({ option }) => {
 										<h6 className="title">Maplewood Heights, CA</h6>
 									</div>
 								</div>
-								<div className="infos-item">
+
+								{/* <div className="infos-item">
 									<div className="project-icons">
-										<i className="tji-chart"></i>
+										<i className="tji-budget"></i>
 									</div>
 									<div className="project-text">
-										<span>Sector</span>
-										<h6 className="title">Corporate Business</h6>
+										<span>Budget</span>
+										<h6 className="title">$100M USD</h6>
 									</div>
 								</div>
 								<div className="infos-item">
@@ -164,7 +165,7 @@ const CasestudyDetailsPrimary2 = ({ option }) => {
 										<span>Complete date</span>
 										<h6 className="title">OCT 20, 2024</h6>
 									</div>
-								</div>
+								</div> */}
 							</div>
 							{/* <!-- cta --> */}
 							<div

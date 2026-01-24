@@ -123,7 +123,7 @@ const AboutCard = ({type}) => {
 							</div>*/}
                         </div>
                         {/*<div className="about-btn-area wow fadeInUp" data-wow-delay=".5s">
-                            <ButtonPrimary text={"Connect With Us Today"} url={"/contact"}/>
+                            <ButtonPrimary text={"Connect With Us Today"} url={"/contact-us"}/>
                         </div>*/}
                     </div>
                 </div>

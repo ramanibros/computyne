@@ -968,12 +968,12 @@
 
 .mega-tech-grid {
 	display: grid;
-	grid-template-columns: repeat(4, 1fr);
+	grid-template-columns: repeat(3, 1fr);
 	gap: 12px;
 }
 
 .mega-tech-grid img {
-	width: 38px;
+	width: 42px;
 	margin: auto;
 	filter: grayscale(100%);
 	opacity: 0.85;

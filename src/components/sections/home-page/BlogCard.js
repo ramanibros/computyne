@@ -11,11 +11,18 @@ const BlogCard = ({ blog, idx }) => {
 			<div className="blog-thumb">
 				<Link href={`/blogs/${id}`}>
 					{" "}
-					<Image
+					{/* <Image
 						src={img ? img : "/images/blog/blog-1.webp"}
 						alt="Images"
 						width={870}
 						height={450}
+					/> */}
+					<Image
+						src={img}
+						alt="Images"
+						fill
+						style={{ objectFit: "cover", objectPosition: "center" }}
+						sizes="(max-width: 768px) 100vw, 870px"
 					/>
 				</Link>
 				<div className="blog-date">
@@ -31,9 +38,9 @@ const BlogCard = ({ blog, idx }) => {
 							{category}
 						</Link>
 					</span>
-					<span>
+					{/* <span>
 						By <Link href={`/blogs/${id}`}>Ellinien Loma</Link>
-					</span>
+					</span> */}
 				</div>
 				<h4 className="title">
 					<Link href={`/blogs/${id}`}>{title}.</Link>

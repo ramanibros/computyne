@@ -325,7 +325,7 @@
 				"name": "Main Pages",
 				"path": "#",
 				"items": [
-					{ "id": 1, "name": "About us", "path": "/about", "badge": null },
+					{ "id": 1, "name": "About us", "path": "/about-us", "badge": null },
 					{
 						"id": 2,
 						"name": "Our history",
@@ -526,7 +526,7 @@
 	{
 		"id": 5,
 		"name": "About Us",
-		"path": "/about"
+		"path": "/about-us"
 	},
 
 	{
@@ -579,8 +579,8 @@
 	},
 	{
 		"id": 8,
-		"name": "Contact",
-		"path": "/contact"
+		"name": "Contact Us",
+		"path": "/contact-us"
 	},
 	{
 		"id": 9,
@@ -628,7 +628,7 @@
 			{
 				"id": 2,
 				"name": "Case Studies",
-				"path": "/casestudy",
+				"path": "/case-studies",
 				"badge": null
 			}
 			

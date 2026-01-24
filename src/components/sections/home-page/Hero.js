@@ -54,7 +54,7 @@ const Hero = () => {
 									<h1 className="slider-title">{title}</h1>
 									<div className="slider-desc mt-4">{desc}</div>
 									<div className="slider-btn mt-5">
-										<ButtonPrimary text={"Talk to an Outsourcing Expert"} url={"/contact"}/>
+										<ButtonPrimary text={"Talk to an Outsourcing Expert"} url={"/contact-us"}/>
 									</div>
 								</div>
 							</div>

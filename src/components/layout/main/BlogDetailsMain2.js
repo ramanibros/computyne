@@ -11,7 +11,7 @@ const BlogDetailsMain2 = ({ currentItem }) => {
   return (
     <div>
       <HeroInner
-        title="Blog Details"
+        title={title}
         text={title}
         breadcrums={[{ name: "Blogs", path: "/blogs" }]}
         bgImg={img}

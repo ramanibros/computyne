@@ -33,12 +33,5 @@
 		"img": "/images/service/Data Entry.webp",
 		"link": "/data-entry-services",
 		"desc": "Accurate, scalable data entry services that eliminate manual workload, reduce processing time, and let your teams focus on strategic growth and customer success."
-	},
-	{
-		"id": 6,
-		"title": "Data Solutions",
-		"img": "/images/blog/blog-1.webp",
-		"link": "/data-solutions-services",
-		"desc": "End-to-end data solutions that convert raw information into reliable, actionable insights, empowering businesses to innovate, grow, and make smarter decisions with confidence."
 	}
 ]
