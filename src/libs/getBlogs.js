@@ -1,4 +1,4 @@
-import blogs from "../../public/data/blogs";
+import blogs from "../../public/data/org-blogs";
 
 const getBlogs = () => {
   return blogs;

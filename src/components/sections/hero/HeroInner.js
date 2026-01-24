@@ -1,11 +1,18 @@
 import sliceText from "@/libs/sliceText";
 import Link from "next/link";
 import React from "react";
-const HeroInner = ({ title, text, breadcrums = [] }) => {
+const HeroInner = ({ title, text, breadcrums = [], bgImg }) => {
+	// img ? img : "/images/blog/blog-1.webp"
+	console.log("CHECK THIS bgImg", bgImg)
+
 	return (
 		<section
 			className="tj-page-header section-gap-x"
-			style={{ backgroundImage: `url('/images/bg/pheader-bg.webp')` }}
+			style={{
+				backgroundImage: bgImg
+					? `url(${bgImg})`
+					: `url('/images/bg/pheader-bg.webp')`
+			}}
 		>
 			<div className="container">
 				<div className="row">
