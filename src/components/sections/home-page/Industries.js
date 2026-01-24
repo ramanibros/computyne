@@ -90,13 +90,6 @@ const Industries = () => {
 											</SwiperSlide>
 									  ))
 									: ""}
-									{/* {blogs?.length
-									? blogs?.map((blog, idx) => (
-											<SwiperSlide key={idx}>
-												<BlogCard2 blog={blog} idx={idx} />
-											</SwiperSlide>
-									  ))
-									: ""} */}
 								<div className="swiper-pagination-area"></div>
 							</Swiper>
 						</div>
