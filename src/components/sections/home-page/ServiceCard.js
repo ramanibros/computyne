@@ -6,7 +6,7 @@ const ServiceCard = ({blog, idx}) => {
         title,
         desc,
         id,
-        img = "/images/blog/blog-1.webp",
+        img,
         link
     } = blog || {};
     return (

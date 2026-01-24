@@ -1,50 +1,38 @@
 [
 	{
 		"id": 1,
-		"name": "Python",
-		"icon": "/images/tech/ic-python.svg",
-		"path": "/technologies/python"
+		"name": "BBB",
+		"icon": "/images/tech/BBB.webp",
+		"path": "#"
 	},
 	{
 		"id": 2,
-		"name": "Java",
-		"icon": "/images/tech/ic-java.svg",
-		"path": "/technologies/java"
+		"name": "Clutch",
+		"icon": "/images/tech/Clutch.webp",
+		"path": "#"
 	},
 	{
 		"id": 3,
-		"name": "NodeJS",
-		"icon": "/images/tech/ic-js.svg",
-		"path": "/technologies/nodejs"
+		"name": "GDPR",
+		"icon": "/images/tech/GDPR.webp",
+		"path": "#"
 	},
 	{
 		"id": 4,
-		"name": ".NET",
-		"icon": "/images/tech/ic-dot-net.svg",
-		"path": "/technologies/dotnet"
+		"name": "GoodFirm",
+		"icon": "/images/tech/GoodFirm.webp",
+		"path": "#"
 	},
 	{
 		"id": 5,
-		"name": "React Native",
-		"icon": "/images/tech/ic-react-native.svg",
-		"path": "/technologies/react-native"
+		"name": "ISO",
+		"icon": "/images/tech/ISO.webp",
+		"path": "#"
 	},
 	{
 		"id": 6,
-		"name": "Angular",
-		"icon": "/images/tech/ic-angular.svg",
-		"path": "/technologies/angular"
-	},
-	{
-		"id": 7,
-		"name": "iOS",
-		"icon": "/images/tech/ic-ios.svg",
-		"path": "/technologies/ios"
-	},
-	{
-		"id": 8,
-		"name": "Android",
-		"icon": "/images/tech/ic-android.svg",
-		"path": "/technologies/android"
+		"name": "TrustPilot",
+		"icon": "/images/tech/TrustPilot.webp",
+		"path": "#"
 	}
 ]

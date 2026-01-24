@@ -166,12 +166,12 @@ const Navbar = ({ headerType, isStickyHeader }) => {
 							hireResourcesNav?.isActive ? "current-menu-ancestor" : ""
 						}`}
 					>
-						{/* <Link href={hireResourcesNav?.path ? hireResourcesNav?.path : "#"}>
+						<Link href={hireResourcesNav?.path ? hireResourcesNav?.path : "#"}>
 							{hireResourcesNav?.name}
-						</Link> */}
-						<a className="custom-anchor" onClick={(e) => e.preventDefault()}>
+						</Link>
+						{/* <a className="custom-anchor" onClick={(e) => e.preventDefault()}>
 							{hireResourcesNav?.name}
-						</a>
+						</a> */}
 						<ul className="sub-menu">
 							{hireResourcesNav?.submenu?.length
 								? hireResourcesNav?.submenu?.map((item, idx) => (
