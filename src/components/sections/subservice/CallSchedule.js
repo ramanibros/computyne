@@ -9,7 +9,7 @@ const CallSchedule = () => {
 		// 				<div className="countup-wrap">
 		// 					<div className="countup-item">
 
-        //                             <span>Your Story Could Be Our Next Milestone!
+        //                             <span>Turn Your Results Into Our Next Milestone!
         //                             </span>
     	// 						</div>
         //                     <div className="col-lg-3 col-sm-6 ">
@@ -45,7 +45,7 @@ const CallSchedule = () => {
 						<div className="cta-area">
 							<div className="cta-content-mod">
 								<h2 className="title title-anim">
-									Your Story Could Be Our Next Milestone !
+									Turn Your Results Into Our Next Milestone !
 								</h2>
 							</div>
 							<div className="col-lg-3 col-sm-6 ">
