@@ -477,6 +477,23 @@ START: Blog CSS
 				}
 			}
 
+			.title-casestudy {
+				// max-width: 324px;
+				width: 100%;
+				font-weight: var(--tj-fw-sbold);
+				margin-bottom: 0;
+
+				
+				@media #{$xxl} {
+					width: calc(100% - 60px);
+				}
+
+				@media #{$xl, $lg, $md, $sm, $xs} {
+					max-width: 100%;
+					width: calc(100% - 60px);
+				}
+			}
+
 			@media #{$xl} {
 				padding: 30px 24px;
 			}
@@ -518,6 +535,39 @@ START: Blog CSS
 	.month {
 		display: block;
 		font-size: 14px;
+		color: var(--tj-color-common-white);
+		font-weight: var(--tj-fw-bold);
+		letter-spacing: 1.4px;
+		text-transform: uppercase;
+		line-height: 1;
+	}
+}
+
+.blog-date-sm {
+	position: absolute;
+	inset-inline-start: 15px;
+	top: 15px;
+	text-align: center;
+	background: rgba(255, 255, 255, 0.1);
+	backdrop-filter: blur(10px);
+	padding: 12px;
+	border-radius: 6px;
+	z-index: 2;
+
+	.date {
+		display: block;
+		font-family: var(--tj-ff-heading);
+		font-size: 24px;
+		color: var(--tj-color-common-white);
+		font-weight: var(--tj-fw-medium);
+		letter-spacing: -0.96px;
+		margin-bottom: 8px;
+		line-height: 1;
+	}
+
+	.month {
+		display: block;
+		font-size: 10px;
 		color: var(--tj-color-common-white);
 		font-weight: var(--tj-fw-bold);
 		letter-spacing: 1.4px;

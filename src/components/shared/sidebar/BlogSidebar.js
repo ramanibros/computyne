@@ -23,7 +23,7 @@ const BlogSidebar = ({ type }) => {
 				</div>
 			</div>
 			{/* <!-- recent post --> */}
-			<RecentBlogWidget />
+			{/* <RecentBlogWidget /> */}
 			{/* <!-- category --> */}
 			<BlogCategoriesWidget />
 			{/* <!-- tags --> */}

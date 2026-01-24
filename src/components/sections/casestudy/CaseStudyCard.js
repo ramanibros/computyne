@@ -5,42 +5,49 @@ import Link from "next/link";
 import ButtonPrimary from "@/components/shared/buttons/ButtonPrimary";
 
 const CaseStudyCard = ({ blog, idx }) => {
-	const { title, desc, id, img, category, date, day, month } = blog || {};
+	const { title, desc, id, slug, img, category, date, day, month } = blog || {};
 	return (
 		<div className="blog-item wow fadeInUp" data-wow-delay={`0.${idx + 1}s`}>
 			<div className="blog-thumb">
-				<Link href={`/casestudys/${id}`}>
+				<Link href={`/casestudies/${slug}`}>
 					{" "}
-					<Image
+					{/* <Image
 						src={img ? img : "/images/blog/blog-1.webp"}
 						alt="Images"
 						width={870}
 						height={450}
+					/> */}
+					<Image
+						src={img}
+						alt="Images"
+						fill
+						style={{ objectFit: "cover", objectPosition: "center" }}
+						sizes="(max-width: 768px) 100vw, 870px"
 					/>
 				</Link>
-				<div className="blog-date">
+				{/* <div className="blog-date">
 					<span className="date">{modifyNumber(day)}</span>
 					<span className="month">{month}</span>
-				</div>
+				</div> */}
 			</div>
 			<div className="blog-content">
 				<div className="blog-meta">
 					<span className="categories">
-						<Link href={`/casestudys?category=${makePath(category)}`}>
+						<Link href={`/casestudies?category=${makePath(category)}`}>
 							{" "}
 							{category}
 						</Link>
 					</span>
-					<span>
-						By <Link href={`/casestudys/${id}`}>Ellinien Loma</Link>
-					</span>
+					{/* <span>
+						By <Link href={`/casestudies/${slug}`}>Ellinien Loma</Link>
+					</span> */}
 				</div>
 				<h4 className="title">
-					<Link href={`/casestudys/${id}`}>{title}.</Link>
+					<Link href={`/casestudies/${slug}`}>{title}.</Link>
 				</h4>
 				<ButtonPrimary
 					text={"Read More"}
-					url={`/casestudys/${id}`}
+					url={`/casestudies/${slug}`}
 					isTextBtn={true}
 				/>
 			</div>

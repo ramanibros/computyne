@@ -5,9 +5,10 @@ import getBlogs from "@/libs/getBlogs";
 import {useEffect, useMemo} from "react";
 import CaseStudyCard from "@/components/sections/casestudy/CaseStudyCard";
 import CaseStudySidebar from "@/components/sections/casestudy/CaseStudySidebar";
+import getCaseStudy from "@/libs/getCaseStudies";
 
 const CaseStudyGrid = ({ isSidebar = false }) => {
-	const items = useMemo(() => getBlogs());
+	const items = useMemo(() => getCaseStudy());
 	const limit = 6;
 	// get pagination details
 	const {
