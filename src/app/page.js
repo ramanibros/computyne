@@ -9,8 +9,8 @@ import Process from "@/components/sections/home-page/Process";
 import Industries from "@/components/sections/home-page/Industries";
 import Testimonials from "@/components/sections/home-page/Testimonials";
 import Blogs from "@/components/sections/home-page/Blogs";
-import CallSchedule from "@/components/sections/home-page/CallSchedule";
 import Footer from "@/components/layout/footer/Footer";
+import SubFooter from "@/components/layout/footer/subFooter";
 
 
 /* ================================
@@ -91,7 +91,7 @@ export default function Home(){
 						<Industries/>
 						<Testimonials/>
 						<Blogs/>
-						<CallSchedule/>
+						<SubFooter/>
 					</main>
 					<Footer/>
 				</div>

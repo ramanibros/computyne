@@ -10,8 +10,8 @@ import Subservices from "@/components/sections/subservice/Subservices";
 import Casestudy from "@/components/sections/subservice/Casestudy";
 import Whychooseus from "@/components/sections/subservice/Whychooseus";
 import Faq from "@/components/sections/subservice/Faq";
-import CallSchedule from "@/components/sections/subservice/CallSchedule";
 import Footer from "@/components/layout/footer/Footer";
+import SubFooter from "@/components/layout/footer/subFooter";
 
 export default function industriesPage() {
     return (
@@ -32,7 +32,7 @@ export default function industriesPage() {
                         <Faq type={1}/>
                         <Testimonials/>
                         <Industries/>
-                        <CallSchedule/>
+                        <SubFooter/>
                     </main>
                     <Footer/>
                 </div>

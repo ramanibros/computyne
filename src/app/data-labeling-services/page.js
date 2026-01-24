@@ -11,9 +11,9 @@ import Faq from "@/components/sections/subservice/Faq";
 import Industries from "@/components/sections/subservice/Industries";
 import Casestudy from "@/components/sections/subservice/Casestudy";
 import Testimonials from "@/components/sections/subservice/Testimonials";
-import CallSchedule from "@/components/sections/subservice/CallSchedule";
 import JsonLd from "@/components/seo/JsonLd";
 import {dataLabelingAnnotationSchema} from "@/libs/schema/services/dataLabelingAnnotationSchema";
+import SubFooter from "@/components/layout/footer/subFooter";
 
 export default function dataExtractionServices() {
     
@@ -45,7 +45,7 @@ export default function dataExtractionServices() {
                             <Faq type={1} />
                             <Testimonials />
                             <Industries />
-                            <CallSchedule />
+                            <SubFooter />
                         </main>
                         <Footer />
                     </div>

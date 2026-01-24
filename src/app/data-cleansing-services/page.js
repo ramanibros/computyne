@@ -1,6 +1,5 @@
 import Footer from "@/components/layout/footer/Footer";
 import Header from "@/components/layout/header/Header";
-import CallSchedule from "@/components/sections/funfacts/CallSchedule";
 import BackToTop from "@/components/shared/others/BackToTop";
 import ClientWrapper from "@/components/shared/wrappers/ClientWrapper";
 import Aboutus from "@/components/sections/subservice/Aboutus";
@@ -12,8 +11,9 @@ import Faq from "@/components/sections/subservice/Faq";
 import Industries from "@/components/sections/subservice/Industries";
 import Casestudy from "@/components/sections/subservice/Casestudy";
 import Testimonials from "@/components/sections/subservice/Testimonials";
-import { dataCleansingServicesSchema } from "@/libs/schema/services/dataCleansingServicesSchema";
+import {dataCleansingServicesSchema} from "@/libs/schema/services/dataCleansingServicesSchema";
 import JsonLd from "@/components/seo/JsonLd";
+import SubFooter from "@/components/layout/footer/subFooter";
 
 export default function dataCleansingServices() {
     return (
@@ -39,7 +39,7 @@ export default function dataCleansingServices() {
                             <Faq type={1} />
                             <Testimonials />
                             <Industries />
-                            <CallSchedule />
+                            <SubFooter />
                         </main>
                         <Footer />
                     </div>

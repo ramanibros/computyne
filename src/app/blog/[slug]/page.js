@@ -1,14 +1,13 @@
 import Footer from "@/components/layout/footer/Footer";
 import Header from "@/components/layout/header/Header";
-import BlogDetailsMain from "@/components/layout/main/BlogDetailsMain";
 import BlogDetailsMain2 from "@/components/layout/main/BlogDetailsMain2";
-
-import CallSchedule from "@/components/sections/home-page/CallSchedule";
 import BackToTop from "@/components/shared/others/BackToTop";
 import HeaderSpace from "@/components/shared/others/HeaderSpace";
 import ClientWrapper from "@/components/shared/wrappers/ClientWrapper";
 import getBlogs from "@/libs/getBlogs";
-import { notFound } from "next/navigation";
+import {notFound} from "next/navigation";
+import SubFooter from "@/components/layout/footer/subFooter";
+
 const items = getBlogs();
 
 export default async function BlogDetails({ params }) {
@@ -36,7 +35,7 @@ export default async function BlogDetails({ params }) {
 						<HeaderSpace />
 						{/* <BlogDetailsMain currentItemId={parseInt(id)} /> */}
 						<BlogDetailsMain2 currentItem={currentItem} />
-						<CallSchedule />
+						<SubFooter />
 					</main>
 					<Footer />
 				</div>

@@ -4,8 +4,8 @@ import ClientWrapper from "@/components/shared/wrappers/ClientWrapper";
 import Hero from "@/components/sections/contact-page/Hero";
 import ContactCard from "@/components/sections/contact-page/ContactCard";
 import ContactLocation from "@/components/sections/contact-page/ContactLocation";
-import CallSchedule from "@/components/sections/contact-page/CallSchedule";
 import Footer from "@/components/layout/footer/Footer";
+import SubFooter from "@/components/layout/footer/subFooter";
 
 export default function Contact() {
 	return (
@@ -20,7 +20,7 @@ export default function Contact() {
 						<Hero title={"Get In Touch"} text={"Computyne is a specialized organization dedicated to delivering world-class business solutions with a focus on quality, efficiency, and innovation."} />
 						<ContactCard/>
 						<ContactLocation/>
-						<CallSchedule/>
+						<SubFooter/>
 					</main>
 					<Footer />
 				</div>
