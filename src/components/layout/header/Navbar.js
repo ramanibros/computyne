@@ -142,7 +142,7 @@ const Navbar = ({ headerType, isStickyHeader }) => {
 													<span>Quality Before You Commit.</span>
 													<Link
 														className="read-more feature-contact"
-														href="/contact"
+														href="/contact-us"
 													>
 														<span>Start a Free Pilot Project</span>
 													</Link>

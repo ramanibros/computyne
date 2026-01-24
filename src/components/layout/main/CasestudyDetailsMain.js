@@ -13,12 +13,13 @@ const CasestudyDetailsMain = ({ currentItem }) => {
 	const option = getPreviousNextItem(items, currentItem);
 
 	const { title, img } = currentItem || {};
+	console.log("CHECK THIS ", currentItem)
 	return (
 		<div>
 			<HeroInner
-				title={"Casestudy Details"}
+				title={title ? title : "Casestudy Details"}
 				text={title ? title : "Casestudy Details"}
-				breadcrums={[{ name: "Casestudys", path: "/casestudys" }]}
+				breadcrums={[{ name: "Case Studies", path: "/case-studies" }]}
 				bgImg={img}
 			/>
 			<CasestudyDetailsPrimary2 option={option} />

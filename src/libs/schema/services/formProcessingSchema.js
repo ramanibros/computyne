@@ -89,7 +89,7 @@ export const formProcessingSchema = {
         "https://www.computyne.com/wp-content/uploads/2023/01/computyne-logo.svg",
       "description":
         "End-to-end outsourced form processing services that eliminate manual handling, improve data accuracy, ensure compliance, and support scalable digital transformation initiatives.",
-      "url": "https://www.computyne.com/form-processing-services",
+      "url": "https://www.computyne.com/forms-processing-services",
       "brand": {
         "@type": "Brand",
         "name": "Computyne",

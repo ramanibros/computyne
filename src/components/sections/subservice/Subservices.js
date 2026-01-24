@@ -112,7 +112,7 @@ const Subservices = ({isDefaultSubServiceCard = true}) => {
 											Our team is always available for address expert concerns,
 											providing quick and effective solution to keep your business.
 										</p>
-										<Link className="text-btn" href="/contact">
+										<Link className="text-btn" href="/contact-us">
 											<span className="btn-text">
 												<span>Contact Us</span>
 											</span>
@@ -141,7 +141,7 @@ const Subservices = ({isDefaultSubServiceCard = true}) => {
 											Our team is always available for address expert concerns,
 											providing quick and effective solution to keep your business.
 										</p>
-										<Link className="text-btn" href="/contact">
+										<Link className="text-btn" href="/contact-us">
 											<span className="btn-text">
 												<span>Contact Us</span>
 											</span>
