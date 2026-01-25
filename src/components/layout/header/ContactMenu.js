@@ -34,12 +34,11 @@ const ContactMenu = ({ isContactOpen, setIsContactOpen }) => {
 						</div>
 						<div className="offcanvas-text">
 							<p>
-								Developing personalize our customer journeys to increase
-								satisfaction & loyalty of our expansion recognized by industry
-								leaders.
+								Empowering global enterprises with secure, scalable Data Processing and AI
+								Training solutions from India.
 							</p>
 						</div>
-						<div className="hamburger-search-area">
+						{/*<div className="hamburger-search-area">
 							<h5 className="hamburger-title">Search Now!</h5>
 							<div className="hamburger_search">
 								<form method="get" action="/">
@@ -54,26 +53,26 @@ const ContactMenu = ({ isContactOpen, setIsContactOpen }) => {
 									/>
 								</form>
 							</div>
-						</div>
+						</div>*/}
 						<div className="hamburger-infos">
 							<h5 className="hamburger-title">Contact Info</h5>
 							<div className="contact-info">
 								<div className="contact-item">
 									<span className="subtitle">Phone</span>
 									<Link className="contact-link" href="tel:10095447818">
-										+1 (009) 544-7818
+										000-000-0000
 									</Link>
 								</div>
 								<div className="contact-item">
 									<span className="subtitle">Email</span>
-									<Link className="contact-link" href="mailto:info@bexon.com">
-										info@bexon.com
+									<Link className="contact-link" href="mailto:info@computyne.com">
+										info@computyne.com
 									</Link>
 								</div>
 								<div className="contact-item">
 									<span className="subtitle">Location</span>
 									<span className="contact-link">
-										993 Renner Burg, West Rond, MT 94251-030
+										3/2, Alpha Arcade,Infocity Circle Gandhinagar 382010, India
 									</span>
 								</div>
 							</div>
@@ -84,24 +83,24 @@ const ContactMenu = ({ isContactOpen, setIsContactOpen }) => {
 						<div className="social-links style-3">
 							<ul>
 								<li>
-									<a href="https://www.facebook.com/" target="_blank">
+									<Link href="https://www.facebook.com/profile.php?id=100075815080008" target="_blank">
 										<i className="fa-brands fa-facebook-f"></i>
-									</a>
+									</Link>
 								</li>
 								<li>
-									<a href="https://www.instagram.com/" target="_blank">
-										<i className="fa-brands fa-instagram"></i>
-									</a>
+									<Link href="https://www.youtube.com/@computyne" target="_blank">
+										<i className="fa-brands fa-youtube"></i>
+									</Link>
 								</li>
 								<li>
-									<a href="https://x.com/" target="_blank">
+									<Link href="https://x.com/computyne" target="_blank">
 										<i className="fa-brands fa-x-twitter"></i>
-									</a>
+									</Link>
 								</li>
 								<li>
-									<a href="https://www.linkedin.com/" target="_blank">
+									<Link href="https://www.linkedin.com/company/computyne/" target="_blank">
 										<i className="fa-brands fa-linkedin-in"></i>
-									</a>
+									</Link>
 								</li>
 							</ul>
 						</div>

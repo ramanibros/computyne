@@ -182,17 +182,17 @@ const Footer = () => {
                                 <div className="social-links-mod">
                                     <ul>
                                         <li>
-                                            <Link href="https://www.facebook.com/" target="_blank">
+                                            <Link href="https://www.facebook.com/profile.php?id=100075815080008" target="_blank">
                                                 <i className="fa-brands fa-facebook-f"></i>
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="https://www.instagram.com/" target="_blank">
-                                                <i className="fa-brands fa-instagram"></i>
+                                            <Link href="https://www.youtube.com/@computyne" target="_blank">
+                                                <i className="fa-brands fa-youtube"></i>
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="https://x.com/" target="_blank">
+                                            <Link href="https://x.com/computyne" target="_blank">
                                                 <i className="fa-brands fa-x-twitter"></i>
                                             </Link>
                                         </li>
