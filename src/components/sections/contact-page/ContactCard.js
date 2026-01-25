@@ -46,34 +46,11 @@ const ContactCard = () => {
 									</div>
 									<div className="col-sm-6">
 										<div className="form-input">
-											<div className="tj-nice-select-box">
-												<div className="tj-select">
-													<ReactNiceSelect
-														selectedIndex={0}
-														options={[
-															{ value: "0", optionName: "Chose a option" },
-															{ value: "1", optionName: "Business Strategy" },
-															{ value: "2", optionName: "Customer Experience" },
-															{
-																value: "3",
-																optionName: "Sustainability and ESG",
-															},
-															{
-																value: "4",
-																optionName: "Training and Development",
-															},
-															{
-																value: "5",
-																optionName: "IT Support & Maintenance",
-															},
-															{
-																value: "6",
-																optionName: "Marketing Strategy",
-															},
-														]}
-													/>
-												</div>
-											</div>
+											<input
+												type="text"
+												name="cfSubject"
+												placeholder="Subject*"
+											/>
 										</div>
 									</div>
 									<div className="col-sm-12">
