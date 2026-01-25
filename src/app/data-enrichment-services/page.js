@@ -10,10 +10,10 @@ import Whychooseus from "@/components/sections/subservice/Whychooseus";
 import Faq from "@/components/sections/subservice/Faq";
 import Industries from "@/components/sections/subservice/Industries";
 import Casestudy from "@/components/sections/subservice/Casestudy";
-import Testimonials from "@/components/sections/subservice/Testimonials";
-import CallSchedule from "@/components/sections/subservice/CallSchedule";
-import { dataEnrichmentServicesSchema } from "@/libs/schema/services/dataEnrichmentServicesSchema";
+import {dataEnrichmentServicesSchema} from "@/libs/schema/services/dataEnrichmentServicesSchema";
 import JsonLd from "@/components/seo/JsonLd";
+import SubFooter from "@/components/layout/footer/subFooter";
+import Testimonials from "@/components/layout/common/Testimonials";
 
 export default function dataEnrichmentServices() {
     
@@ -45,7 +45,7 @@ export default function dataEnrichmentServices() {
                             <Faq type={1} />
                             <Testimonials />
                             <Industries />
-                            <CallSchedule />
+                            <SubFooter />
                         </main>
                         <Footer />
                     </div>

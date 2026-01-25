@@ -8,12 +8,11 @@ import Banner from "@/components/sections/subservice/Banner";
 import Counter from "@/components/sections/subservice/Counter";
 import Whychooseus from "@/components/sections/subservice/Whychooseus";
 import Faq from "@/components/sections/subservice/Faq";
-import Industries from "@/components/sections/subservice/Industries";
 import Casestudy from "@/components/sections/subservice/Casestudy";
-import Testimonials from "@/components/sections/subservice/Testimonials";
-import CallSchedule from "@/components/sections/subservice/CallSchedule";
 import JsonLd from "@/components/seo/JsonLd";
-import { multimodalAnnotationServicesSchema } from "@/libs/schema/services/multimodalAnnotationServicesSchema";
+import {multimodalAnnotationServicesSchema} from "@/libs/schema/services/multimodalAnnotationServicesSchema";
+import SubFooter from "@/components/layout/footer/subFooter";
+import Testimonials from "@/components/layout/common/Testimonials";
 
 export default function healthcare() {
     
@@ -45,7 +44,7 @@ export default function healthcare() {
                             <Testimonials />
                             <Faq type={1} />
                             {/* <Industries /> */}
-                            <CallSchedule />
+                            <SubFooter />
                         </main>
                         <Footer />
                     </div>
