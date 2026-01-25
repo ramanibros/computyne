@@ -18,11 +18,6 @@ const Blogs = () => {
 										The Ultimate <span>Resource.</span>
 									</h2>
 								</div>
-								{/*<div className="wow fadeInUp" data-wow-delay=".5s">
-									<p className="desc">
-										Our specialists deliver scalable data outsourcing to manage, optimize, and leverage your data for real business results.
-									</p>
-								</div>*/}
 							</div>
 						</div>
 					</div>
