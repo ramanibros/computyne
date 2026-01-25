@@ -101,16 +101,16 @@ const Footer = () => {
                                 <h5 className="title">Resources</h5>
                                 <ul>
                                     <li>
-                                        <Link href="/about">About Us</Link>
+                                        <Link href="/about-us">About Us</Link>
                                     </li>
                                     <li>
-                                        <Link href="#">Case Studies</Link>
+                                        <Link href="/case-studies">Case Studies</Link>
                                     </li>
                                     <li>
                                         <Link href="/blogs">Blogs</Link>
                                     </li>
                                     <li>
-                                        <Link href="/contact">Contact us</Link>
+                                        <Link href="/contact-us">Contact us</Link>
                                     </li>
                                 </ul>
                             </div>
@@ -125,20 +125,20 @@ const Footer = () => {
                                 <div className="footer-contact-info">
                                     <div className="contact-item">
 										<span>
-											993 Renner Burg, West Rond, MT 94251-030, USA.
+											3/2, Alpha Arcade,Infocity Circle Gandhinagar 382010, India
 										</span>
                                     </div>
                                     <div className="contact-item">
-                                        <Link href="tel:10095447818">
+                                        <Link href="tel:000-000-0000">
 											<span>
-													<i className="tji-phone"></i> +1 (009) 544-7818
+													<i className="tji-phone"></i> 000-000-0000
 											</span>
                                         </Link>
                                     </div>
                                     <div className="contact-item">
-                                        <Link href="mailto:support@bexon.com">
+                                        <Link href="mailto:support@computyne.com">
 											<span>
-													<i className="tji-envelop"></i> support@bexon.com
+													<i className="tji-envelop"></i> support@computyne.com
 											</span>
                                         </Link>
                                     </div>
@@ -162,19 +162,19 @@ const Footer = () => {
                                 <div className="footer-contact-mod">
                                     <ul>
                                         <li>
-                                            <Link href="tel:10095447818">
+                                            <Link href="tel:000-000-0000">
 												<span className="icon">
 													<i className="tji-phone-2"></i>
 												</span>
-                                                <span className="text">+1 (009) 544-7818</span>
+                                                <span className="text">000-000-0000</span>
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="mailto:info@bexon.com">
+                                            <Link href="mailto:info@computyne.com">
 												<span className="icon">
 													<i className="tji-envelop-2"></i>
 												</span>
-                                                <span className="text">info@bexon.com</span>
+                                                <span className="text">info@computyne.com</span>
                                             </Link>
                                         </li>
                                     </ul>

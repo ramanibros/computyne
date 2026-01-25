@@ -1,4 +1,696 @@
 {
+    "data-collection-services": {
+        "h2": "Scalable Data Collection Solutions for Modern Enterprises",
+        "desc": "We offer secure, scalable outsourced data collection solutions that support AI training, market intelligence, and real-time business decisions.",
+        "services": [
+            {
+                "id": 1,
+                "title": "Data Extraction Services",
+                "desc": "Structured data collected from digital sources and delivered in analytics-ready formats.",
+                "url": "/data-extraction-services",
+                "data": [
+                    {
+                        "value": "Fast, automated extraction workflows"
+                    },
+                    {
+                        "value": "Multi-format delivery (CSV, JSON, Excel, API feeds)"
+                    },
+                    {
+                        "value": "Accuracy-driven validation processes"
+                    },
+                    {
+                        "value": "Optimized for large and recurring datasets"
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "title": "Data Mining Services",
+                "desc": "Advanced data analysis to uncover trends, patterns, and actionable business opportunities.",
+                "url": "/data-mining-services",
+                "data": [
+                    {
+                        "value": "Predictive insights for strategic planning"
+                    },
+                    {
+                        "value": "Customer and market pattern identification"
+                    },
+                    {
+                        "value": "Business intelligence enablement"
+                    },
+                    {
+                        "value": "Opportunity discovery and reporting"
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "title": "Web Research Services",
+                "desc": "Manually verified research compiled from credible, industry-specific sources.",
+                "url": "/web-research-services",
+                "data": [
+                    {
+                        "value": "Market and industry research reports"
+                    },
+                    {
+                        "value": "Competitive and sector benchmarking"
+                    },
+                    {
+                        "value": "Verified statistics and insights"
+                    },
+                    {
+                        "value": "High-trust research outputs"
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "title": "List Building & B2B Contact Data Collection",
+                "desc": "Targeted business contact datasets for sales, marketing, and ABM initiatives.",
+                "url": "/list-building-services",
+                "data": [
+                    {
+                        "value": "Verified B2B contact information"
+                    },
+                    {
+                        "value": "Role-, region-, and industry-based segmentation"
+                    },
+                    {
+                        "value": "Optimized for outreach and lead generation"
+                    },
+                    {
+                        "value": "Improved engagement and conversion rates"
+                    }
+                ]
+            },
+            {
+                "id": 5,
+                "title": "Web Scraping Services",
+                "desc": "Automated web data gathering solutions designed for high-volume and real-time data needs.",
+                "url": "/web-scraping-services",
+                "data": [
+                    {
+                        "value": "Enterprise-grade web scraping automation"
+                    },
+                    {
+                        "value": "Competitor and market monitoring"
+                    },
+                    {
+                        "value": "Product catalog and pricing extraction"
+                    },
+                    {
+                        "value": "Cloud-based data harvesting tools"
+                    }
+                ]
+            },
+            {
+                "id": 6,
+                "title": "Property Data Collection Solutions",
+                "desc": "Comprehensive real estate data sourcing with compliance, accuracy, and scalability.",
+                "url": "/property-data-collection-services",
+                "data": [
+                    {
+                        "value": "MLS listings and property data capture"
+                    },
+                    {
+                        "value": "Scheduled updates and live data feeds"
+                    },
+                    {
+                        "value": "Zoning and permitted-use classification"
+                    },
+                    {
+                        "value": "Property, agent, and locality datasets"
+                    }
+                ]
+            }
+        ]
+    },
+    "data-management-services": {
+        "h2": "Managed Data Services for Enterprise Accuracy and Performance",
+        "desc": "We deliver customizable data management services to organize, maintain, and protect mission-critical business information securely.",
+        "services": [
+            {
+                "id": 1,
+                "title": "Data Enrichment Services",
+                "desc": "Enhance existing databases with missing insights, updated business attributes, and enriched information for stronger outcomes.",
+                "url": "/data-enrichment-services",
+                "data": [
+                    {
+                        "value": "Fill missing fields using verified sources"
+                    },
+                    {
+                        "value": "Improve customer and lead profiles"
+                    },
+                    {
+                        "value": "Strengthen segmentation and personalization"
+                    },
+                    {
+                        "value": "Unlock deeper analytics and decision-support"
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "title": "Data Cleansing Services",
+                "desc": "Maintain clean, error-free datasets with automated and manual quality control checkpoints.",
+                "url": "/data-cleansing-services",
+                "data": [
+                    {
+                        "value": "Remove duplicates and inconsistencies"
+                    },
+                    {
+                        "value": "Correct formatting and field structures"
+                    },
+                    {
+                        "value": "Update outdated entries in real-time"
+                    },
+                    {
+                        "value": "Improve accuracy for analytics and reporting"
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "title": "Data Appending Services",
+                "desc": "Append missing contact, demographic, and transactional information to maximize database completeness.",
+                "url": "/data-appending-services",
+                "data": [
+                    {
+                        "value": "Add phone numbers, email addresses, and postal data"
+                    },
+                    {
+                        "value": "Enhance customer segmentation"
+                    },
+                    {
+                        "value": "Expand datasets with verified attributes"
+                    },
+                    {
+                        "value": "Improve operational and campaign performance"
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "title": "Data Validation Services",
+                "desc": "Verify and authenticate business data using rule-based checks to ensure accuracy, legitimacy, and reliability.",
+                "url": "/data-validation-services",
+                "data": [
+                    {
+                        "value": "Automated rule-based validation"
+                    },
+                    {
+                        "value": "Cross-checks with authoritative data sources"
+                    },
+                    {
+                        "value": "Flag and fix inconsistencies"
+                    },
+                    {
+                        "value": "Improve confidence in reporting"
+                    }
+                ]
+            },
+            {
+                "id": 5,
+                "title": "Data Standardization Services",
+                "desc": "Deliver clean, uniform, and consistent data across all systems, essential for automation and integration.",
+                "url": "/data-standarization-services",
+                "data": [
+                    {
+                        "value": "Apply naming conventions and governance"
+                    },
+                    {
+                        "value": "Convert formats into standardized templates"
+                    },
+                    {
+                        "value": "Improve processing and system compatibility"
+                    },
+                    {
+                        "value": "Support enterprise-wide integrations"
+                    }
+                ]
+            },
+            {
+                "id": 6,
+                "title": "Data Hygiene Management",
+                "desc": "Maintain ongoing data cleanliness by continuously refreshing, updating, and purging low-value or irrelevant information.",
+                "url": "/data-hygiene-services",
+                "data": [
+                    {
+                        "value": "Identify low-value or outdated records"
+                    },
+                    {
+                        "value": "Perform scheduled data refresh cycles"
+                    },
+                    {
+                        "value": "Increase ROI of business databases"
+                    },
+                    {
+                        "value": "Support confident analytics delivery"
+                    }
+                ]
+            },
+            {
+                "id": 7,
+                "title": "Competitor Analysis & Intelligence Data",
+                "desc": "Identify competitor strengths, pricing strategies, and market gaps to support strategic growth-focused decision-making.",
+                "url": "/competitor-analysis-services",
+                "data": [
+                    {
+                        "value": "Monitor competitor activity using analytics"
+                    },
+                    {
+                        "value": "Discover opportunities through detailed benchmarking"
+                    },
+                    {
+                        "value": "Analyze pricing and positioning trends"
+                    },
+                    {
+                        "value": "Support leadership with strategic intelligence"
+                    }
+                ]
+            }
+        ]
+    },
+    "data-annotation-services": {
+        "h2": "Comprehensive Data Annotation Capabilities",
+        "desc": "We cover the full spectrum of training data requirements using domain-specific expertise.",
+        "services": [
+            {
+                "id": 1,
+                "title": "Text Annotation & NLP Services",
+                "desc": "Structured text labeling for NLP and language models, ensuring consistent entities, intent detection, multilingual coverage, and validated linguistic accuracy.",
+                "url": "/text-annotation-services",
+                "data": []
+            },
+            {
+                "id": 2,
+                "title": "Image Annotation for Computer Vision",
+                "desc": "High-precision visual labeling using bounding boxes, polygons, and segmentation to support reliable object detection and computer vision models.",
+                "url": "/image-annotation-services",
+                "data": []
+            },
+            {
+                "id": 3,
+                "title": "Data Labeling Services",
+                "desc": "Consistent labeling across structured and unstructured data, supporting supervised learning through standardized attributes, reviews, and quality controls.",
+                "url": "/data-labeling-services",
+                "data": []
+            },
+            {
+                "id": 4,
+                "title": "Video Annotation and Tracking",
+                "desc": "Frame-level video annotation for object tracking and action recognition, maintaining temporal consistency across large-scale, high-frame-rate datasets.",
+                "url": "/video-annotation-services",
+                "data": []
+            },
+            {
+                "id": 5,
+                "title": "Multimodal Data Annotation",
+                "desc": "Unified annotation across text, image, audio, and video data, enabling aligned multimodal training for advanced AI and foundation models.",
+                "url": "/multimodal-annotation-services",
+                "data": []
+            }
+        ]
+    },
+    "document-processing-services": {
+        "h2": "Convert High-Volume Raw Data into Decision-Ready Intelligence",
+        "desc": "High-volume raw data is processed, validated, and structured to deliver accurate, decision-ready business intelligence.",
+        "services": [
+            {
+                "id": 1,
+                "title": "Freight Audit Services",
+                "desc": "Automated freight audit services that validate carrier invoices, eliminate billing errors, and strengthen cost control.",
+                "url": "/freight-audit-services",
+                "data": [
+                    {
+                        "value": "Carrier invoice verification and discrepancy resolution"
+                    },
+                    {
+                        "value": "Rate compliance checks against contract agreements"
+                    },
+                    {
+                        "value": "Duplicate payment detection and recovery support"
+                    },
+                    {
+                        "value": "Detailed freight spend analytics and reporting dashboards"
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "title": "Invoice Processing Services",
+                "desc": "Automated invoice processing services that streamline data capture, validation, and approvals for faster payment cycles.",
+                "url": "/invoice-processing-services",
+                "data": [
+                    {
+                        "value": "Automated invoice data extraction workflows"
+                    },
+                    {
+                        "value": "Three-way matching accuracy controls"
+                    },
+                    {
+                        "value": "Exception handling and approval routing automation"
+                    },
+                    {
+                        "value": "ERP-ready invoice processing output formats"
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "title": "Resume Formatting Services",
+                "desc": "Professional resume formatting services that standardize layouts, improve readability, and ensure ATS compatibility.",
+                "url": "/resume-formatting-services",
+                "data": [
+                    {
+                        "value": "ATS-compliant resume formatting standards"
+                    },
+                    {
+                        "value": "Consistent fonts, spacing, and section hierarchy"
+                    },
+                    {
+                        "value": "Bulk resume formatting at scale"
+                    },
+                    {
+                        "value": "Quality checks for formatting accuracy assurance"
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "title": "Forms Processing Services",
+                "desc": "Accurate extraction of structured data from applications, surveys, and business forms at scale.",
+                "url": "/forms-processing-services",
+                "data": [
+                    {
+                        "value": "OCR-based forms data extraction technology"
+                    },
+                    {
+                        "value": "Validation rules for form completeness checks"
+                    },
+                    {
+                        "value": "High-volume forms processing automation"
+                    },
+                    {
+                        "value": "Secure handling of sensitive form data"
+                    }
+                ]
+            },
+            {
+                "id": 5,
+                "title": "Document Digitization Services",
+                "desc": "Conversion of paper records into searchable, secure, and compliant digital archives.",
+                "url": "/document-digitization-services",
+                "data": [
+                    {
+                        "value": "Paper-to-digital document conversion services"
+                    },
+                    {
+                        "value": "Indexing and metadata tagging for retrieval efficiency"
+                    },
+                    {
+                        "value": "Secure digital document storage platforms"
+                    },
+                    {
+                        "value": "Compliance-aligned digitization quality control standards"
+                    }
+                ]
+            },
+            {
+                "id": 6,
+                "title": "Data Analytics & Reporting Services",
+                "desc": "Transformation of processed data into actionable business intelligence through advanced analytics and reporting.",
+                "url": "#",
+                "data": [
+                    {
+                        "value": "Advanced analytics models for decision-making"
+                    },
+                    {
+                        "value": "Custom dashboards and performance reporting"
+                    },
+                    {
+                        "value": "Real-time data visualization capabilities"
+                    },
+                    {
+                        "value": "ML-powered insights and trend analysis"
+                    }
+                ]
+            }
+        ]
+    },
+    "data-entry-services": {
+        "h2": "Core Data Entry Outsourcing Services We Deliver",
+        "desc": "We provide accurate, secure, and scalable outsourced data entry solutions designed to support large volumes, industry-specific requirements, and enterprise-grade workflows.",
+        "services": [
+            {
+                "id": 1,
+                "title": "Online & Offline Data Entry Services",
+                "desc": "Accurate online and offline data capture with consistent formatting and secure handling across enterprise systems.",
+                "url": "#",
+                "data": [
+                    {
+                        "value": "Accurate online and offline data capture across systems"
+                    },
+                    {
+                        "value": "Consistent formatting and structured data organization"
+                    },
+                    {
+                        "value": "Secure handling of confidential business information"
+                    },
+                    {
+                        "value": "Scalable support for bulk and large-volume data entry"
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "title": "Image and Document Data Entry",
+                "desc": "Extraction and digitization of data from scanned images and documents into clean, searchable formats.",
+                "url": "/image-data-entry-services",
+                "data": [
+                    {
+                        "value": "Data extraction from scanned images and documents"
+                    },
+                    {
+                        "value": "OCR data entry with manual quality validation"
+                    },
+                    {
+                        "value": "Clean, searchable, and structured digital records"
+                    },
+                    {
+                        "value": "Error-free conversion for system integration"
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "title": "Logistics Data Entry Services",
+                "desc": "Accurate logistics and supply chain data entry to support faster operations and better visibility.",
+                "url": "/logistics-data-entry-services",
+                "data": [
+                    {
+                        "value": "Shipment, freight, and delivery data processing"
+                    },
+                    {
+                        "value": "Inventory, order, and supply chain data entry"
+                    },
+                    {
+                        "value": "Faster billing, reconciliation, and reporting"
+                    },
+                    {
+                        "value": "Improved operational visibility"
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "title": "Bill of Lading Data Entry",
+                "desc": "Precise shipping and freight documentation entry to reduce errors and ensure trade compliance.",
+                "url": "/bill-of-lading-data-entry-services",
+                "data": [
+                    {
+                        "value": "Precise shipping and freight documentation entry"
+                    },
+                    {
+                        "value": "Reduced customs and compliance errors"
+                    },
+                    {
+                        "value": "Faster verification and processing cycles"
+                    },
+                    {
+                        "value": "Trade-compliant logistics data"
+                    }
+                ]
+            },
+            {
+                "id": 5,
+                "title": "Appraisal & Valuation Data Entry",
+                "desc": "Accurate appraisal and valuation data capture to support audits, compliance, and financial analysis.",
+                "url": "/appraisal-data-entry-services",
+                "data": [
+                    {
+                        "value": "Accurate appraisal and valuation data capture"
+                    },
+                    {
+                        "value": "Standardized records for audits and compliance"
+                    },
+                    {
+                        "value": "Reliable datasets for financial analysis"
+                    },
+                    {
+                        "value": "Improved reporting accuracy"
+                    }
+                ]
+            },
+            {
+                "id": 6,
+                "title": "Real Estate Property Listing Data Entry",
+                "desc": "Structured property listing data entry ensuring consistency across MLS and real estate platforms.",
+                "url": "/real-estate-property-listing-services",
+                "data": [
+                    {
+                        "value": "Structured property listing and pricing entry"
+                    },
+                    {
+                        "value": "Consistent formats across MLS and platforms"
+                    },
+                    {
+                        "value": "Improved discoverability and lead quality"
+                    },
+                    {
+                        "value": "Faster updates and listing management"
+                    }
+                ]
+            }
+        ]
+    },
+    "data-solutions-services": {
+        "h2": "Custom Data Services Designed for Operational and Analytical Needs",
+        "desc": "Comprehensive outsourced solutions designed to organize, process, and manage business data with precision and security.",
+        "services": [
+            {
+                "id": 1,
+                "title": "Data Collection Services",
+                "desc": "Fast, accurate, and scalable data acquisition empowering leadership, analytics, automation, and AI initiatives.",
+                "url": "#",
+                "data": [
+                    {
+                        "value": "Automated and API-based extraction for real-time business insights"
+                    },
+                    {
+                        "value": "Clean datasets optimized for market research and analytics"
+                    },
+                    {
+                        "value": "Scalable acquisition across industries and geographies"
+                    },
+                    {
+                        "value": "Cost-efficient outsourcing reducing internal resource burden"
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "title": "Data Management Services",
+                "desc": "Centralized, structured, and compliant data management services streamlining enterprise data operations.",
+                "url": "#",
+                "data": [
+                    {
+                        "value": "Unified platforms to standardize and govern business information"
+                    },
+                    {
+                        "value": "Accurate data fueling analytics and intelligence"
+                    },
+                    {
+                        "value": "Automated workflows reducing staffing and IT overhead"
+                    },
+                    {
+                        "value": "Secure storage supporting GDPR-aligned and ISO-certified processing"
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "title": "Data Entry Services",
+                "desc": "Scalable offshore data entry services eliminating manual backlogs and supporting high-volume processing.",
+                "url": "#",
+                "data": [
+                    {
+                        "value": "Fast turnaround with dedicated enterprise-level support"
+                    },
+                    {
+                        "value": "Bulk data entry outsourcing for large-scale operations"
+                    },
+                    {
+                        "value": "Encrypted and NDA-protected workflows"
+                    },
+                    {
+                        "value": "Cost-effective offshore services reducing operational costs"
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "title": "Data Annotation Services",
+                "desc": "Expertly labeled training data accelerating AI, ML, GenAI, computer vision, NLP, and automation models.",
+                "url": "#",
+                "data": [
+                    {
+                        "value": "End-to-end annotation for image, text, audio, and video datasets"
+                    },
+                    {
+                        "value": "Multi-tier accuracy validation ensuring 99%+ quality"
+                    },
+                    {
+                        "value": "Scalable outsourcing for high-volume AI datasets"
+                    },
+                    {
+                        "value": "SLA-backed delivery, confidentiality, and flexible pricing"
+                    }
+                ]
+            },
+            {
+                "id": 5,
+                "title": "Web Scraping & Acquisition Services",
+                "desc": "Automated web crawling and extraction services delivering real-time competitive, product, and market intelligence.",
+                "url": "#",
+                "data": [
+                    {
+                        "value": "Automated and scalable data extraction"
+                    },
+                    {
+                        "value": "Structured outputs enabling faster insights"
+                    },
+                    {
+                        "value": "API-based data extraction options"
+                    },
+                    {
+                        "value": "Low-cost outsourced data acquisition"
+                    }
+                ]
+            },
+            {
+                "id": 6,
+                "title": "CRM & Database Services",
+                "desc": "Precision-driven CRM and database services enhancing data quality, visibility, and usability.",
+                "url": "#",
+                "data": [
+                    {
+                        "value": "CRM data cleanup and enrichment services"
+                    },
+                    {
+                        "value": "Database management outsourcing"
+                    },
+                    {
+                        "value": "Data conversion and digitization services"
+                    },
+                    {
+                        "value": "Document scanning and indexing for paper-to-digital transformation"
+                    }
+                ]
+            }
+        ]
+    },
+
     "data-extraction-services": {
         "h2": "End-to-End Data Extraction Solutions for Business Intelligence",
         "desc": "By choosing to outsource data extraction, organizations reduce costs, improve data reliability, and gain faster access to insights, enabling confident, data-driven decision-making across the enterprise.",
@@ -543,132 +1235,6 @@
             }
         ]
     },
-    "data-collection-services": {
-        "h2": "Scalable Data Collection Solutions for Modern Enterprises",
-        "desc": "We offer secure, scalable outsourced data collection solutions that support AI training, market intelligence, and real-time business decisions.",
-        "services": [
-            {
-                "id": 1,
-                "title": "Data Extraction Services",
-                "desc": "Structured data collected from digital sources and delivered in analytics-ready formats.",
-                "url": "#",
-                "data": [
-                    {
-                        "value": "Fast, automated extraction workflows"
-                    },
-                    {
-                        "value": "Multi-format delivery (CSV, JSON, Excel, API feeds)"
-                    },
-                    {
-                        "value": "Accuracy-driven validation processes"
-                    },
-                    {
-                        "value": "Optimized for large and recurring datasets"
-                    }
-                ]
-            },
-            {
-                "id": 2,
-                "title": "Data Mining Services",
-                "desc": "Advanced data analysis to uncover trends, patterns, and actionable business opportunities.",
-                "url": "#",
-                "data": [
-                    {
-                        "value": "Predictive insights for strategic planning"
-                    },
-                    {
-                        "value": "Customer and market pattern identification"
-                    },
-                    {
-                        "value": "Business intelligence enablement"
-                    },
-                    {
-                        "value": "Opportunity discovery and reporting"
-                    }
-                ]
-            },
-            {
-                "id": 3,
-                "title": "Web Research Services",
-                "desc": "Manually verified research compiled from credible, industry-specific sources.",
-                "url": "#",
-                "data": [
-                    {
-                        "value": "Market and industry research reports"
-                    },
-                    {
-                        "value": "Competitive and sector benchmarking"
-                    },
-                    {
-                        "value": "Verified statistics and insights"
-                    },
-                    {
-                        "value": "High-trust research outputs"
-                    }
-                ]
-            },
-            {
-                "id": 4,
-                "title": "List Building & B2B Contact Data Collection",
-                "desc": "Targeted business contact datasets for sales, marketing, and ABM initiatives.",
-                "url": "#",
-                "data": [
-                    {
-                        "value": "Verified B2B contact information"
-                    },
-                    {
-                        "value": "Role-, region-, and industry-based segmentation"
-                    },
-                    {
-                        "value": "Optimized for outreach and lead generation"
-                    },
-                    {
-                        "value": "Improved engagement and conversion rates"
-                    }
-                ]
-            },
-            {
-                "id": 5,
-                "title": "Web Scraping Services",
-                "desc": "Automated web data gathering solutions designed for high-volume and real-time data needs.",
-                "url": "#",
-                "data": [
-                    {
-                        "value": "Enterprise-grade web scraping automation"
-                    },
-                    {
-                        "value": "Competitor and market monitoring"
-                    },
-                    {
-                        "value": "Product catalog and pricing extraction"
-                    },
-                    {
-                        "value": "Cloud-based data harvesting tools"
-                    }
-                ]
-            },
-            {
-                "id": 6,
-                "title": "Property Data Collection Solutions",
-                "desc": "Comprehensive real estate data sourcing with compliance, accuracy, and scalability.",
-                "url": "#",
-                "data": [
-                    {
-                        "value": "MLS listings and property data capture"
-                    },
-                    {
-                        "value": "Scheduled updates and live data feeds"
-                    },
-                    {
-                        "value": "Zoning and permitted-use classification"
-                    },
-                    {
-                        "value": "Property, agent, and locality datasets"
-                    }
-                ]
-            }
-        ]
-    },
     "data-enrichment-services": {
         "h2": "Data Enrichment Services for Accurate, Actionable, and Decision-Ready Business Intelligence",
         "desc": "Our data enrichment solutions enhance existing datasets with verified insights, improving accuracy, relevance, and usability across business functions.",
@@ -795,132 +1361,6 @@
             }
         ]
     },
-    "data-entry-services": {
-        "h2": "Core Data Entry Outsourcing Services We Deliver",
-        "desc": "We provide accurate, secure, and scalable outsourced data entry solutions designed to support large volumes, industry-specific requirements, and enterprise-grade workflows.",
-        "services": [
-            {
-                "id": 1,
-                "title": "Online & Offline Data Entry Services",
-                "desc": "Accurate online and offline data capture with consistent formatting and secure handling across enterprise systems.",
-                "url": "#",
-                "data": [
-                    {
-                        "value": "Accurate online and offline data capture across systems"
-                    },
-                    {
-                        "value": "Consistent formatting and structured data organization"
-                    },
-                    {
-                        "value": "Secure handling of confidential business information"
-                    },
-                    {
-                        "value": "Scalable support for bulk and large-volume data entry"
-                    }
-                ]
-            },
-            {
-                "id": 2,
-                "title": "Image and Document Data Entry",
-                "desc": "Extraction and digitization of data from scanned images and documents into clean, searchable formats.",
-                "url": "#",
-                "data": [
-                    {
-                        "value": "Data extraction from scanned images and documents"
-                    },
-                    {
-                        "value": "OCR data entry with manual quality validation"
-                    },
-                    {
-                        "value": "Clean, searchable, and structured digital records"
-                    },
-                    {
-                        "value": "Error-free conversion for system integration"
-                    }
-                ]
-            },
-            {
-                "id": 3,
-                "title": "Logistics Data Entry Services",
-                "desc": "Accurate logistics and supply chain data entry to support faster operations and better visibility.",
-                "url": "#",
-                "data": [
-                    {
-                        "value": "Shipment, freight, and delivery data processing"
-                    },
-                    {
-                        "value": "Inventory, order, and supply chain data entry"
-                    },
-                    {
-                        "value": "Faster billing, reconciliation, and reporting"
-                    },
-                    {
-                        "value": "Improved operational visibility"
-                    }
-                ]
-            },
-            {
-                "id": 4,
-                "title": "Bill of Lading Data Entry",
-                "desc": "Precise shipping and freight documentation entry to reduce errors and ensure trade compliance.",
-                "url": "#",
-                "data": [
-                    {
-                        "value": "Precise shipping and freight documentation entry"
-                    },
-                    {
-                        "value": "Reduced customs and compliance errors"
-                    },
-                    {
-                        "value": "Faster verification and processing cycles"
-                    },
-                    {
-                        "value": "Trade-compliant logistics data"
-                    }
-                ]
-            },
-            {
-                "id": 5,
-                "title": "Appraisal & Valuation Data Entry",
-                "desc": "Accurate appraisal and valuation data capture to support audits, compliance, and financial analysis.",
-                "url": "#",
-                "data": [
-                    {
-                        "value": "Accurate appraisal and valuation data capture"
-                    },
-                    {
-                        "value": "Standardized records for audits and compliance"
-                    },
-                    {
-                        "value": "Reliable datasets for financial analysis"
-                    },
-                    {
-                        "value": "Improved reporting accuracy"
-                    }
-                ]
-            },
-            {
-                "id": 6,
-                "title": "Real Estate Property Listing Data Entry",
-                "desc": "Structured property listing data entry ensuring consistency across MLS and real estate platforms.",
-                "url": "#",
-                "data": [
-                    {
-                        "value": "Structured property listing and pricing entry"
-                    },
-                    {
-                        "value": "Consistent formats across MLS and platforms"
-                    },
-                    {
-                        "value": "Improved discoverability and lead quality"
-                    },
-                    {
-                        "value": "Faster updates and listing management"
-                    }
-                ]
-            }
-        ]
-    },
     "data-hygiene-services": {
         "h2": "Reliable Data Hygiene Services That Support Better Decisions and Lower Costs",
         "desc": "We deliver ongoing data hygiene services ensuring accurate, consistent enterprise data while reducing operational costs and risk.",
@@ -1042,152 +1482,6 @@
                     },
                     {
                         "value": "Long-term data quality assurance"
-                    }
-                ]
-            }
-        ]
-    },
-    "data-management-services": {
-        "h2": "Managed Data Services for Enterprise Accuracy and Performance",
-        "desc": "We deliver customizable data management services to organize, maintain, and protect mission-critical business information securely.",
-        "services": [
-            {
-                "id": 1,
-                "title": "Data Enrichment Services",
-                "desc": "Enhance existing databases with missing insights, updated business attributes, and enriched information for stronger outcomes.",
-                "url": "#",
-                "data": [
-                    {
-                        "value": "Fill missing fields using verified sources"
-                    },
-                    {
-                        "value": "Improve customer and lead profiles"
-                    },
-                    {
-                        "value": "Strengthen segmentation and personalization"
-                    },
-                    {
-                        "value": "Unlock deeper analytics and decision-support"
-                    }
-                ]
-            },
-            {
-                "id": 2,
-                "title": "Data Cleansing Services",
-                "desc": "Maintain clean, error-free datasets with automated and manual quality control checkpoints.",
-                "url": "#",
-                "data": [
-                    {
-                        "value": "Remove duplicates and inconsistencies"
-                    },
-                    {
-                        "value": "Correct formatting and field structures"
-                    },
-                    {
-                        "value": "Update outdated entries in real-time"
-                    },
-                    {
-                        "value": "Improve accuracy for analytics and reporting"
-                    }
-                ]
-            },
-            {
-                "id": 3,
-                "title": "Data Appending Services",
-                "desc": "Append missing contact, demographic, and transactional information to maximize database completeness.",
-                "url": "#",
-                "data": [
-                    {
-                        "value": "Add phone numbers, email addresses, and postal data"
-                    },
-                    {
-                        "value": "Enhance customer segmentation"
-                    },
-                    {
-                        "value": "Expand datasets with verified attributes"
-                    },
-                    {
-                        "value": "Improve operational and campaign performance"
-                    }
-                ]
-            },
-            {
-                "id": 4,
-                "title": "Data Validation Services",
-                "desc": "Verify and authenticate business data using rule-based checks to ensure accuracy, legitimacy, and reliability.",
-                "url": "#",
-                "data": [
-                    {
-                        "value": "Automated rule-based validation"
-                    },
-                    {
-                        "value": "Cross-checks with authoritative data sources"
-                    },
-                    {
-                        "value": "Flag and fix inconsistencies"
-                    },
-                    {
-                        "value": "Improve confidence in reporting"
-                    }
-                ]
-            },
-            {
-                "id": 5,
-                "title": "Data Standardization Services",
-                "desc": "Deliver clean, uniform, and consistent data across all systems, essential for automation and integration.",
-                "url": "#",
-                "data": [
-                    {
-                        "value": "Apply naming conventions and governance"
-                    },
-                    {
-                        "value": "Convert formats into standardized templates"
-                    },
-                    {
-                        "value": "Improve processing and system compatibility"
-                    },
-                    {
-                        "value": "Support enterprise-wide integrations"
-                    }
-                ]
-            },
-            {
-                "id": 6,
-                "title": "Data Hygiene Management",
-                "desc": "Maintain ongoing data cleanliness by continuously refreshing, updating, and purging low-value or irrelevant information.",
-                "url": "#",
-                "data": [
-                    {
-                        "value": "Identify low-value or outdated records"
-                    },
-                    {
-                        "value": "Perform scheduled data refresh cycles"
-                    },
-                    {
-                        "value": "Increase ROI of business databases"
-                    },
-                    {
-                        "value": "Support confident analytics delivery"
-                    }
-                ]
-            },
-            {
-                "id": 7,
-                "title": "Competitor Analysis & Intelligence Data",
-                "desc": "Identify competitor strengths, pricing strategies, and market gaps to support strategic growth-focused decision-making.",
-                "url": "#",
-                "data": [
-                    {
-                        "value": "Monitor competitor activity using analytics"
-                    },
-                    {
-                        "value": "Discover opportunities through detailed benchmarking"
-                    },
-                    {
-                        "value": "Analyze pricing and positioning trends"
-                    },
-                    {
-                        "value": "Support leadership with strategic intelligence"
                     }
                 ]
             }
@@ -1374,132 +1668,6 @@
                     },
                     {
                         "value": "Analysis-ready datasets for modern platforms"
-                    }
-                ]
-            }
-        ]
-    },
-    "data-solutions-services": {
-        "h2": "Custom Data Services Designed for Operational and Analytical Needs",
-        "desc": "Comprehensive outsourced solutions designed to organize, process, and manage business data with precision and security.",
-        "services": [
-            {
-                "id": 1,
-                "title": "Data Collection Services",
-                "desc": "Fast, accurate, and scalable data acquisition empowering leadership, analytics, automation, and AI initiatives.",
-                "url": "#",
-                "data": [
-                    {
-                        "value": "Automated and API-based extraction for real-time business insights"
-                    },
-                    {
-                        "value": "Clean datasets optimized for market research and analytics"
-                    },
-                    {
-                        "value": "Scalable acquisition across industries and geographies"
-                    },
-                    {
-                        "value": "Cost-efficient outsourcing reducing internal resource burden"
-                    }
-                ]
-            },
-            {
-                "id": 2,
-                "title": "Data Management Services",
-                "desc": "Centralized, structured, and compliant data management services streamlining enterprise data operations.",
-                "url": "#",
-                "data": [
-                    {
-                        "value": "Unified platforms to standardize and govern business information"
-                    },
-                    {
-                        "value": "Accurate data fueling analytics and intelligence"
-                    },
-                    {
-                        "value": "Automated workflows reducing staffing and IT overhead"
-                    },
-                    {
-                        "value": "Secure storage supporting GDPR-aligned and ISO-certified processing"
-                    }
-                ]
-            },
-            {
-                "id": 3,
-                "title": "Data Entry Services",
-                "desc": "Scalable offshore data entry services eliminating manual backlogs and supporting high-volume processing.",
-                "url": "#",
-                "data": [
-                    {
-                        "value": "Fast turnaround with dedicated enterprise-level support"
-                    },
-                    {
-                        "value": "Bulk data entry outsourcing for large-scale operations"
-                    },
-                    {
-                        "value": "Encrypted and NDA-protected workflows"
-                    },
-                    {
-                        "value": "Cost-effective offshore services reducing operational costs"
-                    }
-                ]
-            },
-            {
-                "id": 4,
-                "title": "Data Annotation Services",
-                "desc": "Expertly labeled training data accelerating AI, ML, GenAI, computer vision, NLP, and automation models.",
-                "url": "#",
-                "data": [
-                    {
-                        "value": "End-to-end annotation for image, text, audio, and video datasets"
-                    },
-                    {
-                        "value": "Multi-tier accuracy validation ensuring 99%+ quality"
-                    },
-                    {
-                        "value": "Scalable outsourcing for high-volume AI datasets"
-                    },
-                    {
-                        "value": "SLA-backed delivery, confidentiality, and flexible pricing"
-                    }
-                ]
-            },
-            {
-                "id": 5,
-                "title": "Web Scraping & Acquisition Services",
-                "desc": "Automated web crawling and extraction services delivering real-time competitive, product, and market intelligence.",
-                "url": "#",
-                "data": [
-                    {
-                        "value": "Automated and scalable data extraction"
-                    },
-                    {
-                        "value": "Structured outputs enabling faster insights"
-                    },
-                    {
-                        "value": "API-based data extraction options"
-                    },
-                    {
-                        "value": "Low-cost outsourced data acquisition"
-                    }
-                ]
-            },
-            {
-                "id": 6,
-                "title": "CRM & Database Services",
-                "desc": "Precision-driven CRM and database services enhancing data quality, visibility, and usability.",
-                "url": "#",
-                "data": [
-                    {
-                        "value": "CRM data cleanup and enrichment services"
-                    },
-                    {
-                        "value": "Database management outsourcing"
-                    },
-                    {
-                        "value": "Data conversion and digitization services"
-                    },
-                    {
-                        "value": "Document scanning and indexing for paper-to-digital transformation"
                     }
                 ]
             }
@@ -1732,132 +1900,6 @@
                     },
                     {
                         "value": "SLA-driven accuracy reporting and audit controls"
-                    }
-                ]
-            }
-        ]
-    },
-    "document-processing-services": {
-        "h2": "Convert High-Volume Raw Data into Decision-Ready Intelligence",
-        "desc": "High-volume raw data is processed, validated, and structured to deliver accurate, decision-ready business intelligence.",
-        "services": [
-            {
-                "id": 1,
-                "title": "Freight Audit Services",
-                "desc": "Automated freight audit services that validate carrier invoices, eliminate billing errors, and strengthen cost control.",
-                "url": "#",
-                "data": [
-                    {
-                        "value": "Carrier invoice verification and discrepancy resolution"
-                    },
-                    {
-                        "value": "Rate compliance checks against contract agreements"
-                    },
-                    {
-                        "value": "Duplicate payment detection and recovery support"
-                    },
-                    {
-                        "value": "Detailed freight spend analytics and reporting dashboards"
-                    }
-                ]
-            },
-            {
-                "id": 2,
-                "title": "Invoice Processing Services",
-                "desc": "Automated invoice processing services that streamline data capture, validation, and approvals for faster payment cycles.",
-                "url": "#",
-                "data": [
-                    {
-                        "value": "Automated invoice data extraction workflows"
-                    },
-                    {
-                        "value": "Three-way matching accuracy controls"
-                    },
-                    {
-                        "value": "Exception handling and approval routing automation"
-                    },
-                    {
-                        "value": "ERP-ready invoice processing output formats"
-                    }
-                ]
-            },
-            {
-                "id": 3,
-                "title": "Resume Formatting Services",
-                "desc": "Professional resume formatting services that standardize layouts, improve readability, and ensure ATS compatibility.",
-                "url": "#",
-                "data": [
-                    {
-                        "value": "ATS-compliant resume formatting standards"
-                    },
-                    {
-                        "value": "Consistent fonts, spacing, and section hierarchy"
-                    },
-                    {
-                        "value": "Bulk resume formatting at scale"
-                    },
-                    {
-                        "value": "Quality checks for formatting accuracy assurance"
-                    }
-                ]
-            },
-            {
-                "id": 4,
-                "title": "Forms Processing Services",
-                "desc": "Accurate extraction of structured data from applications, surveys, and business forms at scale.",
-                "url": "#",
-                "data": [
-                    {
-                        "value": "OCR-based forms data extraction technology"
-                    },
-                    {
-                        "value": "Validation rules for form completeness checks"
-                    },
-                    {
-                        "value": "High-volume forms processing automation"
-                    },
-                    {
-                        "value": "Secure handling of sensitive form data"
-                    }
-                ]
-            },
-            {
-                "id": 5,
-                "title": "Document Digitization Services",
-                "desc": "Conversion of paper records into searchable, secure, and compliant digital archives.",
-                "url": "#",
-                "data": [
-                    {
-                        "value": "Paper-to-digital document conversion services"
-                    },
-                    {
-                        "value": "Indexing and metadata tagging for retrieval efficiency"
-                    },
-                    {
-                        "value": "Secure digital document storage platforms"
-                    },
-                    {
-                        "value": "Compliance-aligned digitization quality control standards"
-                    }
-                ]
-            },
-            {
-                "id": 6,
-                "title": "Data Analytics & Reporting Services",
-                "desc": "Transformation of processed data into actionable business intelligence through advanced analytics and reporting.",
-                "url": "#",
-                "data": [
-                    {
-                        "value": "Advanced analytics models for decision-making"
-                    },
-                    {
-                        "value": "Custom dashboards and performance reporting"
-                    },
-                    {
-                        "value": "Real-time data visualization capabilities"
-                    },
-                    {
-                        "value": "ML-powered insights and trend analysis"
                     }
                 ]
             }
@@ -2882,47 +2924,6 @@
                         "value": "Improved cash flow through timely billing"
                     }
                 ]
-            }
-        ]
-    },
-    "data-annotation-services": {
-        "h2": "Comprehensive Data Annotation Capabilities",
-        "desc": "We cover the full spectrum of training data requirements using domain-specific expertise.",
-        "services": [
-            {
-                "id": 1,
-                "title": "Text Annotation & NLP Services",
-                "desc": "Structured text labeling for NLP and language models, ensuring consistent entities, intent detection, multilingual coverage, and validated linguistic accuracy.",
-                "url": "#",
-                "data": []
-            },
-            {
-                "id": 2,
-                "title": "Image Annotation for Computer Vision",
-                "desc": "High-precision visual labeling using bounding boxes, polygons, and segmentation to support reliable object detection and computer vision models.",
-                "url": "#",
-                "data": []
-            },
-            {
-                "id": 3,
-                "title": "Data Labeling Services",
-                "desc": "Consistent labeling across structured and unstructured data, supporting supervised learning through standardized attributes, reviews, and quality controls.",
-                "url": "#",
-                "data": []
-            },
-            {
-                "id": 4,
-                "title": "Video Annotation and Tracking",
-                "desc": "Frame-level video annotation for object tracking and action recognition, maintaining temporal consistency across large-scale, high-frame-rate datasets.",
-                "url": "#",
-                "data": []
-            },
-            {
-                "id": 5,
-                "title": "Multimodal Data Annotation",
-                "desc": "Unified annotation across text, image, audio, and video data, enabling aligned multimodal training for advanced AI and foundation models.",
-                "url": "#",
-                "data": []
             }
         ]
     },
