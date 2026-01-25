@@ -3,11 +3,27 @@ import makeText from "./makeText";
 
 const filterItems = (items, collection, filterItem, isProducts) => {
 	switch (collection) {
+		// case "category":
+		// 	return items?.filter(
+		// 		({ type, category }) =>
+		// 			makePath(isProducts ? type : category) === filterItem
+		// 	);
+
 		case "category":
-			return items?.filter(
-				({ type, category }) =>
-					makePath(isProducts ? type : category) === filterItem
-			);
+			if (!filterItem || filterItem === "all") {
+				return items; // show all records
+			}
+			return items?.filter(({ type, category }) => {
+				const value = isProducts ? type : category;
+
+				// if category is an array
+				if (Array.isArray(value)) {
+					return value.some(cat => makePath(cat) === filterItem);
+				}
+
+				// fallback if it's still a string
+				return makePath(value) === filterItem;
+			});
 
 		case "brand":
 			return items?.filter(({ brand }) => makePath(brand) === filterItem);

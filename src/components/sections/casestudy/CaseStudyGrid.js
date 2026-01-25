@@ -7,9 +7,11 @@ import CaseStudyCard from "@/components/sections/casestudy/CaseStudyCard";
 import CaseStudySidebar from "@/components/sections/casestudy/CaseStudySidebar";
 import getCaseStudy from "@/libs/getCaseStudies";
 
-const CaseStudyGrid = ({ isSidebar = false }) => {
-	const items = useMemo(() => getCaseStudy());
-	const limit = 6;
+const CaseStudyGrid = ({filteredItems, isSidebar = false }) => {
+	// const items = useMemo(() => getCaseStudy());
+	// const limit = 6;
+	const items = [...filteredItems];
+	const limit = 8;
 	// get pagination details
 	const {
 		currentItems,
@@ -34,30 +36,33 @@ const CaseStudyGrid = ({ isSidebar = false }) => {
 					<div className={isSidebar ? "col-lg-8" : "col-lg-12"}>
 						<div className="row row-gap-4">
 							{currentItems?.length
-								? currentItems?.map((blog, idx) => (
+								? currentItems?.map((casestudy, idx) => (
 										<div
 											key={idx}
 											className={`col-md-6 ${isSidebar ? "" : "col-xl-4"}`}
 										>
-											<CaseStudyCard blog={blog} idx={idx} />
+											<CaseStudyCard casestudy={casestudy} idx={idx} />
 										</div>
 								  ))
 								: ""}
 						</div>
-						<Paginations
-							paginationDetails={{
-								currentItems,
-								currentpage,
-								setCurrentpage,
-								paginationItems,
-								currentPaginationItems,
-								totalPages,
-								handleCurrentPage,
-								firstItem,
-								lastItem,
-							}}
-							type={isSidebar ? 2 : 1}
-						/>
+						{filteredItems?.length >= 8 && (
+							<Paginations
+								paginationDetails={{
+									currentItems,
+									currentpage,
+									setCurrentpage,
+									paginationItems,
+									currentPaginationItems,
+									totalPages,
+									handleCurrentPage,
+									firstItem,
+									lastItem,
+								}}
+								type={isSidebar ? 2 : 1}
+							/>
+						)}
+
 					</div>
 					{isSidebar ? (
 						<div className="col-lg-4">

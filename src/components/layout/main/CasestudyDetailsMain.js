@@ -12,7 +12,7 @@ const CasestudyDetailsMain = ({ currentItem }) => {
 
 	const option = getPreviousNextItem(items, currentItem);
 
-	const { title, img } = currentItem || {};
+	const { title, img, detailsImg } = currentItem || {};
 	console.log("CHECK THIS ", currentItem)
 	return (
 		<div>
@@ -20,7 +20,7 @@ const CasestudyDetailsMain = ({ currentItem }) => {
 				title={title ? title : "Casestudy Details"}
 				text={title ? title : "Casestudy Details"}
 				breadcrums={[{ name: "Case Studies", path: "/case-studies" }]}
-				bgImg={img}
+				bgImg={detailsImg}
 			/>
 			<CasestudyDetailsPrimary2 option={option} />
 		</div>

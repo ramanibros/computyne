@@ -1,4 +1,7 @@
 const countDataLength = (data, filterKey, filterValue) => {
+  if (!filterValue || filterValue === "all") {
+    return data.length;
+  }
   const length = data?.filter((dataSingle) => {
     let currentValue = dataSingle[filterKey];
 
