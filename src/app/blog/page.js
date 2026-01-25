@@ -16,7 +16,7 @@ export default function BlogRightSidebar() {
 				<div id="smooth-content">
 					<main>
 						<div className="top-space-15"></div>
-						<HeroInnerMod title={"Blogs"} text={"Our business process services - driven by data, technology, and people - help" +
+						<HeroInnerMod title={"Our Blog"} text={"Our business process services - driven by data, technology, and people - help" +
 							" clients save time, reduce costs, and improve operational efficiency worldwide."} />
 						<BlogsGridPrimary />
 						<SubFooter />
