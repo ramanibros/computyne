@@ -2,9 +2,9 @@ import BlogCategoriesWidget from "./widgets/BlogCategoriesWidget";
 import BlogTagsWidget from "./widgets/BlogTagsWidget";
 import RecentBlogWidget from "./widgets/RecentBlogWidget";
 
-const BlogSidebar = ({ type }) => {
+const BlogSidebar = ({ tags = [] }) => {
 	return (
-		<aside className={`tj-main-sidebar ${type == 2 ? "p-0" : ""}`}>
+		<aside className={`tj-main-sidebar`}>
 			{/* <!-- search --> */}
 			{/* <div className="tj-sidebar-widget widget-search">
 				<h4 className="widget-title">Search here</h4>
@@ -23,11 +23,11 @@ const BlogSidebar = ({ type }) => {
 				</div>
 			</div> */}
 			{/* <!-- recent post --> */}
-			{/* <RecentBlogWidget /> */}
+			 <RecentBlogWidget />
 			{/* <!-- category --> */}
-			<BlogCategoriesWidget />
+			{/*<BlogCategoriesWidget />*/}
 			{/* <!-- tags --> */}
-			<BlogTagsWidget />
+			<BlogTagsWidget tags={tags}/>
 		</aside>
 	);
 };

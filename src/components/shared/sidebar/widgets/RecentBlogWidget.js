@@ -6,17 +6,18 @@ import Link from "next/link";
 const RecentBlogWidget = () => {
 	const recentBlogs = getBlogs()
 		?.filter(({ isBlogQuote }) => !isBlogQuote)
-		?.slice(0, 3);
+		?.slice(0, 5);
 
 	return (
 		<div className="tj-sidebar-widget tj-recent-posts">
-			<h4 className="widget-title">Related post</h4>
+			<h4 className="widget-title">Recent post</h4>
 			<ul>
 				{recentBlogs?.length
 					? recentBlogs?.map(
 							(
 								{
 									id,
+									slug,
 									smallImg = "/images/blog/post-1.webp",
 									title,
 									blogTopList,
@@ -27,7 +28,7 @@ const RecentBlogWidget = () => {
 							) => (
 								<li key={idx}>
 									<div className="post-thumb">
-										<Link href={`/blogs/${id}`}>
+										<Link href={`${slug}`}>
 											{" "}
 											<Image
 												src={smallImg}
@@ -39,7 +40,7 @@ const RecentBlogWidget = () => {
 									</div>
 									<div className="post-content">
 										<h6 className="post-title">
-											<Link href={`/blogs/${id}`}>
+											<Link href={`${slug}`}>
 												{sliceText(title, 32, true)}
 											</Link>
 										</h6>
