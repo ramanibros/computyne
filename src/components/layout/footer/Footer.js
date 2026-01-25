@@ -73,22 +73,22 @@ const Footer = () => {
                                 <h5 className="title">Industries</h5>
                                 <ul>
                                     <li>
-                                        <Link href="#">Real Estate</Link>
+                                        <Link href="/real-estate">Real Estate</Link>
                                     </li>
                                     <li>
-                                        <Link href="#">Logistics & Transportation</Link>
+                                        <Link href="/logistics-and-transportation">Logistics & Transportation</Link>
                                     </li>
                                     <li>
-                                        <Link href="#">Ecommerce</Link>
+                                        <Link href="/ecommerce">Ecommerce</Link>
                                     </li>
                                     <li>
-                                        <Link href="#">ITES</Link>
+                                        <Link href="/ites">ITES</Link>
                                     </li>
                                     <li>
-                                        <Link href="#">Finance & Accounting</Link>
+                                        <Link href="/finance-and-accounting">Finance & Accounting</Link>
                                     </li>
                                     <li>
-                                        <Link href="#">Energy & Utilities</Link>
+                                        <Link href="/energy-and-utilities">Energy & Utilities</Link>
                                     </li>
                                 </ul>
                             </div>

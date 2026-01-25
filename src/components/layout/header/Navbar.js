@@ -8,32 +8,19 @@ const Navbar = ({ headerType, isStickyHeader }) => {
 	const makeActiveLink = useActiveLink();
 	const navItems = getNavItems();
 	const techServices = getTechServices();
-	const homeNav = makeActiveLink(navItems[0]);
+
 	const servicesNav = makeActiveLink(navItems[1]);
-    const hireResourcesNav = makeActiveLink(navItems[8]);
-	const pagesNav = makeActiveLink(navItems[2]);
+	const hireResourcesNav = makeActiveLink(navItems[2]);
 	const industriesNav = makeActiveLink(navItems[3]);
 	const aboutNav = makeActiveLink(navItems[4])
-	const insightNav = makeActiveLink(navItems[9])
-	const blogNav = makeActiveLink(navItems[5]);
-	const portfolioNav = makeActiveLink(navItems[6]);
-	const contactNav = makeActiveLink(navItems[7])
+	const insightNav = makeActiveLink(navItems[5])
+	const contactNav = makeActiveLink(navItems[6])
+
 	const [activeTab, setActiveTab] = useState(0);
 	return (
 		<div className="menu-area d-none d-lg-inline-flex align-items-center">
 			<nav id="mobile-menu" className="mainmenu">
 				<ul>
-					{/* <li
-						className={
-							homeNav?.isActive ? "current-menu-ancestor" : ""
-						}
-					>
-						<Link href={homeNav?.path ? homeNav?.path : "#"}>
-							{homeNav?.name ? homeNav?.name : "Home"}
-						</Link>
-						
-					</li> */}
-
 					<li
 						className={`has-dropdown ${servicesNav?.isActive ? "current-menu-ancestor" : ""
 							}`}

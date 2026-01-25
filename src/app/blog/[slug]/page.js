@@ -11,11 +11,6 @@ import SubFooter from "@/components/layout/footer/subFooter";
 const items = getBlogs();
 
 export default async function BlogDetails({ params }) {
-	// const { id } = await params;
-	// const isExistItem = items?.find(({ id: id1 }) => id1 === parseInt(id));
-	// if (!isExistItem) {
-	// 	notFound();
-	// }
 	const { slug } = await params;
 
 	const currentItem = items.find((item) => item.slug === slug);
@@ -33,7 +28,6 @@ export default async function BlogDetails({ params }) {
 				<div id="smooth-content">
 					<main>
 						<HeaderSpace />
-						{/* <BlogDetailsMain currentItemId={parseInt(id)} /> */}
 						<BlogDetailsMain2 currentItem={currentItem} />
 						<SubFooter />
 					</main>
