@@ -3,7 +3,7 @@ import getTestimonials from "@/libs/getTestimonials";
 import { Autoplay, Navigation } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import TestimonialsCard from "./TestimonialsCard";
-import ReactNiceSelect from "./ReactNiceSelect";
+import ReactNiceSelect from "../../sections/home-page/ReactNiceSelect";
 
 const Testimonials = () => {
 	const testimonials = getTestimonials()?.slice(0, 3);
@@ -45,38 +45,44 @@ const Testimonials = () => {
 									</div>
 									<div className="col-sm-6">
 										<div className="form-input">
-											<div className="tj-nice-select-box">
-												<div className="tj-select">
-													<label className="cf-label">Chose a option</label>
-													<ReactNiceSelect
-														selectedIndex={0}
-														options={[
-															{ value: "0", optionName: "Chose a option" },
-															{ value: "1", optionName: "Business Strategy" },
-															{ value: "2", optionName: "Customer Experience" },
-															{
-																value: "3",
-																optionName: "Sustainability and ESG",
-															},
-															{
-																value: "4",
-																optionName: "Training and Development",
-															},
-															{
-																value: "5",
-																optionName: "IT Support & Maintenance",
-															},
-															{
-																value: "6",
-																optionName: "Marketing Strategy",
-															},
-														]}
-														getSelectedOption={handleSelect}
-													/>
-												</div>
-											</div>
+											<label className="cf-label">Subject *</label>
+											<input type="text" name="cfSubject3" />
 										</div>
 									</div>
+									{/*<div className="col-sm-6">*/}
+									{/*	<div className="form-input">*/}
+									{/*		<div className="tj-nice-select-box">*/}
+									{/*			<div className="tj-select">*/}
+									{/*				<label className="cf-label">Chose a option</label>*/}
+									{/*				<ReactNiceSelect*/}
+									{/*					selectedIndex={0}*/}
+									{/*					options={[*/}
+									{/*						{ value: "0", optionName: "Chose a option" },*/}
+									{/*						{ value: "1", optionName: "Business Strategy" },*/}
+									{/*						{ value: "2", optionName: "Customer Experience" },*/}
+									{/*						{*/}
+									{/*							value: "3",*/}
+									{/*							optionName: "Sustainability and ESG",*/}
+									{/*						},*/}
+									{/*						{*/}
+									{/*							value: "4",*/}
+									{/*							optionName: "Training and Development",*/}
+									{/*						},*/}
+									{/*						{*/}
+									{/*							value: "5",*/}
+									{/*							optionName: "IT Support & Maintenance",*/}
+									{/*						},*/}
+									{/*						{*/}
+									{/*							value: "6",*/}
+									{/*							optionName: "Marketing Strategy",*/}
+									{/*						},*/}
+									{/*					]}*/}
+									{/*					getSelectedOption={handleSelect}*/}
+									{/*				/>*/}
+									{/*			</div>*/}
+									{/*		</div>*/}
+									{/*	</div>*/}
+									{/*</div>*/}
 									<div className="col-sm-12">
 										<div className="form-input message-input">
 											<label className="cf-label">Message here... *</label>

@@ -2,7 +2,6 @@ import Header from "@/components/layout/header/Header";
 import BackToTop from "@/components/shared/others/BackToTop";
 import ClientWrapper from "@/components/shared/wrappers/ClientWrapper";
 import Industries from "@/components/sections/subservice/Industries";
-import Testimonials from "@/components/sections/subservice/Testimonials";
 import Banner from "@/components/sections/subservice/Banner";
 import Counter from "@/components/sections/subservice/Counter";
 import Aboutus from "@/components/sections/subservice/Aboutus";
@@ -12,6 +11,7 @@ import Whychooseus from "@/components/sections/subservice/Whychooseus";
 import Faq from "@/components/sections/subservice/Faq";
 import Footer from "@/components/layout/footer/Footer";
 import SubFooter from "@/components/layout/footer/subFooter";
+import Testimonials from "@/components/layout/common/Testimonials";
 
 export default function industriesPage() {
     return (
