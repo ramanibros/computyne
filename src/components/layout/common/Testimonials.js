@@ -109,7 +109,7 @@ const Testimonials = () => {
 							data-wow-delay=".5s"
 						>
 							<h3 className="tes-title">
-								Client Feedback (4.8<span>/out of 200</span>)
+								Client Feedback
 							</h3>
 							<Swiper
 								spaceBetween={28}
