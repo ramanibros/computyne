@@ -1,43 +1,54 @@
 import ButtonPrimary from "./ButtonPrimary";
+import FunfactSingle from "./FunfactSingle";
 import FunfactSingle2 from "./FunfactSingle2";
+import FunfactSingle3 from "./FunfactSingle3";
 
-const PortfolioCard = ({ portfolio }) => {
+const PortfolioCard = ({ casestudy }) => {
 	const {
-		title = "Event Management Platform",
-		img5 = "/images/project/h5-project-1.webp",
-		shortDesc,
+		title,
+		img,
+		desc,
 		id,
 		dataFilter,
 		category = "Connect",
-	} = portfolio ? portfolio : {};
+		kpiData, slug
+	} = casestudy ? casestudy : {};
 	return (
 		<div className="h5-project-item-wrapper tj-scroll-slider-item">
 			<div className="project-item h4-project-item  h5-project-item">
 				<div className="project-img">
-					<img src={img5} alt="Image" />
+					<img src={img} alt="Image" />
 				</div>
 
 				<div className="h9-about-content-port-card-mod">
-					<h3><span>Our Stories</span> on Begins Passion Driven by Purpose,
-						and Fueled by a Relentless Pursuit.</h3>
+					<h3>{title}</h3>
 					<p className="desc wow fadeInUp" data-wow-delay=".4s">
-						Recognize that exceptional customer experiences are at the
-						heart of every successful business. Our Customer Experience
-						Solutions are crafted to help you transform every interaction
-						your customers have with your brand busin into a meaningful
-						and positive experience.
+						{desc}
 					</p>
 					<div
 						className="about-btn-area-2 wow fadeInUp"
 						data-wow-delay=".7s"
 					>
-						<ButtonPrimary text={"Explore Now"} url={"/about"} />
+						<ButtonPrimary text={"Explore Now"} url={`case-studies/${slug}`} />
 					</div>
 					<div
 						className="h9-about-funfact-port-card-mod wow fadeInUp"
 						data-wow-delay=".6s"
 					>
-						<div className="countup-item">
+						 {kpiData.map((item, index) => (
+                                <div className="countup-item" key={index}>
+                                    <FunfactSingle2
+                                        currentValue={item.value}
+                                        symbol={item.symbol}
+                                    />
+
+                                    <span className="count-text">
+                                        {item.label}
+                                    </span>
+                                   
+                                </div>
+                            ))}
+						{/* <div className="countup-item">
 							<FunfactSingle2 currentValue={20} symbol={"M"} />
 							<span className="count-text">
 								Reduced Manual Errors
@@ -54,7 +65,7 @@ const PortfolioCard = ({ portfolio }) => {
 							<span className="count-text">
 								Boost in Shipping Efficiency
 							</span>
-						</div>
+						</div> */}
 					</div>
 
 				</div>

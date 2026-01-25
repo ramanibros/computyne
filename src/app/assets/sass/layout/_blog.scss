@@ -103,33 +103,98 @@ START: Blog CSS
 		display: inline-flex;
 	}
 
-	.blog-text-mod ul {
-		list-style: none;
-	}
+	// .blog-text-mod ul {
+	// 	list-style: none;
+	// }
 
-	.blog-text-mod ul li {
-		color: var(--tj-color-heading-primary);
-		font-weight: var(--tj-fw-medium);
-		align-items: center;
-		column-gap: 5px;
-		margin-bottom: 5px;
-		display: flex;
-	}
+	// .blog-text-mod ul li {
+	// 	color: var(--tj-color-heading-primary);
+	// 	font-weight: var(--tj-fw-medium);
+	// 	align-items: center;
+	// 	column-gap: 5px;
+	// 	margin-bottom: 5px;
+	// 	display: flex;
+	// }
 
-	.blog-text-mod ul li span {
-		width: 20px;
-		height: 20px;
-		color: var(--tj-color-theme-primary);
-		// background: var(--tj-color-theme-primary);
-		border-radius: 50%;
-		flex: none;
-		justify-content: center;
-		align-items: center;
-		// margin-top: 3px;
-		font-size: 10px;
-		line-height: 1;
-		display: inline-flex;
-	}
+	// .blog-text-mod ul li span {
+	// 	width: 20px;
+	// 	height: 20px;
+	// 	color: var(--tj-color-theme-primary);
+	// 	// background: var(--tj-color-theme-primary);
+	// 	border-radius: 50%;
+	// 	flex: none;
+	// 	justify-content: center;
+	// 	align-items: center;
+	// 	// margin-top: 3px;
+	// 	font-size: 10px;
+	// 	line-height: 1;
+	// 	display: inline-flex;
+	// }
+/* reset list */
+.blog-text-mod ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* list item layout */
+.blog-text-mod ul li {
+  display: flex;
+  align-items: flex-start;       /* icon aligns with first line */
+  gap: 10px;
+  margin-bottom: 10px;
+  line-height: 1.6;
+  color: var(--tj-color-heading-primary);
+  font-weight: var(--tj-fw-medium);
+}
+
+/* bullet icon */
+.blog-text-mod ul li > span {
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 10px;
+  color: var(--tj-color-theme-primary);
+  margin-top: 4px;               /* vertical optical alignment */
+}
+
+/* text wrapper (label + description MUST be together) */
+.blog-text-mod ul li .list-text {
+  display: inline;
+  word-break: break-word;
+}
+
+/* label */
+.blog-text-mod ul li .list-text strong {
+  font-weight: 600;
+  margin-right: 4px;
+  white-space: nowrap;           /* label stays intact */
+}
+
+/* description text */
+.blog-text-mod ul li .list-text span {
+  font-weight: var(--tj-fw-medium);
+}
+
+/* solution section spacing */
+.solution-block {
+  margin-bottom: 20px;
+}
+
+.solution-title {
+  margin-bottom: 6px;
+  font-weight: 600;
+}
+
+/* indent bullets under numbered headings */
+.solution-block ul {
+  margin-left: 28px;
+}
+
+
 
 
 	.blog-content {
