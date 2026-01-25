@@ -10,7 +10,7 @@ const RecentBlogWidget = () => {
 
 	return (
 		<div className="tj-sidebar-widget tj-recent-posts">
-			<h4 className="widget-title">Recent post</h4>
+			<h4 className="widget-title">Recent Blogs</h4>
 			<ul>
 				{recentBlogs?.length
 					? recentBlogs?.map(
