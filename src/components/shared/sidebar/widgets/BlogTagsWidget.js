@@ -2,8 +2,7 @@ import getBlogTags from "@/libs/getBlogTags";
 import makePath from "@/libs/makePath";
 import Link from "next/link";
 
-const BlogTagsWidget = () => {
-	const tags = getBlogTags();
+const BlogTagsWidget = ({ tags = [] }) => {
 
 	return (
 		<div className="tj-sidebar-widget widget-tag-cloud">
@@ -12,7 +11,7 @@ const BlogTagsWidget = () => {
 				<div className="tagcloud">
 					{tags?.length
 						? tags?.map((tag, idx) => (
-								<Link key={idx} href={`/blogs?tag=${makePath(tag)}`}>
+								<Link key={idx} href="#">
 									{" "}
 									{tag}
 								</Link>

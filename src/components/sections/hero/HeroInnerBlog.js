@@ -24,16 +24,16 @@ const HeroInnerBlog = ({title, text, breadcrums = [], bgImg}) => {
 									<i className="tji-home"></i>
 								</span>
                                 <span>
-									<Link href="/">Home</Link>
+									<Link href="/" style={{color:"#D4D4D8"}}>Home</Link>
 								</span>
                                 <span>
-									<i className="tji-arrow-right"></i>
+									<i className="tji-arrow-right" style={{color:"#D4D4D8"}}></i>
 								</span>
                                 <span>
-									<Link href="/blog">Blog</Link>
+									<Link href="/blog" style={{color:"#D4D4D8"}}>Blog</Link>
 								</span>
                                 <span>
-									<i className="tji-arrow-right"></i>
+									<i className="tji-arrow-right" style={{color:"#D4D4D8"}}></i>
 								</span>
                                 <span>
 									<span>{sliceText(text, 28, true)}</span>
