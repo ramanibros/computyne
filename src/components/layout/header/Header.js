@@ -95,25 +95,25 @@ const Header = ({
 									{headerType === 4 || headerType === 6 ? (
 										<Link
 											className="header-contact d-none d-xl-inline-flex"
-											href="tel:18884521505"
+											href="tel:000-000-0000"
 										>
 											<span className="call-icon">
 												<i className="tji-phone"></i>
 											</span>
-											<span className="call-text">1-888-452-1505</span>
+											<span className="call-text">000-000-0000</span>
 										</Link>
 									) : headerType === 5 ? (
 										""
 									) : (
 										<div className="header-search">
-											<button
+											{/*<button
 												className={`search  ${
 													isSearchOpen ? "search-hide" : ""
 												}`}
 												onClick={() => setIsSearchOpen(true)}
 											>
 												<i className="tji-search"></i>
-											</button>
+											</button>*/}
 											<button
 												type="button"
 												className={`search_close_btn ${
