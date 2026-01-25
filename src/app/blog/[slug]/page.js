@@ -1,6 +1,6 @@
 import Footer from "@/components/layout/footer/Footer";
 import Header from "@/components/layout/header/Header";
-import BlogDetailsMain2 from "@/components/layout/main/BlogDetailsMain2";
+import BlogDetailsMain from "@/components/layout/main/BlogDetailsMain";
 import BackToTop from "@/components/shared/others/BackToTop";
 import HeaderSpace from "@/components/shared/others/HeaderSpace";
 import ClientWrapper from "@/components/shared/wrappers/ClientWrapper";
@@ -28,7 +28,7 @@ export default async function BlogDetails({ params }) {
 				<div id="smooth-content">
 					<main>
 						<HeaderSpace />
-						<BlogDetailsMain2 currentItem={currentItem} />
+						<BlogDetailsMain currentItem={currentItem} />
 						<SubFooter />
 					</main>
 					<Footer />

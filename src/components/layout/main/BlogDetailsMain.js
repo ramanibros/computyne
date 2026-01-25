@@ -1,23 +1,26 @@
 import BlogDetailsPrimary from "@/components/sections/blogs/BlogDetailsPrimary";
-import HeroInner from "@/components/sections/hero/HeroInner";
 import getBlogs from "@/libs/getBlogs";
 import getPreviousNextItem from "@/libs/getPreviousNextItem";
-const BlogDetailsMain = ({ currentItemId }) => {
-	const items = getBlogs();
-	const currentId = currentItemId;
-	const option = getPreviousNextItem(items, currentId);
-	const { title, img } = option?.currentItem || {};
-	return (
-		<div>
-			<HeroInner
-				title={"Blog Details"}
-				text={title ? title : "Blog Details"}
-				breadcrums={[{ name: "Blogs", path: "/blogs" }]}
-				bgImg={img}
-			/>
-			<BlogDetailsPrimary option={option} />
-		</div>
-	);
+import HeroInnerBlog from "@/components/sections/hero/HeroInnerBlog";
+
+const BlogDetailsMain = ({ currentItem }) => {
+  const items = getBlogs();
+  const option = getPreviousNextItem(items, currentItem);
+
+  const { title, img } = currentItem || {};
+
+  return (
+    <div>
+      <HeroInnerBlog
+        title={title}
+        text={title}
+        breadcrums={[{ name: "Blogs", path: "/blogs" }]}
+        bgImg={img}
+      />
+      <BlogDetailsPrimary option={option} />
+    </div>
+  );
 };
+
 
 export default BlogDetailsMain;
