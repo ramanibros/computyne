@@ -23,7 +23,7 @@ export default function industriesPage() {
                 <div id="smooth-content">
                     <main>
                         <div className="top-space-15"></div>
-                        <Banner />
+                        <Banner/>
                         <Counter/>
                         <Aboutus type={1}/>
                         <Subservices/>

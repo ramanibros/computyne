@@ -1,7 +1,7 @@
 import casestudyCategries from "../../public/data/casestudy-categories";
 
 const getCaseStudyCategories = () => {
-  return casestudyCategries;
+    return casestudyCategries;
 };
 
 export default getCaseStudyCategories;

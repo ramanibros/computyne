@@ -1,9 +1,8 @@
-
 import navItems from "../../public/data/tech-services"
 
 const getTechServices = () => {
 
-    return navItems?navItems:[]
+    return navItems ? navItems : []
 };
 
 export default getTechServices;

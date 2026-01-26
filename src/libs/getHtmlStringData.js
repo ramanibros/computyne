@@ -1,12 +1,12 @@
 const getHtmlStringData = async (slug) => {
-  if (!slug) return null;
+    if (!slug) return null;
 
-  try {
-    const mod = await import(`@/data/htmlstrings/${slug}.js`);
-    return mod.default;
-  } catch (err) {
-    return null;
-  }
+    try {
+        const mod = await import(`@/data/htmlstrings/${slug}.js`);
+        return mod.default;
+    } catch (err) {
+        return null;
+    }
 };
 
 export default getHtmlStringData;

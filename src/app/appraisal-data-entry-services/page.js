@@ -23,29 +23,29 @@ export default function appraisalDataEntryServices() {
                 schema={appraisalValuationDataEntrySchema}
             />
             <div>
-                <BackToTop />
-                <Header headerType={5} />
-                <Header headerType={5} isStickyHeader={true} />
+                <BackToTop/>
+                <Header headerType={5}/>
+                <Header headerType={5} isStickyHeader={true}/>
                 <div id="smooth-wrapper">
                     <div id="smooth-content">
                         <main>
                             <div className="top-space-15"></div>
-                            <Banner />
-                            <Counter />
-                            <Aboutus type={1} />
-                            <Subservices />
-                            <Casestudy />
-                            <Whychooseus />
-                            <Faq type={1} />
-                            <Testimonials />
-                            <Industries />
-                            <SubFooter />
+                            <Banner/>
+                            <Counter/>
+                            <Aboutus type={1}/>
+                            <Subservices/>
+                            <Casestudy/>
+                            <Whychooseus/>
+                            <Faq type={1}/>
+                            <Testimonials/>
+                            <Industries/>
+                            <SubFooter/>
                         </main>
-                        <Footer />
+                        <Footer/>
                     </div>
                 </div>
 
-                <ClientWrapper />
+                <ClientWrapper/>
             </div>
         </>
     );

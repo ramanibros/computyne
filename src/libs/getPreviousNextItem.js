@@ -12,15 +12,15 @@
 
 
 const getPreviousNextItem = (items, currentItem) => {
-  const index = items.findIndex((i) => i.id === currentItem.id);
+    const index = items.findIndex((i) => i.id === currentItem.id);
 
-  return {
-    currentItem,
-    prevItem: index > 0 ? items[index - 1] : null,
-    nextItem: index < items.length - 1 ? items[index + 1] : null,
-    isPrevItem: index > 0,
-    isNextItem: index < items.length - 1,
-  };
+    return {
+        currentItem,
+        prevItem: index > 0 ? items[index - 1] : null,
+        nextItem: index < items.length - 1 ? items[index + 1] : null,
+        isPrevItem: index > 0,
+        isNextItem: index < items.length - 1,
+    };
 };
 
 export default getPreviousNextItem;

@@ -1,7 +1,7 @@
 import services from "../../public/data/services.json";
 
 const getServices = () => {
-  return services;
+    return services;
 };
 
 export default getServices;

@@ -1,5 +1,5 @@
 "use client";
-import { usePathname } from "next/navigation";
+import {usePathname} from "next/navigation";
 import FunfactSingle2 from "./FunfactSingle2";
 import getServiceData from "@/libs/service/getServiceData";
 
@@ -24,12 +24,12 @@ const Counter = () => {
     return (
         <div
             className={`tj-client-section-4 mb-0    section-gap-x wow fadeInUp`}
-            data-wow-delay=".4s" style={{backgroundColor:"#0c1d36"}}
+            data-wow-delay=".4s" style={{backgroundColor: "#0c1d36"}}
         >
             <div className="container-fluid client-container">
                 <div className="row">
                     <div className="col-12">
-                        <div className="countup-wrap" style={{backgroundColor:"#0c1d36"}}>
+                        <div className="countup-wrap" style={{backgroundColor: "#0c1d36"}}>
                             {counterData.counter.map((item, index) => (
                                 <div className="countup-item-mod" key={index}>
                                     <FunfactSingle2

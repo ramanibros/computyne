@@ -10,40 +10,40 @@ import SubFooter from "@/components/layout/footer/subFooter";
 
 const items = getBlogs();
 
-export default async function BlogDetails({ params }) {
-	const { slug } = await params;
+export default async function BlogDetails({params}) {
+    const {slug} = await params;
 
-	const currentItem = items.find((item) => item.slug === slug);
+    const currentItem = items.find((item) => item.slug === slug);
 
-	if (!currentItem) {
-		notFound();
-	}
+    if (!currentItem) {
+        notFound();
+    }
 
-	return (
-		<div>
-			<BackToTop />
-			<Header />
-			<Header isStickyHeader={true} />
-			<div id="smooth-wrapper">
-				<div id="smooth-content">
-					<main>
-						<HeaderSpace />
-						<BlogDetailsMain currentItem={currentItem} />
-						<SubFooter />
-					</main>
-					<Footer />
-				</div>
-			</div>
-			<ClientWrapper />
-		</div>
-	);
+    return (
+        <div>
+            <BackToTop/>
+            <Header/>
+            <Header isStickyHeader={true}/>
+            <div id="smooth-wrapper">
+                <div id="smooth-content">
+                    <main>
+                        <HeaderSpace/>
+                        <BlogDetailsMain currentItem={currentItem}/>
+                        <SubFooter/>
+                    </main>
+                    <Footer/>
+                </div>
+            </div>
+            <ClientWrapper/>
+        </div>
+    );
 }
 
 // export async function generateStaticParams() {
 // 	return items?.map(({ id }) => ({ id: id.toString() }));
 // }
 export async function generateStaticParams() {
-  return items.map(({ slug }) => ({
-    slug,
-  }));
+    return items.map(({slug}) => ({
+        slug,
+    }));
 }

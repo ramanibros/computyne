@@ -9,19 +9,19 @@
 // export default makePath;
 
 const makePath = (text) => {
-  if (!text) return "#";
+    if (!text) return "#";
 
-  // if array → convert to string
-  const safeText = Array.isArray(text) ? text.join(" ") : String(text);
+    // if array → convert to string
+    const safeText = Array.isArray(text) ? text.join(" ") : String(text);
 
-  const path = safeText
-    .toLowerCase()
-    .replace(/[\/&]/g, " ")
-    .trim()
-    .split(/\s+/)
-    .join("_");
+    const path = safeText
+        .toLowerCase()
+        .replace(/[\/&]/g, " ")
+        .trim()
+        .split(/\s+/)
+        .join("_");
 
-  return path;
+    return path;
 };
 
 export default makePath;

@@ -1,12 +1,11 @@
-import BlogCategoriesWidget from "./widgets/BlogCategoriesWidget";
 import BlogTagsWidget from "./widgets/BlogTagsWidget";
 import RecentBlogWidget from "./widgets/RecentBlogWidget";
 
-const BlogSidebar = ({ tags = [] }) => {
-	return (
-		<aside className={`tj-main-sidebar`}>
-			{/* <!-- search --> */}
-			{/* <div className="tj-sidebar-widget widget-search">
+const BlogSidebar = ({tags = []}) => {
+    return (
+        <aside className={`tj-main-sidebar`}>
+            {/* <!-- search --> */}
+            {/* <div className="tj-sidebar-widget widget-search">
 				<h4 className="widget-title">Search here</h4>
 				<div className="search-box">
 					<form action="#">
@@ -22,14 +21,14 @@ const BlogSidebar = ({ tags = [] }) => {
 					</form>
 				</div>
 			</div> */}
-			{/* <!-- recent post --> */}
-			 <RecentBlogWidget />
-			{/* <!-- category --> */}
-			{/*<BlogCategoriesWidget />*/}
-			{/* <!-- tags --> */}
-			<BlogTagsWidget tags={tags}/>
-		</aside>
-	);
+            {/* <!-- recent post --> */}
+            <RecentBlogWidget/>
+            {/* <!-- category --> */}
+            {/*<BlogCategoriesWidget />*/}
+            {/* <!-- tags --> */}
+            <BlogTagsWidget tags={tags}/>
+        </aside>
+    );
 };
 
 export default BlogSidebar;

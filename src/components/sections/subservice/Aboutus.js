@@ -1,7 +1,7 @@
 "use client"
 import getServiceData from "@/libs/service/getServiceData";
 import Image from "next/image";
-import { usePathname } from "next/navigation";
+import {usePathname} from "next/navigation";
 
 const Aboutus = ({type}) => {
     const pathname = usePathname();
@@ -13,7 +13,7 @@ const Aboutus = ({type}) => {
         !serviceData || Object.keys(serviceData).length === 0
             ? getServiceData("data-extraction-services")?.overview
             : serviceData?.overview;
-        
+
     return (
         <section className="tj-about-section-2 section-gap section-gap-x mt-12">
             <div className="container">
