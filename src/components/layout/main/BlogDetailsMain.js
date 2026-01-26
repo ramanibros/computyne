@@ -7,14 +7,14 @@ const BlogDetailsMain = ({currentItem}) => {
     const items = getBlogs();
     const option = getPreviousNextItem(items, currentItem);
 
-    const {title, img} = currentItem || {};
+    const {title, img, author, date} = currentItem || {};
 
     return (
         <div>
             <HeroInnerBlog
                 title={title}
-                text={title}
-                breadcrums={[{name: "Blogs", path: "/blogs"}]}
+                author={author}
+                date={date}
                 bgImg={img}
             />
             <BlogDetailsPrimary option={option}/>
