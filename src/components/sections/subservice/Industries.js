@@ -32,11 +32,6 @@ const Industries = () => {
                                         {industriesData?.h2}
                                     </h2>
                                 </div>
-                                {/* <div className="wow fadeInUp" data-wow-delay=".5s">
-									<p className="desc tagline">
-										Computyne empowers multiple industries with customized Data Services designed for accuracy, security, and growth.
-									</p>
-								</div> */}
                                 <div
                                     className="slider-navigation d-none d-md-inline-flex wow fadeInUp"
                                     data-wow-delay=".7s"
