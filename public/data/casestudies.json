@@ -1088,15 +1088,15 @@
 		"id": 13,
 		"slug": "gcc-ecommerce-catalogue-management-seo-product-listing",
 		"title": "eCommerce Catalogue Management & SEO-Integrated Product Listing for a GCC Retailer",
-		"img": "/images/casestudies/gcc-ecommerce-catalogue-management-seo-product-listing-870x450.webp",
+		"img": "/images/casestudies/gcc-ecommerce-catalogue-management-seo-product-listing 870x450.webp",
 		"detailsImg": "/images/casestudies/gcc-ecommerce-catalogue-management-seo-product-listing.webp",
-		"smallImg": "/images/casestudies/gcc-ecommerce-catalogue-management-seo-product-listing-870x450.webp",
+		"smallImg": "/images/casestudies/gcc-ecommerce-catalogue-management-seo-product-listing 870x450.webp",
 		"desc": "A leading multi-category eCommerce platform operating across the GCC region partnered with Computyne to overcome the complexities of scaling inventory across six countries. By implementing a SEO-integrated catalogue management framework, the client achieved a 55% reduction in time-to-market and a 40% increase in organic search visibility, while establishing a reusable \"Golden Record\" for thousands of SKUs.",
 		"tags": [
 			"Corporate",
 			"Business"
 		],
-		"category": [],
+		"category": ["Web research", "data management"],
 		"status": "Tutorial",
 		"content": [
 			{
@@ -1182,7 +1182,7 @@
 			"Corporate",
 			"Business"
 		],
-		"category": [],
+		"category": ["Logistic data entry", "bill of lading", "document processing"],
 		"status": "Tutorial",
 		"content": [
 			{
@@ -1241,7 +1241,8 @@
 			}
 		],
 		"showedIn": [
-			"freight-audit-services",
+			"logistics-data-entry-services",
+			"bill-of-lading-data-entry-services",
 			"document-processing-services"
 		],
 		"meta": {
