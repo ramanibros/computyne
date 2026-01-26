@@ -4,7 +4,7 @@ import Link from "next/link";
 import CtaSidebar from "./CtaSidebar";
 const CasestudyDetailsPrimary2 = ({ option }) => {
 	const { prevId, nextId, currentItem, isPrevItem, isNextItem } = option || {};
-	const { img, title, id, content, clientWords } = currentItem || {};
+	const { img, title, id, content, clientWords, clientProfile } = currentItem || {};
 	console.log("CURRENT ITEM", currentItem)
 
 	return (
@@ -34,13 +34,16 @@ const CasestudyDetailsPrimary2 = ({ option }) => {
 
 											{/* PARAGRAPH DATA (string) */}
 											{typeof item?.data === "string" && (
-												<p className="wow fadeInUp" data-wow-delay=".6s">
-													{item.data}
-												</p>
+												<div
+													className="wow fadeInUp"
+													data-wow-delay=".6s"
+													dangerouslySetInnerHTML={{ __html: item.data }}
+												/>
 											)}
 
+
 											{/* LIST DATA (array) */}
-											{Array.isArray(item?.data) && item.data.length > 0 && (
+											{/* {Array.isArray(item?.data) && item.data.length > 0 && (
 												<div className="desc blog-text-mod wow fadeInUp" data-wow-delay=".8s">
 													<ul className="wow fadeInUp">
 														{item.data.map((listItem, i) => (
@@ -53,7 +56,7 @@ const CasestudyDetailsPrimary2 = ({ option }) => {
 														))}
 													</ul>
 												</div>
-											)}
+											)} */}
 
 
 
@@ -64,12 +67,55 @@ const CasestudyDetailsPrimary2 = ({ option }) => {
 								</div>
 							))}
 
+
+							{/* <div
+								className="tab-pane fadeInUp"
+								id="nav-desc-additional_information"
+								role="tabpanel"
+								aria-labelledby="nav-desc-tab-additional_information"
+							>
+								<div className="tj-product-details-description mt-30">
+									<table>
+										<tbody>
+											<tr>
+												<th>Metric</th>
+												<td>Volume</td>
+												<td>Description</td>
+											</tr>
+											<tr>
+												<th>Total Processed</th>
+												<td>13.7 Million+</td>
+												<td>Total data points standardized and cleansed across the enterprise.</td>
+											</tr>
+											<tr>
+												<th>Customer Records</th>
+												<td>7.5 Million+</td>
+												<td>Customer and account records fully validated and enriched.</td>
+											</tr>
+											<tr>
+												<th>Location Data</th>
+												<td>6.2 Million+</td>
+												<td>Service location records verified for accurate network mapping.</td>
+											</tr>
+											<tr>
+												<th>Duplicates Removed</th>
+												<td>850,000+</td>
+												<td>Obsolete and redundant records eliminated, reducing storage costs and improving reporting.</td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+							</div> */}
+
 							<blockquote className="wow fadeInUp" data-wow-delay=".3s">
-								<p>
-									{clientWords.data}
-								</p>
+								<div
+									className="wow fadeInUp"
+									data-wow-delay=".6s"
+									dangerouslySetInnerHTML={{ __html: clientWords.data }}
+								/>
 								<cite>{clientWords.by}</cite>
 							</blockquote>
+
 
 
 							<div
@@ -120,7 +166,11 @@ const CasestudyDetailsPrimary2 = ({ option }) => {
 								data-wow-delay=".1s"
 							>
 								<h4 className="widget-title">Project Info</h4>
-								<div className="infos-item">
+								{clientProfile.map((html, i) => (
+									<div key={i} dangerouslySetInnerHTML={{ __html: html }} />
+								))}
+
+								{/* <div className="infos-item">
 									<div className="project-icons">
 										<i className="tji-user"></i>
 									</div>
@@ -146,7 +196,7 @@ const CasestudyDetailsPrimary2 = ({ option }) => {
 										<span>Location</span>
 										<h6 className="title">Maplewood Heights, CA</h6>
 									</div>
-								</div>
+								</div> */}
 
 								{/* <div className="infos-item">
 									<div className="project-icons">

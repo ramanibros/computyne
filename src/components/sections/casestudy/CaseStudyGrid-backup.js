@@ -11,7 +11,7 @@ const CaseStudyGrid = ({filteredItems, isSidebar = false }) => {
 	// const items = useMemo(() => getCaseStudy());
 	// const limit = 6;
 	const items = [...filteredItems];
-	const limit = 9;
+	const limit = 8;
 	// get pagination details
 	const {
 		currentItems,
@@ -33,18 +33,13 @@ const CaseStudyGrid = ({filteredItems, isSidebar = false }) => {
 		<section className="tj-blog-section section-gap">
 			<div className="container">
 				<div className="row row-gap-5">
-
-					<div className="col-lg-12">
-						<CaseStudySidebar type={2} />
-					</div>
-
-					<div className="col-lg-12">
+					<div className={isSidebar ? "col-lg-8" : "col-lg-12"}>
 						<div className="row row-gap-4">
 							{currentItems?.length
 								? currentItems?.map((casestudy, idx) => (
 										<div
 											key={idx}
-											className={`col-md-4`}
+											className={`col-md-6 ${isSidebar ? "" : "col-xl-4"}`}
 										>
 											<CaseStudyCard casestudy={casestudy} idx={idx} />
 										</div>
@@ -69,6 +64,13 @@ const CaseStudyGrid = ({filteredItems, isSidebar = false }) => {
 						)}
 
 					</div>
+					{isSidebar ? (
+						<div className="col-lg-4">
+							<CaseStudySidebar type={2} />
+						</div>
+					) : (
+						""
+					)}
 				</div>
 			</div>
 		</section>

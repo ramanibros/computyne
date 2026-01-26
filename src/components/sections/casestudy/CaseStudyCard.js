@@ -3,9 +3,10 @@ import modifyNumber from "@/libs/modifyNumber";
 import Image from "next/image";
 import Link from "next/link";
 import ButtonPrimary from "@/components/shared/buttons/ButtonPrimary";
+import React from "react";
 
-const CaseStudyCard = ({ blog, idx }) => {
-	const { title, desc, id, slug, img, category, date, day, month } = blog || {};
+const CaseStudyCard = ({ casestudy, idx }) => {
+	const { title, desc, id, slug, img, category, date, day, month } = casestudy || {};
 	return (
 		<div className="blog-item wow fadeInUp" data-wow-delay={`0.${idx + 1}s`}>
 			<div className="blog-thumb">
@@ -32,15 +33,19 @@ const CaseStudyCard = ({ blog, idx }) => {
 			</div>
 			<div className="blog-content">
 				<div className="blog-meta">
-					<span className="categories">
+					{/* <span className="categories">
 						<Link href={`/case-studies?category=${makePath(category)}`}>
 							{" "}
 							{category}
 						</Link>
-					</span>
-					{/* <span>
-						By <Link href={`/case-studies/${slug}`}>Ellinien Loma</Link>
 					</span> */}
+					{category.map((cat, index) => (
+						<span className="categories"key={cat}>
+							<Link href={`/case-studies?category=${makePath(cat)}`}>
+								{cat}
+							</Link>
+						</span>
+					))}
 				</div>
 				<h4 className="title">
 					<Link href={`/case-studies/${slug}`}>{title}.</Link>

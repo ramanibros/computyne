@@ -6,6 +6,7 @@ import HeaderSpace from "@/components/shared/others/HeaderSpace";
 import ClientWrapper from "@/components/shared/wrappers/ClientWrapper";
 import getCaseStudy from "@/libs/getCaseStudies";
 import {notFound} from "next/navigation";
+import SubFooter from "@/components/layout/footer/subFooter";
 
 const items = getCaseStudy();
 

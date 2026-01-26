@@ -170,3 +170,27 @@ START: CUSTOM CSS
 .tj-sidebar-widget.tj-recent-posts .post-thumb a img {
     height: revert-layer;
 }
+
+.tj-sidebar-widget.widget-categories {
+    max-height: 200px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+.tj-sidebar-widget ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.tj-sidebar-widget ul li {
+    width: 16%; /* two items per row */
+}
+
+.tj-sidebar-widget.widget-categories ul li a span.title{
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

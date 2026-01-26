@@ -25,7 +25,7 @@ const BlogCard1 = ({ blog, idx }) => {
 						sizes="(max-width: 768px) 100vw, 870px"
 					/>
 				</Link>
-				<div className="blog-date-sm	">
+				<div className="blog-date-sm">
 					<span className="date">{modifyNumber(day)}</span>
 					<span className="month">{month}</span>
 				</div>
