@@ -15,6 +15,29 @@ import JsonLd from "@/components/seo/JsonLd";
 import SubFooter from "@/components/layout/footer/subFooter";
 import Testimonials from "@/components/layout/common/Testimonials";
 
+export const metadata = {
+    metadataBase: new URL("https://www.computyne.com"),
+
+    title: "List Building Services: B2B, Email & Mailing List Creation | Computyne",
+    description:
+        "Targeted list building services by Computyne for accurate B2B contacts and high-quality email and mailing lists that improve outreach and engagement.",
+
+    keywords: [
+        "list building services",
+        "b2b list building",
+        "email list building",
+        "mailing list creation",
+        "lead list building",
+        "prospect list services",
+        "contact list development",
+    ],
+
+    alternates: {
+        canonical: "https://www.computyne.com/list-building-services",
+    },
+};
+
+
 export default function listBuildingServices() {
 
     return (

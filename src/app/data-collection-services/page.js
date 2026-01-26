@@ -15,6 +15,30 @@ import JsonLd from "@/components/seo/JsonLd";
 import SubFooter from "@/components/layout/footer/subFooter";
 import Testimonials from "@/components/layout/common/Testimonials";
 
+
+export const metadata = {
+    metadataBase: new URL("https://www.computyne.com"),
+
+    title: "Data Collection Services | Trusted Data Gathering Company | Computyne",
+    description:
+        "Structured data collection services by Computyne that empower organizations with accurate, verified, and actionable information for smarter business decisions.",
+
+    keywords: [
+        "data collection services",
+        "data gathering company",
+        "data research services",
+        "primary data collection",
+        "secondary data collection",
+        "market data collection",
+        "verified data services",
+    ],
+
+    alternates: {
+        canonical: "https://www.computyne.com/data-collection-services",
+    },
+};
+
+
 export default function dataCollectionServices() {
     return (
         <>

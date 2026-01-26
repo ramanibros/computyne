@@ -15,6 +15,30 @@ import {dataEntryServicesSchema} from "@/libs/schema/services/dataEntryServicesS
 import SubFooter from "@/components/layout/footer/subFooter";
 import Testimonials from "@/components/layout/common/Testimonials";
 
+
+export const metadata = {
+    metadataBase: new URL("https://www.computyne.com"),
+
+    title: "Data Entry Services | Accurate Business Data Entry | Computyne",
+    description:
+        "Dependable data entry services by Computyne, handling large volumes of business information with precision, verification, and secure processing for organized and error-free data.",
+
+    keywords: [
+        "data entry services",
+        "business data entry",
+        "outsourced data entry",
+        "high volume data entry",
+        "data verification services",
+        "secure data entry",
+        "accurate data processing",
+    ],
+
+    alternates: {
+        canonical: "https://www.computyne.com/data-entry-services",
+    },
+};
+
+
 export default function dataEntryServices() {
 
     return (

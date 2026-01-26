@@ -15,6 +15,29 @@ import JsonLd from "@/components/seo/JsonLd";
 import SubFooter from "@/components/layout/footer/subFooter";
 import Testimonials from "@/components/layout/common/Testimonials";
 
+export const metadata = {
+    metadataBase: new URL("https://www.computyne.com"),
+
+    title: "Data Cleansing Services: B2B & CRM Data Cleaning Company | Computyne",
+    description:
+        "Accurate data cleansing services by Computyne to remove errors, correct inconsistencies, and prepare reliable, structured information for business use.",
+
+    keywords: [
+        "data cleansing services",
+        "data cleaning company",
+        "b2b data cleansing",
+        "crm data cleaning",
+        "data accuracy services",
+        "data quality management",
+        "structured data preparation",
+    ],
+
+    alternates: {
+        canonical: "https://www.computyne.com/data-cleansing-services",
+    },
+};
+
+
 export default function dataCleansingServices() {
     return (
         <>

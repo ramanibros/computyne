@@ -15,6 +15,29 @@ import JsonLd from "@/components/seo/JsonLd";
 import SubFooter from "@/components/layout/footer/subFooter";
 import Testimonials from "@/components/layout/common/Testimonials";
 
+export const metadata = {
+    metadataBase: new URL("https://www.computyne.com"),
+
+    title: "Web Research Services | Online Data Research Company | Computyne",
+    description:
+        "Professional web research services by Computyne to identify, collect, and organize online information that supports planning, analysis, and strategic initiatives.",
+
+    keywords: [
+        "web research services",
+        "online data research company",
+        "internet research services",
+        "market research support",
+        "competitive research",
+        "business research services",
+        "web data research",
+    ],
+
+    alternates: {
+        canonical: "https://www.computyne.com/web-research-services",
+    },
+};
+
+
 export default function webResearchServices() {
 
     return (

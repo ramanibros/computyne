@@ -16,6 +16,29 @@ import SubFooter from "@/components/layout/footer/subFooter";
 import Testimonials from "@/components/layout/common/Testimonials";
 
 
+export const metadata = {
+    metadataBase: new URL("https://www.computyne.com"),
+
+    title: "Web Scraping Services: AI-Powered Website Data Scraping | Computyne",
+    description:
+        "Scalable web scraping services by Computyne that automate data extraction from websites into structured, clean formats for research, reporting, and strategy.",
+
+    keywords: [
+        "web scraping services",
+        "website data scraping",
+        "ai powered web scraping",
+        "automated data extraction",
+        "web data collection",
+        "data scraping solutions",
+        "structured web data",
+    ],
+
+    alternates: {
+        canonical: "https://www.computyne.com/web-scraping-services",
+    },
+};
+
+
 export default function webScrapingServices() {
 
 

@@ -15,6 +15,31 @@ import JsonLd from "@/components/seo/JsonLd";
 import SubFooter from "@/components/layout/footer/subFooter";
 import Testimonials from "@/components/layout/common/Testimonials";
 
+
+export const metadata = {
+    metadataBase: new URL("https://www.computyne.com"),
+
+    title: "Data Services and Solutions for Smarter Business Decisions | Computyne",
+    description:
+        "Explore complete business data solutions by Computyne to manage, refine, and prepare data that supports confident decisions across operations and analytics.",
+
+    keywords: [
+        "data services",
+        "data solutions services",
+        "business data solutions",
+        "data management services",
+        "data preparation services",
+        "data refinement",
+        "analytics data solutions",
+        "outsourced data services",
+    ],
+
+    alternates: {
+        canonical: "https://www.computyne.com/data-solutions-services",
+    },
+};
+
+
 export default function dataSolutionsServices() {
 
     return (
