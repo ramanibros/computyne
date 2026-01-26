@@ -16,11 +16,11 @@ const IndustriesCard = ({industry, idx}) => {
                         {desc}
                     </p>
                 </div>
-                <ButtonPrimary
+                {/*<ButtonPrimary
                     text={"Read More"}
                     url={`/blogs/${id}`}
                     isTextBtn={true}
-                />
+                />*/}
             </div>
         </div>
     );
