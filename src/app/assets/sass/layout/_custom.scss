@@ -197,3 +197,9 @@ START: CUSTOM CSS
   overflow: hidden;
   text-overflow: ellipsis;
 }
+
+
+blockquote p {
+  font-weight: normal;
+  font-style: italic;
+}

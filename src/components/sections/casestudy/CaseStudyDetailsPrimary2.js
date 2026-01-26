@@ -42,6 +42,7 @@ const CasestudyDetailsPrimary2 = ({option}) => {
                                 className="wow fadeInUp"
                                 data-wow-delay=".6s"
                                 dangerouslySetInnerHTML={{__html: clientWords.data}}
+                                style={{fontStyle: "italic"}}
                             />
                             <cite>{clientWords.by}</cite>
                         </blockquote>
