@@ -6,8 +6,8 @@ import {useEffect, useState} from "react";
 
 
 const BlogDetailsPrimary = ({option}) => {
-    const {prevId, nextId, currentItem, isPrevItem, isNextItem} = option || {};
-    const {title, id, img, tags} = currentItem || {};
+    const {currentItem} = option || {};
+    const {tags} = currentItem || {};
 
     const pathname = usePathname();
     const slug = pathname.split("/").filter(Boolean).pop();

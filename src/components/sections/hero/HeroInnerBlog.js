@@ -2,8 +2,7 @@ import sliceText from "@/libs/sliceText";
 import Link from "next/link";
 import React from "react";
 
-const HeroInnerBlog = ({title, text, breadcrums = [], bgImg}) => {
-    // img ? img : "/images/blog/blog-1.webp"
+const HeroInnerBlog = ({title, author, date = [], bgImg}) => {
 
     return (
         <section
@@ -21,22 +20,24 @@ const HeroInnerBlog = ({title, text, breadcrums = [], bgImg}) => {
                             <h1 className={`tj-page-title`}>{title}</h1>
                             <div className="tj-page-link">
 								<span>
-									<i className="tji-home"></i>
+									<i className="tji-user"></i>
 								</span>
                                 <span>
-									<Link href="/" style={{color: "#D4D4D8"}}>Home</Link>
+									{author}
 								</span>
                                 <span>
-									<i className="tji-arrow-right" style={{color: "#D4D4D8"}}></i>
+									<i style={{
+                                        display: "inline-block",
+                                        width: "2px",
+                                        height: "20px",
+                                        backgroundColor: "#D4D4D8"
+                                    }}></i>
+								</span>
+                                <span style={{paddingLeft:"5px", paddingRight:"5px"}}>
+									<i className="tji-calendar" style={{color:"#f36523"}}></i>
 								</span>
                                 <span>
-									<Link href="/blog" style={{color: "#D4D4D8"}}>Blog</Link>
-								</span>
-                                <span>
-									<i className="tji-arrow-right" style={{color: "#D4D4D8"}}></i>
-								</span>
-                                <span>
-									<span>{sliceText(text, 28, true)}</span>
+									{date}
 								</span>
                             </div>
                         </div>
