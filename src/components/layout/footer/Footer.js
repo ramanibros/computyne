@@ -144,7 +144,7 @@ const Footer = () => {
                                     </div>
                                     <div className="contact-item">
 										<span>
-											<i className="tji-clock"></i> Mon-Fri 10am-10pm
+											<i className="tji-clock"></i> Mon to Sun 24x7
 										</span>
                                     </div>
                                 </div>
