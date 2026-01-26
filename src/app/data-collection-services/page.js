@@ -34,7 +34,7 @@ export default function dataCollectionServices() {
                             <Counter/>
                             <Aboutus type={1}/>
                             <Subservices/>
-                            <Casestudy/>
+                            <Casestudy text="Real Business Impact Through Scalable Data Collection"/>
                             <Whychooseus/>
                             <Faq type={1}/>
                             <Testimonials/>

@@ -34,7 +34,7 @@ export default function appraisalDataEntryServices() {
                             <Counter/>
                             <Aboutus type={1}/>
                             <Subservices/>
-                            <Casestudy/>
+                            <Casestudy text="Proven Results from Appraisal & Valuation Data Projects"/>
                             <Whychooseus/>
                             <Faq type={1}/>
                             <Testimonials/>

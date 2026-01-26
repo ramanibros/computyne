@@ -13,14 +13,15 @@ import JsonLd from "@/components/seo/JsonLd";
 import {multimodalAnnotationServicesSchema} from "@/libs/schema/services/multimodalAnnotationServicesSchema";
 import SubFooter from "@/components/layout/footer/subFooter";
 import Testimonials from "@/components/layout/common/Testimonials";
+import {realEstateIndustrySchema} from "@/libs/schema/services/realEstateIndustrySchema";
 
 export default function realEstate() {
 
     return (
         <>
             <JsonLd
-                id="multimodal-annotation-services-schema"
-                schema={multimodalAnnotationServicesSchema}
+                id="real-estate-industry-schema"
+                schema={realEstateIndustrySchema}
             />
             <div>
                 <BackToTop/>
@@ -30,17 +31,13 @@ export default function realEstate() {
                     <div id="smooth-content">
                         <main>
                             <div className="top-space-15"></div>
-                            {/* <Banner title={serviceData.banner.h1}
-                                          text={serviceData.banner.tagline}
-                                          isShowButton={true}
-                                          bannerimage={serviceData.banner.image}
-                                          buttonLabel={serviceData.banner.cta}/> */}
+                            
                             <Banner/>
                             <Counter/>
                             <Aboutus type={1}/>
                             <Subservices/>
                             <Whychooseus/>
-                            <Casestudy/>
+                            <Casestudy text="Operational Excellence in Real Estate and Property Management"/>
                             <Testimonials/>
                             <Faq type={1}/>
                             {/* <Industries /> */}

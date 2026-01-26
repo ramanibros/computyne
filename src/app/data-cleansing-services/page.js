@@ -34,7 +34,7 @@ export default function dataCleansingServices() {
                             <Counter/>
                             <Aboutus type={1}/>
                             <Subservices/>
-                            <Casestudy/>
+                            <Casestudy text="Real-World Data Cleansing Use Cases and Outcomes"/>
                             <Whychooseus/>
                             <Faq type={1}/>
                             <Testimonials/>

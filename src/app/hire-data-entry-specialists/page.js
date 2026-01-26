@@ -35,7 +35,7 @@ export default function hireDataEntrySpecialists() {
                             <Counter/>
                             <Aboutus type={1}/>
                             <Subservices/>
-                            <Casestudy/>
+                            <Casestudy text="Trusted by Businesses for Remote Data Entry Excellence"/>
                             <Whychooseus/>
                             <Faq type={1}/>
                             <Testimonials/>

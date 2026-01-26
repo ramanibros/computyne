@@ -35,7 +35,7 @@ export default function hireVirtualAssistants() {
                             <Counter/>
                             <Aboutus type={1}/>
                             <Subservices/>
-                            <Casestudy/>
+                            <Casestudy text="Client Success Stories with Dedicated Virtual Assistants"/>
                             <Whychooseus/>
                             <Faq type={1}/>
                             <Testimonials/>

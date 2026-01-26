@@ -35,7 +35,7 @@ export default function resumeFormattingServices() {
                             <Counter/>
                             <Aboutus type={1}/>
                             <Subservices/>
-                            <Casestudy/>
+                            <Casestudy text="Proven Results from Our Resume Services"/>
                             <Whychooseus/>
                             <Faq type={1}/>
                             <Testimonials/>
