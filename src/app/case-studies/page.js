@@ -38,7 +38,7 @@ export default function BlogGrid() {
 					<main>
 						<div className="top-space-15"></div>
 						<HeroInnerMod
-							title={"Case Study"}
+							title={"Case Studies"}
 							text={"Our business process services - driven by data, technology, and people - help" +
 								" clients save time, reduce costs, and improve operational efficiency worldwide."}
 						/>

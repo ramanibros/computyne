@@ -1,9 +1,8 @@
-import getPortfolio from "@/libs/getPortfolio";
 import ButtonPrimary from "./ButtonPrimary";
 import PortfolioCard from "./PortfolioCard";
 import getCaseStudy from "@/libs/getCaseStudies";
+
 const Portfolios = () => {
-	const portfolio = getPortfolio()?.slice(0, 3);
 	const casestudy = getCaseStudy()?.slice(0, 5);
 	return (
 		<section className="h5-project">
@@ -22,7 +21,7 @@ const Portfolios = () => {
 										</h2>
 									</div>
 									<div className="btn-area wow fadeInUp" data-wow-delay=".8s">
-										<ButtonPrimary text={"Explore More"} url={"/contact-us"} />
+										<ButtonPrimary text={"Explore More"} url={"/case-studies"} />
 									</div>
 								</div>
 							</div>

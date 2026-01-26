@@ -13,19 +13,18 @@ const CategoriesWidget = () => {
 	const casestudy = getCaseStudy();
 	return (
 		<div className="tj-sidebar-widget widget-categories">
-			<h4 className="widget-title">Categories</h4>
 			<ul>
 				 {/* ALL */}
-  <li>
-    <Link href="/case-studies">
-      All <span className="number">({modifyNumber(casestudy.length)})</span>
-    </Link>
-  </li>
+				  <li>
+					<Link href="/case-studies">
+						<span className="title">All</span> <span className="number">({modifyNumber(casestudy.length)})</span>
+					</Link>
+				  </li>
 				{categories?.length
 					? categories?.map((category, idx) => (
 							<li key={idx}>
 								<Link href={`/case-studies?category=${makePath(category.name)}`}>
-									{category.name}{" "}
+									<span className="title">{category.name}{" "}</span>
 									<span className="number">
 										(
 										{modifyNumber(
