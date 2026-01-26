@@ -15,6 +15,29 @@ import JsonLd from "@/components/seo/JsonLd";
 import SubFooter from "@/components/layout/footer/subFooter";
 import Testimonials from "@/components/layout/common/Testimonials";
 
+export const metadata = {
+    metadataBase: new URL("https://www.computyne.com"),
+
+    title: "Data Appending Services: Customer Data, Phone & Email Append | Computyne",
+    description:
+        "Custom data appending services by Computyne that enrich and update datasets with missing information to improve data completeness and campaign results.",
+
+    keywords: [
+        "data appending services",
+        "customer data append",
+        "phone data append",
+        "email data append",
+        "data enrichment services",
+        "dataset update services",
+        "business data appending",
+    ],
+
+    alternates: {
+        canonical: "https://www.computyne.com/data-appending-services",
+    },
+};
+
+
 export default function dataAppendingServices() {
     return (
         <>

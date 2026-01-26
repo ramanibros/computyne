@@ -15,6 +15,30 @@ import JsonLd from "@/components/seo/JsonLd";
 import SubFooter from "@/components/layout/footer/subFooter";
 import Testimonials from "@/components/layout/common/Testimonials";
 
+
+export const metadata = {
+    metadataBase: new URL("https://www.computyne.com"),
+
+    title: "Data Enrichment Services: B2B & CRM Data Enrichment Company | Computyne",
+    description:
+        "Precise data enrichment services by Computyne to update, verify, and complete datasets for better targeting, segmentation, and informed business decision-making.",
+
+    keywords: [
+        "data enrichment services",
+        "b2b data enrichment",
+        "crm data enrichment",
+        "data verification services",
+        "data updating services",
+        "data completion solutions",
+        "business data enrichment",
+    ],
+
+    alternates: {
+        canonical: "https://www.computyne.com/data-enrichment-services",
+    },
+};
+
+
 export default function dataEnrichmentServices() {
 
     return (

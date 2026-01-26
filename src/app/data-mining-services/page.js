@@ -15,6 +15,29 @@ import JsonLd from "@/components/seo/JsonLd";
 import SubFooter from "@/components/layout/footer/subFooter";
 import Testimonials from "@/components/layout/common/Testimonials";
 
+export const metadata = {
+    metadataBase: new URL("https://www.computyne.com"),
+
+    title: "Data Mining Services | Reliable Web Data Mining Company | Computyne",
+    description:
+        "Tailored data mining services by Computyne to uncover insights from large datasets, detect trends, and support business performance evaluation and strategic planning.",
+
+    keywords: [
+        "data mining services",
+        "web data mining company",
+        "big data mining",
+        "data analysis services",
+        "trend analysis",
+        "business intelligence services",
+        "data insights solutions",
+    ],
+
+    alternates: {
+        canonical: "https://www.computyne.com/data-mining-services",
+    },
+};
+
+
 export default function dataMiningServices() {
 
     return (

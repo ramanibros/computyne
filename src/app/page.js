@@ -19,53 +19,23 @@ import SubFooter from "@/components/layout/footer/subFooter";
 export const metadata = {
     metadataBase: new URL("https://www.computyne.com"),
 
-    title: "Computyne: Global Outsourcing &amp; Data Services Company",
+    title: "Computyne: Global Outsourcing & Data Services Company",
     description:
-        "Computyne is your trusted outsourcing company for end-to-end data services and solutions. Partner with us to boost efficiency, accuracy &amp; business performance.",
+        "Future-ready growth with Computyne. We deliver next-gen data services that enable smarter business decisions, boost productivity, and improve operational efficiency worldwide.",
+
     keywords: [
-        "data entry outsourcing",
-        "data enrichment",
-        "back office solutions",
-        "outsourcing company",
-        "business process management",
+        "global outsourcing company",
+        "data services provider",
+        "next gen data services",
+        "business process outsourcing",
+        "data management solutions",
+        "operational efficiency",
+        "productivity improvement",
     ],
 
     alternates: {
         canonical: "https://www.computyne.com/",
     },
-
-    openGraph: {
-        title: "Computyne: Global Outsourcing &amp; Data Services Company",
-        description:
-            "Computyne provides professional outsourcing services, data management, and business process solutions to help companies operate efficiently.",
-        url: "https://www.computyne.com/",
-        siteName: "Computyne",
-        type: "website",
-        images: [
-            {
-                url: "https://www.computyne.com/logo.png",
-                width: 800,
-                height: 600,
-                alt: "Computyne Logo",
-            },
-        ],
-    },
-
-    twitter: {
-        card: "Computyne: Global Outsourcing &amp; Data Services Company",
-        title: "Computyne provides professional outsourcing services, data management, and business process solutions to help companies operate efficiently.",
-        description:
-            "End-to-end data outsourcing, data processing, and web research services for global enterprises.",
-        images: [
-            {
-                url: "https://computyne.com/logo.png",
-                width: 800,
-                height: 600,
-                alt: "Computyne Logo",
-            },
-        ],
-    },
-
 };
 
 

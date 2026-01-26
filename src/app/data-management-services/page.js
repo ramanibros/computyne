@@ -15,6 +15,29 @@ import JsonLd from "@/components/seo/JsonLd";
 import SubFooter from "@/components/layout/footer/subFooter";
 import Testimonials from "@/components/layout/common/Testimonials";
 
+export const metadata = {
+    metadataBase: new URL("https://www.computyne.com"),
+
+    title: "Data Management Services | Enterprise Information Management | Computyne",
+    description:
+        "Professional data management services by Computyne to organize, standardize, and maintain business data so it is accurate, consistent, and ready for decision-making.",
+
+    keywords: [
+        "data management services",
+        "enterprise information management",
+        "data governance services",
+        "data standardization",
+        "data quality management",
+        "master data management",
+        "business data services",
+    ],
+
+    alternates: {
+        canonical: "https://www.computyne.com/data-management-services",
+    },
+};
+
+
 export default function dataManagementServices() {
 
     return (

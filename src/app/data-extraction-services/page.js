@@ -15,6 +15,30 @@ import {dataExtractionServicesSchema} from "@/libs/schema/services/dataExtractio
 import SubFooter from "@/components/layout/footer/subFooter";
 import Testimonials from "@/components/layout/common/Testimonials";
 
+
+export const metadata = {
+    metadataBase: new URL("https://www.computyne.com"),
+
+    title: "Data Extraction Services | Web Data Extraction Company | Computyne",
+    description:
+        "Professional data extraction services by Computyne that transform unstructured data into structured formats to support reporting, analytics, and informed business decisions.",
+
+    keywords: [
+        "data extraction services",
+        "web data extraction",
+        "data scraping services",
+        "unstructured data processing",
+        "structured data conversion",
+        "business data extraction",
+        "data mining services",
+    ],
+
+    alternates: {
+        canonical: "https://www.computyne.com/data-extraction-services",
+    },
+};
+
+
 export default function dataExtractionServices() {
 
     return (
