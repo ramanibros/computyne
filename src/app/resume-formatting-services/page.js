@@ -16,6 +16,29 @@ import SubFooter from "@/components/layout/footer/subFooter";
 import Testimonials from "@/components/layout/common/Testimonials";
 
 
+export const metadata = {
+    metadataBase: new URL("https://www.computyne.com"),
+
+    title: "Resume Formatting Services | Professional CV Formatting | Computyne",
+    description:
+        "Professional resume formatting services by Computyne to structure resumes and CVs for clarity, consistency, and ATS compatibility.",
+
+    keywords: [
+        "resume formatting services",
+        "cv formatting services",
+        "professional resume formatting",
+        "ats compatible resume",
+        "resume layout services",
+        "cv standardization",
+        "document formatting services",
+    ],
+
+    alternates: {
+        canonical: "https://www.computyne.com/resume-formatting-services",
+    },
+};
+
+
 export default function resumeFormattingServices() {
     return (
         <>

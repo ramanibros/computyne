@@ -15,6 +15,29 @@ import JsonLd from "@/components/seo/JsonLd";
 import SubFooter from "@/components/layout/footer/subFooter";
 import Testimonials from "@/components/layout/common/Testimonials";
 
+export const metadata = {
+    metadataBase: new URL("https://www.computyne.com"),
+
+    title: "Document Processing Services | Intelligent Document Management | Computyne",
+    description:
+        "End-to-end document processing services by Computyne, including capture, digitization, classification, and data extraction for efficient business document management.",
+
+    keywords: [
+        "document processing services",
+        "intelligent document management",
+        "document digitization services",
+        "document data extraction",
+        "business document processing",
+        "document workflow automation",
+        "enterprise document services",
+    ],
+
+    alternates: {
+        canonical: "https://www.computyne.com/document-processing-services",
+    },
+};
+
+
 export default function documentProcessingServices() {
 
     return (

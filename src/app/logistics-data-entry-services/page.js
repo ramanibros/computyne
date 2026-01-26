@@ -15,6 +15,29 @@ import {logisticsDataEntryServicesSchema} from "@/libs/schema/services/logistics
 import SubFooter from "@/components/layout/footer/subFooter";
 import Testimonials from "@/components/layout/common/Testimonials";
 
+export const metadata = {
+    metadataBase: new URL("https://www.computyne.com"),
+
+    title: "Logistics Data Entry Services | Transport & Shipping Data Processing | Computyne",
+    description:
+        "Specialized logistics data entry services by Computyne for managing transport, shipment, and supply chain records with accuracy, speed, and reliability.",
+
+    keywords: [
+        "logistics data entry services",
+        "transport data processing",
+        "shipping data entry",
+        "supply chain data management",
+        "freight data entry",
+        "logistics documentation services",
+        "shipping record management",
+    ],
+
+    alternates: {
+        canonical: "https://www.computyne.com/logistics-data-entry-services",
+    },
+};
+
+
 export default function logisticsDataEntryServices() {
 
     return (

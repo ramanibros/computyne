@@ -15,6 +15,30 @@ import {dataLabelingAnnotationSchema} from "@/libs/schema/services/dataLabelingA
 import SubFooter from "@/components/layout/footer/subFooter";
 import Testimonials from "@/components/layout/common/Testimonials";
 
+
+export const metadata = {
+    metadataBase: new URL("https://computyne-one.vercel.app"),
+
+    title: "Data Labeling Services | Accurate Training Data for AI & ML | Computyne",
+    description:
+        "Professional data labeling services by Computyne delivering high-quality annotated datasets for AI, machine learning, and analytics — ensuring accuracy, consistency, and optimal model performance.",
+
+    keywords: [
+        "data labeling services",
+        "ai training data",
+        "machine learning data annotation",
+        "annotated datasets",
+        "ml training data services",
+        "data annotation for ai",
+        "high-quality labeled data",
+    ],
+
+    alternates: {
+        canonical: "https://computyne-one.vercel.app/data-labeling-services",
+    },
+};
+
+
 export default function dataExtractionServices() {
 
     return (

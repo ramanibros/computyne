@@ -15,6 +15,29 @@ import {virtualAssistantServicesSchema} from "@/libs/schema/services/virtualAssi
 import SubFooter from "@/components/layout/footer/subFooter";
 import Testimonials from "@/components/layout/common/Testimonials";
 
+export const metadata = {
+    metadataBase: new URL("https://www.computyne.com"),
+
+    title: "Hire Offshore Resources | Dedicated Staffing Solutions | Computyne",
+    description:
+        "Hire dedicated offshore resources by Computyne, including data professionals, researchers, and virtual assistants for scalable business operations.",
+
+    keywords: [
+        "hire offshore resources",
+        "dedicated staffing solutions",
+        "remote data professionals",
+        "virtual assistants",
+        "offshore team hiring",
+        "business process outsourcing",
+        "scalable staffing solutions",
+    ],
+
+    alternates: {
+        canonical: "https://www.computyne.com/hire-resources",
+    },
+};
+
+
 export default function hireVirtualAssistants() {
 
     return (

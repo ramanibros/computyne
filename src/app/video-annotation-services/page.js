@@ -15,6 +15,30 @@ import {videoAnnotationServicesSchema} from "@/libs/schema/services/videoAnnotat
 import SubFooter from "@/components/layout/footer/subFooter";
 import Testimonials from "@/components/layout/common/Testimonials";
 
+
+export const metadata = {
+    metadataBase: new URL("https://computyne-one.vercel.app"),
+
+    title: "Video Annotation Services | AI Training Data for Computer Vision | Computyne",
+    description:
+        "Professional video annotation services by Computyne for AI and machine learning — precise frame-level labeling, object tracking, and scene annotation to power computer vision models.",
+
+    keywords: [
+        "video annotation services",
+        "ai training data for computer vision",
+        "machine learning video labeling",
+        "frame-level annotation",
+        "object tracking annotation",
+        "scene annotation services",
+        "cv model training data",
+    ],
+
+    alternates: {
+        canonical: "https://computyne-one.vercel.app/video-annotation-services",
+    },
+};
+
+
 export default function videoAnnotationServices() {
 
     return (

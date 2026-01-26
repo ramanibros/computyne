@@ -16,6 +16,29 @@ import SubFooter from "@/components/layout/footer/subFooter";
 import Testimonials from "@/components/layout/common/Testimonials";
 
 
+export const metadata = {
+    metadataBase: new URL("https://www.computyne.com"),
+
+    title: "Property Data Collection Services | Real Estate Data Gathering | Computyne",
+    description:
+        "Structured property data collection services by Computyne to gather, verify, and maintain accurate real estate and property datasets for reliable business decisions.",
+
+    keywords: [
+        "property data collection services",
+        "real estate data gathering",
+        "property information collection",
+        "real estate data services",
+        "property data verification",
+        "real estate data management",
+        "property market data",
+    ],
+
+    alternates: {
+        canonical: "https://www.computyne.com/property-data-collection-services",
+    },
+};
+
+
 export default function propertyDataCollectionServices() {
 
     return (

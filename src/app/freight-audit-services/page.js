@@ -15,6 +15,29 @@ import {freightAuditSchema} from "@/libs/schema/services/freightAuditSchema";
 import SubFooter from "@/components/layout/footer/subFooter";
 import Testimonials from "@/components/layout/common/Testimonials";
 
+export const metadata = {
+    metadataBase: new URL("https://www.computyne.com"),
+
+    title: "Freight Audit Services | Freight Bill Auditing & Recovery | Computyne",
+    description:
+        "Professional freight audit services by Computyne to verify freight invoices, identify billing errors, and recover overcharges for efficient logistics operations.",
+
+    keywords: [
+        "freight audit services",
+        "freight bill auditing",
+        "freight invoice verification",
+        "logistics audit services",
+        "freight cost recovery",
+        "transportation auditing",
+        "shipping audit services",
+    ],
+
+    alternates: {
+        canonical: "https://www.computyne.com/freight-audit-services",
+    },
+};
+
+
 export default function freightAuditServices() {
 
     return (

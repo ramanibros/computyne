@@ -15,6 +15,30 @@ import JsonLd from "@/components/seo/JsonLd";
 import SubFooter from "@/components/layout/footer/subFooter";
 import Testimonials from "@/components/layout/common/Testimonials";
 
+
+export const metadata = {
+    metadataBase: new URL("https://www.computyne.com"),
+
+    title: "Data Standardization Services | Data Formatting Services | Computyne",
+    description:
+        "Professional data standardization services by Computyne to ensure uniform formatting and consistent structure across datasets for easier integration and reliable business use.",
+
+    keywords: [
+        "data standardization services",
+        "data formatting services",
+        "data normalization",
+        "data consistency services",
+        "data integration preparation",
+        "business data standardization",
+        "structured data formatting",
+    ],
+
+    alternates: {
+        canonical: "https://www.computyne.com/data-standarization-services",
+    },
+};
+
+
 export default function dataStandarizationServices() {
 
     return (

@@ -15,6 +15,29 @@ import {textAnnotationServicesSchema} from "@/libs/schema/services/textAnnotatio
 import SubFooter from "@/components/layout/footer/subFooter";
 import Testimonials from "@/components/layout/common/Testimonials";
 
+export const metadata = {
+    metadataBase: new URL("https://computyne-one.vercel.app"),
+
+    title: "Text Annotation Services | High-Quality NLP Data Labeling | Computyne",
+    description:
+        "Accurate text annotation services by Computyne for NLP and AI — expert labeling, entity tagging, sentiment marking, and structured text datasets to boost machine learning model performance.",
+
+    keywords: [
+        "text annotation services",
+        "nlp data labeling",
+        "machine learning text annotation",
+        "entity tagging services",
+        "sentiment labeling",
+        "structured text datasets",
+        "ai training data",
+    ],
+
+    alternates: {
+        canonical: "https://computyne-one.vercel.app/text-annotation-services",
+    },
+};
+
+
 export default function textAnnotationServices() {
 
     return (

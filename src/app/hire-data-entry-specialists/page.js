@@ -15,6 +15,29 @@ import {remoteDataEntrySchema} from "@/libs/schema/services/remoteDataEntrySchem
 import SubFooter from "@/components/layout/footer/subFooter";
 import Testimonials from "@/components/layout/common/Testimonials";
 
+export const metadata = {
+    metadataBase: new URL("https://www.computyne.com"),
+
+    title: "Hire Data Entry Specialists | Dedicated Data Entry Team | Computyne",
+    description:
+        "Hire experienced data entry specialists by Computyne for accurate, secure, and high-volume data processing projects with dedicated support.",
+
+    keywords: [
+        "hire data entry specialists",
+        "dedicated data entry team",
+        "remote data entry professionals",
+        "high-volume data processing",
+        "secure data entry services",
+        "outsourced data entry",
+        "data management support",
+    ],
+
+    alternates: {
+        canonical: "https://www.computyne.com/hire-data-entry-specialists",
+    },
+};
+
+
 export default function hireDataEntrySpecialists() {
 
     return (

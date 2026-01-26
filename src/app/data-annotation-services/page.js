@@ -15,6 +15,29 @@ import JsonLd from "@/components/seo/JsonLd";
 import SubFooter from "@/components/layout/footer/subFooter";
 import Testimonials from "@/components/layout/common/Testimonials";
 
+export const metadata = {
+    metadataBase: new URL("https://computyne-one.vercel.app"),
+
+    title: "Data Annotation Services | Accurate AI Training Data Solutions | Computyne",
+    description:
+        "Professional data annotation services by Computyne for Machine Learning and AI — precise labeling, quality control, and structured training datasets to improve model accuracy and performance.",
+
+    keywords: [
+        "data annotation services",
+        "ai training data solutions",
+        "machine learning data labeling",
+        "training dataset preparation",
+        "data labeling services",
+        "ai model accuracy",
+        "structured training data",
+    ],
+
+    alternates: {
+        canonical: "https://computyne-one.vercel.app/data-annotation-services",
+    },
+};
+
+
 export default function dataAnnotationServices() {
     return (
         <>
