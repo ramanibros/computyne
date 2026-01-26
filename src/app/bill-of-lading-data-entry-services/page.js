@@ -34,7 +34,7 @@ export default function billOfLadingDataEntryServices() {
                             <Counter/>
                             <Aboutus type={1}/>
                             <Subservices/>
-                            <Casestudy/>
+                            <Casestudy text="Freight Documentation Optimization Case Studies"/>
                             <Whychooseus/>
                             <Faq type={1}/>
                             <Testimonials/>

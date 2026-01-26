@@ -31,16 +31,12 @@ export default function dataValidationServices() {
                     <div id="smooth-content">
                         <main>
                             <div className="top-space-15"></div>
-                            {/* <Banner title={serviceData.banner.h1}
-                                          text={serviceData.banner.tagline}
-                                          isShowButton={true}
-                                          bannerimage={serviceData.banner.image}
-                                          buttonLabel={serviceData.banner.cta}/> */}
+                            
                             <Banner/>
                             <Counter/>
                             <Aboutus type={1}/>
                             <Subservices/>
-                            <Casestudy/>
+                            <Casestudy text="Enterprise Data Validation Case Studies with Measurable Results"/>
                             <Whychooseus/>
                             <Faq type={1}/>
                             <Testimonials/>

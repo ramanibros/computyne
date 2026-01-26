@@ -34,7 +34,7 @@ export default function competitorAnalysisServices() {
                             <Counter/>
                             <Aboutus type={1}/>
                             <Subservices/>
-                            <Casestudy/>
+                            <Casestudy text="From Pricing Challenges to Growth: Competitor Analysis Case Studies"/>
                             <Whychooseus/>
                             <Faq type={1}/>
                             <Testimonials/>

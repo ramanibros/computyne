@@ -31,16 +31,12 @@ export default function documentDigitizationServices() {
                     <div id="smooth-content">
                         <main>
                             <div className="top-space-15"></div>
-                            {/* <Banner title={serviceData.banner.h1}
-                                          text={serviceData.banner.tagline}
-                                          isShowButton={true}
-                                          bannerimage={serviceData.banner.image}
-                                          buttonLabel={serviceData.banner.cta}/> */}
+                            
                             <Banner/>
                             <Counter/>
                             <Aboutus type={1}/>
                             <Subservices/>
-                            <Casestudy/>
+                            <Casestudy text="Proven Document Digitization Success Stories from Data-Driven Enterprises"/>
                             <Whychooseus/>
                             <Faq type={1}/>
                             <Testimonials/>

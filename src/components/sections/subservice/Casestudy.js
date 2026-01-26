@@ -4,7 +4,7 @@ import PortfolioCard from "./PortfolioCard";
 import getCaseStudy from "@/libs/getCaseStudies";
 import {usePathname} from "next/navigation";
 
-const Casestudy = () => {
+const Casestudy = ({text}) => {
 
     const pathname = usePathname();
     const slug = pathname.split("/").filter(Boolean).pop();
@@ -29,7 +29,7 @@ const Casestudy = () => {
                                 <div className="heading-wrap-content">
                                     <div className="sec-heading style-3">
                                         <h2 className="sec-title text-anim">
-                                            Breaking Boundaries, Building Dreams.
+                                            {text ?? "Breaking Boundaries, Building Dreams."}
                                         </h2>
                                     </div>
                                     <div className="btn-area wow fadeInUp" data-wow-delay=".8s">

@@ -34,7 +34,7 @@ export default function dataAppendingServices() {
                             <Counter/>
                             <Aboutus type={1}/>
                             <Subservices/>
-                            <Casestudy/>
+                            <Casestudy text="How Our Data Appending Services Deliver Measurable Business Impact"/>
                             <Whychooseus/>
                             <Faq type={1}/>
                             <Testimonials/>

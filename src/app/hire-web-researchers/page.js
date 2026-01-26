@@ -35,7 +35,7 @@ export default function hireWebResearchers() {
                             <Counter/>
                             <Aboutus type={1}/>
                             <Subservices/>
-                            <Casestudy/>
+                            <Casestudy text="Impactful Results from Professional Web Research Services"/>
                             <Whychooseus/>
                             <Faq type={1}/>
                             <Testimonials/>

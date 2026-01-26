@@ -35,7 +35,7 @@ export default function dataExtractionServices() {
                             <Counter/>
                             <Aboutus type={1}/>
                             <Subservices/>
-                            <Casestudy/>
+                            <Casestudy text="How We Solve Complex Data Extraction Challenges"/>
                             <Whychooseus/>
                             <Faq type={1}/>
                             <Testimonials/>
