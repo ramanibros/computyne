@@ -18,7 +18,7 @@ const Casestudy = () => {
 
     return (
         <section className="h5-project">
-            <div className="tj-scroll-slider  section-gap">
+            <div className="tj-scroll-slider section-gap">
                 <div className="container">
                     <div className="row">
                         <div className="col-12">

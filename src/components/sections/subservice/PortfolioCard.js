@@ -1,21 +1,19 @@
 import ButtonPrimary from "./ButtonPrimary";
 import FunfactSingle from "./FunfactSingle";
+import Image from "next/image";
 
 const PortfolioCard = ({casestudy}) => {
     const {
         title,
         img,
         desc,
-        id,
-        dataFilter,
-        category = "Connect",
         kpiData, slug
     } = casestudy ? casestudy : {};
     return (
         <div className="h5-project-item-wrapper tj-scroll-slider-item">
             <div className="project-item h4-project-item  h5-project-item">
                 <div className="project-img">
-                    <img src={img} alt="Image"/>
+                    <Image src={img} alt="Image" height={1000} width={1000}/>
                 </div>
 
                 <div className="h9-about-content-port-card-mod">
@@ -46,24 +44,6 @@ const PortfolioCard = ({casestudy}) => {
 
                             </div>
                         ))}
-                        {/* <div className="countup-item">
-							<FunfactSingle currentValue={20} symbol={"M"} />
-							<span className="count-text">
-								Reduced Manual Errors
-							</span>
-						</div>
-						<div className="countup-item">
-							<FunfactSingle currentValue={8.5} symbol={"X"} />
-							<span className="count-text">
-								Reduced Order Processing Time
-							</span>
-						</div>
-						<div className="countup-item">
-							<FunfactSingle currentValue={8.5} symbol={"X"} />
-							<span className="count-text">
-								Boost in Shipping Efficiency
-							</span>
-						</div> */}
                     </div>
 
                 </div>
