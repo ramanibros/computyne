@@ -12,8 +12,8 @@ const CategoriesWidget = () => {
 	const categories = getCaseStudyCategories();
 	const casestudy = getCaseStudy();
 	return (
-		<div className="tj-sidebar-widget widget-categories">
-			<ul>
+		<div className="tj-sidebar-widget widget-categories tj-sidebar-widget-custom">
+			<ul className="filter-ul">
 				 {/* ALL */}
 				  <li>
 					<Link href="/case-studies">

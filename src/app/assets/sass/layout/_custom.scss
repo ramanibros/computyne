@@ -171,24 +171,25 @@ START: CUSTOM CSS
     height: revert-layer;
 }
 
-.tj-sidebar-widget.widget-categories {
+.tj-sidebar-widget-custom.widget-categories {
     max-height: 200px;
     overflow-y: auto;
     overflow-x: hidden;
     scroll-behavior: smooth;
 }
 
-.tj-sidebar-widget ul {
+
+.tj-sidebar-widget-custom ul.filter-ul {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
 }
 
-.tj-sidebar-widget ul li {
+.tj-sidebar-widget-custom ul.filter-ul li {
     width: 16%; /* two items per row */
 }
 
-.tj-sidebar-widget.widget-categories ul li a span.title{
+.tj-sidebar-widget-custom.widget-categories ul li a span.title{
     display: block;
     white-space: nowrap;
     overflow: hidden;
