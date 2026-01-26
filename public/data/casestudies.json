@@ -7,7 +7,10 @@
 		"detailsImg": "/images/casestudies/resume-formatting-services-staffing-recruitment.webp",
 		"smallImg": "/images/casestudies/resume-formatting-services-staffing-recruitment-870x450.webp",
 		"desc": "A leading UK-based staffing and recruitment company partnered with Computyne to solve a critical operational bottleneck: messy candidate resumes. By outsourcing their resume formatting, the client achieved a 60% faster turnaround time, maintained 99.5% accuracy, and freed their recruiters to focus on placing talent rather than fixing fonts.",
-		"category": ["Resume Formatting", "Document Processing"],
+		"category": [
+			"Resume Formatting",
+			"Document Processing"
+		],
 		"tags": [
 			"Corporate",
 			"Business"
@@ -32,7 +35,6 @@
 				"subLine": "Computyne implemented a scalable, high-speed resume formatting workflow tailored to the client’s branding standards.",
 				"data": "<div class=\"desc blog-text-mod wow fadeInUp\" data-wow-delay=\".8s\"><div class=\"solution-block\"><p class=\"solution-title\"><strong>1. Standardization &amp; Branding</strong></p><ul class=\"wow fadeInUp\"><li><span><i class=\"tji-list\"></i></span><div class=\"list-text\"><strong>Template Design:</strong><span>We created standardized, branded templates designed for maximum readability and ATS (Applicant Tracking System) compatibility.</span></div></li></ul></div><div class=\"solution-block\"><p class=\"solution-title\"><strong>2. Multi-Format Conversion</strong></p><ul class=\"wow fadeInUp\"><li><span><i class=\"tji-list\"></i></span><div class=\"list-text\"><strong>Unified Output:</strong><span>Our team converted diverse input formats (PDFs, scans) into clean, editable Word or PDF documents ready for client presentation.</span></div></li></ul></div><div class=\"solution-block\"><p class=\"solution-title\"><strong>3. Hybrid Quality Control</strong></p><ul class=\"wow fadeInUp\"><li><span><i class=\"tji-list\"></i></span><div class=\"list-text\"><strong>Tool + Human Review:</strong><span>Leveraged advanced formatting tools for speed, followed by manual Quality Control (QC) checks to ensure perfect consistency in spacing, fonts, and grammar.</span></div></li></ul></div><div class=\"solution-block\"><p class=\"solution-title\"><strong>4. On-Demand Scalability</strong></p><ul class=\"wow fadeInUp\"><li><span><i class=\"tji-list\"></i></span><div class=\"list-text\"><strong>Dedicated Team:</strong><span>Deployed an offshore support team available on-demand to handle volume spikes during peak hiring seasons.</span></div></li></ul></div></div>"
 			},
-
 			{
 				"title": "Key Results & Impact",
 				"subLine": "The partnership transformed the client’s back-office, turning resume processing from a bottleneck into a competitive advantage.",
@@ -73,7 +75,18 @@
 		"showedIn": [
 			"resume-formatting-services",
 			"document-processing-services"
-		]
+		],
+		"meta": {
+			"metaTitle": "Resume Formatting Services for Staffing Agencies | Computyne",
+			"metaDescription": "See how Computyne helped a UK staffing firm speed up resume processing by 60%. Our resume formatting services ensure recruiter-ready profiles with 99.5% accuracy.",
+			"keywords": [
+				"Resume Formatting Services",
+				"Staffing Agency Back Office Support",
+				"CV Formatting Outsourcing",
+				"Recruitment Process Outsourcing (RPO)",
+				"Candidate Resume Standardization"
+			]
+		}
 	},
 	{
 		"id": 2,
@@ -87,7 +100,10 @@
 			"Corporate",
 			"Business"
 		],
-		"category": ["Resume Formatting", "Document Processing"],
+		"category": [
+			"Resume Formatting",
+			"Document Processing"
+		],
 		"status": "Tutorial",
 		"content": [
 			{
@@ -148,7 +164,18 @@
 		"showedIn": [
 			"resume-formatting-services",
 			"document-processing-services"
-		]
+		],
+		"meta": {
+			"metaTitle": "Resume Formatting Services Australia: 30-Minute Turnaround | Computyne",
+			"metaDescription": "See how Computyne helped an Australian recruitment firm streamline operations with a 30-minute resume formatting turnaround. We deliver ATS-ready, professional CVs.",
+			"keywords": [
+				"Resume Formatting Services Australia",
+				"ATS Resume Conversion",
+				"Recruitment Back Office Support",
+				"CV Formatting Outsourcing",
+				"High-Volume Resume Processing"
+			]
+		}
 	},
 	{
 		"id": 3,
@@ -162,7 +189,9 @@
 			"Corporate",
 			"Business"
 		],
-		"category": ["Data Collection"],
+		"category": [
+			"Data Collection"
+		],
 		"status": "Tutorial",
 		"content": [
 			{
@@ -221,7 +250,25 @@
 		],
 		"showedIn": [
 			"data-collection-services"
-		]
+		],
+		"meta": {
+			"metaTitle": "Recruitment Automation Case Study: Handshake Data Extraction | Computyne",
+			"metaDescription": "See how Computyne helped a US staffing firm automate Handshake resume collection, reducing manual effort by 80% and cutting operational costs by 60%.",
+			"keywords": [
+				"Recruitment Automation",
+				"Resume Parsing Services",
+				"Automated Data Extraction",
+				"Staffing Process Outsourcing",
+				"Handshake Data Scraper",
+				"Candidate Data Entry Automation",
+				"ATS Data Integration",
+				"Resume Data Cleaning",
+				"How to automate resume downloads from Handshake",
+				"Outsource recruitment data entry services",
+				"Automated candidate sourcing tools for staffing firms",
+				"Reduce time-to-hire with data automation"
+			]
+		}
 	},
 	{
 		"id": 4,
@@ -235,7 +282,10 @@
 			"Corporate",
 			"Business"
 		],
-		"category": ["Data Extraction", "Data Collection"],
+		"category": [
+			"Data Extraction",
+			"Data Collection"
+		],
 		"status": "Tutorial",
 		"content": [
 			{
@@ -296,7 +346,17 @@
 		"showedIn": [
 			"data-extraction-services",
 			"data-collection-services"
-		]
+		],
+		"meta": {
+			"metaTitle": "Business Listing Data Extraction for Market Research | Computyne",
+			"metaDescription": "See how Computyne helped a global consulting firm automate business listing extraction, achieving 100% data accuracy and reducing research time by 50%.",
+			"keywords": [
+				"Business Listing Data Extraction",
+				"Market Research Data Collection",
+				"Automated Web Scraping Services",
+				"B2B Data Enrichment"
+			]
+		}
 	},
 	{
 		"id": 5,
@@ -310,7 +370,10 @@
 			"Corporate",
 			"Business"
 		],
-		"category": ["Invoice Processing", "Document Processing"],
+		"category": [
+			"Invoice Processing",
+			"Document Processing"
+		],
 		"status": "Tutorial",
 		"content": [
 			{
@@ -371,7 +434,18 @@
 		"showedIn": [
 			"invoice-processing-services",
 			"document-processing-services"
-		]
+		],
+		"meta": {
+			"metaTitle": "Accounts Payable Automation for Logistics: 60% Faster Processing | Computyne",
+			"metaDescription": "See how Computyne helped a global logistics firm streamline Accounts Payable. Our AI invoice processing reduced errors by 95% and cycle times by 60%.",
+			"keywords": [
+				"Accounts Payable Automation",
+				"Invoice Processing Services",
+				"Automated 3-Way Matching",
+				"Logistics AP Outsourcing",
+				"AI Invoice Data Extraction"
+			]
+		}
 	},
 	{
 		"id": 6,
@@ -385,7 +459,10 @@
 			"Corporate",
 			"Business"
 		],
-		"category": ["Property Data Collection", "Data Collection"],
+		"category": [
+			"Property Data Collection",
+			"Data Collection"
+		],
 		"status": "Tutorial",
 		"content": [
 			{
@@ -446,7 +523,18 @@
 		"showedIn": [
 			"property-data-collection-services",
 			"data-collection-services"
-		]
+		],
+		"meta": {
+			"metaTitle": "Real Estate Market Research & Data Collection Services | Computyne",
+			"metaDescription": "See how Computyne helped a US real estate firm automate property data collection, achieving 80% faster research cycles and 60% less manual effort.",
+			"keywords": [
+				"Real Estate Data Collection",
+				"Property Market Research",
+				"Real Estate Data Enrichment",
+				"Automated Property Scraping",
+				"Real Estate CRM Data Entry"
+			]
+		}
 	},
 	{
 		"id": 7,
@@ -460,7 +548,10 @@
 			"Corporate",
 			"Business"
 		],
-		"category": ["Data Mining", "Data Collection"],
+		"category": [
+			"Data Mining",
+			"Data Collection"
+		],
 		"status": "Tutorial",
 		"content": [
 			{
@@ -521,7 +612,25 @@
 		"showedIn": [
 			"data-mining-services",
 			"data-collection-services"
-		]
+		],
+		"meta": {
+			"metaTitle": "CRE Data Mining & Property Valuation Data Services | Computyne",
+			"metaDescription": "Discover how Computyne automated appraisal data collection for a Canadian CRE firm, delivering 150,000+ verified records and improving data accuracy by 35%.",
+			"keywords": [
+				"Real Estate Data Mining",
+				"Property Valuation Data",
+				"Commercial Real Estate Analytics",
+				"CRE Data Scraping Services",
+				"PropTech Data Solutions",
+				"Real Estate Data Enrichment",
+				"Appraisal Data Collection",
+				"Property Listing Data Cleaning",
+				"Outsourced real estate data entry services",
+				"Automated property data extraction for CRE",
+				"Canadian commercial real estate market data",
+				"Normalize property appraisal data"
+			]
+		}
 	},
 	{
 		"id": 8,
@@ -535,7 +644,9 @@
 			"Corporate",
 			"Business"
 		],
-		"category": ["Data Entry"],
+		"category": [
+			"Data Entry"
+		],
 		"status": "Tutorial",
 		"content": [
 			{
@@ -595,7 +706,17 @@
 		],
 		"showedIn": [
 			"data-entry-services"
-		]
+		],
+		"meta": {
+			"metaTitle": "Foreclosure Data Collection & Entry Services | Computyne",
+			"metaDescription": "See how Computyne helped a USA real estate firm achieve 99% accuracy in foreclosure data collection. We automate REO mining and ensure real-time updates.",
+			"keywords": [
+				"Foreclosure Data Entry",
+				"Real Estate Data Mining",
+				"REO Data Collection Services",
+				"Property Auction Tracking"
+			]
+		}
 	},
 	{
 		"id": 9,
@@ -609,7 +730,10 @@
 			"Corporate",
 			"Business"
 		],
-		"category": ["Freight Audit", "Document Processing"],
+		"category": [
+			"Freight Audit",
+			"Document Processing"
+		],
 		"status": "Tutorial",
 		"content": [
 			{
@@ -670,7 +794,17 @@
 		"showedIn": [
 			"freight-audit-services",
 			"document-processing-services"
-		]
+		],
+		"meta": {
+			"metaTitle": "Freight Audit & Invoice Validation Services | Computyne",
+			"metaDescription": "Discover how Computyne helped a global logistics firm reduce billing errors by 30%. Our automated freight audit and invoice validation services stop cost leakage.",
+			"keywords": [
+				"Freight Audit Services",
+				"Logistics Invoice Validation",
+				"Carrier Billing Reconciliation",
+				"Supply Chain Cost Reduction"
+			]
+		}
 	},
 	{
 		"id": 10,
@@ -684,7 +818,11 @@
 			"Corporate",
 			"Business"
 		],
-		"category": ["Data Mining", "List Building", "Data Collection"],
+		"category": [
+			"Data Mining",
+			"List Building",
+			"Data Collection"
+		],
 		"status": "Tutorial",
 		"content": [
 			{
@@ -746,7 +884,17 @@
 			"data-mining-services",
 			"list-building-services",
 			"data-collection-services"
-		]
+		],
+		"meta": {
+			"metaTitle": "Physician Data Mining & Enrichment: Boost Marketing ROI by 35%",
+			"metaDescription": "See how Computyne built a 100% verified list of 25,000+ US physicians for a healthcare IT firm, improving email deliverability by 45% and ROI by 35%.",
+			"keywords": [
+				"Healthcare Data Mining",
+				"Physician Data Enrichment",
+				"Medical List Building Services",
+				"Healthcare Lead Generation"
+			]
+		}
 	},
 	{
 		"id": 11,
@@ -760,7 +908,10 @@
 			"Corporate",
 			"Business"
 		],
-		"category": ["Data Cleansing", "Data Management"],
+		"category": [
+			"Data Cleansing",
+			"Data Management"
+		],
 		"status": "Tutorial",
 		"content": [
 			{
@@ -821,7 +972,25 @@
 		"showedIn": [
 			"data-cleansing-services",
 			"data-management-services"
-		]
+		],
+		"meta": {
+			"metaTitle": "Telecom Data Cleansing Case Study: Processing 13.7M+ Records with AI",
+			"metaDescription": "See how Computyne used AI to cleanse 13.7 million records for a major telecom provider, removing 850,000+ duplicates and validating 6.2M location points.",
+			"keywords": [
+				"Telecom Data Cleansing",
+				"AI Data Quality Solutions",
+				"Customer Data Deduplication",
+				"Location Data Enrichment",
+				"Telecommunications Analytics",
+				"Legacy System Data Migration",
+				"ISO 27001 Data Services",
+				"Master Data Management (MDM) Telecom",
+				"How to clean telecom customer databases",
+				"AI for data deduplication in telecom",
+				"Validate service location addresses at scale",
+				"Outsourced data quality for network providers"
+			]
+		}
 	},
 	{
 		"id": 12,
@@ -835,7 +1004,10 @@
 			"Corporate",
 			"Business"
 		],
-		"category": ["Web Scraping", "Data Collection"],
+		"category": [
+			"Web Scraping",
+			"Data Collection"
+		],
 		"status": "Tutorial",
 		"content": [
 			{
@@ -892,8 +1064,25 @@
 		"showedIn": [
 			"web-scraping-services",
 			"data-collection-services"
-		]
-
+		],
+		"meta": {
+			"metaTitle": "Competitor Price Benchmarking: Automated Web Data Collection Case Study",
+			"metaDescription": "See how Computyne helped a global tyre manufacturer automate pricing intelligence, achieving 95% market coverage and increasing gross margins by 2.5%.",
+			"keywords": [
+				"Competitor Price Benchmarking",
+				"Pricing Intelligence Solutions",
+				"Automated Web Data Extraction",
+				"Retail Price Monitoring",
+				"Web Research Services",
+				"Global Market Pricing Strategy",
+				"Tyre Industry Data Analytics",
+				"SKU Price Tracking Automation",
+				"How to automate competitor price tracking",
+				"Outsource web scraping for pricing data",
+				"Real-time pricing intelligence dashboard",
+				"Cross-border price comparison tools"
+			]
+		}
 	},
 	{
 		"id": 13,
@@ -968,7 +1157,18 @@
 		"showedIn": [
 			"web-research-services",
 			"data-management-services"
-		]
+		],
+		"meta": {
+			"metaTitle": "eCommerce Catalogue Management & SEO Product Listing (GCC) | Computyne",
+			"metaDescription": "See how Computyne helped a GCC retailer scale operations with SEO-integrated catalogue management. We achieved 55% faster go-live speeds and 40% better search visibility.",
+			"keywords": [
+				"eCommerce Catalogue Management",
+				"SEO Product Listing Services",
+				"GCC eCommerce Localization",
+				"Product Data Entry Services",
+				"English to Arabic Product Translation"
+			]
+		}
 	},
 	{
 		"id": 14,
@@ -1043,7 +1243,25 @@
 		"showedIn": [
 			"freight-audit-services",
 			"document-processing-services"
-		]
+		],
+		"meta": {
+			"metaTitle": "Improve Freight Billing Accuracy: Reduce Reconciliation Time by 40%",
+			"metaDescription": "Discover how Computyne helped a global manufacturer achieve 99% freight billing accuracy, reduce reconciliation time by 40%, and cut audit exceptions by 50%.",
+			"keywords": [
+				"Freight Billing Accuracy",
+				"Logistics Data Entry Services",
+				"Freight Bill Auditing",
+				"Bill of Lading (BOL) Processing",
+				"Transportation Cost Management",
+				"Supply Chain Data Standardization",
+				"Freight Reconciliation Process",
+				"Manufacturing Logistics Solutions",
+				"Outsource freight bill data entry",
+				"Reduce freight audit exceptions",
+				"Automated freight invoice processing",
+				"Global logistics data integration"
+			]
+		}
 	},
 	{
 		"id": 15,
@@ -1057,7 +1275,10 @@
 			"Corporate",
 			"Business"
 		],
-		"category": ["Invoice Processing", "Document Processing"],
+		"category": [
+			"Invoice Processing",
+			"Document Processing"
+		],
 		"status": "Tutorial",
 		"content": [
 			{
@@ -1114,7 +1335,25 @@
 		"showedIn": [
 			"invoice-processing-services",
 			"document-processing-services"
-		]
+		],
+		"meta": {
+			"metaTitle": "Invoice Processing for Food & Cost Management Software | Computyne",
+			"metaDescription": "Discover how Computyne’s human-in-the-loop invoice processing delivered 99.95% accuracy and 45% faster cycle times for a global food cost management platform.",
+			"keywords": [
+				"Invoice Processing Services",
+				"AP Automation Support",
+				"Human-in-the-Loop Data Validation",
+				"Accounts Payable Outsourcing",
+				"Food Cost Management Software",
+				"OCR Exception Handling",
+				"Multilingual Invoice Processing",
+				"Invoice Data Entry Services",
+				"Outsource invoice validation for software platforms",
+				"High-accuracy invoice data capture",
+				"Secure financial document processing (ISO 27001)",
+				"Manual verification for automated AP systems"
+			]
+		}
 	},
 	{
 		"id": 16,
@@ -1128,7 +1367,11 @@
 			"Corporate",
 			"Business"
 		],
-		"category": ["Data Enrichment", "Data Cleansing", "Data Management"],
+		"category": [
+			"Data Enrichment",
+			"Data Cleansing",
+			"Data Management"
+		],
 		"status": "Tutorial",
 		"content": [
 			{
@@ -1190,6 +1433,24 @@
 			"data-enrichment-services",
 			"data-cleansing-services",
 			"data-management-services"
-		]
+		],
+		"meta": {
+			"metaTitle": "Salesforce Data Cleansing Case Study: Increase Sales Conversions by 52%",
+			"metaDescription": "See how Computyne cleansed 100K+ Salesforce records for a top US consulting firm, boosting sales conversions by 52% and email deliverability by 39%.",
+			"keywords": [
+				"Salesforce Data Cleansing",
+				"CRM Data Hygiene",
+				"B2B Data Enrichment Services",
+				"Account Profiling Services",
+				"Salesforce Deduplication",
+				"ABM Data Strategy",
+				"Executive Contact Validation",
+				"Marketing Database Cleaning",
+				"How to clean large Salesforce databases",
+				"Outsource CRM data quality services",
+				"Improve lead-to-opportunity conversion rate",
+				"Data hygiene for management consulting firms"
+			]
+		}
 	}
 ]
