@@ -15,6 +15,29 @@ import {invoiceProcessingServicesSchema} from "@/libs/schema/services/invoicePro
 import SubFooter from "@/components/layout/footer/subFooter";
 import Testimonials from "@/components/layout/common/Testimonials";
 
+export const metadata = {
+    metadataBase: new URL("https://www.computyne.com"),
+
+    title: "Invoice Processing Services | AP Invoice Data Processing | Computyne",
+    description:
+        "Secure invoice processing services by Computyne for accurate capture, validation, and automation of accounts payable invoices, improving efficiency and control.",
+
+    keywords: [
+        "invoice processing services",
+        "ap invoice processing",
+        "accounts payable data processing",
+        "invoice data capture",
+        "invoice validation services",
+        "automated invoice processing",
+        "financial document processing",
+    ],
+
+    alternates: {
+        canonical: "https://www.computyne.com/invoice-processing-services",
+    },
+};
+
+
 export default function invoiceProcessingServices() {
 
     return (

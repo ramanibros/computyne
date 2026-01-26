@@ -15,6 +15,29 @@ import {appraisalValuationDataEntrySchema} from "@/libs/schema/services/appraisa
 import SubFooter from "@/components/layout/footer/subFooter";
 import Testimonials from "@/components/layout/common/Testimonials";
 
+export const metadata = {
+    metadataBase: new URL("https://www.computyne.com"),
+
+    title: "Appraisal Data Entry Services | Property & Asset Data Processing | Computyne",
+    description:
+        "Professional appraisal data entry services by Computyne for capturing, organizing, and validating property and asset valuation records with accuracy and consistency.",
+
+    keywords: [
+        "appraisal data entry services",
+        "property appraisal data processing",
+        "asset valuation data entry",
+        "real estate appraisal data",
+        "property valuation services",
+        "appraisal record management",
+        "asset data processing",
+    ],
+
+    alternates: {
+        canonical: "https://www.computyne.com/appraisal-data-entry-services",
+    },
+};
+
+
 export default function appraisalDataEntryServices() {
     return (
         <>

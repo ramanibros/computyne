@@ -15,6 +15,30 @@ import JsonLd from "@/components/seo/JsonLd";
 import SubFooter from "@/components/layout/footer/subFooter";
 import Testimonials from "@/components/layout/common/Testimonials";
 
+
+export const metadata = {
+    metadataBase: new URL("https://www.computyne.com"),
+
+    title: "Competitor Analysis Services | Market & Competitor Insights | Computyne",
+    description:
+        "Competitor analysis services by Computyne providing deep competitive insights to help businesses refine strategy, identify opportunities, and outperform competitors.",
+
+    keywords: [
+        "competitor analysis services",
+        "market competitor analysis",
+        "competitive intelligence services",
+        "market insights",
+        "business strategy analysis",
+        "competitor research services",
+        "competitive benchmarking",
+    ],
+
+    alternates: {
+        canonical: "https://www.computyne.com/competitor-analysis-services",
+    },
+};
+
+
 export default function competitorAnalysisServices() {
     return (
         <>

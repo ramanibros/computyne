@@ -15,6 +15,29 @@ import {realEstatePropertyListingServicesSchema} from "@/libs/schema/services/re
 import SubFooter from "@/components/layout/footer/subFooter";
 import Testimonials from "@/components/layout/common/Testimonials";
 
+export const metadata = {
+    metadataBase: new URL("https://www.computyne.com"),
+
+    title: "Real Estate Property Listing Services | Listing Data Management | Computyne",
+    description:
+        "Professional real estate property listing services by Computyne to create, update, and manage accurate property listings across platforms and databases.",
+
+    keywords: [
+        "real estate property listing services",
+        "property listing data management",
+        "real estate listing management",
+        "property database management",
+        "MLS listing services",
+        "property listing data entry",
+        "real estate data services",
+    ],
+
+    alternates: {
+        canonical: "https://www.computyne.com/real-estate-property-listing-services",
+    },
+};
+
+
 export default function realEstatePropertyListingServices() {
 
     return (

@@ -15,6 +15,29 @@ import {multimodalAnnotationServicesSchema} from "@/libs/schema/services/multimo
 import SubFooter from "@/components/layout/footer/subFooter";
 import Testimonials from "@/components/layout/common/Testimonials";
 
+export const metadata = {
+    metadataBase: new URL("https://computyne-one.vercel.app"),
+
+    title: "Multimodal Annotation Services | AI & ML Training Data Experts | Computyne",
+    description:
+        "High-quality multimodal annotation services by Computyne for AI and machine learning — accurate labeling of text, image, audio, and video data to enhance model performance and insights.",
+
+    keywords: [
+        "multimodal annotation services",
+        "ai training data experts",
+        "ml training data services",
+        "text image audio video annotation",
+        "machine learning data labeling",
+        "multimodal data annotation",
+        "high-quality labeled datasets",
+    ],
+
+    alternates: {
+        canonical: "https://computyne-one.vercel.app/multimodal-annotation-services",
+    },
+};
+
+
 export default function multiModalAnnptationServices() {
 
     return (

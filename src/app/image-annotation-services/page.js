@@ -15,6 +15,29 @@ import {imageAnnotationServicesSchema} from "@/libs/schema/services/imageAnnotat
 import SubFooter from "@/components/layout/footer/subFooter";
 import Testimonials from "@/components/layout/common/Testimonials";
 
+export const metadata = {
+    metadataBase: new URL("https://computyne-one.vercel.app"),
+
+    title: "Image Annotation Services | Accurate AI Training Data | Computyne",
+    description:
+        "Professional image annotation services by Computyne for AI and machine learning — precise labeling, bounding boxes, segmentation, and tagging to train high-performance computer vision models.",
+
+    keywords: [
+        "image annotation services",
+        "ai training data",
+        "machine learning image labeling",
+        "bounding boxes annotation",
+        "image segmentation services",
+        "computer vision training data",
+        "high-quality labeled images",
+    ],
+
+    alternates: {
+        canonical: "https://computyne-one.vercel.app/image-annotation-services",
+    },
+};
+
+
 export default function imageAnnotationServices() {
 
     return (

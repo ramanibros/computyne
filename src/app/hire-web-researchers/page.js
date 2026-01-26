@@ -15,6 +15,29 @@ import {webResearchServicesSchema} from "@/libs/schema/services/webResearchServi
 import SubFooter from "@/components/layout/footer/subFooter";
 import Testimonials from "@/components/layout/common/Testimonials";
 
+export const metadata = {
+    metadataBase: new URL("https://www.computyne.com"),
+
+    title: "Hire Web Researchers | Dedicated Online Research Team | Computyne",
+    description:
+        "Hire skilled web researchers by Computyne to collect, analyze, and organize online business information, supporting research, insights, and business growth.",
+
+    keywords: [
+        "hire web researchers",
+        "dedicated online research team",
+        "remote research professionals",
+        "business research services",
+        "online data collection",
+        "market research support",
+        "research outsourcing services",
+    ],
+
+    alternates: {
+        canonical: "https://www.computyne.com/hire-web-researchers",
+    },
+};
+
+
 export default function hireWebResearchers() {
 
     return (

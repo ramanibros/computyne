@@ -15,6 +15,29 @@ import {imageDataEntryServicesSchema} from "@/libs/schema/services/imageDataEntr
 import SubFooter from "@/components/layout/footer/subFooter";
 import Testimonials from "@/components/layout/common/Testimonials";
 
+export const metadata = {
+    metadataBase: new URL("https://www.computyne.com"),
+
+    title: "Image Data Entry Services | Accurate Image Data Processing | Computyne",
+    description:
+        "Professional image data entry services by Computyne that convert scanned images and documents into structured, accurate, and searchable digital data.",
+
+    keywords: [
+        "image data entry services",
+        "image data processing",
+        "scanned document data entry",
+        "document digitization services",
+        "optical character recognition services",
+        "searchable digital data",
+        "data conversion services",
+    ],
+
+    alternates: {
+        canonical: "https://www.computyne.com/image-data-entry-services",
+    },
+};
+
+
 export default function imageDataEntryServices() {
 
     return (

@@ -15,6 +15,29 @@ import JsonLd from "@/components/seo/JsonLd";
 import SubFooter from "@/components/layout/footer/subFooter";
 import Testimonials from "@/components/layout/common/Testimonials";
 
+export const metadata = {
+    metadataBase: new URL("https://www.computyne.com"),
+
+    title: "Data Validation Services | Trusted Data Verification Company | Computyne",
+    description:
+        "Professional data validation services by Computyne to verify accuracy, update records, and maintain clean datasets ready for analytical and operational use.",
+
+    keywords: [
+        "data validation services",
+        "data verification company",
+        "data accuracy services",
+        "data quality assurance",
+        "record validation services",
+        "data cleansing and validation",
+        "business data validation",
+    ],
+
+    alternates: {
+        canonical: "https://www.computyne.com/data-validation-services",
+    },
+};
+
+
 export default function dataValidationServices() {
 
     return (

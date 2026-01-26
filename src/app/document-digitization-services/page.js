@@ -15,6 +15,29 @@ import {documentDigitizationSchema} from "@/libs/schema/services/documentDigitiz
 import SubFooter from "@/components/layout/footer/subFooter";
 import Testimonials from "@/components/layout/common/Testimonials";
 
+export const metadata = {
+    metadataBase: new URL("https://www.computyne.com"),
+
+    title: "Document Digitization Services | Paper to Digital Conversion | Computyne",
+    description:
+        "Professional document digitization services by Computyne converting physical records into secure, searchable, and easily accessible digital formats.",
+
+    keywords: [
+        "document digitization services",
+        "paper to digital conversion",
+        "document scanning services",
+        "digital document management",
+        "secure document digitization",
+        "searchable document archives",
+        "business document digitization",
+    ],
+
+    alternates: {
+        canonical: "https://www.computyne.com/document-digitization-services",
+    },
+};
+
+
 export default function documentDigitizationServices() {
 
     return (
