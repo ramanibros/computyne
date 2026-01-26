@@ -1,10 +1,6 @@
 "use client";
-import ButtonPrimary from "@/components/shared/buttons/ButtonPrimary";
 import BlogSidebar from "@/components/shared/sidebar/BlogSidebar";
 import getHtmlStringData from "@/libs/getHtmlStringData";
-import makePath from "@/libs/makePath";
-import Image from "next/image";
-import Link from "next/link";
 import {usePathname} from "next/navigation";
 import {useEffect, useState} from "react";
 

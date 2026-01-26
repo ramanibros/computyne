@@ -67,16 +67,22 @@ const AboutCard = ({type}) => {
                         </div>
                         <div className="about-bottom-area">
                             <p>
-                                Computyne partners with medium to large enterprises and MNCs across the USA, Canada, Australia, UK, and Europe,
-                                delivering smarter outsourcing solutions that power growth. We take care of the routine, complex, and high-volume
-                                back-office and data processing tasks, freeing your teams to focus on innovation and business impact.
+                                Computyne partners with medium to large enterprises and MNCs across the USA, Canada,
+                                Australia, UK, and Europe,
+                                delivering smarter outsourcing solutions that power growth. We take care of the routine,
+                                complex, and high-volume
+                                back-office and data processing tasks, freeing your teams to focus on innovation and
+                                business impact.
                             </p>
                             <p>
-                                Our expertise spans data support & capture, data entry, data conversion, document processing, web research & data
-                                collection, and data cleansing & validation-delivered with speed, accuracy, and scalability.
+                                Our expertise spans data support & capture, data entry, data conversion, document
+                                processing, web research & data
+                                collection, and data cleansing & validation-delivered with speed, accuracy, and
+                                scalability.
                             </p>
                             <p>
-                                With Computyne as your backbone, you gain a reliable partner that drives efficiency, reduces costs, and helps your
+                                With Computyne as your backbone, you gain a reliable partner that drives efficiency,
+                                reduces costs, and helps your
                                 business stay ahead in a competitive market.
                             </p>
                             {/*<div

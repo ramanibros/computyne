@@ -15,7 +15,7 @@ import SubFooter from "@/components/layout/footer/subFooter";
 import Testimonials from "@/components/layout/common/Testimonials";
 
 export default function realEstate() {
-    
+
     return (
         <>
             <JsonLd
@@ -23,9 +23,9 @@ export default function realEstate() {
                 schema={multimodalAnnotationServicesSchema}
             />
             <div>
-                <BackToTop />
-                <Header headerType={5} />
-                <Header headerType={5} isStickyHeader={true} />
+                <BackToTop/>
+                <Header headerType={5}/>
+                <Header headerType={5} isStickyHeader={true}/>
                 <div id="smooth-wrapper">
                     <div id="smooth-content">
                         <main>
@@ -35,22 +35,22 @@ export default function realEstate() {
                                           isShowButton={true}
                                           bannerimage={serviceData.banner.image}
                                           buttonLabel={serviceData.banner.cta}/> */}
-                            <Banner />
-                            <Counter />
-                            <Aboutus type={1} />
-                            <Subservices />
-                            <Whychooseus />
-                            <Casestudy />
-                            <Testimonials />
-                            <Faq type={1} />
+                            <Banner/>
+                            <Counter/>
+                            <Aboutus type={1}/>
+                            <Subservices/>
+                            <Whychooseus/>
+                            <Casestudy/>
+                            <Testimonials/>
+                            <Faq type={1}/>
                             {/* <Industries /> */}
-                            <SubFooter />
+                            <SubFooter/>
                         </main>
-                        <Footer />
+                        <Footer/>
                     </div>
                 </div>
 
-                <ClientWrapper />
+                <ClientWrapper/>
             </div>
         </>
     );

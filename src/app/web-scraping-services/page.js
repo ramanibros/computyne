@@ -17,8 +17,8 @@ import Testimonials from "@/components/layout/common/Testimonials";
 
 
 export default function webScrapingServices() {
-    
-    
+
+
     return (
         <>
             <JsonLd
@@ -27,9 +27,9 @@ export default function webScrapingServices() {
             />
 
             <div>
-                <BackToTop />
-                <Header headerType={5} />
-                <Header headerType={5} isStickyHeader={true} />
+                <BackToTop/>
+                <Header headerType={5}/>
+                <Header headerType={5} isStickyHeader={true}/>
                 <div id="smooth-wrapper">
                     <div id="smooth-content">
                         <main>
@@ -39,22 +39,22 @@ export default function webScrapingServices() {
                                           isShowButton={true}
                                           bannerimage={serviceData.banner.image}
                                           buttonLabel={serviceData.banner.cta}/> */}
-                            <Banner />
-                            <Counter />
-                            <Aboutus type={1} />
-                            <Subservices />
-                            <Casestudy />
-                            <Whychooseus />
-                            <Faq type={1} />
-                            <Testimonials />
-                            <Industries />
-                            <SubFooter />
+                            <Banner/>
+                            <Counter/>
+                            <Aboutus type={1}/>
+                            <Subservices/>
+                            <Casestudy/>
+                            <Whychooseus/>
+                            <Faq type={1}/>
+                            <Testimonials/>
+                            <Industries/>
+                            <SubFooter/>
                         </main>
-                        <Footer />
+                        <Footer/>
                     </div>
                 </div>
 
-                <ClientWrapper />
+                <ClientWrapper/>
             </div>
         </>
     );

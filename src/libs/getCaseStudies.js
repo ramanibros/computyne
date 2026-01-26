@@ -1,7 +1,7 @@
 import cassestudy from "../../public/data/casestudies";
 
 const getCaseStudy = () => {
-  return cassestudy;
+    return cassestudy;
 };
 
 export default getCaseStudy;

@@ -1,7 +1,7 @@
 import heroBannerBlockData from "../../public/data/hero-banner-block-data";
 
 const getHeroBannerBlockData = () => {
-	return heroBannerBlockData;
+    return heroBannerBlockData;
 };
 
 export default getHeroBannerBlockData;

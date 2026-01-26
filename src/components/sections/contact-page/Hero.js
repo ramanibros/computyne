@@ -22,27 +22,27 @@ const Hero = ({title, text, breadcrums = []}) => {
                         >
                             <div className="countup-item">
                                 <Funfact type={3} currentValue={100} symbol={"+"}/>
-								<span className="count-text-mod-2">Inc5000 Client</span>
-								<span
-									className="count-separator"
-									style={{
-										backgroundImage: "url('/images/shape/separator.svg')",
-									}}
-								></span>
+                                <span className="count-text-mod-2">Inc5000 Client</span>
+                                <span
+                                    className="count-separator"
+                                    style={{
+                                        backgroundImage: "url('/images/shape/separator.svg')",
+                                    }}
+                                ></span>
                             </div>
                             <div className="countup-item">
                                 <Funfact type={3} currentValue={15} symbol={"+"}/>
-								<span className="count-text-mod-2">Years Completed</span>
-								<span
-									className="count-separator"
-									style={{
-										backgroundImage: "url('/images/shape/separator.svg')",
-									}}
-								></span>
+                                <span className="count-text-mod-2">Years Completed</span>
+                                <span
+                                    className="count-separator"
+                                    style={{
+                                        backgroundImage: "url('/images/shape/separator.svg')",
+                                    }}
+                                ></span>
                             </div>
                             <div className="countup-item">
                                 <Funfact type={3} currentValue={18} symbol={"+"}/>
-								<span className="count-text-mod-2">Awards</span>
+                                <span className="count-text-mod-2">Awards</span>
                             </div>
                         </div>
                     </div>

@@ -1,7 +1,7 @@
 import industries from "../../public/data/industries";
 
 const getIndustries = () => {
-  return industries;
+    return industries;
 };
 
 export default getIndustries;

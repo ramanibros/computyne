@@ -1,9 +1,8 @@
-
 import navItems from "../../public/data/nav-items"
 
 const getNavItems = () => {
 
-    return navItems?navItems:[]
+    return navItems ? navItems : []
 };
 
 export default getNavItems;

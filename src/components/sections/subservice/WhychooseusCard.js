@@ -1,4 +1,4 @@
-const WhychooseusCard = ({ whychooseus }) => {
+const WhychooseusCard = ({whychooseus}) => {
     const {
         title,
         desc,

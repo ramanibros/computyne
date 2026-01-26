@@ -14,14 +14,15 @@ export default function About() {
     return (
         <div>
             <BackToTop/>
-            <Header headerType={5} />
-            <Header headerType={5} isStickyHeader={true} />
+            <Header headerType={5}/>
+            <Header headerType={5} isStickyHeader={true}/>
             <div id="smooth-wrapper">
                 <div id="smooth-content">
                     <main>
-                        <div className="top-space-15"></div>    
-                        <Hero title={"About Us"} text={"Our business process services - driven by data, technology, and people - help" +
-                            " clients save time, reduce costs, and improve operational efficiency worldwide."}/>
+                        <div className="top-space-15"></div>
+                        <Hero title={"About Us"}
+                              text={"Our business process services - driven by data, technology, and people - help" +
+                                  " clients save time, reduce costs, and improve operational efficiency worldwide."}/>
                         <AboutCard type={1}/>
                         <Features type={2}/>
                         <Funfact/>

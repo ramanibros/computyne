@@ -1,217 +1,279 @@
 @font-face {
-	font-family: "bexon-icons";
-	src: url("../fonts/bexon-icons.eot?yu4jya");
-	src: url("../fonts/bexon-icons.eot?yu4jya#iefix") format("embedded-opentype"),
-		url("../fonts/bexon-icons.ttf?yu4jya") format("truetype"),
-		url("../fonts/bexon-icons.woff?yu4jya") format("woff"),
-		url("../fonts/bexon-icons.svg?yu4jya#bexon-icons") format("svg");
-	font-weight: normal;
-	font-style: normal;
-	font-display: block;
+    font-family: "bexon-icons";
+    src: url("../fonts/bexon-icons.eot?yu4jya");
+    src: url("../fonts/bexon-icons.eot?yu4jya#iefix") format("embedded-opentype"),
+    url("../fonts/bexon-icons.ttf?yu4jya") format("truetype"),
+    url("../fonts/bexon-icons.woff?yu4jya") format("woff"),
+    url("../fonts/bexon-icons.svg?yu4jya#bexon-icons") format("svg");
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
 }
 
 [class^="tji-"],
 [class*=" tji-"] {
-	/* use !important to prevent issues with browser extensions that change fonts */
-	font-family: "bexon-icons" !important;
-	speak: never;
-	font-style: normal;
-	font-weight: normal;
-	font-variant: normal;
-	text-transform: none;
-	line-height: 1;
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: "bexon-icons" !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
 
-	/* Better Font Rendering =========== */
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 .tji-w-dot:before {
-	content: "\e937";
+    content: "\e937";
 }
+
 .tji-curve-arrow:before {
-	content: "\e936";
+    content: "\e936";
 }
+
 .tji-add-cart:before {
-	content: "\e935";
+    content: "\e935";
 }
+
 .tji-manage:before {
-	content: "\e939";
+    content: "\e939";
 }
+
 .tji-operations:before {
-	content: "\e93a";
+    content: "\e93a";
 }
+
 .tji-organize:before {
-	content: "\e93b";
+    content: "\e93b";
 }
+
 .tji-performance:before {
-	content: "\e93c";
+    content: "\e93c";
 }
+
 .tji-process-1:before {
-	content: "\e93d";
+    content: "\e93d";
 }
+
 .tji-strategy:before {
-	content: "\e93e";
+    content: "\e93e";
 }
+
 .tji-dart-board:before {
-	content: "\e933";
+    content: "\e933";
 }
+
 .tji-eye-box:before {
-	content: "\e934";
+    content: "\e934";
 }
+
 .tji-arrow-left-long:before {
-	content: "\e932";
+    content: "\e932";
 }
+
 .tji-star-2:before {
-	content: "\e938";
+    content: "\e938";
 }
+
 .tji-star:before {
-	content: "\e931";
+    content: "\e931";
 }
+
 .tji-envelop-2:before {
-	content: "\e92d";
+    content: "\e92d";
 }
+
 .tji-quote:before {
-	content: "\e92e";
+    content: "\e92e";
 }
+
 .tji-list:before {
-	content: "\e92f";
+    content: "\e92f";
 }
+
 .tji-location:before {
-	content: "\e92b";
+    content: "\e92b";
 }
+
 .tji-phone-3:before {
-	content: "\e92c";
+    content: "\e92c";
 }
+
 .tji-excellence:before {
-	content: "\e91b";
+    content: "\e91b";
 }
+
 .tji-phone-2:before {
-	content: "\e92a";
+    content: "\e92a";
 }
+
 .tji-arrow-down:before {
-	content: "\e929";
+    content: "\e929";
 }
+
 .tji-arrow-left:before {
-	content: "\e914";
+    content: "\e914";
 }
+
 .tji-arrow-right-long:before {
-	content: "\e916";
+    content: "\e916";
 }
+
 .tji-arrow-right:before {
-	content: "\e913";
+    content: "\e913";
 }
+
 .tji-arrow-up-long:before {
-	content: "\e915";
+    content: "\e915";
 }
+
 .tji-arrow-down-long:before {
-	content: "\e917";
+    content: "\e917";
 }
+
 .tji-search:before {
-	content: "\e91c";
+    content: "\e91c";
 }
+
 .tji-arrow-right-big:before {
-	content: "\e90c";
+    content: "\e90c";
 }
+
 .tji-arrow-down-big:before {
-	content: "\e90b";
+    content: "\e90b";
 }
+
 .tji-box:before {
-	content: "\e90d";
+    content: "\e90d";
 }
+
 .tji-innovative:before {
-	content: "\e930";
+    content: "\e930";
 }
+
 .tji-award:before {
-	content: "\e908";
+    content: "\e908";
 }
+
 .tji-team:before {
-	content: "\e909";
+    content: "\e909";
 }
+
 .tji-support:before {
-	content: "\e90a";
+    content: "\e90a";
 }
+
 .tji-service-1:before {
-	content: "\e905";
+    content: "\e905";
 }
+
 .tji-service-2:before {
-	content: "\e904";
+    content: "\e904";
 }
+
 .tji-service-3:before {
-	content: "\e903";
+    content: "\e903";
 }
+
 .tji-service-4:before {
-	content: "\e902";
+    content: "\e902";
 }
+
 .tji-service-5:before {
-	content: "\e901";
+    content: "\e901";
 }
+
 .tji-service-6:before {
-	content: "\e900";
+    content: "\e900";
 }
+
 .tji-complete:before {
-	content: "\e90e";
+    content: "\e90e";
 }
+
 .tji-worldwide:before {
-	content: "\e910";
+    content: "\e910";
 }
+
 .tji-growth:before {
-	content: "\e90f";
+    content: "\e90f";
 }
+
 .tji-at:before {
-	content: "\e926";
+    content: "\e926";
 }
+
 .tji-home:before {
-	content: "\e925";
+    content: "\e925";
 }
+
 .tji-user:before {
-	content: "\e924";
+    content: "\e924";
 }
+
 .tji-budget:before {
-	content: "\e923";
+    content: "\e923";
 }
+
 .tji-location-2:before {
-	content: "\e922";
+    content: "\e922";
 }
+
 .tji-chart:before {
-	content: "\e921";
+    content: "\e921";
 }
+
 .tji-calendar:before {
-	content: "\e920";
+    content: "\e920";
 }
+
 .tji-comment:before {
-	content: "\e91f";
+    content: "\e91f";
 }
+
 .tji-chat:before {
-	content: "\e906";
+    content: "\e906";
 }
+
 .tji-clock:before {
-	content: "\e912";
+    content: "\e912";
 }
+
 .tji-plus:before {
-	content: "\e927";
+    content: "\e927";
 }
+
 .tji-minus:before {
-	content: "\e918";
+    content: "\e918";
 }
+
 .tji-phone:before {
-	content: "\e919";
+    content: "\e919";
 }
+
 .tji-envelop:before {
-	content: "\e907";
+    content: "\e907";
 }
+
 .tji-plane:before {
-	content: "\e928";
+    content: "\e928";
 }
+
 .tji-location-3:before {
-	content: "\e91e";
+    content: "\e91e";
 }
+
 .tji-check:before {
-	content: "\e911";
+    content: "\e911";
 }
+
 .tji-play:before {
-	content: "\e91a";
+    content: "\e91a";
 }
+
 .tji-window:before {
-	content: "\e91d";
+    content: "\e91d";
 }
