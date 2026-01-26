@@ -10,13 +10,12 @@ const Casestudy = () => {
 	const pathname = usePathname();
 	const slug = pathname.split("/").filter(Boolean).pop();
 
-	const portfolio = getPortfolio()?.slice(0, 3);
 	const items = getCaseStudy();
 	const filteredCaseStudies = items.filter(caseStudy =>
 		caseStudy.showedIn?.includes(slug)
 	);
-  console.log("CHECK FILTER CASESUDY ", filteredCaseStudies)
 
+	if (!filteredCaseStudies?.length) return null;
 
 	return (
 		<section className="h5-project">
