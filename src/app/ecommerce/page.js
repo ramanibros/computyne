@@ -38,7 +38,6 @@ export default function ecommerce() {
                             <Subservices/>
                             <Whychooseus/>
                             <Casestudy text="Results-Driven eCommerce BPO Case Studies"/>
-                            <Testimonials/>
                             <Faq type={1}/>
                             <SubFooter/>
                         </main>

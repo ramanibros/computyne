@@ -38,9 +38,7 @@ export default function logisticsAndTransportation() {
                             <Subservices/>
                             <Whychooseus/>
                             <Casestudy text="Proven Results from Logistics BPO Engagements"/>
-                            <Testimonials/>
                             <Faq type={1}/>
-                            {/* <Industries /> */}
                             <SubFooter/>
                         </main>
                         <Footer/>

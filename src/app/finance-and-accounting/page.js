@@ -38,9 +38,7 @@ export default function financeAndAccounting() {
                             <Subservices/>
                             <Whychooseus/>
                             <Casestudy text="Measurable Business Impact Through Finance and Accounting Outsourcing"/>
-                            <Testimonials/>
                             <Faq type={1}/>
-                            {/* <Industries /> */}
                             <SubFooter/>
                         </main>
                         <Footer/>

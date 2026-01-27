@@ -38,9 +38,7 @@ export default function energyAndUtilities() {
                             <Subservices/>
                             <Whychooseus/>
                             <Casestudy text="BPO Success Across Energy and Utility Enterprises"/>
-                            <Testimonials/>
                             <Faq type={1}/>
-                            {/* <Industries /> */}
                             <SubFooter/>
                         </main>
                         <Footer/>

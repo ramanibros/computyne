@@ -38,9 +38,7 @@ export default function realEstate() {
                             <Subservices/>
                             <Whychooseus/>
                             <Casestudy text="Operational Excellence in Real Estate and Property Management"/>
-                            <Testimonials/>
                             <Faq type={1}/>
-                            {/* <Industries /> */}
                             <SubFooter/>
                         </main>
                         <Footer/>
