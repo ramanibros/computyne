@@ -90,6 +90,9 @@ const Footer = () => {
                                     <li>
                                         <Link href="/energy-and-utilities">Energy & Utilities</Link>
                                     </li>
+                                    <li>
+                                        <Link href="/healthcare">Healthcare</Link>
+                                    </li>
                                 </ul>
                             </div>
                         </div>

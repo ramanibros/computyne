@@ -38,9 +38,7 @@ export default function healthcare() {
                             <Subservices/>
                             <Whychooseus/>
                             <Casestudy text="Proven Results from Our Healthcare BPO Engagements"/>
-                            <Testimonials/>
                             <Faq type={1}/>
-                            {/* <Industries /> */}
                             <SubFooter/>
                         </main>
                         <Footer/>

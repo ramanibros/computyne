@@ -38,9 +38,7 @@ export default function ites() {
                             <Subservices/>
                             <Whychooseus/>
                             <Casestudy text="ITES BPO Case Studies Delivering Measurable Outcomes"/>
-                            <Testimonials/>
                             <Faq type={1}/>
-                            {/* <Industries /> */}
                             <SubFooter/>
                         </main>
                         <Footer/>
