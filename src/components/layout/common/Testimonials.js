@@ -3,11 +3,32 @@ import getTestimonials from "@/libs/getTestimonials";
 import {Autoplay, Navigation} from "swiper/modules";
 import {Swiper, SwiperSlide} from "swiper/react";
 import TestimonialsCard from "./TestimonialsCard";
+import ButtonPrimaryLoading from "@/components/sections/contact-page/ButtonPrimaryLoading";
+import {useRef, useState, useTransition} from "react";
+import {submitContactForm} from "@/app/actions/contactAction";
 
 const Testimonials = () => {
     const testimonials = getTestimonials()?.slice(0, 3);
     const handleSelect = option => {
     };
+    const [isPending, startTransition] = useTransition();
+    const [status, setStatus] = useState(null);
+    const formRef = useRef(null);
+
+    function handleSubmit(formData) {
+        setStatus(null);
+
+        startTransition(async () => {
+            const result = await submitContactForm(formData);
+
+            if (result?.success) {
+                setStatus("success");
+                formRef.current?.reset();
+            } else {
+                setStatus("error");
+            }
+        });
+    }
     return (
         <section className="tj-contact-section h4-contact-section section-gap section-gap-x">
             <div className="container">
@@ -23,82 +44,56 @@ const Testimonials = () => {
 								</span>
                                 <h2 className="sec-title title-anim">Drop us a Line Here.</h2>
                             </div>
-                            <form id="contact-form-3">
+                            <form id="contact-form-3" action={handleSubmit}>
                                 <div className="row wow fadeInUp" data-wow-delay=".5s">
                                     <div className="col-sm-6">
                                         <div className="form-input">
                                             <label className="cf-label">Full Name *</label>
-                                            <input type="text" name="cfName3"/>
+                                            <input type="text" name="cfName"/>
                                         </div>
                                     </div>
                                     <div className="col-sm-6">
                                         <div className="form-input">
                                             <label className="cf-label">Email Address *</label>
-                                            <input type="email" name="cfEmail3"/>
+                                            <input type="email" name="cfEmail"/>
                                         </div>
                                     </div>
                                     <div className="col-sm-6">
                                         <div className="form-input">
                                             <label className="cf-label">Phone number *</label>
-                                            <input type="tel" name="cfPhone3"/>
+                                            <input type="tel" name="cfPhone"/>
                                         </div>
                                     </div>
                                     <div className="col-sm-6">
                                         <div className="form-input">
                                             <label className="cf-label">Subject *</label>
-                                            <input type="text" name="cfSubject3"/>
+                                            <input type="text" name="cfSubject"/>
                                         </div>
                                     </div>
-                                    {/*<div className="col-sm-6">*/}
-                                    {/*	<div className="form-input">*/}
-                                    {/*		<div className="tj-nice-select-box">*/}
-                                    {/*			<div className="tj-select">*/}
-                                    {/*				<label className="cf-label">Chose a option</label>*/}
-                                    {/*				<ReactNiceSelect*/}
-                                    {/*					selectedIndex={0}*/}
-                                    {/*					options={[*/}
-                                    {/*						{ value: "0", optionName: "Chose a option" },*/}
-                                    {/*						{ value: "1", optionName: "Business Strategy" },*/}
-                                    {/*						{ value: "2", optionName: "Customer Experience" },*/}
-                                    {/*						{*/}
-                                    {/*							value: "3",*/}
-                                    {/*							optionName: "Sustainability and ESG",*/}
-                                    {/*						},*/}
-                                    {/*						{*/}
-                                    {/*							value: "4",*/}
-                                    {/*							optionName: "Training and Development",*/}
-                                    {/*						},*/}
-                                    {/*						{*/}
-                                    {/*							value: "5",*/}
-                                    {/*							optionName: "IT Support & Maintenance",*/}
-                                    {/*						},*/}
-                                    {/*						{*/}
-                                    {/*							value: "6",*/}
-                                    {/*							optionName: "Marketing Strategy",*/}
-                                    {/*						},*/}
-                                    {/*					]}*/}
-                                    {/*					getSelectedOption={handleSelect}*/}
-                                    {/*				/>*/}
-                                    {/*			</div>*/}
-                                    {/*		</div>*/}
-                                    {/*	</div>*/}
-                                    {/*</div>*/}
                                     <div className="col-sm-12">
                                         <div className="form-input message-input">
                                             <label className="cf-label">Message here... *</label>
-                                            <textarea name="cfMessage3" id="message"></textarea>
+                                            <textarea name="cfMessage" id="message"></textarea>
                                         </div>
                                     </div>
                                     <div className="submit-btn">
-                                        <button className="tj-primary-btn" type="submit">
-											<span className="btn-text">
-												<span>Send Message</span>
-											</span>
-                                            <span className="btn-icon">
-												<i className="tji-arrow-right-long"></i>
-											</span>
-                                        </button>
+                                        <ButtonPrimaryLoading
+                                            type="submit"
+                                            text="Submit Now"
+                                            loading={isPending}
+                                        />
                                     </div>
+                                    {status === "success" && (
+                                        <p className="form-success">
+                                            Thank you! Your message has been sent successfully.
+                                        </p>
+                                    )}
+
+                                    {status === "error" && (
+                                        <p className="form-error">
+                                            Something went wrong. Please try again.
+                                        </p>
+                                    )}
                                 </div>
                             </form>
                         </div>

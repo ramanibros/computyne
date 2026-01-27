@@ -1,8 +1,28 @@
 "use client";
 
-import ButtonPrimary from "./ButtonPrimary";
+import { submitContactForm } from "@/app/actions/contactAction";
+import ButtonPrimaryLoading from "@/components/sections/contact-page/ButtonPrimaryLoading";
+import {useRef, useState, useTransition} from "react";
 
 const ContactCard = () => {
+    const [isPending, startTransition] = useTransition();
+    const [status, setStatus] = useState(null);
+    const formRef = useRef(null);
+
+    function handleSubmit(formData) {
+        setStatus(null);
+
+        startTransition(async () => {
+            const result = await submitContactForm(formData);
+
+            if (result?.success) {
+                setStatus("success");
+                formRef.current?.reset();
+            } else {
+                setStatus("error");
+            }
+        });
+    }
     return (
         <section className="tj-contact-section-2 section-bottom-gap mt-minus-350">
             <div className="container">
@@ -14,7 +34,7 @@ const ContactCard = () => {
                             <h3 className="title">
                                 Let’s Talk With Our Data Specialist
                             </h3>
-                            <form id="contact-form">
+                            <form id="contact-form" action={handleSubmit}>
                                 <div className="row">
                                     <div className="col-sm-6">
                                         <div className="form-input">
@@ -62,8 +82,25 @@ const ContactCard = () => {
                                         </div>
                                     </div>
                                     <div className="submit-btn">
-                                        <ButtonPrimary type={"submit"} text={"Submit Now"}/>
+                                        <ButtonPrimaryLoading
+                                            type="submit"
+                                            text="Submit Now"
+                                            loading={isPending}
+                                        />
                                     </div>
+
+
+                                    {status === "success" && (
+                                        <p className="form-success">
+                                            Thank you! Your message has been sent successfully.
+                                        </p>
+                                    )}
+
+                                    {status === "error" && (
+                                        <p className="form-error">
+                                            Something went wrong. Please try again.
+                                        </p>
+                                    )}
                                 </div>
                             </form>
                         </div>
