@@ -2,7 +2,7 @@ import useActiveLink from "@/hooks/useActiveLink";
 import getNavItems from "@/libs/getNavItems";
 import getTechServices from "@/libs/getTechServices";
 import Link from "next/link";
-import {useState} from "react";
+import {useEffect, useRef, useState} from "react";
 
 const Navbar = ({headerType, isStickyHeader}) => {
     const makeActiveLink = useActiveLink();
@@ -17,16 +17,31 @@ const Navbar = ({headerType, isStickyHeader}) => {
     const contactNav = makeActiveLink(navItems[6])
 
     const [activeTab, setActiveTab] = useState(0);
+    const [open, setOpen] = useState(false);
+    const menuRef = useRef(null);
+    useEffect(() => {
+        const handler = (e) => {
+            if (menuRef.current && !menuRef.current.contains(e.target)) {
+                setOpen(false);
+            }
+        };
+        document.addEventListener("click", handler);
+        return () => document.removeEventListener("click", handler);
+    }, []);
+
     return (
         <div className="menu-area d-none d-lg-inline-flex align-items-center">
             <nav id="mobile-menu" className="mainmenu">
                 <ul>
-                    <li
-                        className={`has-dropdown ${servicesNav?.isActive ? "current-menu-ancestor" : ""
+                    <li ref={menuRef}
+                        className={`has-dropdown services-dropdown ${open ? "open" : ""} ${servicesNav?.isActive ? "current-menu-ancestor" : ""
                         }`}
                     >
                         {/* <Link href={servicesNav?.path}>{servicesNav?.name}</Link> */}
-                        <a className="custom-anchor" onClick={(e) => e.preventDefault()}>
+                        <a className="custom-anchor" onClick={(e) => {
+                            e.preventDefault();
+                            setOpen(!open);
+                        }}>
                             {servicesNav?.name}
                         </a>
                         <ul className="sub-menu header__mega-menu mega-menu mega-menu-pages">

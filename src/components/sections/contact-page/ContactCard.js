@@ -2,7 +2,7 @@
 
 import { submitContactForm } from "@/app/actions/contactAction";
 import ButtonPrimaryLoading from "@/components/sections/contact-page/ButtonPrimaryLoading";
-import {useRef, useState, useTransition} from "react";
+    import {useRef, useState, useTransition} from "react";
 
 const ContactCard = () => {
     const [isPending, startTransition] = useTransition();
