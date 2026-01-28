@@ -26,17 +26,49 @@ export async function submitContactForm(formData) {
             replyTo: email,
             subject: `New Contact Form - ${name}`,
             html: `
-                <h3>New Contact Message</h3>
-                <p><strong>Name:</strong> ${name}</p>
-                <p><strong>Email:</strong> ${email}</p>
-                <p><strong>Phone:</strong> ${phone}</p>
-                <p><strong>Subject:</strong> ${subject}</p>
-                <p>${message}</p>
-            `,
+  <div style="font-family: Arial, Helvetica, sans-serif; color: #333; line-height: 1.6; font-size: 14px;">
+
+    <h3 style="margin: 0 0 10px 0;">
+      📩 Someone has reached out through your website contact form.
+    </h3>
+
+    <p style="margin: 0 0 12px 0;">
+      The message details are provided below for your review.
+    </p>
+
+    <p style="margin: 4px 0;">
+      <strong>Name:</strong> ${name || "-"}
+    </p>
+
+    <p style="margin: 4px 0;">
+      <strong>Email:</strong> ${email || "-"}
+    </p>
+
+    <p style="margin: 4px 0;">
+      <strong>Phone:</strong> ${phone || "-"}
+    </p>
+
+    <p style="margin: 4px 0;">
+      <strong>Subject:</strong> ${subject || "-"}
+    </p>
+
+    <hr style="border: none; border-top: 1px solid #e5e5e5; margin: 12px 0;" />
+
+    <p style="margin: 0 0 6px 0;">
+      <strong>Message:</strong>
+    </p>
+
+    <p style="margin: 0;">
+      ${message?.replace(/\n/g, "<br />") || "-"}
+    </p>
+
+  </div>
+`,
         });
 
         return { success: true };
     } catch (error) {
+        console.error("Contact form error:", error);
         return { success: false, error: "Failed to send message" };
     }
 }
